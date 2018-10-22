@@ -1,0 +1,539 @@
+/*-------------------Start of styling identical to master.css----------------------------*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, .root {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  font-family: 'spectral', serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333333;
+}
+
+.container {
+  margin: auto;
+  max-width: 1280px;
+}
+
+main {
+  margin: 0em 4.5em;
+}
+
+/* Start of typography sizes */
+
+h1 {
+  font-family: 'work sans', sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+  font-kerning: auto;
+  line-height: 1.06666667em;
+  margin-top: 0.53333333em;
+  margin-bottom: 1.06666666em;
+  color: #333333;
+}
+
+h2 {
+  font-family: 'work sans', sans-serif;
+  font-size: 2.8125em;
+  line-height: 1.06666667em;
+  margin-top: 0.53333333em;
+  margin-bottom: 1.06666666em;
+}
+
+h3 {
+  font-family: 'spectral', serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+h4 {
+  \font-family: 'spectral', serif;
+  font-size: 1.4375em;
+  line-height: 1.5em;
+  margin-top: 1.04347826em;
+  margin-bottom: 0em;
+}
+
+
+h5 {
+  font-family: 'work sans', sans-serif;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  margin-top: 1.04347826em;
+  margin-bottom: 0em;
+}
+
+p {
+  font-family: 'spectral', serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+
+/* End of typography sizes */
+
+
+.worklink {
+  display: inline-block;
+  margin: 1.5em 0em;
+  color: #333333;
+  font-size: 1em;
+  font-family: 'work sans', sans-serif;
+  text-decoration: none;
+  line-height: 1.5em;
+  border-bottom: 1px solid #C5C5C5;
+}
+
+.worklink:hover {
+  border-bottom: 1px solid #DA9218;
+}
+
+/*-------------------End of styling identical to master.css----------------------------*/
+
+
+
+
+
+/*------- Start of hero content styling -------*/
+
+
+.hero-content {
+  /* border: 1px solid grey; */
+  margin-top: 4.5em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0.2%;
+}
+
+.hero-fullwidth {
+  /* border: 1px solid grey; */
+  grid-column: 1 / -1;
+}
+
+.hero-halfwidth-left {
+  /* border: 1px solid grey; */
+  grid-column: 1 / 7;
+  padding-right: 0.2%;
+}
+
+.hero-halfwidth-right {
+  /* border: 1px solid grey; */
+  grid-column: 7 / -1;
+  padding-left: 0.2%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+}
+
+.hero-twothirdswidth-left {
+  grid-column: 1 / 9;
+  padding-right: 0.2%;
+}
+
+.hero-twothirdswidth-right {
+  grid-column: 5 / -1;
+  padding-left: 0.2%;
+}
+
+.hero-onethirdwidth-right {
+  grid-column: 9 / -1;
+  padding-left: 0.2%;
+}
+
+.hero-onethirdwidth-left {
+  grid-column: 1 / 5;
+  padding-right: 0.2%;
+}
+
+.img-contain3 {
+  display: flex;
+  flex-direction: row;    /*adjust to 'column' for vertical layout*/
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+}
+
+.img-incontain3 {
+  margin: auto;
+  width: 30%;
+  display: inline;
+}
+
+/*------- End of hero content styling -------*/
+
+
+
+
+/*------- Start of nav styling -------*/
+nav {
+  border-bottom: 1px solid #C5C5C5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5em;
+}
+
+
+/*----Start of Sticky Navbar class-----*/
+.sticky {
+  background-color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  padding: 0 4.5em;   /*Match 'main' margin*/
+}
+/*----End of Sticky Navbar class-----*/
+
+
+.nav-home, .nav-nextcs {
+  font-family: 'work sans', sans-serif;
+  font-size: 0.75em;
+  text-decoration: none;
+  color: #919191;
+  width: 20%;
+}
+
+.nav-nextcs {
+  text-align: right;
+}
+
+.nav-cs a {
+  font-family: 'work sans', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #333333;
+}
+
+/*------- End of nav styling -------*/
+
+
+
+/*------- Start of pastwork styling -------*/
+
+
+.pastwork {
+  margin-bottom: 9em;
+}
+
+.section-title {
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.page-separator {
+  margin: auto;
+  width: 3em;
+  height: 1px;
+  background-color: #DA9218;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.section-separator {
+  margin: auto;
+  width: 60%;
+  height: 1px;
+  background-color: #C5C5C5;
+  margin-top: 6em;
+  margin-bottom: 4em;
+}
+
+.centered-title {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.pastwork h3.
+.pastwork h4 {
+  padding-top: 2em;
+}
+
+.pastwork p {
+  margin-bottom: 2em;
+}
+.pastwork h3,
+.pastwork h4,
+.pastwork p,
+.pastwork .worklink {
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.pullquotes {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.img-fullwidth {
+  width: 100%;
+  display: block;
+  margin: 4em 0em;
+}
+
+.img-contain1 {
+  display: flex;
+  flex-direction: row;    /*adjust to 'column' for vertical layout*/
+  justify-content: center;
+  align-items: center;
+  margin: 4em 0em;
+}
+
+.img-incontain1 {
+  width: 60%;
+}
+
+
+/* .img-contain4 {
+padding-left: 1.5%;
+margin: 4em 0em;
+}
+
+.img-incontain4 {
+margin: auto;
+width: 49%;
+display: inline;
+}
+
+.img-contain2 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 4em 0em;
+}
+
+.img-incontain2 {
+margin: auto;
+width: 49%;
+display: inline;
+} */
+
+/*------- End of pastwork styling -------*/
+
+
+
+/* ------Start of Footer Styling------ */
+
+.footer-container {
+  background-color: #F4F4F4;
+}
+
+footer {
+  /* border: 1px solid black; */
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0em 4em;
+}
+
+.footer-separator {
+  margin: auto;
+  width: 16em;
+  height: 1px;
+  background-color: #DA9218;
+  margin-top: 0.75em;  /*Controls distance to section-title*/
+}
+
+.email {
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.contactlinks {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #DA9218;
+}
+
+.contact-link a {
+  color: #777777;
+  font-family: 'work sans', sans-serif;
+  font-size: 0.85em;
+  font-weight:500;
+  text-decoration: none;
+  padding-bottom: 0.25em;
+}
+
+.contact-link a:hover {
+  color: #333333;
+}
+
+.credit {
+  text-align: center;
+  color: #333333;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 3em;
+}
+/* ------End of Footer Styling------ */
+
+/* bluezone */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  /* .container {
+  border: 1px solid blue;
+  } */
+}
+
+/* redzone */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* .container {
+  border: 1px solid red;
+  } */
+  main {
+    margin: 0em 3em;
+  }
+  .sticky {
+    padding: 0 3em;  /*Match 'main' margin*/
+  }
+  .hero-content {
+    margin-top: 3em;
+  }
+  .pastwork h3,
+  .pastwork h4,
+  .pastwork p,
+  .pastwork .worklink {
+    max-width: 70%;
+    margin-left: 15%;
+  }
+  .section-separator {
+    width: 70%;
+    margin-top: 6em;
+    margin-bottom: 4em;
+  }
+  .img-incontain1 {
+    width: 70%;
+  }
+}
+
+/* greenzone */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* .container {
+  border: 1px solid green;
+  } */
+
+  main {
+    margin: 0em 1.5em;
+  }
+  .sticky {
+    padding: 0em 1.5em;   /*Match 'main' margin*/
+  }
+  .hero-content {
+    margin-top: 1.5em;
+  }
+  nav {
+    height: 3em;
+  }
+  .nav-cs {
+    display: none;
+  }
+  .nav-home, .nav-nextcs {
+    width: 50%;
+    font-size: 0.75em;
+  }
+  .cs-info {
+    margin-top: 3em;
+    margin-left: 0em;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .pastwork h3,
+  .pastwork h4,
+  .pastwork p,
+  .pastwork .worklink {
+    max-width: 90%;   /*Controls margins*/
+    margin-left: 5%;
+  }
+  .section-separator {
+    width: 90%;
+    margin-top: 6em;
+    margin-bottom: 4em;
+  }
+  .pastwork h2 {
+    font-size: 2em;
+  }
+  .img-incontain1 {
+    width: 90%;
+  }
+}
+
+/* purplezone */
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+  /* .container {
+  border: 1px solid purple;
+  } */
+  main {
+    margin: 0em 1em;
+  }
+  .sticky {
+    padding: 0em 1em;  /*Match 'main' margin*/
+  }
+  .hero-content {
+    margin-top: 1em;
+  }
+  nav {
+    height: 3em;
+  }
+  .nav-cs {
+    display: none;
+  }
+  .nav-home, .nav-nextcs {
+    width: 50%;
+    font-size: 0.75em;
+  }
+  .pastwork h3,
+  .pastwork h4,
+  .pastwork p,
+  .pastwork .worklink {
+    max-width: 90%;   /*Controls margins*/
+    margin-left: 5%;
+  }
+  .section-separator {
+    width: 90%;
+    margin-top: 6em;
+    margin-bottom: 4em;
+  }
+  .pastwork h3 {
+    font-family: 'spectral', serif;
+    font-size: 1.4375em;
+    line-height: 1.5em;
+    margin-top: 1.04347826em;
+    margin-bottom: 0em;
+  }
+  .pastwork h4 {
+    font-family: 'spectral', serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+  }
+  .pastwork h2 {
+    font-size: 2em;
+  }
+  .img-incontain1 {
+    width: 90%;
+  }
+}
