@@ -179,9 +179,9 @@ nav {
 .sticky {
   position: fixed;
   transition-property: background;
-  transition-duration: 2s;
-  background-color: rgba(255,255,255,.95);
-  /* border-bottom: 1px solid #E1E1E1; */
+  transition-duration: 1s;
+  background-color: rgba(255,255,255,1);
+  border-bottom: 1px solid #E1E1E1;
   height: 4em;
   width: 100%;
   margin: auto;
@@ -215,6 +215,9 @@ nav {
   width: 20%;
   margin: 0em;
 }
+.nav-home:hover, .nav-nextcs:hover {
+  color: #DA9218;
+}
 
 .nav-nextcs {
   text-align: right;
@@ -227,13 +230,15 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-
 .nav-cs a {
   font-family: 'work sans', sans-serif;
   font-size: 0.9em;
   text-decoration: none;
   color: #333333;
   margin: 0em;
+}
+.nav-cs a:hover {
+  color: #DA9218;
 }
 /*------- End of nav styling -------*/
 
