@@ -178,7 +178,7 @@ nav {
 /*--Start of Sticky Navbar class--*/
 .sticky {
   position: fixed;
-  transition-property: all;
+  transition-property: background;
   transition-duration: 2s;
   background-color: rgba(255,255,255,.95);
   /* border-bottom: 1px solid #E1E1E1; */
@@ -191,6 +191,13 @@ nav {
 }
 
 /*---End of Sticky Navbar class--*/
+
+.ralogo {
+  background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+  height: 24px;
+  width: 38.0025px;
+}
+
 
 .navmenu {
   z-index: 3;
@@ -571,7 +578,8 @@ header {
     font-size: 0.95em;
   }
   .ralogo {
-    margin-bottom: 1.75em;
+    height: 24px;
+    width: 38.0025px;
   }
   footer {
     align-items: center;
@@ -663,7 +671,8 @@ header {
     font-size: 0.95em;
   }
   .ralogo {
-    margin-bottom: 1.75em;
+    height: 24px;
+    width: 38.0025px;
   }
   footer {
     align-items: center;
