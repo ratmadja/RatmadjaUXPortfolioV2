@@ -267,6 +267,7 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 1em;
+  padding-bottom: 1em;
   border-top: 1px solid #E2E2E2;
 }
 .hero-desc-text {
@@ -450,9 +451,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  bottom: -8em;
-  border: 1px solid red;
+
+  position: relative;    /* moves element relative to its orginal location*/
+  bottom: -8em;    /* controls distance that element goes past parent*/
+  margin-top: -8em;   /* controls spacing above element */
 }
 /*---End of hero video styling ---*/
 
@@ -637,18 +639,24 @@ header {
   }
   .hero-tagline {
     margin-top: 2em;
-    width: 60%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.67em;
   }
   .hero-desc {
-    flex-direction: column;
-    padding-top: 1em;
-    width: 40%;
-    margin-left: 30%;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
   }
-  .hero-desc-text {
-    margin-top: 1em;
+  .hero720h {
+    position: relative;    /* moves element relative to its orginal location*/
+    bottom: -8em;    /* controls distance that element goes past parent*/
+    margin-top: -8em;   /* controls spacing above element */
   }
+
 }
 
 
@@ -758,16 +766,20 @@ header {
     margin-top: 2em;
     width: 80%;
     margin-left: 10%;
+    font-size: 1.67em;
   }
   .hero-desc {
-    flex-direction: column;
     padding-top: 1em;
     width: 60%;
-    margin-left: 15%;
+    margin-left: 20%;
   }
   .hero-desc-text {
-    margin-top: 1em;
-    font-size: 0.9em;
+    display: none;
+  }
+  .hero720h {
+    position: relative;    /* moves element relative to its orginal location*/
+    bottom: -4em;    /* controls distance that element goes past parent*/
+    margin-top: -4em;   /* controls spacing above element */
   }
 
 }
@@ -886,21 +898,20 @@ header {
     margin-top: 2em;
     width: 90%;
     margin-left: 5%;
-    font-size: 1.67em;
+    font-size: 1.33em;
   }
   .hero-desc {
-    flex-direction: column;
     padding-top: 1em;
     width: 80%;
     margin-left: 10%;
   }
   .hero-desc-text {
-    margin-top: 1em;
-    font-size: 0.9em;
+    display: none;
   }
-
-
-
-
+  .hero720h {
+    position: relative;    /* moves element relative to its orginal location*/
+    bottom: -8em;    /* controls distance that element goes past parent*/
+    margin-top: -10em;   /* controls spacing above element */
+  }
 
 }
