@@ -29,11 +29,10 @@ body, .article {
 h1, .h1 {
   font-family: 'work sans', sans-serif;
   font-weight: 600;
-  /* font-size: 2.83333333em; */
-  font-size: 4em;
-  line-height: 1.05882353em;
-  margin-top: 0.52941176em;
-  margin-bottom: 1.05882352em;
+  font-size: 4.22222222em;
+  line-height: 1.14473684em;
+  margin-top: 0.38157895em;
+  margin-bottom: 0em;
 }
 h2, .h2 {
   font-family: 'alegreya','georgia', serif;
@@ -146,8 +145,8 @@ footer {
 }
 .site-credit {
   font-weight: 300;
-  color: #BDBDBD;
-  font-size: 0.9em;
+  color: #555555;
+  font-size: 1em;
   margin-top: 1em;
 }
 /* ------End of Footer Styling------ */
@@ -199,7 +198,7 @@ nav {
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
   height: 24px;
-  width: 38.0025px;
+  width: 38px;
 }
 .ralogo:hover {
   transition: background;
@@ -241,7 +240,7 @@ nav {
 }
 .nav-cs a {
   font-family: 'work sans', sans-serif;
-  font-size: 0.9em;
+  font-size: .9em;
   text-decoration: none;
   color: #333333;
   margin: 0em;
@@ -317,7 +316,7 @@ header {
 }
 .cs-info li {
   font-family: 'alegreya sans', sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1.5em;
   color: #828282;
 }
@@ -337,16 +336,29 @@ header {
 .cs-section > p {
   width: 60%;
 }
-.p-italic {
-  font-style: italic;
+
+
+/* controls font-size and line height of p in .cs-section*/
+.cs-section > p {
+  font-size: 1.11em;
   line-height: 1.67em;
 }
+.p-italic {
+  font-size: 1.11em;
+  line-height: 1.67em;
+  font-style: italic;
+}
+/* controls font-size and line height of p*/
+
+
+
 .note-label {
   margin-top: 2em;
 }
 .pullquote {
-  margin-top: 0em;
-  margin-bottom: 2.2em;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 .label-container {
   margin-top: 8em;
@@ -361,7 +373,7 @@ header {
   margin-bottom: 6em;
   font-size: .78em;
   color: #444444;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .link-ref {
@@ -388,7 +400,7 @@ header {
   font-size: .78em;
   text-transform: uppercase;
   color: #444444;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
@@ -430,7 +442,7 @@ header {
 }
 .ixdstills720 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .ixdstills720 img {
@@ -485,7 +497,7 @@ header {
 }
 .ixdstills640 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .ixdstills640 img {
@@ -572,10 +584,6 @@ header {
     width: 60%;
     margin-left: 20%;
   }
-  .pullquote {
-    font-size: 1.67em;
-  }
-
 }
 
 
@@ -642,7 +650,6 @@ header {
     font-size: 1.67em;
   }
   .hero-desc {
-    /* border: 1px solid red; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -655,9 +662,10 @@ header {
     margin-top: -8em;   /* controls spacing above element */
   }
   .pullquote {
-    font-size: 1.67em;
+    font-size: 1.78em;
+    margin-top: 1em;
+    margin-bottom: 2em;
   }
-
 }
 
 
@@ -680,12 +688,30 @@ header {
   .sticky {
     padding: 0 2.67em;  /*Match 'main' margin*/
   }
-  p {
-    font-size: 0.9em;
+
+
+  /* controls font-size and line height of p in .cs-section*/
+  .cs-section > p {
+    font-size: 1em;
+    line-height: 1.5em;
   }
+  .p-italic {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-style: italic;
+  }
+  /* controls font-size and line height of p*/
+
+
+  .pullquote {
+    font-size: 1.78em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
   .ralogo {
     height: 24px;
-    width: 38.0025px;
+    width: 38px;
   }
   footer {
     align-items: center;
@@ -798,7 +824,7 @@ header {
   } */
   main {
     padding-top: 0em;
-    margin: 0em 1.78em;
+    margin: 0em 1em;
   }
   nav {
     padding: 0em 1.78em; /*Match main's margin*/
@@ -806,12 +832,10 @@ header {
   .sticky {
     padding: 0 1.78em;  /*Match 'main' margin*/
   }
-  p {
-    font-size: 0.9em;
-  }
+
   .ralogo {
     height: 24px;
-    width: 38.0025px;
+    width: 38px;
   }
   footer {
     align-items: center;
@@ -856,6 +880,27 @@ header {
   .cs-section > p {
     width: 100%;
   }
+
+
+  /* controls font-size and line height of p in .cs-section*/
+  .cs-section > p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .p-italic {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-style: italic;
+  }
+  /* controls font-size and line height of p*/
+
+
+  .pullquote {
+    font-size: 1.78em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
   .hero-desc {
     flex-direction: column;
   }
@@ -917,6 +962,10 @@ header {
     position: relative;    /* moves element relative to its orginal location*/
     bottom: -8em;    /* controls distance that element goes past parent*/
     margin-top: -10em;   /* controls spacing above element */
+  }
+
+  .pullquote {
+    font-size: 1.26em;
   }
 
 }

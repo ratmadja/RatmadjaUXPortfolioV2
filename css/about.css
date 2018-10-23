@@ -11,6 +11,13 @@ main {
   margin: 0em 8em;
 }
 
+/* controls p in main*/
+main p {
+  font-size: 1.11em;
+  line-height: 1.67em;
+}
+/* controls p in main*/
+
 
 /* Start of typography sizes */
 html, .root {
@@ -296,9 +303,14 @@ main {
     padding-top: 0em;
     margin: 0em 2.67em;
   }
+
+  /* controls p in main*/
   main p {
-    font-size: 0.95em;
+    font-size: 1em;
+    line-height: 1.5em;
   }
+  /* controls p in main*/
+
   header {
     display: flex;
     flex-direction: column;
@@ -337,11 +349,16 @@ main {
   } */
   main {
     padding-top: 0em;
-    margin: 0em 1.78em;
+    margin: 0em 1em;
   }
+
+  /* controls p in main*/
   main p {
-    font-size: 0.95em;
+    font-size: 1em;
+    line-height: 1.5em;
   }
+  /* controls p in main*/
+
   header {
     display: flex;
     flex-direction: column;

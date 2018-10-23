@@ -185,17 +185,30 @@ header {
 
 
 /* ------Start of Work Styling------ */
+
+
+
+/* controls p in main*/
+main p {
+  font-size: 1.11em;
+  line-height: 1.67em;
+}
+/* controls p in main*/
+
+
+
 .workcover, .studiocover {
-  padding-top: 3em;
+  margin-top: 3em;
   width: 100%;
 }
+
+
+
 .studiocover, .studiodesc {
   width: 66%;
 }
-.workdesc a, .studiodesc a {
+.link-work {
   padding-bottom: 0.25em;
-  font-size: 1em;
-  font-weight:400;
   text-decoration: none;
   color: #333333;
   box-shadow: inset 0 -1px 0 #DA9218;
@@ -215,13 +228,13 @@ header {
 }
 .workdesc .desc2 {
   width: 66%;
-  color: #4F4F4F;
+  color: #555555;
 }
-.studiodesc p {
-  color:#333333;
+.studiodesc {
+  color: #555555;
 }
 .work-scope {
-  font-size: .9em;
+  font-size: 1em;
   font-style: italic;
   color: #333333;
 }
@@ -258,7 +271,7 @@ footer {
 }
 .contact-link a {
   margin-bottom: 0em;
-  font-size: .9em;
+  font-size: 1em;
   font-weight:400;
   text-decoration: none;
   color: #333333;
@@ -270,7 +283,7 @@ footer {
 .site-credit {
   font-weight: 300;
   color: #BDBDBD;
-  font-size: 0.9em;
+  font-size: 1em;
   margin-top: 1em;
 }
 /* ------End of Footer Styling------ */
@@ -331,7 +344,7 @@ footer {
     width: 100%;
   }
   .workdesc .desc2 {
-    margin-top: 1.78em;
+    margin-top: 0em;
     width: 100%;
   }
 }
@@ -344,6 +357,14 @@ footer {
   main {
     margin: 0em 1.33em;
   }
+
+  /* controls p in main*/
+  main p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  /* controls p in main*/
+
   header {
     display: flex;
     flex-direction: column;
@@ -356,7 +377,7 @@ footer {
     margin-bottom: 1.75em;
   }
   .hero h3 {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .hero h1 {
     font-size: 1.67em;
@@ -374,7 +395,7 @@ footer {
     font-size: 2em;
   }
   .workcover {
-    padding-top: 3em;
+    margin-top: 3em;
     width: 100%;
   }
   .workdesc {
@@ -386,7 +407,7 @@ footer {
     width: 100%;
   }
   .workdesc .desc2 {
-    margin-top: 1.78em;
+    margin-top: 0em;
     width: 100%;
   }
   footer {
@@ -407,7 +428,7 @@ footer {
     display: inline-block;
   }
   .workdesc p, .studiodesc p {
-    font-size: 0.95em;
+    font-size: 1em;
   }
 }
 
@@ -417,8 +438,16 @@ footer {
     border: 1px solid pink;
   } */
   main {
-    margin: 0em 1.33em;
+    margin: 0em 1em;
   }
+
+  /* controls p in main*/
+  main p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  /* controls p in main*/
+
   header {
     display: flex;
     flex-direction: column;
@@ -440,9 +469,6 @@ footer {
   .hero {
     padding-top: 2em;
   }
-  p {
-    font-size: .9em;
-  }
   .label-section {
     margin-top: 4em;
     margin-bottom: 0em;
@@ -457,7 +483,7 @@ footer {
     width: 100%;
   }
   .workdesc .desc2 {
-    margin-top: 1.78em;
+    margin-top: 0em;
     width: 100%;
   }
   footer {
@@ -477,9 +503,6 @@ footer {
     padding-bottom: 0.5em;
     display: inline-block;
   }
-  .workdesc p, .studiodesc p {
-    font-size: 0.95em;
-  }
   .studiocover {
     width: 100%;
   }
@@ -488,5 +511,8 @@ footer {
   }
   .hero a:hover {
     box-shadow: inset 0 -4px 0 #DA9218;
+  }
+  .workdesc p, .studiodesc p {
+    font-size: 1em;
   }
 }
