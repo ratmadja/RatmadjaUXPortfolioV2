@@ -197,6 +197,11 @@ nav {
   height: 24px;
   width: 38.0025px;
 }
+.ralogo:hover {
+  transition: background;
+  transition: .2s cubic-bezier(0,0,.58,1);
+  background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
+}
 
 
 .navmenu {
@@ -253,14 +258,16 @@ header {
   font-family: 'alegreya sans', sans-serif;
   text-align: center;
   margin-top: 2em;
+  margin-left: 6em;
+  margin-right: 6em;
 }
 .hero-desc {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: auto;
   padding-top: 1em;
+  border-top: 1px solid #E2E2E2;
 }
 .hero-desc-text {
   margin: 0em 1em;
@@ -268,28 +275,6 @@ header {
   font-family: 'alegreya sans', sans-serif;
   text-align: center;
 }
-/*------- End of header styling -------*/
-
-
-/*----Start of hero IxD video styling ---*/
-.hero-img {
-  /* border: 1px solid red; */
-  height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 5em;
-}
-.ixd720h {
-  width: 318.48px;
-  position: absolute;
-}
-.ixd720hcase {
-  position: absolute;
-  z-index: 1;
-}
-/*---End of hero IxD video styling ---*/
 
 
 
@@ -340,12 +325,12 @@ header {
 /*------- Start of text and image styling -------*/
 
 
-.cs-section h1,
-.cs-section h2,
-.cs-section h3,
-.cs-section h4,
-.cs-section h5,
-.cs-section p {
+.cs-section > h1,
+.cs-section > h2,
+.cs-section > h3,
+.cs-section > h4,
+.cs-section > h5,
+.cs-section > p {
   width: 60%;
 }
 .note-label {
@@ -410,27 +395,83 @@ header {
   text-transform: uppercase;
 }
 
-/*---Start of IxD media group styling ---*/
+
+
+/*---------------Start of IxD media group styling ---*/
+
+
+
+/*---Start of ixd720h---*/
+.groupixd-1up-container {
+  margin-top: 4em;
+  margin-bottom: 4.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.groupixd-1up {
+  width: 60%;
+  margin-left: 20%;
+  border-top: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+  margin-bottom: 8em;
+}
+.ixd720h {
+  width: 318.48px;
+  position: absolute;
+  border: 13.5px solid #000000;
+  border-radius: 40px;
+}
+.ixdmedia720 {
+  margin-top: 6em;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 8em;
+}
+.ixdstills720 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ixdstills720 img {
+  max-width: 10%;
+  margin-bottom: 2em;
+}
+/*---End of ixd720h---*/
+
+
+/*----Start of hero video styling ---*/
+.hero720h {
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -8em;
+  border: 1px solid red;
+}
+/*---End of hero video styling ---*/
+
+
+/*---Start of ixd640h---*/
 .groupixd-2up-container {
   margin-top: 4em;
   margin-bottom: 4.2em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .groupixd-2up {
   width: 45%;
   border-top: 1px solid #E2E2E2;
 }
-.ixdstills img {
-  max-width: 13%;
-}
-.ixdcurves img {
-  width: 100%;
-}
-.ixdmedia {
-  margin-top: 8em;
+.ixdmedia640 {
+  margin-top: 6em;
   height: 640px;
   display: flex;
   justify-content: center;
@@ -445,8 +486,25 @@ header {
   border: 12px solid #000000;
   border-radius: 40px;
 }
+.ixdstills640 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ixdstills640 img {
+  max-width: 13%;
+}
+.ixdcurves img {
+  width: 100%;
+}
+.ixddesc640 {
+  height: 8em;
+}
+/*---End of ixd640h---*/
 
-/*----End of IxD video styling ---*/
+
+
+/*----------------End of IxD media group styling ---*/
 
 
 .img-2up-container {
@@ -507,6 +565,17 @@ header {
   .sticky {
     padding: 0 5em;  /*Match 'main' margin*/
   }
+  .hero-tagline {
+    margin-top: 2em;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .hero-desc {
+    padding-top: 1em;
+    width: 60%;
+    margin-left: 20%;
+  }
+
 }
 
 
@@ -531,12 +600,12 @@ header {
   .img-centered {
     margin: auto;
   }
-  .cs-section h1,
-  .cs-section h2,
-  .cs-section h3,
-  .cs-section h4,
-  .cs-section h5,
-  .cs-section p {
+  .cs-section > h1,
+  .cs-section > h2,
+  .cs-section > h3,
+  .cs-section > h4,
+  .cs-section > h5,
+  .cs-section > p {
     width: 80%;
   }
   .nav-cs a {
@@ -549,13 +618,36 @@ header {
   }
   .groupixd-2up {
     width: 80%;
+    margin: 10%;
     margin-bottom: 8em;
+  }
+  .groupixd-1up {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 8em;
+  }
+  .ixddesc640 {
+    height: 6em;
   }
   .img-2up-left {
     margin-right: 1.33em;
   }
   .img-2up-left, .img-2up-right {
     width: 270px;
+  }
+  .hero-tagline {
+    margin-top: 2em;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .hero-desc {
+    flex-direction: column;
+    padding-top: 1em;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .hero-desc-text {
+    margin-top: 1em;
   }
 }
 
@@ -579,8 +671,8 @@ header {
   .sticky {
     padding: 0 2.67em;  /*Match 'main' margin*/
   }
-  main p {
-    font-size: 0.95em;
+  p {
+    font-size: 0.9em;
   }
   .ralogo {
     height: 24px;
@@ -619,20 +711,16 @@ header {
     width: 100%;
     margin-bottom: 1em;
   }
-  .cs-section h1,
-  .cs-section h2,
-  .cs-section h3,
-  .cs-section h4,
-  .cs-section h5,
-  .cs-section p {
+  .cs-section > h1,
+  .cs-section > h2,
+  .cs-section > h3,
+  .cs-section > h4,
+  .cs-section > h5,
+  .cs-section > p {
     width: 100%;
   }
-  .hero-desc {
-    flex-direction: column;
-  }
-  .hero-desc-text {
-    margin-top: 1.33em;
-  }
+
+
   .groupixd-2up-container {
     flex-direction: column;
     justify-content: center;
@@ -653,12 +741,41 @@ header {
     margin: auto;
     margin-bottom: 2.67em;
   }
+
+
+  .groupixd-1up {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 8em;
+  }
+  .ixd720h {
+    border: 4px solid #000000;
+  }
+
+
+
+  .hero-tagline {
+    margin-top: 2em;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .hero-desc {
+    flex-direction: column;
+    padding-top: 1em;
+    width: 60%;
+    margin-left: 15%;
+  }
+  .hero-desc-text {
+    margin-top: 1em;
+    font-size: 0.9em;
+  }
+
 }
 
 
 
 /*purplezone*/
-@media only screen and (min-width: 280px) and (max-width: 479px) {
+@media only screen and (min-width: 319px) and (max-width: 479px) {
   .container {
     border: 2px solid pink;
   }
@@ -672,8 +789,8 @@ header {
   .sticky {
     padding: 0 1.78em;  /*Match 'main' margin*/
   }
-  main p {
-    font-size: 0.95em;
+  p {
+    font-size: 0.9em;
   }
   .ralogo {
     height: 24px;
@@ -714,12 +831,12 @@ header {
     width: 100%;
     margin-bottom: 1em;
   }
-  .cs-section h1,
-  .cs-section h2,
-  .cs-section h3,
-  .cs-section h4,
-  .cs-section h5,
-  .cs-section p {
+  .cs-section > h1,
+  .cs-section > h2,
+  .cs-section > h3,
+  .cs-section > h4,
+  .cs-section > h5,
+  .cs-section > p {
     width: 100%;
   }
   .hero-desc {
@@ -733,6 +850,8 @@ header {
     justify-content: center;
     align-items: space-between;
   }
+
+
   .groupixd-2up {
     width: 100%;
     margin-bottom: 8em;
@@ -748,4 +867,40 @@ header {
     margin: auto;
     margin-bottom: 2.67em;
   }
+
+
+  .groupixd-1up {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 8em;
+  }
+  .ixd720h {
+    width: 283px;
+    border: 12px solid #000000;
+    border-radius: 40px;
+    border: 4px solid #000000;
+  }
+
+
+  .hero-tagline {
+    margin-top: 2em;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.67em;
+  }
+  .hero-desc {
+    flex-direction: column;
+    padding-top: 1em;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .hero-desc-text {
+    margin-top: 1em;
+    font-size: 0.9em;
+  }
+
+
+
+
+
 }

@@ -108,6 +108,11 @@ header {
   height: 32px;
   width: 50.67px;
 }
+.ralogo:hover {
+  transition: background;
+  transition: .2s cubic-bezier(0,0,.58,1);
+  background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
+}
 .nav-main {
   /* border: 1px solid red; */
   width: 240px;
