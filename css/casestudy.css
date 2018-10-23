@@ -28,21 +28,25 @@ body, .article {
 }
 h1, .h1 {
   font-family: 'work sans', sans-serif;
-  font-weight: 500;
-  font-size: 2.83333333em;
+  font-weight: 600;
+  /* font-size: 2.83333333em; */
+  font-size: 4em;
   line-height: 1.05882353em;
   margin-top: 0.52941176em;
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
   font-family: 'alegreya','georgia', serif;
+  font-weight: 600;
   font-size: 2em;
   line-height: 1.5em;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
+  color: #333333;
 }
 h3, .h3 {
   font-family: 'alegreya','georgia', serif;
+  font-weight: 600;
   font-size: 1.38888889em;
   line-height: 2.16em;
   margin-top: 1.08em;
@@ -180,8 +184,8 @@ nav {
   position: fixed;
   transition-property: background;
   transition-duration: 1s;
-  background-color: rgba(255,255,255,1);
-  border-bottom: 1px solid #E1E1E1;
+  background-color: rgba(255,255,255,.98);
+  border-bottom: 1px solid rgba(218, 146, 24,.5);
   height: 4em;
   width: 100%;
   margin: auto;
@@ -304,19 +308,18 @@ header {
 }
 
 .cs-info h5 {
-  color: #828282;
   font-size: 0.8em;
   line-height: 2em;
   margin-top: 0.25em;
   margin-bottom: 1em;
+  color: #444444;
+  font-weight: 500;
 }
 .cs-info li {
   font-family: 'alegreya sans', sans-serif;
   font-size: 0.9em;
   line-height: 1.5em;
-  /* font-family: 'fira mono', monospace;
-  font-size: 1em;
-  line-height: 2em; */
+  color: #828282;
 }
 /*------- End of casestudy specs styling -------*/
 
@@ -334,41 +337,32 @@ header {
 .cs-section > p {
   width: 60%;
 }
-.note-label {
-  margin-top: 3.56em;
-  margin-bottom: 2em;
-  font-size: .78em;
-  text-transform: uppercase;
-}
 .p-italic {
   font-style: italic;
-  font-size: .9em;
   line-height: 1.67em;
+}
+.note-label {
+  margin-top: 2em;
+}
+.pullquote {
+  margin-top: 0em;
+  margin-bottom: 2.2em;
 }
 .label-container {
   margin-top: 8em;
-  padding-bottom: 1em;
   text-align: left;
 }
 .casestudy-sectionlabel {
   display: inline;
   padding-bottom: 0.25em;
-  border-bottom: 1px solid #DA9218;
-  box-shadow: inset 0 -1px 0 #DA9218;
 }
 .section-sublabel {
-  margin-top: 0.5em;
+  margin-top: 1em;
   margin-bottom: 6em;
   font-size: .78em;
+  color: #444444;
+  font-weight: 400;
   text-transform: uppercase;
-}
-.pullquote26h {
-  color: #333333;
-  font-family: 'bitter','georgia', serif;
-  font-size: 1.44em;
-  line-height: 1.7em;
-  margin-top: 2em;
-  margin-bottom: 2.2em;
 }
 .link-ref {
   color: #4F4F4F;
@@ -382,7 +376,6 @@ header {
 .link-work {
   color: #4f4f4f;
   text-decoration: none;
-  /* border-bottom: 1px solid #DA9218; */
   box-shadow: inset 0 -1px 0 #DA9218;
   transition: box-shadow .2s cubic-bezier(0,0,.58,1);
 }
@@ -394,6 +387,8 @@ header {
   margin-bottom: 2em;
   font-size: .78em;
   text-transform: uppercase;
+  color: #444444;
+  font-weight: 600;
 }
 
 
@@ -422,7 +417,7 @@ header {
   width: 318.48px;
   position: absolute;
   border: 13.5px solid #000000;
-  border-radius: 40px;
+  border-radius: 45px;
 }
 .ixdmedia720 {
   margin-top: 6em;
@@ -555,9 +550,9 @@ header {
 
 /*bluezone*/
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  .container {
+  /* .container {
     border: 2px solid blue;
-  }
+  } */
   main {
     margin: 0em 5em;
   }
@@ -577,15 +572,18 @@ header {
     width: 60%;
     margin-left: 20%;
   }
+  .pullquote {
+    font-size: 1.67em;
+  }
 
 }
 
 
 /*redzone*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .container {
+  /* .container {
     border: 2px solid red;
-  }
+  } */
   main {
     margin: 0em 5em;
   }
@@ -656,6 +654,9 @@ header {
     bottom: -8em;    /* controls distance that element goes past parent*/
     margin-top: -8em;   /* controls spacing above element */
   }
+  .pullquote {
+    font-size: 1.67em;
+  }
 
 }
 
@@ -663,9 +664,9 @@ header {
 
 /*greenzone*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .container {
+  /* .container {
     border: 2px solid green;
-  }
+  } */
   main {
     padding-top: 0em;
     margin: 0em 2.67em;
@@ -701,8 +702,8 @@ header {
     margin: auto;
     width: 80%;
   }
-  .pullquote26h {
-    font-size: 1.11em;
+  .pullquote {
+    font-size: 1.67em;
   }
   .nav-cs a {
     display: none;
@@ -782,15 +783,19 @@ header {
     margin-top: -4em;   /* controls spacing above element */
   }
 
+  .pullquote {
+    font-size: 1.26em;
+  }
+
 }
 
 
 
 /*purplezone*/
 @media only screen and (min-width: 319px) and (max-width: 479px) {
-  .container {
+  /* .container {
     border: 2px solid pink;
-  }
+  } */
   main {
     padding-top: 0em;
     margin: 0em 1.78em;
@@ -822,7 +827,7 @@ header {
   .img-centered {
     width: 100%;
   }
-  .pullquote26h {
+  .pullquote {
     font-size: 1.11em;
   }
   .nav-cs a {
