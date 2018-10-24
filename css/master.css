@@ -156,7 +156,10 @@ header {
 
 
 
+
+
 /* ------Start of Hero Styling------ */
+
 .hero {
   padding-top: 8em;
 }
@@ -194,13 +197,28 @@ main p {
 
 
 
+/*----Start of hero video styling ---*/
+.workcoverVideo-iphonex {
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F9F9;
+}
+.iphonex {
+  width: 213.5px;
+  position: absolute;
+  border: 9px solid #000000;
+  border-radius: 30px;
+}
+/*---End of hero video styling ---*/
+
+
+
 .workcover, .studiocover {
   margin-top: 3em;
   width: 100%;
 }
-
-
-
 .studiocover, .studiodesc {
   width: 66%;
 }
