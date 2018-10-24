@@ -547,12 +547,24 @@ header {
 /*---End of heroImage styling ---*/
 
 
+/*----Start of .image-preview styling ---*/
+.img-preview{
+  margin-top: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #E2E2E2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  algin-items: center;
+}
+/*----End of .image-preview styling ---*/
 
 
-.img-2up-container {
+
+.curvediagram-container {
   margin-top: 4em;
 }
-.img-2up-left {
+.diagram-left {
   margin-right: 1.33em;
 }
 
@@ -710,10 +722,10 @@ header {
   .ixddesc640 {
     height: 6em;
   }
-  .img-2up-left {
+  .diagram-left {
     margin-right: 1.33em;
   }
-  .img-2up-left, .img-2up-right {
+  .diagram-left, .diagram-right {
     width: 270px;
   }
 
@@ -791,7 +803,7 @@ header {
   nav {
     padding: 0em 2.67em; /*Match main's margin*/
   }
-  .nav-nextcs {
+  .nav-project {
     width: 50%;
   }
   .sticky {
@@ -877,10 +889,10 @@ header {
   .ixd640h {
     border: 4px solid #000000;
   }
-  .img-2up-left {
+  .diagram-left {
     margin-right: 0em;
   }
-  .img-2up-left, .img-2up-right {
+  .diagram-left, .diagram-right {
     display: block;
     margin: auto;
     margin-bottom: 2.67em;
@@ -1027,11 +1039,11 @@ header {
   .nav-cs a {
     display: none;
   }
-  .nav-nextcs {
+  .nav-project {
     width: 50%;
   }
   .cs-info {
-    margin-top: 4em;
+    margin-top: 6em;
     width: 80%;
     margin-left: 10%;
     flex-direction: column;
@@ -1097,13 +1109,13 @@ header {
   .ixd640h {
     border: 4px solid #000000;
   }
-  .img-2up-left {
+  .diagram-left {
     margin-right: 0em;
   }
-  .img-2up-left, .img-2up-right {
+  .diagram-left, .diagram-right {
     display: block;
     margin: auto;
-    margin-bottom: 2.67em;
+    margin-top: 2.67em;
   }
 
 
@@ -1139,6 +1151,7 @@ header {
     bottom: -8em;    /* controls distance that element goes past parent*/
     margin-top: -10em;   /* controls spacing above element */
   }
+
 
 
 
