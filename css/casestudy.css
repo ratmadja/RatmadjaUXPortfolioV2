@@ -176,6 +176,17 @@ nav {
   height: 4em;
   padding: 0em 8em;   /*Match main's margin*/
 }
+.ralogo {
+  background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+  height: 24px;
+  width: 38px;
+}
+.ralogo:hover {
+  transition: background;
+  transition: .2s cubic-bezier(0,0,.58,1);
+  background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
+}
+
 
 
 /*--Start of Sticky Navbar class--*/
@@ -192,47 +203,48 @@ nav {
   left: 0;
   padding: 0em 8em;   /*Match main's margin*/
 }
-
 /*---End of Sticky Navbar class--*/
 
-.ralogo {
-  background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 24px;
-  width: 38px;
-}
-.ralogo:hover {
-  transition: background;
-  transition: .2s cubic-bezier(0,0,.58,1);
-  background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
-}
 
 
 .navmenu {
   z-index: 3;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.nav-home, .nav-nextcs {
+/* .nav-home, .nav-cs, .nav-project, .nav-prevcs, .nav-nextcs {
+  border: 1px solid red;
+} */
+
+.nav-prevcs, .nav-nextcs {
   font-family: 'work sans', sans-serif;
   font-size: 0.67em;
   text-decoration: none;
   color: #333333;
-  width: 20%;
+  width: 6%;
   margin: 0em;
+  padding: 0.1em;
+  border-bottom: 1px solid #DA9218;
 }
-.nav-home:hover, .nav-nextcs:hover {
-  color: #DA9218;
+.nav-prevcs {
+  text-align: left;
 }
-
 .nav-nextcs {
   text-align: right;
 }
-
+.nav-prevcs:hover, .nav-nextcs:hover {
+  color: #DA9218;
+}
+.nav-home, .nav-project {
+  width: 20%;
+}
+.nav-project {
+  text-align: right;
+}
 .nav-cs {
-  /* border: 1px solid red; */
   margin: auto;
   width: 60%;
   display: flex;
@@ -249,6 +261,10 @@ nav {
   color: #999999;
 }
 /*------- End of nav styling -------*/
+
+
+
+
 
 
 
