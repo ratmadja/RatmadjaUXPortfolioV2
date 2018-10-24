@@ -282,7 +282,7 @@ footer {
 }
 .site-credit {
   font-weight: 300;
-  color: #BDBDBD;
+  color: #999999;
   font-size: 1em;
   margin-top: 1em;
 }
@@ -430,6 +430,10 @@ footer {
   .workdesc p, .studiodesc p {
     font-size: 1em;
   }
+  .site-credit {
+    text-align: center;
+  }
+
 }
 
 /*purplezone*/
@@ -514,5 +518,8 @@ footer {
   }
   .workdesc p, .studiodesc p {
     font-size: 1em;
+  }
+  .site-credit {
+    text-align: center;
   }
 }

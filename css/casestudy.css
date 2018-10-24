@@ -39,7 +39,7 @@ h2, .h2 {
   font-weight: 600;
   font-size: 2em;
   line-height: 1.5em;
-  margin-top: 0.75em;
+  margin-top: 2.75em;
   margin-bottom: 0.75em;
   color: #333333;
 }
@@ -48,7 +48,7 @@ h3, .h3 {
   font-weight: 600;
   font-size: 1.38888889em;
   line-height: 2.16em;
-  margin-top: 1.08em;
+  margin-top: 2.08em;
   margin-bottom: 0.44em;
 }
 h4, .h4 {
@@ -145,7 +145,7 @@ footer {
 }
 .site-credit {
   font-weight: 300;
-  color: #555555;
+  color: #999999;
   font-size: 1em;
   margin-top: 1em;
 }
@@ -353,12 +353,11 @@ header {
 
 
 .note-label {
-  margin-top: 2em;
+  margin-top: 4.75em;
 }
 .pullquote {
   font-size: 2em;
-  margin-top: 1em;
-  margin-bottom: 2em;
+  margin-top: 0em;
 }
 .label-container {
   margin-top: 8em;
@@ -419,11 +418,11 @@ header {
   align-items: flex-start;
 }
 .groupixd-1up {
+  margin-bottom: 4em;
   width: 60%;
   margin-left: 20%;
   border-top: 1px solid #E2E2E2;
   border-bottom: 1px solid #E2E2E2;
-  margin-bottom: 8em;
 }
 .ixd720h {
   width: 318.48px;
@@ -432,13 +431,13 @@ header {
   border-radius: 45px;
 }
 .ixdmedia720 {
-  margin-top: 6em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   height: 720px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding-bottom: 8em;
 }
 .ixdstills720 {
   display: flex;
@@ -469,7 +468,7 @@ header {
 /*---Start of ixd640h---*/
 .groupixd-2up-container {
   margin-top: 4em;
-  margin-bottom: 4.2em;
+  margin-bottom: 6em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -480,13 +479,13 @@ header {
   border-top: 1px solid #E2E2E2;
 }
 .ixdmedia640 {
-  margin-top: 6em;
+  margin-top: 1em;
+  padding-bottom: 6em;
   height: 640px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding-bottom: 8em;
   border-bottom: 1px solid #E2E2E2;
 }
 .ixd640h {
@@ -494,6 +493,7 @@ header {
   position: absolute;
   border: 12px solid #000000;
   border-radius: 40px;
+  margin-top: 2em;
 }
 .ixdstills640 {
   display: flex;
@@ -536,6 +536,41 @@ header {
   padding-top: 1.167em;
   padding-bottom: 3.11em;
 }
+
+.image-credits {
+  margin-top: 6em;
+  font-size: .9em;
+  color: #777777;
+  text-align: center;
+}
+
+
+/* Start of project carousel */
+.carousel-caption {
+  text-align: center;
+}
+.projectCarouselContainer{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.projectCarousel-left {
+  width: 40%;
+}
+.projectCarousel-right {
+  width: 40%;
+  text-align: right;
+}
+.cs-sectionCarousel p {
+  margin-top: 0em;
+  margin-bottom: 0.25em;
+  font-size: .9em;
+  font-weight: 600;
+}
+/* End of project carousel */
+
 
 
 
@@ -632,7 +667,7 @@ header {
   .groupixd-1up {
     width: 80%;
     margin-left: 10%;
-    margin-bottom: 8em;
+    margin-bottom: 1em;
   }
   .ixddesc640 {
     height: 6em;
@@ -666,6 +701,22 @@ header {
     margin-top: 1em;
     margin-bottom: 2em;
   }
+  .casestudy-sectionlabel {
+    font-size: 3.6em;
+    padding-bottom: 0.25em;
+  }
+
+
+  /* Start of project carousel */
+  .projectCarousel-left {
+    width: 45%;
+  }
+  .projectCarousel-right {
+    width: 45%;
+    text-align: right;
+  }
+  /* End of project carousel */
+
 }
 
 
@@ -701,7 +752,6 @@ header {
     font-style: italic;
   }
   /* controls font-size and line height of p*/
-
 
   .pullquote {
     font-size: 1.78em;
@@ -781,7 +831,7 @@ header {
   .groupixd-1up {
     width: 100%;
     margin-left: 0%;
-    margin-bottom: 8em;
+    margin-bottom: 1em;
   }
   .ixd720h {
     border: 4px solid #000000;
@@ -809,8 +859,54 @@ header {
     margin-top: -4em;   /* controls spacing above element */
   }
 
-  .pullquote {
-    font-size: 1.26em;
+  /* type size reduction for mobile*/
+  .cs-section > h2 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+  .cs-section > h3 {
+    font-size: 1.28em;
+    line-height: 1.4em;
+  }
+  .cs-section > h4 {
+    font-size: 1em;
+    line-height: 1em;
+  }
+  /* type size reduction for mobile*/
+
+
+  .casestudy-sectionlabel {
+    font-size: 3.6em;
+    padding-bottom: 0.25em;
+  }
+  .casestudy-sectionlabel {
+    font-size: 3em;
+    padding-bottom: 0.25em;
+  }
+
+  /* Start of project carousel */
+  .carousel-caption {
+    text-align: center;
+  }
+  .projectCarouselContainer{
+    margin-top: 2em;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .projectCarousel-left {
+    width: 100%;
+    text-align: center;
+  }
+  .projectCarousel-right {
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+  }
+/* End of project carousel */
+
+  .site-credit {
+    text-align: center;
   }
 
 }
@@ -895,11 +991,22 @@ header {
   /* controls font-size and line height of p*/
 
 
-  .pullquote {
-    font-size: 1.78em;
-    margin-top: 1em;
-    margin-bottom: 2em;
+  /* type size reduction for mobile*/
+  .cs-section > h2 {
+    font-size: 1.4em;
+    line-height: 1.5em;
   }
+  .cs-section > h3 {
+    font-size: 1.28em;
+    line-height: 1.4em;
+  }
+  .cs-section > h4 {
+    font-size: 1em;
+    line-height: 1em;
+  }
+  /* type size reduction for mobile*/
+
+
 
   .hero-desc {
     flex-direction: column;
@@ -964,8 +1071,34 @@ header {
     margin-top: -10em;   /* controls spacing above element */
   }
 
-  .pullquote {
-    font-size: 1.26em;
+  .casestudy-sectionlabel {
+    font-size: 3em;
+    padding-bottom: 0.25em;
   }
+
+  /* Start of project carousel */
+  .carousel-caption {
+    text-align: center;
+  }
+  .projectCarouselContainer{
+    margin-top: 2em;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .projectCarousel-left {
+    width: 100%;
+    text-align: center;
+  }
+  .projectCarousel-right {
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+  }
+/* End of project carousel */
+
+.site-credit {
+  text-align: center;
+}
 
 }
