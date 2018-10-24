@@ -168,17 +168,14 @@ header {
 .hero h3 {
   line-height: 1.5em;
 }
-.hero h3 span {
-  color: #828282;
-}
 .hero a {
   color: #333333;
   text-decoration: none;
-  box-shadow: inset 0 -1px 0 #DA9218;
+  box-shadow: inset 0 -8px 0 #EDEAF3;
   transition: box-shadow .2s cubic-bezier(0,0,.58,1);
 }
 .hero a:hover {
-  box-shadow: inset 0 -6px 0 #DA9218;
+  box-shadow: inset 0 -3em 0 #EDEAF3;
 }
 /* ------End of Hero Styling------ */
 
@@ -330,6 +327,13 @@ footer {
   .hero {
     padding-top: 8em;
   }
+  .hero a {
+    box-shadow: inset 0 -6px 0 #EDEAF3;
+    transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+  }
+  .hero a:hover {
+    box-shadow: inset 0 -4em 0 #EDEAF3;
+  }
   .label-section {
     margin-top: 4em;
     margin-bottom: 0em;
@@ -387,6 +391,13 @@ footer {
     /* only instance of added padding-left and padding-right for hero text */
     padding-left: 1em;
     padding-right: 1em;
+  }
+  .hero a {
+    box-shadow: inset 0 -5px 0 #EDEAF3;
+    transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+  }
+  .hero a:hover {
+    box-shadow: inset 0 -4em 0 #EDEAF3;
   }
   .label-section {
     display: block;
@@ -473,6 +484,13 @@ footer {
   .hero {
     padding-top: 2em;
   }
+  .hero a {
+    box-shadow: inset 0 -4px 0 #EDEAF3;
+    transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+  }
+  .hero a:hover {
+    box-shadow: inset 0 -2em 0 #EDEAF3;
+  }
   .label-section {
     margin-top: 4em;
     margin-bottom: 0em;
@@ -512,9 +530,6 @@ footer {
   }
   .studiodesc {
     width: 100%;
-  }
-  .hero a:hover {
-    box-shadow: inset 0 -4px 0 #DA9218;
   }
   .workdesc p, .studiodesc p {
     font-size: 1em;

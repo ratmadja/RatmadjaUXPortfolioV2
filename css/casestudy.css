@@ -246,7 +246,7 @@ nav {
   margin: 0em;
 }
 .nav-cs a:hover {
-  color: #DA9218;
+  color: #999999;
 }
 /*------- End of nav styling -------*/
 
@@ -516,6 +516,23 @@ header {
 /*----------------End of IxD media group styling ---*/
 
 
+
+
+/*----Start of heroImage styling ---*/
+.heroImageContainer {
+  margin-top: 2em;
+  text-align: center;
+}
+.heroImage {
+  position: relative;    /* moves element relative to its orginal location*/
+  bottom: -8em;    /* controls distance that element goes past parent*/
+  margin-top: -8em;   /* controls spacing above element */
+}
+/*---End of heroImage styling ---*/
+
+
+
+
 .img-2up-container {
   margin-top: 4em;
 }
@@ -636,9 +653,14 @@ header {
   .sticky {
     padding: 0em 5em;  /*Match 'main' margin*/
   }
+
   .cs-info {
+    margin-top: 10em;
     width: 100%;
     margin-left: 0%;
+  }
+  .cs-info li {
+    font-size: .78em;
   }
   .img-centered {
     margin: auto;
@@ -678,10 +700,13 @@ header {
   .img-2up-left, .img-2up-right {
     width: 270px;
   }
+
+
+
   .hero-tagline {
     margin-top: 2em;
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     font-size: 1.67em;
   }
   .hero-desc {
@@ -696,6 +721,22 @@ header {
     bottom: -8em;    /* controls distance that element goes past parent*/
     margin-top: -8em;   /* controls spacing above element */
   }
+
+
+  /*----Start of heroImage styling ---*/
+  .heroImageContainer {
+    margin-top: 2em;
+  }
+  .heroImage {
+    width: 80%;
+    position: relative;
+    bottom: -6em;
+    margin-top: -6em;
+  }
+  /*---End of heroImage styling ---*/
+
+
+
   .pullquote {
     font-size: 1.78em;
     margin-top: 1em;
@@ -723,6 +764,7 @@ header {
 
 /*greenzone*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
   /* .container {
     border: 2px solid green;
   } */
@@ -785,6 +827,7 @@ header {
     display: none;
   }
   .cs-info {
+    margin-top: 6em;
     width: 60%;
     margin-left: 20%;
     flex-direction: column;
@@ -841,8 +884,8 @@ header {
 
   .hero-tagline {
     margin-top: 2em;
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     font-size: 1.67em;
   }
   .hero-desc {
@@ -858,6 +901,21 @@ header {
     bottom: -4em;    /* controls distance that element goes past parent*/
     margin-top: -4em;   /* controls spacing above element */
   }
+
+
+  /*----Start of heroImage styling ---*/
+  .heroImageContainer {
+    margin-top: 2em;
+  }
+  .heroImage {
+    width: 90%;
+    position: relative;
+    bottom: -2em;
+    margin-top: -2em;
+  }
+  /*---End of heroImage styling ---*/
+
+
 
   /* type size reduction for mobile*/
   .cs-section > h2 {
@@ -957,6 +1015,7 @@ header {
     width: 50%;
   }
   .cs-info {
+    margin-top: 4em;
     width: 80%;
     margin-left: 10%;
     flex-direction: column;
@@ -1008,12 +1067,6 @@ header {
 
 
 
-  .hero-desc {
-    flex-direction: column;
-  }
-  .hero-desc-text {
-    margin-top: 1.33em;
-  }
   .groupixd-2up-container {
     flex-direction: column;
     justify-content: center;
@@ -1070,6 +1123,21 @@ header {
     bottom: -8em;    /* controls distance that element goes past parent*/
     margin-top: -10em;   /* controls spacing above element */
   }
+
+
+
+  /*----Start of heroImage styling ---*/
+  .heroImageContainer {
+    margin-top: 2em;
+  }
+  .heroImage {
+    width: 90%;
+    position: relative;
+    bottom: -2em;
+    margin-top: -2em;
+  }
+  /*---End of heroImage styling ---*/
+
 
   .casestudy-sectionlabel {
     font-size: 3em;

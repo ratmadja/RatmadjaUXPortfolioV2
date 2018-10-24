@@ -200,13 +200,47 @@ footer {
 /* ----------------------------------Start of main styling----- */
 
 main {
-  padding-top: 8em;
+  padding-top: 4em;
 }
+
+
+/*------- Start of hero styling -------*/
+.hero-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0.25%;
+}
+.hero-left {
+  /* border: 1px solid grey; */
+  grid-column: 1 / 7;
+  padding-right: 0.2%;
+}
+.hero-right {
+  grid-column: 7 / -1;
+  padding-left: 0.2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-big {
+  display: block;
+  width: 100%;
+}
+.hero-small {
+  width: 100%;
+}
+/*------- End of hero styling -------*/
+
+
 /* Centers main text */
 .about-primarycontent {
   margin: auto;
   max-width: 640px;
 }
+/* Centers main text */
+
+
 .img-centered {
   display: block;
   padding-top: 4em;
@@ -274,6 +308,13 @@ main {
   main {
     margin: 0em 5em;
   }
+  .about-sectionlabel {
+    margin-top: 8em;
+    font-size: 0.9em;
+  }
+  .pullquote26h {
+    margin-top: 1.33em;
+  }
 }
 
 /*redzone*/
@@ -283,7 +324,7 @@ main {
   } */
   main {
     margin: 0em 5em;
-    padding-top: 6em;
+    padding-top: 2.67em;
   }
   header {
     margin-top: 1.34em;
@@ -292,6 +333,13 @@ main {
   .img-centered {
     margin: auto;
   }
+  .about-sectionlabel {
+    margin-top: 8em;
+    font-size: 0.67em;
+  }
+  .pullquote26h {
+    margin-top: 1.33em;
+  }
 }
 
 /*greenzone*/
@@ -299,10 +347,12 @@ main {
   /* .container {
     border: 1px solid green;
   } */
+
   main {
     padding-top: 0em;
-    margin: 0em 2.67em;
+    margin: 1.67em 2.67em;
   }
+
 
   /* controls p in main*/
   main p {
@@ -310,6 +360,7 @@ main {
     line-height: 1.5em;
   }
   /* controls p in main*/
+
 
   header {
     display: flex;
@@ -343,16 +394,26 @@ main {
   .site-credit {
     text-align: center;
   }
+  .about-sectionlabel {
+    margin-top: 4em;
+    font-size: 0.67em;
+  }
+  .pullquote26h {
+    margin-top: 1.33em;
+    font-size: 1.11em;
+  }
 }
 
 /*purplezone*/
 @media only screen and (min-width: 280px) and (max-width: 479px) {
+
   /* .container {
     border: 1px solid purple;
   } */
+
   main {
     padding-top: 0em;
-    margin: 0em 1em;
+    margin: 1em 1em;
   }
 
   /* controls p in main*/
@@ -373,6 +434,15 @@ main {
   .ralogo {
     margin-bottom: 1.75em;
   }
+
+  .hero-left {
+    grid-column: 1 / -1;
+    padding-right: 0em;
+  }
+  .hero-right {
+    display: none;
+  }
+
   footer {
     align-items: center;
   }
@@ -387,10 +457,15 @@ main {
   .img-centered {
     width: 100%;
   }
-  .pullquote26h {
-    font-size: 1.11em;
-  }
   .site-credit {
     text-align: center;
+  }
+  .about-sectionlabel {
+    margin-top: 4em;
+    font-size: 0.67em;
+  }
+  .pullquote26h {
+    margin-top: 1.33em;
+    font-size: 1.11em;
   }
 }
