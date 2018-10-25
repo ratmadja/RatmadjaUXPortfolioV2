@@ -105,8 +105,8 @@ header {
 }
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 32px;
-  width: 50.67px;
+  height: 34px;
+  width: 54px;
 }
 .ralogo:hover {
   transition: background;

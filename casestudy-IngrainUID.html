@@ -88,10 +88,11 @@
 
       <!-- Start of overview -->
       <section class="cs-section">
+
         <h2>Overview</h2>
         <p>Ingrain is a plant-based, meal-planning app for people who wish to transition to plant-based eating to improve their health. Ingrain personalizes the meal-planning experience by creating recipe suggestions based on your preference in food cuisine, taste, and texture. For each recipe, Ingrain will flag the allergens and food dislikes you specify on your profile. A food tracker allows you to log your progress towards a daily food servings recommendation that is calculated based on your gender, height, and weight.</p>
-        <h4>On a personal note</h4>
-        <p class="p-italic">As someone living with Type-2 diabetes, the conntection between food and health is an area I am passionate about. Designing this meal-planning app to help people heal their bodies with food parallels my own transition to plant-based eating to reverse my diabetes diagnosis.</p>
+        <p class="p-italic">On a personal note—as someone living with Type-2 diabetes, the connection between food and health hits close to home for me. Luckily, my mentor <a class="link-ref" target="_blank" href="http://terrymillion.com/">Terry Million</a> is passionate about this subject as well. I am extremely grateful to him for his encouragement throughout the design process.</p>
+
         <h3>A case study in three parts</h3>
         <p>I broke down the design process behind ingrain into three succinct parts. This second part explains the evolution of the user interface design from low to high-fidelity, and the user feedback that led me to change the art direction to increase legibility of content.</p>
         <p class="p-italic" >See the strategic pivots that redefine the scope of the MVP in <a class="link-work" href="casestudy-IngrainUXS.html">Part 1: UX Strategy</a>.</p>
@@ -135,113 +136,189 @@
               <!-- <video class="ixd640h" controls src="assets/csIngrain-ui/video/IxdOnboardingPart2.mov"></video> -->
             </div>
           </div>
-        <!-- End of one groupixd-2up -->
+          <!-- End of one groupixd-2up -->
+        </section>
+        <!-- End of overview -->
 
 
-      </section>
-      <!-- End of overview -->
+        <!-- Start of section1 -->
+        <section id="section1" class="cs-section">
 
+          <div class="label-container">
+            <h1 class="casestudy-sectionlabel">Structure</h1>
+          </div>
+          <h5 class="section-sublabel">Visual problem-solving</h5>
 
+          <h2>App navigation and structure</h2>
+          <p>Building a flat navigation system within the app architecture facilitates quick referencing and quick task switching—both of which are crucial in a recipe app that requires users to go from browsing behavior to saving to referencing content on-the-go. This is achieved by incorporating a set of tab bars that display five frequently-accessed locations: home, tracker, saved, shopping list, and profile.</p>
+          <p>The fact that users are likely to use the app on-the-go necessitates a tight information structure where any destination in the app is never more than three levels deep from the home screen. Sketching visual representations of my initial user flows opened possiblities of simplifying the user’s navigation path from top to bottom levels of content, and back again. </p>
+          <p>From studying the app architecture of the Kitchen Stories app, I learned that the secret to a clean, tight user flow in a primarily content-driven app is to limit user engagement to the smallest unit of information: the individual recipe articles. Implementing that makes for a cleaner app structure.</p>
+          <img class="img-fullwidth" src="assets/csIngrain-ui/images/browse-lowfi.png" />
+          <figcaption>A low-fidelity meal-planning sequence wireframe showing a tight information architecture where the lowest-level content is never more than 3 levels deep from top-level content</figcaption>
 
-      <!-- Start of section1 -->
+          <h2>Creating an onboarding sequence</h2>
+          <p>An onboarding sequence behaves very much like a sequence of modal views.. The challenge was to keep the user’s attention focused on the task at hand. It was important to respect the user by being transparent about why Ingrain asks the questions it does to construct a dietary profile. This is achieved by displaying titles that identify the task at hand. Showing how many steps are left, and giving users the option to skip parts of the onboarding process are just some of the ways to respect users. Every effort was made to decrease the user’s cognitive load by minimizing the amount of times the user has to manually input text with a keyboard.</p>
+          <img class="img-fullwidth" src="assets/csIngrain-ui/images/onboarding-lowfi.png" />
+          <figcaption>A low-fidelity onboarding sequence where instances where the user has to manually input text with a keyboard is kept to a minimum.</figcaption>
 
+          <h2>First design iteration</h2>
+          <p> I noticed how most food and cooking apps favor a light-UI scheme, so I experimented with creating a dark UI scheme with a palette of earth-tones for the purposes of differentiating Ingrain’s branding in the meal-planning space.</p>
 
-      <section id="section1" class="cs-section">
+          <img class="img-fullwidth" src="assets/csIngrain-ui/images/onboarding-medfi.png" />
+          <figcaption>First design iteration featuring dark food photography that emphasizes the textures of foods.</figcaption>
+          <img class="img-fullwidth" src="assets/csIngrain-ui/images/browse-medfi.png" />
+          <figcaption>Early signs of the dark UI conflicting with the light UI that lends itself well to content legibility.</figcaption>
 
-        <div class="label-container">
-          <h1 class="casestudy-sectionlabel">Structure</h1>
-        </div>
-        <h5 class="section-sublabel">Visual problem-solving</h5>
-
-        <h2>App navigation and structure</h2>
-        <p>Building a flat navigation system within the app architecture facilitates quick referencing and quick task switching—both of which are crucial in a recipe app that requires users to go from browsing behavior to saving to referencing content on-the-go. This is achieved by incorporating a set of tab bars that display five frequently-accessed locations: home, tracker, saved, shopping list, and profile.</p>
-        <p>The fact that users are likely to use the app on-the-go necessitates a tight information structure where any destination in the app is never more than three levels deep from the home screen. Sketching visual representations of my initial user flows opened possiblities of simplifying the user’s navigation path from top to bottom levels of content, and back again. </p>
-        <p>From studying the app architecture of the Kitchen Stories app, I learned that the secret to a clean, tight user flow in a primarily content-driven app is to limit user engagement to the smallest unit of information: the individual recipe articles. Implementing that makes for a cleaner app structure.</p>
-        <img class="img-fullwidth" src="assets/csIngrain-ui/images/browse-lowfi.png" />
-        <figcaption>A low-fidelity meal-planning sequence wireframe showing a tight information architecture where the lowest-level content is never more than 3 levels deep from top-level content</figcaption>
-
-        <h2>Creating an onboarding sequence</h2>
-        <p>An onboarding sequence behaves very much like a sequence of modal views.. The challenge was to keep the user’s attention focused on the task at hand. It was important to respect the user by being transparent about why Ingrain asks the questions it does to construct a dietary profile. This is achieved by displaying titles that identify the task at hand. Showing how many steps are left, and giving users the option to skip parts of the onboarding process are just some of the ways to respect users. Every effort was made to decrease the user’s cognitive load by minimizing the amount of times the user has to manually input text with a keyboard.</p>
-        <img class="img-fullwidth" src="assets/csIngrain-ui/images/onboarding-lowfi.png" />
-        <figcaption>A low-fidelity onboarding sequence where instances where the user has to manually input text with a keyboard is kept to a minimum.</figcaption>
-
-        <h2>First design iteration</h2>
-        <p> I noticed how most food and cooking apps favor a light-UI scheme, so I experimented with creating a dark UI scheme with a palette of earth-tones for the purposes of differentiating Ingrain’s branding in the meal-planning space.</p>
-
-        <img class="img-fullwidth" src="assets/csIngrain-ui/images/onboarding-medfi.png" />
-        <figcaption>First design iteration featuring dark food photography that emphasizes the textures of foods.</figcaption>
-        <img class="img-fullwidth" src="assets/csIngrain-ui/images/browse-medfi.png" />
-        <figcaption>Early signs of the dark UI conflicting with the light UI that lends itself well to content legibility.</figcaption>
-
-      </section>
-
-
-      <!-- End of section1 -->
+        </section>
+        <!-- End of section1 -->
 
 
 
-      <!-- Start of section2 -->
+        <!-- Start of section2 -->
+        <section id="section2" class="cs-section">
+
+          <div class="label-container">
+            <h1 class="casestudy-sectionlabel">Validate</h1>
+          </div>
+          <h5 class="section-sublabel">testing the medium-fidelity wireframe</h5>
+
+          <h2>Responding to User Feedback</h2>
+
+          <p class="p-italic">"The onboarding process is hard to follow."</p>
+          <p>I learned to anticipate the areas of confusion where users would need help and added prompts to guide users during the onboarding process. I discovered that brief prompts that direct the user to take action and then see the result of their action is a much more effective and funner way to educate the user about the app interface than blocks of instructional text.</p>
+          <div class="img2up-container">
+            <div class="img2up">
+              <figcaption>Before</figcaption>
+              <img src="assets/csIngrain-ui/images/1before.png" />
+            </div>
+            <div class="img2up">
+              <figcaption>After</figcaption>
+              <img src="assets/csIngrain-ui/images/1after.png" />
+            </div>
+          </div>
+
+          <p class="p-italic">“There’s a lot going on, and tapping on the circle to record food is not intuitive.“</p>
+          <p>The presence of many controls in such a small screen made it confusing for users to find their way in the app. I clarified their path by eliminating controls that were unnecessary to the task at hand to decrease the need for decision-making and increase clarity on where to go to accomplish their task.</p>
+          <div class="img2up-container">
+            <div class="img2up">
+              <figcaption>Before</figcaption>
+              <img src="assets/csIngrain-ui/images/2before.png" />
+            </div>
+            <div class="img2up">
+              <figcaption>After</figcaption>
+              <img src="assets/csIngrain-ui/images/2after.png" />
+            </div>
+          </div>
+
+          <p class="p-italic">“Most of the time I already have 80% of the ingredients, I would like to add only some ingredients to my shopping list.”</p>
+          <p>This is an instance where user feedback uncovers key insights about the posture of a feature. In response to the user’s goals, the shopping list feature changes its posture from a record of many plans to a custom check-off grocery list.</p>
+          <div class="img2up-container">
+            <div class="img2up">
+              <figcaption>Before</figcaption>
+              <img src="assets/csIngrain-ui/images/3before.png" />
+            </div>
+            <div class="img2up">
+              <figcaption>After</figcaption>
+              <img src="assets/csIngrain-ui/images/3after.png" />
+            </div>
+          </div>
+
+          <h2>Usability was being undermined by expressivity</h2>
+          <p>Testing the medium-fidelity prototype with a dark UI color scheme yielded the insight that much of the users’ confusion in navigating the app was due to a lack of graphic hierarchy. I had initially chosen a palette of earth-tones because of the colors of the plant-based foods themselves and for the purposes of differentiating Ingrain’s branding in the meal-planning space. By the end of user testing, it was clear that the expressivity of the style guide and color palette was undermining to the usability of the app.</p>
+          <img class="img-fullwidth" src="assets/csIngrain-ui/images/darkui3.png" />
+          <figcaption>Earth-tone colors appear to recede on a light background. Against dark UI, they appear flat. Moreover, the dark colors make the food look less appetizing.</figcaption>
+
+          <div class="img2up-container">
+            <div class="img2up">
+              <img src="assets/csIngrain-ui/images/darkui1.png" />
+              <figcaption>67% of users failed to notice the step indicator</figcaption>
+            </div>
+            <div class="img2up">
+              <img src="assets/csIngrain-ui/images/darkui2.png" />
+              <figcaption>All users are confused by what the numbers indicate.</figcaption>
+            </div>
+          </div>
+
+        </section>
+        <!-- End of section2 -->
 
 
-      <section id="section2" class="cs-section">
-        <div class="label-container">
-          <h1 class="casestudy-sectionlabel">Validate</h1>
-        </div>
-        <h5 class="section-sublabel">testing the medium-fidelity wireframe</h5>
-        <h2>Responding to User Feedback</h2>
-        <p class="p-italic">"The onboarding process is hard to follow."</p>
-        <p>I learned to anticipate the areas of confusion where users would need help and added prompts to guide users during the onboarding process. I discovered that brief prompts that direct the user to take action and then see the result of their action is a much more effective and funner way to educate the user about the app interface than blocks of instructional text.</p>
+        <!-- Start of section3 -->
+        <section id="section3" class="cs-section">
 
 
-      </section>
-      <!-- End of section2 -->
+          <div class="label-container">
+            <h1 class="casestudy-sectionlabel">Redesign</h1>
+          </div>
+          <h5 class="section-sublabel">Overhauling the style guide</h5>
+          <p>It was clear that a style guide redesign was needed for the sake of enhancing usability. I decided to abandon the dark and tonal grey color palette in favor of a light UI theme.</p>
+
+          <h2>Redesigning the palette </h2>
+
+          <h3>Style Guide</h3>
+          <p>Ingrain’s newly-redesign style guide takes a decidedly light-UI direction. It comprises of mostly neutrals with two earth tones that serve as ingrain’s primary colors. I learned that when working with muted colors, it is critical to create shade variations based on the desired contrast level that one wishes the foreground content to have against the background content. The primary color shades were inspired by the color of a fig fruit. The ‘brights’ color group was added for accents and attention-calling elements.</p>
+          <div class="img2up-container">
+            <div class="img2up">
+              <p>Typography and Color Palette</p>
+              <img src="assets/csIngrain-ui/images/styleguide1.png" />
+            </div>
+            <div class="img2up">
+              <p>UI Components</p>
+              <img src="assets/csIngrain-ui/images/styleguide2.png" />
+            </div>
+          </div>
+
+          <h3>Logo design process</h3>
+          <p>The clean geometry of a mortar and pestle was chosen because it is an apt symbol for connecting the idea of food as medicine. As one of the oldest food-preparation instruments used in cultures from around the globe, it is also used by apotecharies to crush medicinal herbs. From a branding standpoint, it stands out nicely against the logos of competitors that usually highlight familiar cooking or eating utensils.</p>
+          <img class="img-fullwidth" src="assets/csIngrain-ui/images/logoDevelopment.png" />
+          <figcaption>(Left) Initial logo. (Center and right) Final logo iteration and its variation</figcaption>
+
+        </section>
+        <!-- End of section3 -->
 
 
 
-      <!-- Start of section3 -->
-      <section id="section3" class="cs-section">
-        <div class="label-container">
-          <h1 class="casestudy-sectionlabel">This is h1</h1>
-        </div>
-        <h5 class="section-sublabel">This is h5</h5>
-        <h2>This is h2</h2>
-        <h3>This is h3</h3>
-        <p>This is p</p>
-        <p class="p-italic">This is .p-italic</p>
-      </section>
-      <!-- End of section3 -->
+        <!-- Start of section4 -->
+        <section id="section4" class="cs-section">
+          <div class="label-container">
+            <h1 class="casestudy-sectionlabel">Synthesize</h1>
+          </div>
+          <h5 class="section-sublabel">The final design</h5>
+          <p class="p-italic">In retrospect, the most challenging portion of developing the Ingrain app interface is integrating the gorgeous food photography with the vectorized content of the meal tracker. To lessen the jarring juxtaposition of both types of content when they grace the same screen, I opted for simplified outline shapes over the detailed vector food shapes whose cartoony realism competed with the realism already present in the food photography.</p>
+        </section>
+        <!-- End of section4 -->
+
+      </main>
+    </div>  <!-- .container -->
 
 
+    <div class="img-fullbleed">
+      <div class="main">
+        <img class="img-fullwidth" src="assets/csIngrain-ui/images/finalUIDesignScreens.png" />
+      </div>
+    </div>
 
-      <!-- Start of section4 -->
-      <section id="section4" class="cs-section">
-        <div class="label-container">
-          <h1 class="casestudy-sectionlabel">This is h1</h1>
-        </div>
-        <h5 class="section-sublabel">This is h5</h5>
-        <h2>This is h2</h2>
-        <h3>This is h3</h3>
-        <p>This is p</p>
-        <p class="p-italic">This is .p-italic</p>
-      </section>
-      <!-- End of section4 -->
 
+    <!-- Start of .main-->
+
+    <div class="main">
+
+      <!-- Start of project carousel -->
+      <figcaption class="small-caption">Food photography and avatar icons are courtesy of the following <a class="link-ref" target="_blank" href="https://docs.google.com/document/d/1Qcx_aFee52pm3qEcBaeaxx6LmRdApyGwCMxeefsseK0/edit?usp=sharing">sources</a>.</figcaption>
 
       <section class="cs-sectionCarousel">
-        <h3 class="carousel-caption" >Curious about how I got here?</h3>
         <div class="projectCarouselContainer">
           <div class="projectCarousel-left">
-            <p><a class="link-work" href="casestudy-IngrainUXS.html">Ingrain—Part 1</a></p>
-            <p>Read about the strategic pivots that redefine the scope of the MVP.</p>
+            <p><a class="link-work" href="casestudy-IngrainIxD.html">Previous</a></p>
+            <p>Leveraging motion design principles to support usability and create narrative</p>
           </div>
           <div class="projectCarousel-right">
-            <p><a class="link-work" href="casestudy-IngrainUID.html">Ingrain—Part 2</a></p>
-            <p>View the evolution of the wireframes during the user interface design process.</p>
+            <p><a class="link-work" href="casestudy-IngrainUXS.html">Next</a></p>
+            <p>Uncovering user insights that redefine the scope of an MVP of a meal-planning app.</p>
           </div>
         </div>
       </section>
-
-      <p class="image-credits" >Image credits for food photography and avatar icons can be found <a class="link-ref" target="_blank" href="https://docs.google.com/document/d/1Qcx_aFee52pm3qEcBaeaxx6LmRdApyGwCMxeefsseK0/edit?usp=sharing">here</a>.</p>
+      <!-- Start of project carousel -->
 
       <!-- Start of footer code -->
       <footer id="sectionContact">
@@ -257,28 +334,27 @@
       </footer>
       <!-- End of footer code -->
 
-
-    </main>
-  </div>  <!-- .container -->
-
+    </div>
+    <!-- End of .main-->
 
 
-  <!-- Start of Scripts  -->
-  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js"></script>
-  <script src="scripts/master.js"></script>
-  <!-- End of Scripts  -->
 
-  <!-- Start of Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122645745-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Start of Scripts  -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js"></script>
+    <script src="scripts/master.js"></script>
+    <!-- End of Scripts  -->
 
-  gtag('config', 'UA-122645745-1');
-  </script>
-  <!-- End of Global site tag (gtag.js) - Google Analytics -->
+    <!-- Start of Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122645745-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-</body>
-</html>
+    gtag('config', 'UA-122645745-1');
+    </script>
+    <!-- End of Global site tag (gtag.js) - Google Analytics -->
+
+  </body>
+  </html>

@@ -7,7 +7,7 @@
 .container {
   max-width: 1280px;
 }
-main {
+main, .main {
   margin: 0em 8em;
 }
 
@@ -101,9 +101,13 @@ figcaption {
   font-style: italic;
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 4em;
+  margin-bottom: 0em;
 }
-
+.small-caption {
+  font-size: .8em;
+  font-style: normal;
+  color: #AFAFAF;
+}
 
 /* ------End of typography sizes------ */
 
@@ -120,7 +124,7 @@ figcaption {
 }
 
 footer {
-  margin-top: 6.67em;
+  margin-top: 2.67em;
   border-top: 0.25px solid #E0E0E0;
   color: #333333;
   display: flex;
@@ -188,7 +192,7 @@ nav {
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
   height: 24px;
-  width: 38px;
+  width: 38.117648px;
 }
 .ralogo:hover {
   transition: background;
@@ -225,7 +229,7 @@ nav {
 }
 
 /* .nav-home, .nav-cs, .nav-project, .nav-prevcs, .nav-nextcs {
-  border: 1px solid red;
+border: 1px solid red;
 } */
 
 .nav-prevcs, .nav-nextcs {
@@ -370,6 +374,7 @@ header {
   line-height: 1.67em;
 }
 .p-italic {
+  margin-top: 2.67em;
   font-size: 1.11em;
   line-height: 1.67em;
   font-style: italic;
@@ -580,26 +585,45 @@ header {
   margin-right: 1.33em;
 }
 
+
+
 .img-centered {
   display: block;
   padding-top: 4em;
   margin: auto;
 }
 .img-fullwidth{
-  /* background-color: #e2e2e2; */
   width: 100%;
   margin: auto;
   display: block;
-  padding-top: 2.67em;
+  padding-top: 3em;
 }
 
-.image-credits {
-  margin-top: 6em;
-  font-size: .9em;
-  color: #777777;
-  text-align: center;
+
+.img-fullbleed {          /* backgrund extends past margin */
+  background: #62474E;
+  margin-top: 4em;
+  padding-bottom: 4em;
 }
 
+
+.img2up-container {
+  padding-top: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.img2up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+}
+.img2up img {
+  width: 100%;
+}
 
 /* Start of project carousel */
 .carousel-caption {
@@ -618,6 +642,9 @@ header {
 .projectCarousel-right {
   width: 40%;
   text-align: right;
+}
+.cs-sectionCarousel {
+  margin-top: 4em;
 }
 .cs-sectionCarousel p {
   margin-top: 0em;
@@ -654,9 +681,9 @@ header {
 /*bluezone*/
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   /* .container {
-    border: 2px solid blue;
+  border: 2px solid blue;
   } */
-  main {
+  main, .main {
     margin: 0em 5em;
   }
   nav {
@@ -681,9 +708,9 @@ header {
 /*redzone*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* .container {
-    border: 2px solid red;
+  border: 2px solid red;
   } */
-  main {
+  main, .main {
     margin: 0em 5em;
   }
   nav {
@@ -805,9 +832,9 @@ header {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
   /* .container {
-    border: 2px solid green;
+  border: 2px solid green;
   } */
-  main {
+  main, .main {
     padding-top: 0em;
     margin: 0em 2.67em;
   }
@@ -838,11 +865,6 @@ header {
     font-size: 1.78em;
     margin-top: 1em;
     margin-bottom: 2em;
-  }
-
-  .ralogo {
-    height: 24px;
-    width: 38px;
   }
   footer {
     align-items: center;
@@ -985,22 +1007,10 @@ header {
   .carousel-caption {
     text-align: center;
   }
-  .projectCarouselContainer{
-    margin-top: 2em;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
+  .projectCarousel-left, .projectCarousel-right {
+    width: 40%;
   }
-  .projectCarousel-left {
-    width: 100%;
-    text-align: center;
-  }
-  .projectCarousel-right {
-    margin-top: 2em;
-    width: 100%;
-    text-align: center;
-  }
-/* End of project carousel */
+  /* End of project carousel */
 
   .site-credit {
     text-align: center;
@@ -1013,9 +1023,9 @@ header {
 /*purplezone*/
 @media only screen and (min-width: 319px) and (max-width: 479px) {
   /* .container {
-    border: 2px solid pink;
+  border: 2px solid pink;
   } */
-  main {
+  main, .main {
     padding-top: 0em;
     margin: 0em 1em;
   }
@@ -1024,11 +1034,6 @@ header {
   }
   .sticky {
     padding: 0 1.78em;  /*Match 'main' margin*/
-  }
-
-  .ralogo {
-    height: 24px;
-    width: 38px;
   }
   footer {
     align-items: center;
@@ -1041,9 +1046,13 @@ header {
     justify-content: center;
     align-items: center;
   }
+
+
   .img-centered {
     width: 100%;
   }
+
+
   .pullquote {
     font-size: 1.11em;
   }
@@ -1194,19 +1203,17 @@ header {
     justify-content: space-between;
     align-content: center;
   }
-  .projectCarousel-left {
-    width: 100%;
-    text-align: center;
+  .projectCarousel-left, .projectCarousel-right {
+    width: 80%;
+    margin-left: 10%;
   }
   .projectCarousel-right {
     margin-top: 2em;
-    width: 100%;
+  }
+  /* End of project carousel */
+
+  .site-credit {
     text-align: center;
   }
-/* End of project carousel */
-
-.site-credit {
-  text-align: center;
-}
 
 }
