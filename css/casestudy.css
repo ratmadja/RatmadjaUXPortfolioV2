@@ -95,6 +95,15 @@ sup {
 sub {
   bottom: -0.25em;
 }
+figcaption {
+  font-size: .9em;
+  font-style: 'alegreya sans',sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
 
 /* ------End of typography sizes------ */
 
@@ -344,6 +353,7 @@ header {
 /*------- Start of text and image styling -------*/
 
 
+
 .cs-section > h1,
 .cs-section > h2,
 .cs-section > h3,
@@ -364,6 +374,8 @@ header {
   line-height: 1.67em;
   font-style: italic;
 }
+
+
 /* controls font-size and line height of p*/
 
 
@@ -578,8 +590,7 @@ header {
   width: 100%;
   margin: auto;
   display: block;
-  padding-top: 1.167em;
-  padding-bottom: 3.11em;
+  padding-top: 2.67em;
 }
 
 .image-credits {
