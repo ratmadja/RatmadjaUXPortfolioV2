@@ -101,7 +101,7 @@ figcaption {
   font-style: italic;
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 0em;
+  margin-bottom: 2em;
 }
 .small-caption {
   font-size: .8em;
@@ -208,7 +208,7 @@ nav {
   transition-property: background;
   transition-duration: 1s;
   background-color: rgba(255,255,255,.98);
-  border-bottom: 1px solid rgba(218, 146, 24,.5);
+  border-bottom: 1px solid #E2E2E2;
   height: 4em;
   width: 100%;
   margin: auto;
@@ -238,8 +238,8 @@ border: 1px solid red;
   text-decoration: none;
   color: #333333;
   width: 6%;
-  margin: 0em;
-  padding: 0.1em;
+  margin: 0em 0.2em;
+  padding: 0.2em;
   border-bottom: 1px solid #DA9218;
 }
 .nav-prevcs {
@@ -405,7 +405,7 @@ header {
   margin-bottom: 6em;
   font-size: .78em;
   color: #444444;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .link-ref {
@@ -565,14 +565,16 @@ header {
 
 
 /*----Start of .image-preview styling ---*/
-.img-preview{
+.img-preview-container{
   margin-top: 2em;
   padding-bottom: 2em;
   border-bottom: 1px solid #E2E2E2;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  algin-items: center;
+}
+.img-preview {
+  display: block;
+  width: 70%;
+  max-width: 341px;
+  margin: auto;
 }
 /*----End of .image-preview styling ---*/
 
@@ -607,23 +609,25 @@ header {
 }
 
 
-.img2up-container {
-  padding-top: 3em;
+.img2up-container, .img2upflip-container {
+  padding-top: 0.5em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
-.img2up {
+.img2up, .img2upflip {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 48%;
 }
-.img2up img {
+.img2up img, .img2upflip img {
   width: 100%;
 }
+
+
 
 /* Start of project carousel */
 .carousel-caption {
@@ -673,6 +677,7 @@ header {
   .container {
     margin: auto;
   }
+
 
 }
 
@@ -743,6 +748,8 @@ header {
     display: none;
   }
   .groupixd-2up-container {
+    margin-top: 2em;
+    margin-bottom: 4em;
     flex-direction: column;
     justify-content: center;
     align-items: space-between;
@@ -750,7 +757,7 @@ header {
   .groupixd-2up {
     width: 80%;
     margin: 10%;
-    margin-bottom: 8em;
+    margin-bottom: 4em;
   }
   .groupixd-1up {
     width: 80%;
@@ -911,13 +918,15 @@ header {
 
 
   .groupixd-2up-container {
+    margin-top: 1em;
+    margin-bottom: 2em;
     flex-direction: column;
     justify-content: center;
     align-items: space-between;
   }
   .groupixd-2up {
     width: 100%;
-    margin-bottom: 8em;
+    margin-bottom: 2em;
   }
   .ixd640h {
     border: 4px solid #000000;
@@ -929,6 +938,7 @@ header {
     display: block;
     margin: auto;
     margin-bottom: 2.67em;
+    width: 100%;
   }
 
 
@@ -995,13 +1005,10 @@ header {
 
 
   .casestudy-sectionlabel {
-    font-size: 3.6em;
+    font-size: 2.67em;
     padding-bottom: 0.25em;
   }
-  .casestudy-sectionlabel {
-    font-size: 3em;
-    padding-bottom: 0.25em;
-  }
+
 
   /* Start of project carousel */
   .carousel-caption {
@@ -1014,6 +1021,21 @@ header {
 
   .site-credit {
     text-align: center;
+  }
+
+  .img2upflip-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .img2upflip {
+    width: 100%;
+  }
+
+  .section-sublabel {
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+    font-size: .7em;
   }
 
 }
@@ -1116,16 +1138,20 @@ header {
 
 
   .groupixd-2up-container {
+    margin-top: 1em;
+    margin-bottom: 2em;
     flex-direction: column;
     justify-content: center;
     align-items: space-between;
   }
-
-
   .groupixd-2up {
     width: 100%;
-    margin-bottom: 8em;
+    margin-bottom: 2em;
   }
+  .ixddesc640 {
+    height: 10em;
+  }
+
   .ixd640h {
     border: 4px solid #000000;
   }
@@ -1136,13 +1162,14 @@ header {
     display: block;
     margin: auto;
     margin-top: 2.67em;
+    width: 100%;
   }
 
 
   .groupixd-1up {
     width: 100%;
     margin-left: 0%;
-    margin-bottom: 8em;
+    margin-bottom: 1em;
   }
   .ixd720h {
     width: 283px;
@@ -1189,7 +1216,7 @@ header {
 
 
   .casestudy-sectionlabel {
-    font-size: 3em;
+    font-size: 2.33em;
     padding-bottom: 0.25em;
   }
 
@@ -1214,6 +1241,27 @@ header {
 
   .site-credit {
     text-align: center;
+  }
+
+  figcaption {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+  }
+
+  .img2upflip-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .img2upflip {
+    width: 100%;
+  }
+
+  .section-sublabel {
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+    font-size: .7em;
   }
 
 }

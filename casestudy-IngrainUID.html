@@ -115,8 +115,8 @@
               <img src="assets/csIngrain-ui/images/prev1f.png" />
               <img src="assets/csIngrain-ui/images/prev1g.png" />
             </div>
-            <div class="img-preview">
-              <img src="assets/csIngrain-ui/images/preview1.png" />
+            <div class="img-preview-container">
+              <img class="img-preview" src="assets/csIngrain-ui/images/preview1.png" />
               <!-- <video class="ixd640h" controls src="assets/csIngrain-ui/video/IxdOnboardingPart2.mov"></video> -->
             </div>
           </div>
@@ -131,8 +131,8 @@
               <img src="assets/csIngrain-ui/images/prev2f.png" />
               <img src="assets/csIngrain-ui/images/prev2g.png" />
             </div>
-            <div class="img-preview">
-              <img src="assets/csIngrain-ui/images/preview2.png" />
+            <div class="img-preview-container">
+              <img class="img-preview" src="assets/csIngrain-ui/images/preview2.png" />
               <!-- <video class="ixd640h" controls src="assets/csIngrain-ui/video/IxdOnboardingPart2.mov"></video> -->
             </div>
           </div>
@@ -154,7 +154,7 @@
           <p>The fact that users are likely to use the app on-the-go necessitates a tight information structure where any destination in the app is never more than three levels deep from the home screen. Sketching visual representations of my initial user flows opened possiblities of simplifying the user’s navigation path from top to bottom levels of content, and back again. </p>
           <p>From studying the app architecture of the Kitchen Stories app, I learned that the secret to a clean, tight user flow in a primarily content-driven app is to limit user engagement to the smallest unit of information: the individual recipe articles. Implementing that makes for a cleaner app structure.</p>
           <img class="img-fullwidth" src="assets/csIngrain-ui/images/browse-lowfi.png" />
-          <figcaption>A low-fidelity meal-planning sequence wireframe showing a tight information architecture where the lowest-level content is never more than 3 levels deep from top-level content</figcaption>
+          <figcaption>A tight information architecture where the lowest-level content is never more than 3 levels deep from top content.</figcaption>
 
           <h2>Creating an onboarding sequence</h2>
           <p>An onboarding sequence behaves very much like a sequence of modal views.. The challenge was to keep the user’s attention focused on the task at hand. It was important to respect the user by being transparent about why Ingrain asks the questions it does to construct a dietary profile. This is achieved by displaying titles that identify the task at hand. Showing how many steps are left, and giving users the option to skip parts of the onboarding process are just some of the ways to respect users. Every effort was made to decrease the user’s cognitive load by minimizing the amount of times the user has to manually input text with a keyboard.</p>
@@ -224,10 +224,10 @@
           </div>
 
           <h2>Usability was being undermined by expressivity</h2>
-          <p>Testing the medium-fidelity prototype with a dark UI color scheme yielded the insight that much of the users’ confusion in navigating the app was due to a lack of graphic hierarchy. I had initially chosen a palette of earth-tones because of the colors of the plant-based foods themselves and for the purposes of differentiating Ingrain’s branding in the meal-planning space. By the end of user testing, it was clear that the expressivity of the style guide and color palette was undermining to the usability of the app.</p>
+          <p>Testing the medium-fidelity prototype with a dark UI color scheme yielded the insight that much of the users’ confusion in navigating the app was due to a lack of graphic hierarchy. I had initially chosen a palette of earth-tones because of the colors of the plant-based foods themselves and for the purposes of differentiating Ingrain’s branding in the meal-planning space.</p>
           <img class="img-fullwidth" src="assets/csIngrain-ui/images/darkui3.png" />
           <figcaption>Earth-tone colors appear to recede on a light background. Against dark UI, they appear flat. Moreover, the dark colors make the food look less appetizing.</figcaption>
-
+          <p>By the end of user testing, it was clear that the expressivity of the style guide and color palette was undermining to the usability of the app.</p>
           <div class="img2up-container">
             <div class="img2up">
               <img src="assets/csIngrain-ui/images/darkui1.png" />
@@ -257,13 +257,13 @@
 
           <h3>Style Guide</h3>
           <p>Ingrain’s newly-redesign style guide takes a decidedly light-UI direction. It comprises of mostly neutrals with two earth tones that serve as ingrain’s primary colors. I learned that when working with muted colors, it is critical to create shade variations based on the desired contrast level that one wishes the foreground content to have against the background content. The primary color shades were inspired by the color of a fig fruit. The ‘brights’ color group was added for accents and attention-calling elements.</p>
-          <div class="img2up-container">
-            <div class="img2up">
-              <p>Typography and Color Palette</p>
+          <div class="img2upflip-container">
+            <div class="img2upflip">
+              <figcaption>Style Guide</figcaption>
               <img src="assets/csIngrain-ui/images/styleguide1.png" />
             </div>
-            <div class="img2up">
-              <p>UI Components</p>
+            <div class="img2upflip">
+              <figcaption>UI Components</figcaption>
               <img src="assets/csIngrain-ui/images/styleguide2.png" />
             </div>
           </div>
@@ -293,8 +293,10 @@
 
 
     <div class="img-fullbleed">
-      <div class="main">
-        <img class="img-fullwidth" src="assets/csIngrain-ui/images/finalUIDesignScreens.png" />
+      <div class="container">
+        <div class="main">
+          <img class="img-fullwidth" src="assets/csIngrain-ui/images/finalUIDesignScreens.png" />
+        </div>
       </div>
     </div>
 
