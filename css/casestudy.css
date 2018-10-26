@@ -28,15 +28,15 @@ body, .article {
 }
 h1, .h1 {
   font-family: 'work sans', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 4.22222222em;
   line-height: 1.14473684em;
   margin-top: 0.38157895em;
   margin-bottom: 0em;
 }
 h2, .h2 {
-  font-family: 'alegreya','georgia', serif;
-  font-weight: 600;
+  font-family: 'alegreya sans', sans-serif;
+  font-weight: 700;
   font-size: 2em;
   line-height: 1.5em;
   margin-top: 2.75em;
@@ -44,8 +44,8 @@ h2, .h2 {
   color: #333333;
 }
 h3, .h3 {
-  font-family: 'alegreya','georgia', serif;
-  font-weight: 600;
+  font-family: 'alegreya sans', sans-serif;
+  font-weight: 700;
   font-size: 1.38888889em;
   line-height: 2.16em;
   margin-top: 2.08em;
@@ -288,6 +288,7 @@ header {
 }
 .hero-tagline {
   font-family: 'alegreya sans', sans-serif;
+  font-weight: 700;
   text-align: center;
   margin-top: 2em;
   margin-left: 6em;
