@@ -35,7 +35,7 @@ h1, .h1 {
   margin-bottom: 0em;
 }
 h2, .h2 {
-  font-family: 'alegreya sans', sans-serif;
+  font-family: 'alegreya','georgia', serif;
   font-weight: 700;
   font-size: 2em;
   line-height: 1.5em;
@@ -44,7 +44,7 @@ h2, .h2 {
   color: #333333;
 }
 h3, .h3 {
-  font-family: 'alegreya sans', sans-serif;
+  font-family: 'alegreya','georgia', serif;
   font-weight: 700;
   font-size: 1.38888889em;
   line-height: 2.16em;
