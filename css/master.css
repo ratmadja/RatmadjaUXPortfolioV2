@@ -253,6 +253,9 @@ main p {
   font-style: italic;
   color: #333333;
 }
+.caption-label {
+  border: 1px solid red;
+}
 /* ------End of Work Styling------ */
 
 
