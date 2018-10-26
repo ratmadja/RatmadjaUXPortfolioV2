@@ -637,6 +637,7 @@ header {
 
 .img2up-container, .img2upflip-container {
   padding-top: 0.5em;
+  padding-bottom: 1.33em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1050,16 +1051,6 @@ header {
   .site-credit {
     text-align: center;
   }
-
-  .img2upflip-container {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  .img2upflip {
-    width: 100%;
-  }
-
   .section-sublabel {
     margin-top: 0.5em;
     margin-bottom: 4em;
