@@ -1,0 +1,1386 @@
+/*--------------------------------------Start of identical to master.css */
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+}
+main, .main {
+  margin: 0em 8em;
+}
+
+
+/* ------Start of typography sizes------ */
+
+html, .root {
+  font-size: 18px;
+  line-height: 27px;
+}
+body, .article {
+  color: #333333;
+  font-family: 'alegreya','georgia', serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  /* max-width: 560px; */
+}
+h1, .h1 {
+  font-family: 'work sans', sans-serif;
+  font-weight: 700;
+  font-size: 4.22222222em;
+  line-height: 1.14473684em;
+  margin-top: 0.38157895em;
+  margin-bottom: 0em;
+}
+h2, .h2 {
+  font-family: 'alegreya','georgia', serif;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 2.75em;
+  margin-bottom: 0.75em;
+  color: #333333;
+}
+h3, .h3 {
+  font-family: 'alegreya','georgia', serif;
+  font-weight: 700;
+  font-size: 1.38888889em;
+  line-height: 2.16em;
+  margin-top: 2.08em;
+  margin-bottom: 0.44em;
+}
+h4, .h4 {
+  font-family: 'alegreya','georgia', serif;
+  font-size: 1.22em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0.44em;
+}
+h5, .h5 {
+  font-family: 'work sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+p, ul, ol, pre, table, blockquote {
+  font-size: 1em;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+ul ul, ol ol, ul ol, ol ul {
+  font-size: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+figcaption {
+  font-size: .9em;
+  font-style: 'alegreya sans',sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.small-caption {
+  font-size: .8em;
+  font-style: normal;
+  color: #AFAFAF;
+}
+
+/* ------End of typography sizes------ */
+
+
+
+
+
+
+/* ------Start of Footer Styling------ */
+
+
+.footer-container {
+  /* background-color: #F4F4F4; */
+}
+
+footer {
+  margin-top: 2.67em;
+  border-top: 0.25px solid #E0E0E0;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contact {
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactlinks {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-link a {
+  margin-bottom: 0em;
+  font-size: .9em;
+  font-weight:400;
+  text-decoration: none;
+  color: #333333;
+  border-bottom: 1px solid #DA9218;
+}
+.contact-link a:hover {
+  color: #BDBDBD;
+}
+.site-credit {
+  font-weight: 300;
+  color: #999999;
+  font-size: 1em;
+  margin-top: 1em;
+}
+/* ------End of Footer Styling------ */
+
+
+
+/*-------------------------------------------End of identical to master.css */
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------Start of header styling -------*/
+
+
+
+
+/*------- Start of nav styling -------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+  padding: 0em 8em;   /*Match main's margin*/
+}
+.ralogo {
+  background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+  height: 24px;
+  width: 38.117648px;
+}
+.ralogo:hover {
+  transition: background;
+  transition: .2s cubic-bezier(0,0,.58,1);
+  background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
+}
+
+
+
+/*--Start of Sticky Navbar class--*/
+.sticky {
+  position: fixed;
+  transition-property: background;
+  transition-duration: 1s;
+  background-color: rgba(255,255,255,.98);
+  border-bottom: 1px solid #E2E2E2;
+  height: 4em;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  padding: 0em 8em;   /*Match main's margin*/
+}
+/*---End of Sticky Navbar class--*/
+
+
+
+.navmenu {
+  z-index: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .nav-home, .nav-cs, .nav-project, .nav-prevcs, .nav-nextcs {
+border: 1px solid red;
+} */
+
+.nav-prevcs, .nav-nextcs {
+  font-family: 'work sans', sans-serif;
+  font-size: 0.67em;
+  text-decoration: none;
+  color: #333333;
+  width: 6%;
+  margin: 0em 0.2em;
+  padding: 0.2em;
+  border-bottom: 1px solid #DA9218;
+}
+.nav-prevcs {
+  text-align: left;
+}
+.nav-nextcs {
+  text-align: right;
+}
+.nav-prevcs:hover, .nav-nextcs:hover {
+  color: #DA9218;
+}
+.nav-home, .nav-project {
+  width: 20%;
+}
+.nav-project {
+  text-align: right;
+}
+.nav-cs {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-cs a {
+  font-family: 'work sans', sans-serif;
+  font-size: .9em;
+  text-decoration: none;
+  color: #333333;
+  margin: 0em;
+}
+.nav-cs a:hover {
+  color: #999999;
+}
+/*------- End of nav styling -------*/
+
+
+
+
+
+
+
+/*------- Start of header styling -------*/
+
+.hero-tagline {
+  font-family: 'alegreya sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2em;
+  margin-left: 6em;
+  margin-right: 6em;
+}
+.hero-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #E2E2E2;
+}
+.hero-desc-text {
+  margin: 0em 1em;
+  color: #828282;
+  font-family: 'alegreya sans', sans-serif;
+  text-align: center;
+}
+
+
+
+/*--------------------------------------------End of header styling -------*/
+
+
+
+
+/*------- Start of casestudy specs styling -------*/
+.cs-info {
+  margin-top: 12em;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cs-info-roles,
+.cs-info-deliverables,
+.cs-info-specs {
+  width: 30%;
+  padding-left: 0.5em;
+  border-top: 1px solid #E2E2E2;
+  /* border-right: 1px solid #C5C5C5;; */
+}
+
+.cs-info h5 {
+  font-size: 0.8em;
+  line-height: 2em;
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  color: #444444;
+  font-weight: 500;
+}
+.cs-info li {
+  font-family: 'alegreya sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #828282;
+}
+/*------- End of casestudy specs styling -------*/
+
+
+
+
+/*------- Start of text and image styling -------*/
+
+
+
+.cs-section > h1,
+.cs-section > h2,
+.cs-section > h3,
+.cs-section > h4,
+.cs-section > h5,
+.cs-section > p {
+  width: 60%;
+}
+
+
+/* controls font-size and line height of p in .cs-section*/
+.cs-section > p {
+  font-size: 1.11em;
+  line-height: 1.67em;
+}
+.p-italic {
+  margin-top: 2.67em;
+  font-size: 1.11em;
+  line-height: 1.67em;
+  font-style: italic;
+}
+/* controls font-size and line height of p*/
+
+
+/* controls Nimbus Diagram visibility and text width*/
+.diagramNarrow > p,
+.diagramNarrow > h3 {
+  width: 60%;
+}
+.img-contain4 {
+  padding-left: 1.5%;
+  margin: 4em 0em;
+}
+.img-incontain4 {
+  margin: auto;
+  width: 49%;
+  display: inline;  /*adjust to 'block' for vertical layout*/
+}
+/* controls Nimbus Diagram visibility and text width*/
+
+
+.note-label {
+  margin-top: 4.75em;
+}
+.pullquote {
+  font-size: 2em;
+  margin-top: 0em;
+}
+.label-container {
+  margin-top: 8em;
+  text-align: left;
+}
+.casestudy-sectionlabel {
+  display: inline;
+  padding-bottom: 0.25em;
+}
+.section-sublabel {
+  margin-top: 1em;
+  margin-bottom: 6em;
+  font-size: .78em;
+  color: #444444;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.link-ref {
+  color: #4F4F4F;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 #BDBDBD;
+  transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+}
+.link-ref:hover {
+  color: #BDBDBD;
+}
+.link-doc {
+  color: #333333;
+  font-family: 'work sans', sans-serif;
+  font-size: 0.9em;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: inset 0 -1px 0 #BDBDBD;
+  transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+}
+.link-doc:hover {
+  color: #828282;
+}
+.link-work {
+  color: #4f4f4f;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 #DA9218;
+  transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+}
+.link-work:hover {
+  box-shadow: inset 0 -4px 0 #DA9218;
+}
+.caption-label {
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  font-size: .78em;
+  text-transform: uppercase;
+  color: #444444;
+  font-weight: 500;
+}
+
+.caption-fullwidth-container {
+  margin-top: 2.67em;
+
+}
+.caption-fullwidth {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-size: .78em;
+  text-transform: uppercase;
+  color: #444444;
+  font-weight: 500;
+  border-top: 1px solid #E2E2E2;
+}
+
+
+
+/*---------------Start of IxD media group styling ---*/
+
+
+
+/*---Start of ixd720h---*/
+.groupixd-1up-container {
+  margin-top: 4em;
+  margin-bottom: 4.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.groupixd-1up {
+  margin-bottom: 4em;
+  width: 60%;
+  margin-left: 20%;
+  border-top: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+}
+.ixd720h {
+  background-color: #000000;
+  width: 318.48px;
+  position: absolute;
+  border: 13.5px solid #000000;
+  border-radius: 45px;
+}
+.ixdmedia720 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ixdstills720 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ixdstills720 img {
+  max-width: 10%;
+  margin-bottom: 2em;
+}
+/*---End of ixd720h---*/
+
+
+/*----Start of hero video styling ---*/
+.hero720h {
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;    /* moves element relative to its orginal location*/
+  bottom: -8em;    /* controls distance that element goes past parent*/
+  margin-top: -8em;   /* controls spacing above element */
+}
+/*---End of hero video styling ---*/
+
+
+/*---Start of ixd640h---*/
+.groupixd-2up-container {
+  margin-top: 4em;
+  margin-bottom: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.groupixd-2up {
+  width: 45%;
+  border-top: 1px solid #E2E2E2;
+}
+.ixdmedia640 {
+  margin-top: 1em;
+  padding-bottom: 6em;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #E2E2E2;
+}
+.ixd640h {
+  background-color: #000000;
+  width: 283px;
+  position: absolute;
+  border: 12px solid #000000;
+  border-radius: 40px;
+  margin-top: 2em;
+}
+.ixdstills640 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ixdstills640 img {
+  max-width: 13%;
+}
+.ixdcurves img {
+  width: 100%;
+}
+.ixddesc640 {
+  height: 8em;
+}
+/*---End of ixd640h---*/
+
+
+
+/*----------------End of IxD media group styling ---*/
+
+
+
+
+/*----Start of heroImage styling ---*/
+.heroImageContainer {
+  margin-top: 2em;
+  text-align: center;
+}
+.heroImage {
+  position: relative;    /* moves element relative to its orginal location*/
+  bottom: -8em;    /* controls distance that element goes past parent*/
+  margin-top: -8em;   /* controls spacing above element */
+}
+/*---End of heroImage styling ---*/
+
+
+/*----Start of .image-preview styling ---*/
+.img-preview-container{
+  margin-top: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #E2E2E2;
+}
+.img-preview {
+  display: block;
+  width: 70%;
+  max-width: 341px;
+  margin: auto;
+}
+/*----End of .image-preview styling ---*/
+
+
+
+.curvediagram-container {
+  margin-top: 4em;
+}
+.diagram-left {
+  margin-right: 1.33em;
+}
+
+
+
+.img-centeredandreduced {
+  display: block;
+  padding-top: 4em;
+  margin: auto;
+  width: 60%;
+}
+.img-fullwidth{
+  width: 100%;
+  margin: auto;
+  display: block;
+  padding-top: 3em;
+}
+
+
+.img-fullbleed {          /* backgrund extends past margin */
+  background: #62474E;
+  margin-top: 4em;
+  padding-bottom: 4em;
+}
+
+
+.img2up-container, .img2upflip-container {
+  padding-top: 0.5em;
+  padding-bottom: 1.33em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.img2up, .img2upflip {
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+}
+.img2up img, .img2upflip img {
+  width: 100%;
+}
+
+
+.img-dashdiagram {
+  width: 100%;
+  display: block;
+  margin: 4em 0em;
+}
+
+
+
+/* Start of project carousel */
+.carousel-caption {
+  text-align: center;
+}
+.projectCarouselContainer{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.projectCarousel-left {
+  width: 40%;
+}
+.projectCarousel-right {
+  width: 40%;
+  text-align: right;
+}
+.cs-sectionCarousel {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+.cs-sectionCarousel p {
+  font-family: 'work sans', sans-serif;
+  margin-top: 0em;
+  margin-bottom: 0.25em;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+/* End of project carousel */
+
+
+
+
+
+/*------- End of text and image styling -------*/
+
+
+
+
+/*--------------------------------------------End of section styling -------*/
+
+
+
+
+/* greyzone */
+@media only screen and (min-width:1281px) {
+
+
+  .container {
+    margin: auto;
+    /* border: 1px solid grey; */
+  }
+
+  .diagramNarrow,
+  .diagramMobileNarrow {
+    display: none;
+  }
+
+}
+
+
+
+/*bluezone*/
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  /* .container {
+  border: 2px solid blue;
+  } */
+  main, .main {
+    margin: 0em 5em;
+  }
+  nav {
+    padding: 0em 5em; /*Match main's margin*/
+  }
+  .sticky {
+    padding: 0 5em;  /*Match 'main' margin*/
+  }
+  .hero-tagline {
+    margin-top: 2em;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .hero-desc {
+    padding-top: 1em;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .diagramNarrow,
+  .diagramMobileNarrow {
+    display: none;
+  }
+}
+
+
+/*redzone*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* .container {
+  border: 2px solid red;
+  } */
+  main, .main {
+    margin: 0em 5em;
+  }
+  nav {
+    padding: 0em 5em; /*Match main's margin*/
+  }
+  .sticky {
+    padding: 0em 5em;  /*Match 'main' margin*/
+  }
+
+  .cs-info {
+    margin-top: 10em;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .cs-info li {
+    font-size: .78em;
+  }
+  .img-centeredandreduced {
+    width: 80%;
+  }
+  .cs-section > h1,
+  .cs-section > h2,
+  .cs-section > h3,
+  .cs-section > h4,
+  .cs-section > h5,
+  .cs-section > p {
+    width: 80%;
+  }
+
+  /* controls Nimbus Diagram visibility and text width*/
+  .diagramNarrow > p,
+  .diagramNarrow > h3 {
+    width: 80%;
+  }
+  /* controls Nimbus Diagram visibility and text width*/
+
+
+  .nav-cs a {
+    display: none;
+  }
+  .groupixd-2up-container {
+    margin-top: 2em;
+    margin-bottom: 4em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+  }
+  .groupixd-2up {
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 4em;
+  }
+  .groupixd-1up {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1em;
+  }
+  .ixddesc640 {
+    height: 6em;
+  }
+  .diagram-left {
+    margin-right: 1.33em;
+  }
+  .diagram-left, .diagram-right {
+    width: 270px;
+  }
+
+
+
+  .hero-tagline {
+    margin-top: 2em;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.67em;
+  }
+  .hero-desc {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .hero720h {
+    position: relative;    /* moves element relative to its orginal location*/
+    bottom: -8em;    /* controls distance that element goes past parent*/
+    margin-top: -8em;   /* controls spacing above element */
+  }
+
+
+  /*----Start of heroImage styling ---*/
+  .heroImageContainer {
+    margin-top: 2em;
+  }
+  .heroImage {
+    width: 80%;
+    position: relative;
+    bottom: -6em;
+    margin-top: -6em;
+  }
+  /*---End of heroImage styling ---*/
+
+
+
+  .pullquote {
+    font-size: 1.78em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+  .casestudy-sectionlabel {
+    font-size: 3.6em;
+    padding-bottom: 0.25em;
+  }
+
+
+  /* Start of project carousel */
+  .projectCarousel-left {
+    width: 45%;
+  }
+  .projectCarousel-right {
+    width: 45%;
+    text-align: right;
+  }
+  /* End of project carousel */
+
+
+  /* Start of large diagram visibility (eg Nimbus) */
+  .diagramWide,
+  .diagramMobileWide {
+    display: none;
+  }
+
+  /* End of large diagram visibility */
+
+
+
+}
+
+
+
+/*greenzone*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* .container {
+  border: 2px solid green;
+  } */
+  main, .main {
+    padding-top: 0em;
+    margin: 0em 2.67em;
+  }
+  nav {
+    padding: 0em 2.67em; /*Match main's margin*/
+  }
+  .nav-project {
+    width: 50%;
+  }
+  .sticky {
+    padding: 0 2.67em;  /*Match 'main' margin*/
+  }
+
+
+  /* controls font-size and line height of p in .cs-section*/
+  .cs-section > p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .p-italic {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-style: italic;
+  }
+  /* controls font-size and line height of p*/
+
+  .pullquote {
+    font-size: 1.78em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  footer {
+    align-items: center;
+  }
+  .contact {
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-centeredandreduced {
+    width: 80%;
+  }
+  .pullquote {
+    font-size: 1.67em;
+  }
+  .nav-cs a {
+    display: none;
+  }
+  .cs-info {
+    margin-top: 6em;
+    width: 60%;
+    margin-left: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .cs-info-roles,
+  .cs-info-deliverables,
+  .cs-info-specs {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .cs-section > h1,
+  .cs-section > h2,
+  .cs-section > h3,
+  .cs-section > h4,
+  .cs-section > h5,
+  .cs-section > p {
+    width: 100%;
+  }
+
+
+  /* controls Nimbus Diagram visibility and text width*/
+  .diagramNarrow > p,
+  .diagramNarrow > h3 {
+    width: 100%;
+  }
+  .diagramWide,
+.diagramMobileWide {
+  display: none;
+}
+  .img-incontain4 {
+  margin: auto;
+  width: 90%;
+  display: block;
+}
+  /* controls Nimbus Diagram visibility and text width*/
+
+
+  .groupixd-2up-container {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+  }
+  .groupixd-2up {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .ixd640h {
+    border: 2px solid #000000;
+  }
+  .diagram-left {
+    margin-right: 0em;
+  }
+  .diagram-left, .diagram-right {
+    display: block;
+    margin: auto;
+    margin-bottom: 2.67em;
+    width: 100%;
+  }
+
+
+  .groupixd-1up {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 1em;
+  }
+  .ixd720h {
+    border: 2px solid #000000;
+  }
+
+
+
+  .hero-tagline {
+    margin-top: 2em;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.67em;
+  }
+  .hero-desc {
+    padding-top: 1em;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .hero-desc-text {
+    display: none;
+  }
+  .hero720h {
+    position: relative;    /* moves element relative to its orginal location*/
+    bottom: -4em;    /* controls distance that element goes past parent*/
+    margin-top: -4em;   /* controls spacing above element */
+  }
+
+
+  /*----Start of heroImage styling ---*/
+  .heroImageContainer {
+    margin-top: 2em;
+  }
+  .heroImage {
+    width: 90%;
+    position: relative;
+    bottom: -2em;
+    margin-top: -2em;
+  }
+  /*---End of heroImage styling ---*/
+
+
+
+  /* type size reduction for mobile*/
+  .cs-section > h2 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+  .cs-section > h3 {
+    font-size: 1.28em;
+    line-height: 1.4em;
+  }
+  .cs-section > h4 {
+    font-size: 1em;
+    line-height: 1em;
+  }
+  /* type size reduction for mobile*/
+
+
+  .casestudy-sectionlabel {
+    font-size: 2.67em;
+    padding-bottom: 0.25em;
+  }
+
+
+  /* Start of project carousel */
+  .carousel-caption {
+    text-align: center;
+  }
+  .projectCarousel-left, .projectCarousel-right {
+    width: 40%;
+  }
+  /* End of project carousel */
+
+  .site-credit {
+    text-align: center;
+  }
+  .section-sublabel {
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+    font-size: .7em;
+  }
+
+
+  /* Start of large diagram visibility (eg Nimbus) */
+  .diagramWide,
+  .diagramMobileWide {
+    display: none;
+  }
+  /* End of large diagram visibility */
+
+}
+
+
+
+/*purplezone*/
+@media only screen and (min-width: 319px) and (max-width: 479px) {
+  /* .container {
+  border: 2px solid pink;
+  } */
+  main, .main {
+    padding-top: 0em;
+    margin: 0em 1em;
+  }
+  nav {
+    padding: 0em 1.78em; /*Match main's margin*/
+  }
+  .sticky {
+    padding: 0 1.78em;  /*Match 'main' margin*/
+  }
+  footer {
+    align-items: center;
+  }
+  .contact {
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .img-centeredandreduced {
+    width: 100%;
+  }
+
+
+  .pullquote {
+    font-size: 1.11em;
+  }
+  .nav-cs a {
+    display: none;
+  }
+  .nav-project {
+    width: 50%;
+  }
+  .cs-info {
+    margin-top: 6em;
+    width: 80%;
+    margin-left: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .cs-info-roles,
+  .cs-info-deliverables,
+  .cs-info-specs {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .cs-section > h1,
+  .cs-section > h2,
+  .cs-section > h3,
+  .cs-section > h4,
+  .cs-section > h5,
+  .cs-section > p {
+    width: 100%;
+  }
+
+
+  /* controls Nimbus Diagram visibility and text width*/
+  .diagramNarrow > p,
+  .diagramNarrow > h3 {
+    width: 100%;
+  }
+  .img-incontain4 {
+    margin: auto;
+    width: 100%;
+    display: block;
+  }
+  /* controls Nimbus Diagram visibility and text width*/
+
+
+  /* controls font-size and line height of p in .cs-section*/
+  .cs-section > p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .p-italic {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-style: italic;
+  }
+  /* controls font-size and line height of p*/
+
+
+  /* type size reduction for mobile*/
+  .cs-section > h2 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+  }
+  .cs-section > h3 {
+    font-size: 1.28em;
+    line-height: 1.4em;
+  }
+  .cs-section > h4 {
+    font-size: 1em;
+    line-height: 1em;
+  }
+  /* type size reduction for mobile*/
+
+
+
+  .groupixd-2up-container {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+  }
+  .groupixd-2up {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .ixddesc640 {
+    height: 10em;
+  }
+
+  .ixd640h {
+    border: 2px solid #000000;
+  }
+  .diagram-left {
+    margin-right: 0em;
+  }
+  .diagram-left, .diagram-right {
+    display: block;
+    margin: auto;
+    margin-top: 2.67em;
+    width: 100%;
+  }
+
+
+  .groupixd-1up {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 1em;
+  }
+  .ixd720h {
+    width: 283px;
+    border: 12px solid #000000;
+    border-radius: 40px;
+    border: 2px solid #000000;
+  }
+
+
+  .hero-tagline {
+    margin-top: 2em;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.33em;
+  }
+  .hero-desc {
+    padding-top: 1em;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .hero-desc-text {
+    display: none;
+  }
+  .hero720h {
+    position: relative;    /* moves element relative to its orginal location*/
+    bottom: -8em;    /* controls distance that element goes past parent*/
+    margin-top: -10em;   /* controls spacing above element */
+  }
+
+
+
+
+  /*----Start of heroImage styling ---*/
+  .heroImageContainer {
+    margin-top: 2em;
+  }
+  .heroImage {
+    width: 90%;
+    position: relative;
+    bottom: -2em;
+    margin-top: -2em;
+  }
+  /*---End of heroImage styling ---*/
+
+
+  .casestudy-sectionlabel {
+    font-size: 2.33em;
+    padding-bottom: 0.25em;
+  }
+
+  /* Start of project carousel */
+  .carousel-caption {
+    text-align: center;
+  }
+  .projectCarouselContainer{
+    margin-top: 2em;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .projectCarousel-left, .projectCarousel-right {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .projectCarousel-right {
+    margin-top: 2em;
+  }
+  /* End of project carousel */
+
+  .site-credit {
+    text-align: center;
+  }
+
+  figcaption {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    margin-bottom: 2em;
+  }
+
+  .img2upflip-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .img2upflip {
+    width: 100%;
+  }
+
+  .section-sublabel {
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+    font-size: .7em;
+  }
+
+  /* Start of large diagram visibility (eg Nimbus) */
+  .diagramWide,
+  .diagramMobileWide {
+    display: none;
+  }
+  /* End of large diagram visibility */
+
+}
