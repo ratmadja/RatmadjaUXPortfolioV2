@@ -12,6 +12,7 @@ main, .main {
 }
 
 
+
 /* ------Start of typography sizes------ */
 
 html, .root {
@@ -108,9 +109,49 @@ figcaption {
   font-style: normal;
   color: #AFAFAF;
 }
+.studioLabel {
+  margin-top: 4em;
+  text-transform: uppercase;
+  border-top: 1px solid #E2E2E2;
+  padding-top: 0.5em;
+}
 
 /* ------End of typography sizes------ */
 
+
+
+
+/* ------Start of studioImageGrid Styling------ */
+
+.studioImageGrid > div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.studioImageGrid > div > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.studioImageGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 48px;
+}
+.span1 {
+  margin-top: 2.67em;
+  grid-column: span 1;
+  vertical-align: bottom;
+}
+.span2 {
+  margin-top: 2.67em;
+  grid-column: span 2;
+}
+
+
+
+
+/* ------End of studioImageGrid Styling------ */
 
 
 
@@ -281,93 +322,15 @@ border: 1px solid red;
 
 
 
-/*------- Start of header styling -------*/
-
-.hero-tagline {
-  font-family: 'alegreya sans', sans-serif;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 2em;
-  margin-left: 6em;
-  margin-right: 6em;
-}
-.hero-desc {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-top: 1px solid #E2E2E2;
-}
-.hero-desc-text {
-  margin: 0em 1em;
-  color: #828282;
-  font-family: 'alegreya sans', sans-serif;
-  text-align: center;
-}
-
-
-
-/*--------------------------------------------End of header styling -------*/
-
-
-
-
-/*------- Start of casestudy specs styling -------*/
-.cs-info {
-  margin-top: 12em;
-  width: 80%;
-  margin-left: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.cs-info-roles,
-.cs-info-deliverables,
-.cs-info-specs {
-  width: 30%;
-  padding-left: 0.5em;
-  border-top: 1px solid #E2E2E2;
-  /* border-right: 1px solid #C5C5C5;; */
-}
-
-.cs-info h5 {
-  font-size: 0.8em;
-  line-height: 2em;
-  margin-top: 0.25em;
-  margin-bottom: 1em;
-  color: #444444;
-  font-weight: 500;
-}
-.cs-info li {
-  font-family: 'alegreya sans', sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  color: #828282;
-}
-/*------- End of casestudy specs styling -------*/
-
-
 
 
 /*------- Start of text and image styling -------*/
 
 
 
-.cs-section > h1,
-.cs-section > h2,
-.cs-section > h3,
-.cs-section > h4,
-.cs-section > h5,
-.cs-section > p {
-  width: 60%;
-}
-
 
 /* controls font-size and line height of p in .cs-section*/
-.cs-section > p {
+p {
   font-size: 1.11em;
   line-height: 1.67em;
 }
@@ -380,46 +343,7 @@ border: 1px solid red;
 /* controls font-size and line height of p*/
 
 
-/* controls Nimbus Diagram visibility and text width*/
-.diagramNarrow > p,
-.diagramNarrow > h3 {
-  width: 60%;
-}
-.img-contain4 {
-  padding-left: 1.5%;
-  margin: 4em 0em;
-}
-.img-incontain4 {
-  margin: auto;
-  width: 49%;
-  display: inline;  /*adjust to 'block' for vertical layout*/
-}
-/* controls Nimbus Diagram visibility and text width*/
 
-
-.note-label {
-  margin-top: 4.75em;
-}
-.pullquote {
-  font-size: 2em;
-  margin-top: 0em;
-}
-.label-container {
-  margin-top: 8em;
-  text-align: left;
-}
-.casestudy-sectionlabel {
-  display: inline;
-  padding-bottom: 0.25em;
-}
-.section-sublabel {
-  margin-top: 1em;
-  margin-bottom: 6em;
-  font-size: .78em;
-  color: #444444;
-  font-weight: 400;
-  text-transform: uppercase;
-}
 .link-ref {
   color: #4F4F4F;
   text-decoration: none;
@@ -449,232 +373,6 @@ border: 1px solid red;
 }
 .link-work:hover {
   box-shadow: inset 0 -4px 0 #DA9218;
-}
-.caption-label {
-  margin-top: 0.5em;
-  margin-bottom: 2em;
-  font-size: .78em;
-  text-transform: uppercase;
-  color: #444444;
-  font-weight: 500;
-}
-
-.caption-fullwidth-container {
-  margin-top: 2.67em;
-
-}
-.caption-fullwidth {
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  font-size: .78em;
-  text-transform: uppercase;
-  color: #444444;
-  font-weight: 500;
-  border-top: 1px solid #E2E2E2;
-}
-
-
-
-/*---------------Start of IxD media group styling ---*/
-
-
-
-/*---Start of ixd720h---*/
-.groupixd-1up-container {
-  margin-top: 4em;
-  margin-bottom: 4.2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.groupixd-1up {
-  margin-bottom: 4em;
-  width: 60%;
-  margin-left: 20%;
-  border-top: 1px solid #E2E2E2;
-  border-bottom: 1px solid #E2E2E2;
-}
-.ixd720h {
-  background-color: #000000;
-  width: 318.48px;
-  position: absolute;
-  border: 13.5px solid #000000;
-  border-radius: 45px;
-}
-.ixdmedia720 {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.ixdstills720 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.ixdstills720 img {
-  max-width: 10%;
-  margin-bottom: 2em;
-}
-/*---End of ixd720h---*/
-
-
-/*----Start of hero video styling ---*/
-.hero720h {
-  height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: relative;    /* moves element relative to its orginal location*/
-  bottom: -8em;    /* controls distance that element goes past parent*/
-  margin-top: -8em;   /* controls spacing above element */
-}
-/*---End of hero video styling ---*/
-
-
-/*---Start of ixd640h---*/
-.groupixd-2up-container {
-  margin-top: 4em;
-  margin-bottom: 6em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.groupixd-2up {
-  width: 45%;
-  border-top: 1px solid #E2E2E2;
-}
-.ixdmedia640 {
-  margin-top: 1em;
-  padding-bottom: 6em;
-  height: 640px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  border-bottom: 1px solid #E2E2E2;
-}
-.ixd640h {
-  background-color: #000000;
-  width: 283px;
-  position: absolute;
-  border: 12px solid #000000;
-  border-radius: 40px;
-  margin-top: 2em;
-}
-.ixdstills640 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.ixdstills640 img {
-  max-width: 13%;
-}
-.ixdcurves img {
-  width: 100%;
-}
-.ixddesc640 {
-  height: 8em;
-}
-/*---End of ixd640h---*/
-
-
-
-/*----------------End of IxD media group styling ---*/
-
-
-
-
-/*----Start of heroImage styling ---*/
-.heroImageContainer {
-  margin-top: 2em;
-  text-align: center;
-}
-.heroImage {
-  position: relative;    /* moves element relative to its orginal location*/
-  bottom: -8em;    /* controls distance that element goes past parent*/
-  margin-top: -8em;   /* controls spacing above element */
-}
-/*---End of heroImage styling ---*/
-
-
-/*----Start of .image-preview styling ---*/
-.img-preview-container{
-  margin-top: 2em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #E2E2E2;
-}
-.img-preview {
-  display: block;
-  width: 70%;
-  max-width: 341px;
-  margin: auto;
-}
-/*----End of .image-preview styling ---*/
-
-
-
-.curvediagram-container {
-  margin-top: 4em;
-}
-.diagram-left {
-  margin-right: 1.33em;
-}
-
-
-
-.img-centeredandreduced {
-  display: block;
-  padding-top: 4em;
-  margin: auto;
-  width: 60%;
-}
-.img-fullwidth{
-  width: 100%;
-  margin: auto;
-  display: block;
-  padding-top: 3em;
-}
-
-
-.img-fullbleed {          /* backgrund extends past margin */
-  background: #62474E;
-  margin-top: 4em;
-  padding-bottom: 4em;
-}
-
-
-.img2up-container, .img2upflip-container {
-  padding-top: 0.5em;
-  padding-bottom: 1.33em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.img2up, .img2upflip {
-  padding-top: 0.5em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 48%;
-}
-.img2up img, .img2upflip img {
-  width: 100%;
-}
-
-
-.img-dashdiagram {
-  width: 100%;
-  display: block;
-  margin: 4em 0em;
 }
 
 
@@ -708,7 +406,6 @@ border: 1px solid red;
   font-size: .9em;
   font-weight: 600;
 }
-
 /* End of project carousel */
 
 
@@ -728,18 +425,13 @@ border: 1px solid red;
 /* greyzone */
 @media only screen and (min-width:1281px) {
 
-
   .container {
     margin: auto;
     /* border: 1px solid grey; */
   }
-
-  .diagramNarrow,
-  .diagramMobileNarrow {
-    display: none;
-  }
-
 }
+
+
 
 
 
@@ -757,28 +449,18 @@ border: 1px solid red;
   .sticky {
     padding: 0 5em;  /*Match 'main' margin*/
   }
-  .hero-tagline {
-    margin-top: 2em;
-    width: 80%;
-    margin-left: 10%;
-  }
-  .hero-desc {
-    padding-top: 1em;
-    width: 60%;
-    margin-left: 20%;
-  }
-  .diagramNarrow,
-  .diagramMobileNarrow {
-    display: none;
-  }
 }
+
+
 
 
 /*redzone*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
   /* .container {
   border: 2px solid red;
   } */
+
   main, .main {
     margin: 0em 5em;
   }
@@ -788,112 +470,9 @@ border: 1px solid red;
   .sticky {
     padding: 0em 5em;  /*Match 'main' margin*/
   }
-
-  .cs-info {
-    margin-top: 10em;
-    width: 100%;
-    margin-left: 0%;
-  }
-  .cs-info li {
-    font-size: .78em;
-  }
-  .img-centeredandreduced {
-    width: 80%;
-  }
-  .cs-section > h1,
-  .cs-section > h2,
-  .cs-section > h3,
-  .cs-section > h4,
-  .cs-section > h5,
-  .cs-section > p {
-    width: 80%;
-  }
-
-  /* controls Nimbus Diagram visibility and text width*/
-  .diagramNarrow > p,
-  .diagramNarrow > h3 {
-    width: 80%;
-  }
-  /* controls Nimbus Diagram visibility and text width*/
-
-
   .nav-cs a {
     display: none;
   }
-  .groupixd-2up-container {
-    margin-top: 2em;
-    margin-bottom: 4em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: space-between;
-  }
-  .groupixd-2up {
-    width: 80%;
-    margin: 10%;
-    margin-bottom: 4em;
-  }
-  .groupixd-1up {
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 1em;
-  }
-  .ixddesc640 {
-    height: 6em;
-  }
-  .diagram-left {
-    margin-right: 1.33em;
-  }
-  .diagram-left, .diagram-right {
-    width: 270px;
-  }
-
-
-
-  .hero-tagline {
-    margin-top: 2em;
-    width: 70%;
-    margin-left: 15%;
-    font-size: 1.67em;
-  }
-  .hero-desc {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    margin-left: 15%;
-  }
-  .hero720h {
-    position: relative;    /* moves element relative to its orginal location*/
-    bottom: -8em;    /* controls distance that element goes past parent*/
-    margin-top: -8em;   /* controls spacing above element */
-  }
-
-
-  /*----Start of heroImage styling ---*/
-  .heroImageContainer {
-    margin-top: 2em;
-  }
-  .heroImage {
-    width: 80%;
-    position: relative;
-    bottom: -6em;
-    margin-top: -6em;
-  }
-  /*---End of heroImage styling ---*/
-
-
-
-  .pullquote {
-    font-size: 1.78em;
-    margin-top: 1em;
-    margin-bottom: 2em;
-  }
-
-  .casestudy-sectionlabel {
-    font-size: 3.6em;
-    padding-bottom: 0.25em;
-  }
-
 
   /* Start of project carousel */
   .projectCarousel-left {
@@ -906,15 +485,12 @@ border: 1px solid red;
   /* End of project carousel */
 
 
-  /* Start of large diagram visibility (eg Nimbus) */
-  .diagramWide,
-  .diagramMobileWide {
-    display: none;
+  /* Controls .studioImageGrid */
+  .studioImageGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
   }
-
-  /* End of large diagram visibility */
-
-
+  /* Controls .studioImageGrid */
 
 }
 
@@ -926,6 +502,7 @@ border: 1px solid red;
   /* .container {
   border: 2px solid green;
   } */
+
   main, .main {
     padding-top: 0em;
     margin: 0em 2.67em;
@@ -942,7 +519,7 @@ border: 1px solid red;
 
 
   /* controls font-size and line height of p in .cs-section*/
-  .cs-section > p {
+  p {
     font-size: 1em;
     line-height: 1.5em;
   }
@@ -953,11 +530,6 @@ border: 1px solid red;
   }
   /* controls font-size and line height of p*/
 
-  .pullquote {
-    font-size: 1.78em;
-    margin-top: 1em;
-    margin-bottom: 2em;
-  }
   footer {
     align-items: center;
   }
@@ -969,124 +541,9 @@ border: 1px solid red;
     justify-content: center;
     align-items: center;
   }
-  .img-centeredandreduced {
-    width: 80%;
-  }
-  .pullquote {
-    font-size: 1.67em;
-  }
   .nav-cs a {
     display: none;
   }
-  .cs-info {
-    margin-top: 6em;
-    width: 60%;
-    margin-left: 20%;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .cs-info-roles,
-  .cs-info-deliverables,
-  .cs-info-specs {
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  .cs-section > h1,
-  .cs-section > h2,
-  .cs-section > h3,
-  .cs-section > h4,
-  .cs-section > h5,
-  .cs-section > p {
-    width: 100%;
-  }
-
-
-  /* controls Nimbus Diagram visibility and text width*/
-  .diagramNarrow > p,
-  .diagramNarrow > h3 {
-    width: 100%;
-  }
-  .diagramWide,
-.diagramMobileWide {
-  display: none;
-}
-  .img-incontain4 {
-  margin: auto;
-  width: 90%;
-  display: block;
-}
-  /* controls Nimbus Diagram visibility and text width*/
-
-
-  .groupixd-2up-container {
-    margin-top: 1em;
-    margin-bottom: 2em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: space-between;
-  }
-  .groupixd-2up {
-    width: 100%;
-    margin-bottom: 2em;
-  }
-  .ixd640h {
-    border: 2px solid #000000;
-  }
-  .diagram-left {
-    margin-right: 0em;
-  }
-  .diagram-left, .diagram-right {
-    display: block;
-    margin: auto;
-    margin-bottom: 2.67em;
-    width: 100%;
-  }
-
-
-  .groupixd-1up {
-    width: 100%;
-    margin-left: 0%;
-    margin-bottom: 1em;
-  }
-  .ixd720h {
-    border: 2px solid #000000;
-  }
-
-
-
-  .hero-tagline {
-    margin-top: 2em;
-    width: 70%;
-    margin-left: 15%;
-    font-size: 1.67em;
-  }
-  .hero-desc {
-    padding-top: 1em;
-    width: 60%;
-    margin-left: 20%;
-  }
-  .hero-desc-text {
-    display: none;
-  }
-  .hero720h {
-    position: relative;    /* moves element relative to its orginal location*/
-    bottom: -4em;    /* controls distance that element goes past parent*/
-    margin-top: -4em;   /* controls spacing above element */
-  }
-
-
-  /*----Start of heroImage styling ---*/
-  .heroImageContainer {
-    margin-top: 2em;
-  }
-  .heroImage {
-    width: 90%;
-    position: relative;
-    bottom: -2em;
-    margin-top: -2em;
-  }
-  /*---End of heroImage styling ---*/
-
 
 
   /* type size reduction for mobile*/
@@ -1105,12 +562,6 @@ border: 1px solid red;
   /* type size reduction for mobile*/
 
 
-  .casestudy-sectionlabel {
-    font-size: 2.67em;
-    padding-bottom: 0.25em;
-  }
-
-
   /* Start of project carousel */
   .carousel-caption {
     text-align: center;
@@ -1120,24 +571,19 @@ border: 1px solid red;
   }
   /* End of project carousel */
 
+
+  /* Controls .studioImageGrid */
+  .studioImageGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+  }
+  /* Controls .studioImageGrid */
+
   .site-credit {
     text-align: center;
   }
-  .section-sublabel {
-    margin-top: 0.5em;
-    margin-bottom: 4em;
-    font-size: .7em;
-  }
-
-
-  /* Start of large diagram visibility (eg Nimbus) */
-  .diagramWide,
-  .diagramMobileWide {
-    display: none;
-  }
-  /* End of large diagram visibility */
-
 }
+
 
 
 
@@ -1169,58 +615,16 @@ border: 1px solid red;
   }
 
 
-  .img-centeredandreduced {
-    width: 100%;
-  }
-
-
-  .pullquote {
-    font-size: 1.11em;
-  }
   .nav-cs a {
     display: none;
   }
   .nav-project {
     width: 50%;
   }
-  .cs-info {
-    margin-top: 6em;
-    width: 80%;
-    margin-left: 10%;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .cs-info-roles,
-  .cs-info-deliverables,
-  .cs-info-specs {
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  .cs-section > h1,
-  .cs-section > h2,
-  .cs-section > h3,
-  .cs-section > h4,
-  .cs-section > h5,
-  .cs-section > p {
-    width: 100%;
-  }
-
-
-  /* controls Nimbus Diagram visibility and text width*/
-  .diagramNarrow > p,
-  .diagramNarrow > h3 {
-    width: 100%;
-  }
-  .img-incontain4 {
-    margin: auto;
-    width: 100%;
-    display: block;
-  }
-  /* controls Nimbus Diagram visibility and text width*/
 
 
   /* controls font-size and line height of p in .cs-section*/
-  .cs-section > p {
+  p {
     font-size: 1em;
     line-height: 1.5em;
   }
@@ -1248,90 +652,6 @@ border: 1px solid red;
   /* type size reduction for mobile*/
 
 
-
-  .groupixd-2up-container {
-    margin-top: 1em;
-    margin-bottom: 2em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: space-between;
-  }
-  .groupixd-2up {
-    width: 100%;
-    margin-bottom: 2em;
-  }
-  .ixddesc640 {
-    height: 10em;
-  }
-
-  .ixd640h {
-    border: 2px solid #000000;
-  }
-  .diagram-left {
-    margin-right: 0em;
-  }
-  .diagram-left, .diagram-right {
-    display: block;
-    margin: auto;
-    margin-top: 2.67em;
-    width: 100%;
-  }
-
-
-  .groupixd-1up {
-    width: 100%;
-    margin-left: 0%;
-    margin-bottom: 1em;
-  }
-  .ixd720h {
-    width: 283px;
-    border: 12px solid #000000;
-    border-radius: 40px;
-    border: 2px solid #000000;
-  }
-
-
-  .hero-tagline {
-    margin-top: 2em;
-    width: 90%;
-    margin-left: 5%;
-    font-size: 1.33em;
-  }
-  .hero-desc {
-    padding-top: 1em;
-    width: 80%;
-    margin-left: 10%;
-  }
-  .hero-desc-text {
-    display: none;
-  }
-  .hero720h {
-    position: relative;    /* moves element relative to its orginal location*/
-    bottom: -8em;    /* controls distance that element goes past parent*/
-    margin-top: -10em;   /* controls spacing above element */
-  }
-
-
-
-
-  /*----Start of heroImage styling ---*/
-  .heroImageContainer {
-    margin-top: 2em;
-  }
-  .heroImage {
-    width: 90%;
-    position: relative;
-    bottom: -2em;
-    margin-top: -2em;
-  }
-  /*---End of heroImage styling ---*/
-
-
-  .casestudy-sectionlabel {
-    font-size: 2.33em;
-    padding-bottom: 0.25em;
-  }
-
   /* Start of project carousel */
   .carousel-caption {
     text-align: center;
@@ -1351,9 +671,6 @@ border: 1px solid red;
   }
   /* End of project carousel */
 
-  .site-credit {
-    text-align: center;
-  }
 
   figcaption {
     font-size: 0.8em;
@@ -1361,26 +678,19 @@ border: 1px solid red;
     margin-bottom: 2em;
   }
 
-  .img2upflip-container {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  .img2upflip {
-    width: 100%;
-  }
 
-  .section-sublabel {
-    margin-top: 0.5em;
-    margin-bottom: 4em;
-    font-size: .7em;
+  /* Controls .studioImageGrid */
+  .studioImageGrid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
   }
-
-  /* Start of large diagram visibility (eg Nimbus) */
-  .diagramWide,
-  .diagramMobileWide {
-    display: none;
+  .span2 {
+    grid-column: span 1;
   }
-  /* End of large diagram visibility */
+  /* Controls .studioImageGrid */
 
+
+  .site-credit {
+    text-align: center;
+  }
 }
