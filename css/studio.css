@@ -9,6 +9,8 @@
 }
 main, .main {
   margin: 0em 8em;
+  padding-top: 2em;
+  /* border: 1px solid red; */
 }
 
 
@@ -125,17 +127,17 @@ figcaption {
 /* ------Start of CSS Grid Styling------ */
 
 
-.studioImageGrid > div {
+.studioImageGrid-bottomalign > div {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-.studioImageGrid > div > img {
+.studioImageGrid-bottomalign > div > img {
   width: 100%;
   object-fit: contain;
 }
 
-.studioImageGrid, .studioDescGrid {
+.studioImageGrid-bottomalign, .sutdioDescGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 48px;
@@ -148,6 +150,11 @@ figcaption {
 .span2 {
   margin-top: 2.67em;
   grid-column: span 2;
+}
+.span1-skip1col {
+  margin-top: 2.67em;
+  grid-column-start: -2;
+  vertical-align: bottom;
 }
 /* ------End of CSS Grid Styling------ */
 
@@ -477,15 +484,18 @@ p {
 
 
   /* Controls .studioImageGrid */
-  .studioImageGrid, .studioDescGrid {
+  .studioImageGrid-bottomalign, .sutdioDescGrid {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
   }
-  .studioDescGrid > h4 {
+  .sutdioDescGrid > h4 {
     grid-column: span 2;
   }
   .span2 {
     margin-top: 1.33em;
+  }
+  .span1-skip1col {
+    grid-column-start: 1;
   }
   /* Controls .studioImageGrid */
 
@@ -580,15 +590,18 @@ p {
 
 
   /* Controls .studioImageGrid */
-  .studioImageGrid, .studioDescGrid {
+  .studioImageGrid-bottomalign, .sutdioDescGrid {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
   }
-  .studioDescGrid > h4 {
+  .sutdioDescGrid > h4 {
     grid-column: span 2;
   }
   .span1, .span2 {
     margin-top: 1.33em;
+  }
+  .span1-skip1col {
+    grid-column-start: 1;
   }
   /* Controls .studioImageGrid */
 
@@ -610,10 +623,10 @@ p {
     margin: 0em 1em;
   }
   nav {
-    padding: 0em 1.78em; /*Match main's margin*/
+    padding: 0em 1em; /*Match main's margin*/
   }
   .sticky {
-    padding: 0 1.78em;  /*Match 'main' margin*/
+    padding: 0 1em;  /*Match 'main' margin*/
   }
 
 
@@ -697,13 +710,16 @@ p {
 
 
   /* Controls .studioImageGrid */
-  .studioImageGrid, .studioDescGrid {
+  .studioImageGrid-bottomalign, .sutdioDescGrid {
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0px;
   }
   .span1, .span2 {
     margin-top: 1.67em;
     grid-column: span 1;
+  }
+  .span1-skip1col {
+    grid-column-start: 1;
   }
   /* Controls .studioImageGrid */
 

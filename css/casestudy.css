@@ -1151,10 +1151,10 @@ header {
     margin: 0em 1em;
   }
   nav {
-    padding: 0em 1.78em; /*Match main's margin*/
+    padding: 0em 1em; /*Match main's margin*/
   }
   .sticky {
-    padding: 0 1.78em;  /*Match 'main' margin*/
+    padding: 0 1em;  /*Match 'main' margin*/
   }
   footer {
     align-items: center;
