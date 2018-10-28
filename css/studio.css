@@ -97,20 +97,21 @@ sub {
   bottom: -0.25em;
 }
 figcaption {
+  padding-top: 4em;
   font-size: .9em;
-  font-style: 'alegreya sans',sans-serif;
-  font-style: italic;
-  text-align: center;
   margin-top: 1em;
   margin-bottom: 2em;
 }
-.small-caption {
+.credits {
   font-size: .8em;
+  text-align: center;
   font-style: normal;
-  color: #AFAFAF;
+  color: #828282;
 }
 .studioLabel {
   margin-top: 4em;
+  font-size: 0.8em;
+  font-weight: 600;
   text-transform: uppercase;
   border-top: 1px solid #E2E2E2;
   padding-top: 0.5em;
@@ -121,7 +122,8 @@ figcaption {
 
 
 
-/* ------Start of studioImageGrid Styling------ */
+/* ------Start of CSS Grid Styling------ */
+
 
 .studioImageGrid > div {
   display: flex;
@@ -133,7 +135,7 @@ figcaption {
   object-fit: contain;
 }
 
-.studioImageGrid {
+.studioImageGrid, .studioDescGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 48px;
@@ -147,11 +149,7 @@ figcaption {
   margin-top: 2.67em;
   grid-column: span 2;
 }
-
-
-
-
-/* ------End of studioImageGrid Styling------ */
+/* ------End of CSS Grid Styling------ */
 
 
 
@@ -269,9 +267,7 @@ nav {
   align-items: center;
 }
 
-/* .nav-home, .nav-cs, .nav-project, .nav-prevcs, .nav-nextcs {
-border: 1px solid red;
-} */
+
 
 .nav-prevcs, .nav-nextcs {
   font-family: 'work sans', sans-serif;
@@ -298,22 +294,14 @@ border: 1px solid red;
 .nav-project {
   text-align: right;
 }
-.nav-cs {
-  margin: auto;
+.nav-studio {
+  margin: 0em 0em;
   width: 60%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
-.nav-cs a {
-  font-family: 'work sans', sans-serif;
-  font-size: .9em;
-  text-decoration: none;
-  color: #333333;
-  margin: 0em;
-}
-.nav-cs a:hover {
-  color: #999999;
-}
+
 /*------- End of nav styling -------*/
 
 
@@ -470,9 +458,12 @@ p {
   .sticky {
     padding: 0em 5em;  /*Match 'main' margin*/
   }
-  .nav-cs a {
-    display: none;
+
+  .nav-studio {
+    font-size: 0.9em;
   }
+
+
 
   /* Start of project carousel */
   .projectCarousel-left {
@@ -486,11 +477,18 @@ p {
 
 
   /* Controls .studioImageGrid */
-  .studioImageGrid {
+  .studioImageGrid, .studioDescGrid {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
   }
+  .studioDescGrid > h4 {
+    grid-column: span 2;
+  }
+  .span2 {
+    margin-top: 1.33em;
+  }
   /* Controls .studioImageGrid */
+
 
 }
 
@@ -507,15 +505,25 @@ p {
     padding-top: 0em;
     margin: 0em 2.67em;
   }
+
+
   nav {
     padding: 0em 2.67em; /*Match main's margin*/
   }
-  .nav-project {
-    width: 50%;
-  }
+
   .sticky {
     padding: 0 2.67em;  /*Match 'main' margin*/
   }
+
+
+  .nav-home, .nav-project {
+    width: 40%;
+  }
+  .nav-studio {
+    width: 20%
+    font-size: 0.9em;
+  }
+
 
 
   /* controls font-size and line height of p in .cs-section*/
@@ -540,9 +548,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .nav-cs a {
-    display: none;
   }
 
 
@@ -572,10 +577,18 @@ p {
   /* End of project carousel */
 
 
+
+
   /* Controls .studioImageGrid */
-  .studioImageGrid {
+  .studioImageGrid, .studioDescGrid {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
+  }
+  .studioDescGrid > h4 {
+    grid-column: span 2;
+  }
+  .span1, .span2 {
+    margin-top: 1.33em;
   }
   /* Controls .studioImageGrid */
 
@@ -602,6 +615,17 @@ p {
   .sticky {
     padding: 0 1.78em;  /*Match 'main' margin*/
   }
+
+
+  .nav-home, .nav-project {
+    width: 50%;
+  }
+  .nav-studio {
+    display: none;
+  }
+
+
+
   footer {
     align-items: center;
   }
@@ -615,9 +639,7 @@ p {
   }
 
 
-  .nav-cs a {
-    display: none;
-  }
+
   .nav-project {
     width: 50%;
   }
@@ -652,6 +674,7 @@ p {
   /* type size reduction for mobile*/
 
 
+
   /* Start of project carousel */
   .carousel-caption {
     text-align: center;
@@ -672,19 +695,14 @@ p {
   /* End of project carousel */
 
 
-  figcaption {
-    font-size: 0.8em;
-    line-height: 1.4em;
-    margin-bottom: 2em;
-  }
-
 
   /* Controls .studioImageGrid */
-  .studioImageGrid {
+  .studioImageGrid, .studioDescGrid {
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0px;
   }
-  .span2 {
+  .span1, .span2 {
+    margin-top: 1.67em;
     grid-column: span 1;
   }
   /* Controls .studioImageGrid */
