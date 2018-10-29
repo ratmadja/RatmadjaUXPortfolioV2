@@ -518,13 +518,14 @@ footer {
   }
   .hero h3 {
     font-size: 0.9em;
+    padding-top: 0.33em;
   }
   .hero h1 {
     font-family: 'bitter', 'georgia', serif;
     font-size: 1.2em;
   }
   .hero {
-    padding-top: 2em;
+    padding-top: 1em;
   }
   .hero a {
     box-shadow: inset 0 -4px 0 #EDEAF3;
