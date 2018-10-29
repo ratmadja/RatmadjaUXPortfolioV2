@@ -38,24 +38,24 @@ h1, .h1 {
   margin-bottom: 0em;
 }
 h2, .h2 {
-  font-family: 'alegreya','georgia', serif;
-  font-weight: 700;
+  font-family: 'bitter','georgia', serif;
+  font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
-  margin-top: 2.75em;
+  margin-top: 0.75em;
   margin-bottom: 0.75em;
-  color: #333333;
 }
 h3, .h3 {
-  font-family: 'alegreya','georgia', serif;
-  font-weight: 700;
+  font-family: 'bitter','georgia', serif;
+  font-weight: 400;
   font-size: 1.38888889em;
   line-height: 2.16em;
-  margin-top: 2.08em;
+  margin-top: 1.08em;
   margin-bottom: 0.44em;
 }
 h4, .h4 {
   font-family: 'alegreya','georgia', serif;
+  font-weight: 600;
   font-size: 1.22em;
   line-height: 1.5em;
   margin-top: 1.5em;
@@ -129,7 +129,7 @@ figcaption {
 
 
 .studioImageGrid-bottomalign,
-.sutdioDescGrid,
+.studioDescGrid,
 .studioImageGrid-centeralign {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -512,12 +512,11 @@ p {
 
 
   /* Controls .studioImageGrid */
-  .studioImageGrid-bottomalign, .sutdioDescGrid {
+  .studioImageGrid-bottomalign,
+  .studioDescGrid,
+  .studioImageGrid-centeralign {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
-  }
-  .sutdioDescGrid > h4 {
-    grid-column: span 2;
   }
   .span2 {
     margin-top: 1.33em;
@@ -614,18 +613,30 @@ p {
   }
   /* End of project carousel */
 
-
-
-
   /* Controls .studioImageGrid */
-  .studioImageGrid-bottomalign, .sutdioDescGrid {
+  .studioImageGrid-bottomalign,
+  .studioDescGrid,
+  .studioImageGrid-centeralign {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
   }
-  .sutdioDescGrid > h4 {
-    grid-column: span 2;
+  .span2 {
+    margin-top: 1.33em;
   }
-  .span1, .span2 {
+  .span1-skip1col {
+    grid-column-start: 1;
+  }
+  /* Controls .studioImageGrid */
+
+
+  /* Controls .studioImageGrid */
+  .studioImageGrid-bottomalign,
+  .studioDescGrid,
+  .studioImageGrid-centeralign {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+  }
+  .span2 {
     margin-top: 1.33em;
   }
   .span1-skip1col {
@@ -738,7 +749,9 @@ p {
 
 
   /* Controls .studioImageGrid */
-  .studioImageGrid-bottomalign, .sutdioDescGrid {
+  .studioImageGrid-bottomalign,
+  .studioDescGrid,
+  .studioImageGrid-centeralign {
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0px;
   }

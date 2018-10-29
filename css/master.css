@@ -33,7 +33,8 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'alegreya','georgia', serif;
+  font-family: 'bitter','georgia', serif;
+  font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
   margin-top: 0.75em;
@@ -41,6 +42,7 @@ h2, .h2 {
 }
 h3, .h3 {
   font-family: 'alegreya','georgia', serif;
+  font-weight: 600;
   font-size: 1.38888889em;
   line-height: 2.16em;
   margin-top: 1.08em;
@@ -48,6 +50,7 @@ h3, .h3 {
 }
 h4, .h4 {
   font-family: 'alegreya','georgia', serif;
+  font-weight: 600;
   font-size: 1.22em;
   line-height: 1.5em;
   margin-top: 1.5em;
