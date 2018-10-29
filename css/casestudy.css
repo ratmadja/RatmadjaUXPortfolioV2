@@ -1145,7 +1145,7 @@ header {
 
 
 /*purplezone*/
-@media only screen and (min-width: 319px) and (max-width: 479px) {
+@media only screen and (min-width: 280px) and (max-width: 479px) {
   /* .container {
   border: 2px solid pink;
   } */

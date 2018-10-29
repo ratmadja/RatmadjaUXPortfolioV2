@@ -224,7 +224,7 @@ main p {
 .workcoverVideo-iphonex {
   margin-top: 3em;
   width: 100%;
-  box-shadow: rgba(180,180,180,0.1) 0 4px 24px;
+  box-shadow: rgba(224,224,224,0.2) 0 0 24px;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
@@ -233,7 +233,7 @@ main p {
 .workcover:hover,
 .studiocover:hover,
 .workcoverVideo-iphonex:hover {
-  box-shadow: rgba(180,180,180,0.4) 0 4px 32px;
+  box-shadow: rgba(224,224,224,0.7) 0 2px 48px;
   /* position: relative;
   top: -5px; */
 }
@@ -520,8 +520,8 @@ footer {
     font-size: 1em;
   }
   .hero h1 {
-    font-family: 'alegreya', 'georgia', serif;
-    font-size: 1em;
+    font-family: 'bitter', 'georgia', serif;
+    font-size: 1.2em;
   }
   .hero {
     padding-top: 2em;
