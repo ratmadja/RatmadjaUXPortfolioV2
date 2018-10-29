@@ -233,12 +233,9 @@ nav {
 border: 1px solid red;
 } */
 
-
-.nav-home, .nav-project {
-  width: 22%;
+.nav-project {
   text-align: right;
 }
-
 .nav-prevcs, .nav-nextcs {
   font-family: 'work sans', sans-serif;
   font-size: 0.67em;
@@ -259,6 +256,9 @@ border: 1px solid red;
 }
 
 
+.nav-home, .nav-project {
+  width: 22%;
+}
 .nav-cs {
   margin: auto;
   width: 56%;

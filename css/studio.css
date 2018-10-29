@@ -127,6 +127,32 @@ figcaption {
 /* ------Start of CSS Grid Styling------ */
 
 
+
+.studioImageGrid-bottomalign,
+.sutdioDescGrid,
+.studioImageGrid-centeralign {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 48px;
+}
+
+
+
+.studioImageGrid-centeralign > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.studioImageGrid-centeralign > div > img {
+  /* Ensures image top and bottom align in height */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
 .studioImageGrid-bottomalign > div {
   display: flex;
   justify-content: center;
@@ -137,11 +163,8 @@ figcaption {
   object-fit: contain;
 }
 
-.studioImageGrid-bottomalign, .sutdioDescGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 48px;
-}
+
+
 .span1 {
   margin-top: 2.67em;
   grid-column: span 1;
@@ -156,6 +179,10 @@ figcaption {
   grid-column-start: -2;
   vertical-align: bottom;
 }
+
+
+
+
 /* ------End of CSS Grid Styling------ */
 
 
@@ -275,7 +302,9 @@ nav {
 }
 
 
-
+.nav-project {
+  text-align: right;
+}
 .nav-prevcs, .nav-nextcs {
   font-family: 'work sans', sans-serif;
   font-size: 0.67em;
@@ -296,14 +325,13 @@ nav {
   color: #DA9218;
 }
 .nav-home, .nav-project {
-  width: 20%;
+  width: 22%;
 }
-.nav-project {
-  text-align: right;
-}
+
+
 .nav-studio {
   margin: 0em 0em;
-  width: 60%;
+  width: 56%;
   display: flex;
   justify-content: center;
   align-items: center;
