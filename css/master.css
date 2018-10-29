@@ -42,7 +42,7 @@ h2, .h2 {
 }
 h3, .h3 {
   font-family: 'alegreya','georgia', serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.38888889em;
   line-height: 2.16em;
   margin-top: 1.08em;
@@ -423,7 +423,7 @@ footer {
     margin-bottom: 1.75em;
   }
   .hero h3 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .hero h1 {
     font-size: 1.67em;
@@ -517,7 +517,7 @@ footer {
     margin-bottom: 1.75em;
   }
   .hero h3 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .hero h1 {
     font-family: 'bitter', 'georgia', serif;
