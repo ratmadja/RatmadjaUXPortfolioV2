@@ -233,9 +233,9 @@ main p {
 .workcover:hover,
 .studiocover:hover,
 .workcoverVideo-iphonex:hover {
-  box-shadow: rgba(224,224,224,0.7) 0 2px 48px;
+  box-shadow: rgba(224,224,224,0.75) 0 2px 36px;
   /* position: relative;
-  top: -5px; */
+  top: -.2px; */
 }
 
 .studiodesc {
@@ -258,9 +258,10 @@ main p {
   margin-top: 2em;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .workdesc .desc1 {
-  width: 33%;
+  width: 28%;
 }
 .workdesc .desc2 {
   width: 66%;
@@ -270,7 +271,7 @@ main p {
   color: #555555;
 }
 .work-scope {
-  font-size: 1em;
+  font-size: 0.9em;
   font-style: italic;
   color: #333333;
 }
@@ -353,9 +354,18 @@ footer {
   /* .container {
     border: 1px solid red;
   } */
+
   main {
-    margin: 0em 5em;
+    margin: 0em 4em;
   }
+
+  /* controls p in main*/
+  main p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  /* controls p in main*/
+
   header {
     margin-top: 1.34em;
     padding: 1.33em 2.67em;
@@ -380,18 +390,6 @@ footer {
     margin-top: 4em;
     margin-bottom: 0em;
     font-size: 2.67em;
-  }
-  .workdesc {
-    margin-top: 1em;
-    display: flex;
-    flex-direction: column;
-  }
-  .workdesc .desc1 {
-    width: 100%;
-  }
-  .workdesc .desc2 {
-    margin-top: 0em;
-    width: 100%;
   }
 }
 
@@ -456,12 +454,16 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .workdesc > p, .studiodesc > p {
+    font-size: 1em;
+  }
   .workdesc .desc1 {
     width: 100%;
   }
   .workdesc .desc2 {
     margin-top: 0em;
     width: 100%;
+    max-width: 480px;
   }
   footer {
     align-items: center;
@@ -479,9 +481,6 @@ footer {
     margin-bottom: 0em;
     padding-bottom: 0.5em;
     display: inline-block;
-  }
-  .workdesc p, .studiodesc p {
-    font-size: 1em;
   }
   .site-credit {
     text-align: center;
@@ -544,6 +543,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .workdesc > p, .studiodesc > p {
+    font-size: 1em;
+  }
   .workdesc .desc1 {
     width: 100%;
   }
@@ -568,12 +570,8 @@ footer {
     padding-bottom: 0.5em;
     display: inline-block;
   }
-
   .studiodesc {
     width: 100%;
-  }
-  .workdesc p, .studiodesc p {
-    font-size: 1em;
   }
   .site-credit {
     text-align: center;

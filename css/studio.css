@@ -485,13 +485,13 @@ p {
   } */
 
   main, .main {
-    margin: 0em 5em;
+    margin: 0em 4em;
   }
   nav {
-    padding: 0em 5em; /*Match main's margin*/
+    padding: 0em 4em; /*Match main's margin*/
   }
   .sticky {
-    padding: 0em 5em;  /*Match 'main' margin*/
+    padding: 0em 4em;  /*Match 'main' margin*/
   }
 
   .nav-studio {
