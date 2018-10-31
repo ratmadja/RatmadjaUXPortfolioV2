@@ -266,6 +266,9 @@ main {
   margin-top: 2em;
   margin-bottom: 2.2em;
 }
+.pullquote26h span {
+  font-style: italic;
+}
 .link-ref {
   color: #4F4F4F;
   text-decoration: none;
