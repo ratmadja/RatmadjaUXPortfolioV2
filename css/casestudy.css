@@ -801,7 +801,7 @@ header {
     margin-left: 0%;
   }
   .cs-info li {
-    font-size: .78em;
+    font-size: .9em;
   }
   .img-centeredandreduced {
     width: 80%;
@@ -987,6 +987,9 @@ header {
     margin-left: 20%;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .cs-info li {
+    font-size: .9em;
   }
   .cs-info-roles,
   .cs-info-deliverables,
@@ -1192,6 +1195,9 @@ header {
     margin-left: 10%;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .cs-info li {
+    font-size: .9em;
   }
   .cs-info-roles,
   .cs-info-deliverables,
