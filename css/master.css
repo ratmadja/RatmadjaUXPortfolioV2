@@ -173,6 +173,7 @@ header {
 }
 .hero h3 {
   line-height: 1.5em;
+  max-width: 524px;
 }
 .hero a {
   color: #333333;
