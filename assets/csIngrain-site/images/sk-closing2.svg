@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="840px" viewBox="0 0 1280 840" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>sk-closing2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="sk-closing2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="img2" fill="#62474F" opacity="0.8" x="0" y="357" width="1280" height="507"></rect>
+        <rect id="Rectangle-8" fill-opacity="0.9" fill="#62474F" fill-rule="nonzero" opacity="0.7" x="265" y="80" width="750" height="48" rx="24"></rect>
+        <rect id="Rectangle-8" fill-opacity="0.7" fill="#62474F" fill-rule="nonzero" opacity="0.7" x="300" y="152" width="680" height="18" rx="9"></rect>
+        <rect id="Rectangle-8" fill-opacity="0.7" fill="#62474F" fill-rule="nonzero" x="468" y="218" width="344" height="18" rx="9"></rect>
+        <g id="Group" transform="translate(428.000000, 261.000000)" fill="#62474F" fill-opacity="0.9" fill-rule="nonzero">
+            <rect id="Rectangle-8" x="0" y="0" width="200" height="48"></rect>
+            <rect id="Rectangle-8" x="224" y="0" width="200" height="48"></rect>
+        </g>
+    </g>
+</svg>

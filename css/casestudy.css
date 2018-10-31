@@ -40,7 +40,7 @@ h2, .h2 {
   font-size: 2em;
   line-height: 1.5em;
   margin-top: 1.75em;
-  margin-bottom: 0.75em;
+  margin-bottom: 1em;
 
 }
 h3, .h3 {
@@ -49,7 +49,7 @@ h3, .h3 {
   font-size: 1.38888889em;
   line-height: 2.16em;
   margin-top: 1.08em;
-  margin-bottom: 0.44em;
+  margin-bottom: 0.75em;
 }
 h4, .h4 {
   font-family: 'alegreya','georgia', serif;
@@ -57,7 +57,7 @@ h4, .h4 {
   font-size: 1.22em;
   line-height: 1.5em;
   margin-top: 1.5em;
-  margin-bottom: 0.44em;
+  margin-bottom: 0.6em;
 }
 h5, .h5 {
   font-family: 'work sans', sans-serif;
@@ -677,6 +677,10 @@ header {
 }
 
 
+.img-boxshadow {
+    box-shadow: rgba(224,224,224,0.5) 0 2px 24px;
+}
+
 .img-dashdiagram {
   width: 100%;
   display: block;
@@ -958,6 +962,9 @@ header {
   .sticky {
     padding: 0 2.67em;  /*Match 'main' margin*/
   }
+  .label-container {
+    margin-top: 4em;
+  }
 
 
   /* controls font-size and line height of p in .cs-section*/
@@ -1187,6 +1194,11 @@ header {
     align-items: center;
   }
 
+  .label-container {
+    margin-top: 4em;
+  }
+
+
 
   .img-centeredandreduced {
     width: 100%;
@@ -1380,7 +1392,7 @@ header {
   figcaption {
     font-size: 0.8em;
     line-height: 1.4em;
-    margin-bottom: 2em;
+    margin-bottom: 0.7em;
   }
 
   .img2upflip-container {

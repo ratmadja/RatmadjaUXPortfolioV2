@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="372px" viewBox="0 0 360 372" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>logo final</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logo-final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M142.083948,266 C94.390891,250.121645 60,205.108038 60,152.058119 C60,85.7518506 113.72583,32 180,32 C246.27417,32 300,85.7518506 300,152.058119 C300,205.108038 265.609109,250.121645 217.916051,266 C216.715786,258.493632 213.34217,251.713202 208.461133,246.324959 C248.928866,234.111686 278.4,196.528245 278.4,152.058119 L81.6,152.058119 C81.6,196.528245 111.071134,234.111686 151.538871,246.324954 C146.65783,251.713201 143.284214,258.493632 142.083948,266 Z M187.848974,146.655503 L240.171718,146.655503 L253.173034,128.442006 C258.088473,121.555986 256.882002,112.045575 250.403017,106.606428 L249.1249,105.533441 C242.645916,100.094295 233.075022,100.557043 227.150456,106.595894 L187.848974,146.655503 Z" id="Combined-Shape" fill="#62474F"></path>
+        <g id="Group-4" transform="translate(97.000000, 287.000000)" fill="#605256">
+            <text id="ingrain" font-family="Poppins-Medium, Poppins" font-size="40" font-weight="400" line-spacing="24" letter-spacing="2.3875">
+                <tspan x="0" y="42">ingrai</tspan>
+                <tspan x="130.565" y="42" letter-spacing="2.808824">n</tspan>
+            </text>
+            <circle id="Oval-5" cx="162" cy="44" r="3"></circle>
+        </g>
+    </g>
+</svg>
