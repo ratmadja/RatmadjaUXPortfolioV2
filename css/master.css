@@ -168,21 +168,22 @@ header {
 }
 .hero h1 {
   font-family: 'bitter', 'georgia', serif;
-  font-size: 2.67em;
+  font-size: 3.67em;
   line-height: 1.5em;
 }
 .hero h3 {
   line-height: 1.5em;
   max-width: 524px;
+  font-style: italic;
 }
 .hero a {
   color: #333333;
   text-decoration: none;
-  box-shadow: inset 0 -8px 0 #EDEAF3;
+  box-shadow: inset 0 -4px 0 #d5dbe5;
   transition: box-shadow .2s cubic-bezier(0,0,.58,1);
 }
 .hero a:hover {
-  box-shadow: inset 0 -3em 0 #EDEAF3;
+  box-shadow: inset 0 -16px 0 #d5dbe5;
 }
 /* ------End of Hero Styling------ */
 
@@ -375,17 +376,17 @@ footer {
     font-size: 1em;
   }
   .hero h1 {
-    font-size: 2em;
+    font-size: 2.67em;
   }
   .hero {
     padding-top: 8em;
   }
   .hero a {
-    box-shadow: inset 0 -6px 0 #EDEAF3;
+    box-shadow: inset 0 -4px 0 #d5dbe5;
     transition: box-shadow .2s cubic-bezier(0,0,.58,1);
   }
   .hero a:hover {
-    box-shadow: inset 0 -4em 0 #EDEAF3;
+    box-shadow: inset 0 -12px 0 #d5dbe5;
   }
   .label-section {
     margin-top: 4em;
@@ -425,7 +426,7 @@ footer {
     font-size: 0.9em;
   }
   .hero h1 {
-    font-size: 1.67em;
+    font-size: 1.8em;
   }
   .hero {
     padding-top: 2em;
@@ -434,11 +435,11 @@ footer {
     padding-right: 1em;
   }
   .hero a {
-    box-shadow: inset 0 -5px 0 #EDEAF3;
+    box-shadow: inset 0 -3px 0 #d5dbe5;
     transition: box-shadow .2s cubic-bezier(0,0,.58,1);
   }
   .hero a:hover {
-    box-shadow: inset 0 -4em 0 #EDEAF3;
+    box-shadow: inset 0 -9px 0 #d5dbe5;
   }
   .label-section {
     display: block;
@@ -522,17 +523,17 @@ footer {
   }
   .hero h1 {
     font-family: 'bitter', 'georgia', serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   .hero {
     padding-top: 1em;
   }
   .hero a {
-    box-shadow: inset 0 -4px 0 #EDEAF3;
+    box-shadow: inset 0 -2px 0 #d5dbe5;
     transition: box-shadow .2s cubic-bezier(0,0,.58,1);
   }
   .hero a:hover {
-    box-shadow: inset 0 -2em 0 #EDEAF3;
+    box-shadow: inset 0 -8px 0 #d5dbe5;
   }
   .label-section {
     margin-top: 4em;
