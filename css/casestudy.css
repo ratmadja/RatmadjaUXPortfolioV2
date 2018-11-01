@@ -54,15 +54,15 @@ h3, .h3 {
 h4, .h4 {
   font-family: 'alegreya','georgia', serif;
   font-weight: 600;
-  font-size: 1.22em;
   line-height: 1.5em;
+  font-size: 1.22em;
   margin-top: 1.5em;
   margin-bottom: 0.6em;
 }
 h5, .h5 {
   font-family: 'work sans', sans-serif;
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.75em;
   margin-top: 1.5em;
   margin-bottom: 0em;
 }
@@ -1118,15 +1118,15 @@ header {
   /* type size reduction for mobile*/
   .cs-section > h2 {
     font-size: 1.4em;
-    line-height: 1.5em;
+    line-height: 1.8em;
   }
   .cs-section > h3 {
-    font-size: 1.28em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.6em;
   }
   .cs-section > h4 {
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.4em;
   }
   /* type size reduction for mobile*/
 
@@ -1269,18 +1269,17 @@ header {
   /* type size reduction for mobile*/
   .cs-section > h2 {
     font-size: 1.4em;
-    line-height: 1.5em;
+    line-height: 1.8em;
   }
   .cs-section > h3 {
-    font-size: 1.28em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.6em;
   }
   .cs-section > h4 {
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.4em;
   }
   /* type size reduction for mobile*/
-
 
 
   .groupixd-2up-container {
