@@ -263,15 +263,15 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 4em;
-  padding: 0em 8em;   /*Match main's margin*/
+  padding: 0em 4em;   /*Match main's margin*/
 }
+
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 24px;
-  width: 38.117648px;
+  height: 38px;
+  width: 61px;
 }
 .ralogo:hover {
-  transition: background;
   transition: .2s cubic-bezier(0,0,.58,1);
   background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
 }
@@ -290,7 +290,7 @@ nav {
   margin: auto;
   top: 0;
   left: 0;
-  padding: 0em 8em;   /*Match main's margin*/
+  padding: 0em 4em;   /*Match main's margin*/
 }
 /*---End of Sticky Navbar class--*/
 
@@ -308,25 +308,31 @@ nav {
 .nav-project {
   text-align: right;
 }
-.nav-prevcs, .nav-nextcs {
-  font-family: 'work sans', sans-serif;
-  font-size: 0.67em;
-  text-decoration: none;
-  color: #333333;
-  width: 6%;
-  margin: 0em 0.2em;
-  padding: 0.2em;
-  border-bottom: 1px solid #DA9218;
-}
 .nav-prevcs {
   text-align: left;
+  margin-right: 0.2em;
 }
 .nav-nextcs {
   text-align: right;
+  margin-left: 0.2em;
+}
+
+.nav-prevcs, .nav-nextcs {
+  padding-bottom: 0.45em;
+  text-decoration: none;
+  color: #828282;
+  font-size: 0.67em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .nav-prevcs:hover, .nav-nextcs:hover {
-  color: #DA9218;
+  border-bottom: 1px solid #DA9218;
 }
+
+
 .nav-home, .nav-project {
   width: 22%;
 }
@@ -472,13 +478,15 @@ p {
   border: 2px solid blue;
   } */
   main, .main {
-    margin: 0em 5em;
+    margin: 0em 4em;
   }
   nav {
-    padding: 0em 5em; /*Match main's margin*/
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 5.05em;
   }
   .sticky {
-    padding: 0 5em;  /*Match 'main' margin*/
+    padding: 0 4em;
   }
 }
 
@@ -495,11 +503,18 @@ p {
   main, .main {
     margin: 0em 4em;
   }
+  .ralogo {
+    background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+    height: 34px;
+    width: 54.58px;
+  }
   nav {
-    padding: 0em 4em; /*Match main's margin*/
+    padding-left: 2.67em;
+    padding-left: 2.67em;
+    padding-top: 3.2em;
   }
   .sticky {
-    padding: 0em 4em;  /*Match 'main' margin*/
+    padding: 0em 2.67em;
   }
 
   .nav-studio {
@@ -551,9 +566,16 @@ p {
     margin: 0em 2.67em;
   }
 
+  .ralogo {
+    background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+    height: 30px;
+    width: 48.16px;
+  }
 
   nav {
-    padding: 0em 2.67em; /*Match main's margin*/
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.7em;
   }
 
   .sticky {
@@ -662,16 +684,28 @@ p {
 
 /*purplezone*/
 @media only screen and (min-width: 280px) and (max-width: 479px) {
+
   /* .container {
   border: 2px solid pink;
   } */
+
   main, .main {
     padding-top: 0em;
     margin: 0em 1em;
   }
-  nav {
-    padding: 0em 1em; /*Match main's margin*/
+
+  .ralogo {
+    background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+    height: 30px;
+    width: 48.16px;
   }
+
+  nav {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0em;
+  }
+
   .sticky {
     padding: 0 1em;  /*Match 'main' margin*/
   }

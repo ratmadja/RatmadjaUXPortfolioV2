@@ -154,7 +154,7 @@ footer {
   font-weight: 500;
   font-family: 'work sans', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
@@ -193,13 +193,13 @@ nav {
   height: 4em;
   padding: 0em 4em;   /*Match main's margin*/
 }
+
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
   height: 38px;
   width: 61px;
 }
 .ralogo:hover {
-  transition: background;
   transition: .2s cubic-bezier(0,0,.58,1);
   background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
 }
@@ -253,12 +253,12 @@ border: 1px solid red;
 .nav-prevcs, .nav-nextcs {
   padding-bottom: 0.45em;
   text-decoration: none;
-  color: #333333;
+  color: #828282;
   font-size: 0.67em;
   font-weight: 500;
   font-family: 'work sans', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .nav-prevcs:hover, .nav-nextcs:hover {
@@ -266,11 +266,10 @@ border: 1px solid red;
 }
 
 
-
-
 .nav-home, .nav-project {
   width: 22%;
 }
+
 .nav-cs {
   margin-bottom: 0em;
   width: 56%;
@@ -286,9 +285,10 @@ border: 1px solid red;
   font-weight: 500;
   font-family: 'work sans', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
+
 .nav-cs a:hover {
     border-bottom: 1px solid #DA9218;
 }
@@ -312,7 +312,7 @@ header {
   font-family: 'bitter', serif;
   font-weight: 400;
   text-align: center;
-  margin-top: 2em;
+  padding-top: 2em;
   margin-left: 6em;
   margin-right: 6em;
 }
@@ -477,7 +477,7 @@ header {
   font-weight: 500;
   font-family: 'work sans', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .link-work:hover {
@@ -800,9 +800,11 @@ header {
 
 /*bluezone*/
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
   /* .container {
   border: 2px solid blue;
   } */
+
   main, .main {
     margin: 0em 4em;
   }
@@ -816,7 +818,6 @@ header {
     padding: 0 4em;
   }
   .hero-tagline {
-    margin-top: 2em;
     width: 80%;
     margin-left: 10%;
   }
@@ -915,7 +916,7 @@ header {
 
 
   .hero-tagline {
-    margin-top: 2em;
+    padding-top: 1em;
     width: 70%;
     margin-left: 15%;
     font-size: 1.67em;
@@ -991,6 +992,7 @@ header {
   /* .container {
   border: 2px solid green;
   } */
+
   main, .main {
     padding-top: 0em;
     margin: 0em 1.33em;
@@ -1002,6 +1004,7 @@ header {
     height: 30px;
     width: 48.16px;
   }
+
   nav {
     padding-left: 2em;
     padding-right: 2em;
@@ -1086,7 +1089,7 @@ header {
     width: 100%;
   }
   .diagramWide,
-.diagramMobileWide {
+  .diagramMobileWide {
   display: none;
 }
   .img-incontain4 {
@@ -1134,7 +1137,7 @@ header {
 
 
   .hero-tagline {
-    margin-top: 2em;
+    padding-top: 0em;
     width: 70%;
     margin-left: 15%;
     font-size: 1.67em;
@@ -1237,16 +1240,18 @@ header {
     height: 30px;
     width: 48.16px;
   }
+
   nav {
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0em;
   }
 
-
   .sticky {
     padding: 0 1em;  /*Match 'main' margin*/
   }
+
+
   footer {
     align-items: center;
   }
@@ -1390,7 +1395,7 @@ header {
 
 
   .hero-tagline {
-    margin-top: 2em;
+    padding-top: 0em;
     width: 90%;
     margin-left: 5%;
     font-size: 1.33em;
