@@ -320,13 +320,12 @@ header {
   align-items: center;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-top: 1px solid #E2E2E2;
 }
 .hero-desc-text {
   margin: 0em 1em;
-  color: #828282;
+  color: #888888;
   font-family: 'work sans', sans-serif;
-  font-size: 0.67em;
+  font-size: 0.8em;
   font-weight: 400;
   text-align: center;
 }
@@ -362,14 +361,14 @@ header {
   line-height: 2em;
   margin-top: 0.25em;
   margin-bottom: 1em;
-  color: #444444;
-  font-weight: 500;
+  color: #888888;
+  font-weight: 400;
 }
 .cs-info li {
   font-family: 'alegreya sans', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
-  color: #828282;
+  color: #333333;
 }
 /*------- End of casestudy specs styling -------*/
 
