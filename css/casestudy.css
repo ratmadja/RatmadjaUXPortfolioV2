@@ -188,12 +188,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 4em;
-  padding: 0em 8em;   /*Match main's margin*/
+  padding: 0em 4em;   /*Match main's margin*/
 }
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 24px;
-  width: 38.117648px;
+  height: 38px;
+  width: 61px;
 }
 .ralogo:hover {
   transition: background;
@@ -215,7 +215,7 @@ nav {
   margin: auto;
   top: 0;
   left: 0;
-  padding: 0em 8em;   /*Match main's margin*/
+  padding: 0em 4em;   /*Match main's margin*/
 }
 /*---End of Sticky Navbar class--*/
 
@@ -227,6 +227,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* border: 1px solid red; */
 }
 
 
@@ -261,10 +262,11 @@ border: 1px solid red;
   width: 22%;
 }
 .nav-cs {
-  margin: auto;
+  margin-bottom: 0em;
   width: 56%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-cs a {
   font-family: 'work sans', sans-serif;
@@ -758,6 +760,14 @@ header {
     /* border: 1px solid grey; */
     margin: auto;
   }
+  nav {
+    padding-left: 4em; /*Match main's margin*/
+    padding-right: 4em; /*Match main's margin*/
+    padding-top: 5em;
+  }
+  .sticky {
+    padding: 0 4em;  /*Match 'main' margin*/
+  }
   .hero-desc {
     padding-top: 1em;
     width: 60%;
@@ -772,13 +782,16 @@ header {
   border: 2px solid blue;
   } */
   main, .main {
-    margin: 0em 5em;
+    margin: 0em 4em;
   }
+
   nav {
-    padding: 0em 5em; /*Match main's margin*/
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 5.05em;
   }
   .sticky {
-    padding: 0 5em;  /*Match 'main' margin*/
+    padding: 0 4em;
   }
   .hero-tagline {
     margin-top: 2em;
@@ -805,11 +818,18 @@ header {
   main, .main {
     margin: 0em 4em;
   }
+  .ralogo {
+    background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+    height: 34px;
+    width: 54.58px;
+  }
   nav {
-    padding: 0em 4em; /*Match main's margin*/
+    padding-left: 2.67em;
+    padding-left: 2.67em;
+    padding-top: 3.2em;
   }
   .sticky {
-    padding: 0em 4em;  /*Match 'main' margin*/
+    padding: 0em 2.67em;
   }
 
   .cs-info {
@@ -951,16 +971,27 @@ header {
   } */
   main, .main {
     padding-top: 0em;
-    margin: 0em 2.67em;
+    margin: 0em 1.33em;
+  }
+
+
+  .ralogo {
+    background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+    height: 30px;
+    width: 48.16px;
   }
   nav {
-    padding: 0em 2.67em; /*Match main's margin*/
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.7em;
   }
+
+
   .nav-project {
     width: 50%;
   }
   .sticky {
-    padding: 0 2.67em;  /*Match 'main' margin*/
+    padding: 0 1.33em;
   }
   .label-container {
     margin-top: 4em;
@@ -1169,16 +1200,28 @@ header {
 
 /*purplezone*/
 @media only screen and (min-width: 280px) and (max-width: 479px) {
+
   /* .container {
   border: 2px solid pink;
   } */
+
   main, .main {
     padding-top: 0em;
     margin: 0em 1em;
   }
-  nav {
-    padding: 0em 1em; /*Match main's margin*/
+
+  .ralogo {
+    background: url(../assets/homepage/ra-logo32h.svg) center / cover;
+    height: 30px;
+    width: 48.16px;
   }
+  nav {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0em;
+  }
+
+
   .sticky {
     padding: 0 1em;  /*Match 'main' margin*/
   }
