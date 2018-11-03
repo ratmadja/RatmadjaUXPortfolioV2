@@ -271,10 +271,7 @@ nav {
   height: 38px;
   width: 61px;
 }
-.ralogo:hover {
-  transition: .2s cubic-bezier(0,0,.58,1);
-  background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
-}
+
 
 
 
