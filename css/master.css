@@ -97,7 +97,7 @@ sub {
 
 
 /*------- Start of logo and nav styling -------*/
-header {
+.navmenu {
   /* border: 1px solid #BDBDBD; */
   display: flex;
   flex-direction: row;
@@ -112,8 +112,8 @@ header {
   width: 61px;
 }
 .ralogo:hover {
-  transition: all .2s cubic-bezier(0,0,.58,1);
   background: url(../assets/homepage/ra-logo32halt.svg) center / cover;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .nav-main {
   /* border: 1px solid red; */
@@ -128,13 +128,14 @@ header {
   align-items: center;
 }
 .menu a {
-  /* border: 1px solid red; */
   padding-bottom: 0.45em;
   text-decoration: none;
   color: #333333;
   font-size: 0.67em;
   font-weight: 500;
   font-family: 'work sans', sans-serif;
+  border-bottom: 1px solid #FFFFFF;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .menu a:hover {
   border-bottom: 1px solid #DA9218;
@@ -197,6 +198,8 @@ main p {
   font-size: 1.11em;
   line-height: 1.67em;
 }
+
+
 /* controls p in main*/
 
 
@@ -245,15 +248,22 @@ main p {
 
 
 .link-work {
-  padding-bottom: 0.25em;
+  padding-bottom: 0.45em;
   text-decoration: none;
   color: #333333;
+  font-size: 0.67em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
-.workdesc a:hover, .studiodesc a:hover {
+.link-work:hover {
   border-bottom: 1px solid #DA9218;
 }
+
+
+
 .workdesc {
   margin-top: 2em;
   display: flex;
@@ -272,6 +282,7 @@ main p {
 }
 .work-scope {
   font-size: 0.9em;
+  font-family: 'bitter', serif;
   font-style: italic;
   color: #333333;
 }
@@ -309,17 +320,26 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+
 .contact-link a {
-  font-size: 0.9em;
-  margin-bottom: 0em;
-  font-weight:400;
+  padding-bottom: 0.45em;
   text-decoration: none;
   color: #333333;
-  border-bottom: 1px solid #DA9218;
+  font-size: 0.67em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FFFFFF;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
-  color: #BDBDBD;
+  border-bottom: 1px solid #DA9218;
 }
+
+
+
+
 .site-credit {
   font-weight: 300;
   color: #999999;
@@ -517,6 +537,7 @@ footer {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
     height: 30px;
     width: 48.16px;
+    margin-bottom: 1.75em;
   }
 
   /* controls p in main*/
@@ -536,9 +557,6 @@ footer {
   }
 
 
-  .ralogo {
-    margin-bottom: 1.75em;
-  }
   .hero h3 {
     font-size: 0.9em;
     padding-top: 0.33em;

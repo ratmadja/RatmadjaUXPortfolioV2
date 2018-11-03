@@ -147,15 +147,18 @@ footer {
   justify-content: space-between;
 }
 .contact-link a {
-  margin-bottom: 0em;
-  font-size: .9em;
-  font-weight:400;
+  padding-bottom: 0.45em;
   text-decoration: none;
   color: #333333;
-  border-bottom: 1px solid #DA9218;
+  font-size: 0.67em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FFFFFF;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
-  color: #BDBDBD;
+  border-bottom: 1px solid #DA9218;
 }
 .site-credit {
   font-weight: 300;
@@ -238,24 +241,31 @@ border: 1px solid red;
 .nav-project {
   text-align: right;
 }
-.nav-prevcs, .nav-nextcs {
-  font-family: 'work sans', sans-serif;
-  font-size: 0.67em;
-  text-decoration: none;
-  color: #333333;
-  margin: 0em 0.2em;
-  padding: 0.25em;
-  border-bottom: 1px solid #DA9218;
-}
 .nav-prevcs {
   text-align: left;
+  margin-right: 0.2em;
 }
 .nav-nextcs {
   text-align: right;
+  margin-left: 0.2em;
+}
+
+.nav-prevcs, .nav-nextcs {
+  padding-bottom: 0.45em;
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.67em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FFFFFF;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .nav-prevcs:hover, .nav-nextcs:hover {
-  color: #DA9218;
+  border-bottom: 1px solid #DA9218;
 }
+
+
 
 
 .nav-home, .nav-project {
@@ -269,15 +279,22 @@ border: 1px solid red;
   align-items: center;
 }
 .nav-cs a {
-  font-family: 'work sans', sans-serif;
-  font-size: .9em;
+  padding-bottom: 0.45em;
   text-decoration: none;
   color: #333333;
-  margin: 0em;
+  font-size: 0.75em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FFFFFF;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .nav-cs a:hover {
-  color: #999999;
+    border-bottom: 1px solid #DA9218;
 }
+
+
+
 /*------- End of nav styling -------*/
 
 
@@ -292,8 +309,8 @@ header {
   background: linear-gradient(#FAFAFA, #E2E2E2);
 }
 .hero-tagline {
-  font-family: 'alegreya sans', sans-serif;
-  font-weight: 700;
+  font-family: 'bitter', serif;
+  font-weight: 400;
   text-align: center;
   margin-top: 2em;
   margin-left: 6em;
@@ -311,7 +328,9 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #828282;
-  font-family: 'alegreya sans', sans-serif;
+  font-family: 'work sans', sans-serif;
+  font-size: 0.67em;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -429,13 +448,14 @@ header {
   text-transform: uppercase;
 }
 .link-ref {
-  color: #4F4F4F;
+  color: #333333;
   text-decoration: none;
-  box-shadow: inset 0 -1px 0 #BDBDBD;
-  transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+  border-bottom: 1px solid #BDBDBD;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .link-ref:hover {
-  color: #BDBDBD;
+  color: #333333;
+  border-bottom: 1px solid #333333;
 }
 .link-doc {
   color: #333333;
@@ -443,20 +463,25 @@ header {
   font-size: 0.9em;
   text-decoration: none;
   text-transform: uppercase;
-  box-shadow: inset 0 -1px 0 #BDBDBD;
-  transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+  border-bottom: 1px solid #BDBDBD;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .link-doc:hover {
-  color: #828282;
+  border-bottom: 1px solid #DA9218;
 }
 .link-work {
-  color: #4f4f4f;
+  padding-bottom: 0.45em;
   text-decoration: none;
-  box-shadow: inset 0 -1px 0 #DA9218;
-  transition: box-shadow .2s cubic-bezier(0,0,.58,1);
+  color: #333333;
+  font-size: 0.67em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FFFFFF;
+  transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .link-work:hover {
-  box-shadow: inset 0 -4px 0 #DA9218;
+  border-bottom: 1px solid #DA9218;
 }
 .caption-label {
   margin-top: 0.5em;
@@ -501,7 +526,6 @@ header {
   width: 60%;
   margin-left: 20%;
   border-top: 1px solid #E2E2E2;
-  border-bottom: 1px solid #E2E2E2;
 }
 .ixd720h {
   background-color: #000000;
@@ -566,7 +590,6 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
-  border-bottom: 1px solid #E2E2E2;
 }
 .ixd640h {
   background-color: #000000;
@@ -616,7 +639,6 @@ header {
 .img-preview-container{
   margin-top: 2em;
   padding-bottom: 2em;
-  border-bottom: 1px solid #E2E2E2;
 }
 .img-preview {
   display: block;
