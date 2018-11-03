@@ -209,28 +209,17 @@ main {
 
 /*------- Start of hero styling -------*/
 .hero-content {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 0.25%;
-}
-.hero-left {
-  /* border: 1px solid grey; */
-  grid-column: 1 / 7;
-  padding-right: 0.2%;
-}
-.hero-right {
-  grid-column: 7 / -1;
-  padding-left: 0.2%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
-.hero-big {
-  display: block;
-  width: 100%;
+.herologo-container {
+  margin-top: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.hero-small {
+.herologo {
   width: 100%;
 }
 /*------- End of hero styling -------*/
@@ -356,6 +345,9 @@ p > span {
     height: 34px;
     width: 54.58px;
   }
+  .herologo-container {
+    margin-top: 3em;
+  }
   header {
     margin-top: 1.34em;
     padding: 1.33em 2.67em;
@@ -394,6 +386,9 @@ p > span {
     height: 30px;
     width: 48.16px;
     /* margin-bottom: 1.75em; */
+  }
+  .herologo-container {
+    margin-top: 2em;
   }
 
   /* controls p in main*/
@@ -470,6 +465,9 @@ p > span {
     width: 48.16px;
     margin-bottom: 1.75em;
   }
+  .herologo-container {
+    margin-top: 1em;
+  }
 
   /* controls p in main*/
   main p {
@@ -497,13 +495,7 @@ p > span {
   }
 
 
-  .hero-left {
-    grid-column: 1 / -1;
-    padding-right: 0em;
-  }
-  .hero-right {
-    display: none;
-  }
+
 
   footer {
     align-items: center;
