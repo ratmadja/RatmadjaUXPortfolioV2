@@ -101,6 +101,13 @@ sup {
 sub {
   bottom: -0.25em;
 }
+figcaption {
+  font-size: .9em;
+  font-style: 'alegreya sans',sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 4em;
+}
 /* End of typography sizes */
 
 /*------- Start of logo and nav styling -------*/
@@ -475,6 +482,12 @@ p > span {
     line-height: 1.5em;
   }
   /* controls p in main*/
+
+  figcaption {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    margin-bottom: 0.7em;
+  }
 
   .navmenu {
     display: flex;
