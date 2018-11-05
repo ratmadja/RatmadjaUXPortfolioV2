@@ -250,9 +250,9 @@ border: 1px solid red;
 .nav-prevcs, .nav-nextcs {
   padding-bottom: 0.45em;
   text-decoration: none;
-  color: #828282;
+  color: #555555;
   font-size: 0.67em;
-  font-weight: 500;
+  font-weight: 400;
   font-family: 'work sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -324,8 +324,8 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #888888;
-  font-family: 'work sans', sans-serif;
-  font-size: 0.8em;
+  font-family: 'alegreya sans', sans-serif;
+  font-size: 0.9em;
   font-weight: 400;
   text-align: center;
 }
@@ -440,7 +440,7 @@ header {
   margin-bottom: 6em;
   font-size: .78em;
   color: #444444;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .link-ref {
