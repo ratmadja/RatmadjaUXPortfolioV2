@@ -171,7 +171,6 @@ sub {
 .hero h3 {
   line-height: 1.5em;
   max-width: 524px;
-  font-style: italic;
 }
 .hero a {
   color: #333333;
@@ -272,10 +271,10 @@ main p {
 }
 .workdesc .desc2 {
   width: 66%;
-  color: #555555;
+  color: #444444;
 }
 .studiodesc {
-  color: #555555;
+  color: #444444;
 }
 .work-scope {
   font-size: 0.9em;
