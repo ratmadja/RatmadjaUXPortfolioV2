@@ -238,6 +238,13 @@ footer {
   font-size: 1em;
   margin-top: 1em;
 }
+.typography-credit {
+  font-family: 'work sans', sans-serif;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  padding-top: 2em;
+  color: #999999;
+}
 /* ------End of Footer Styling------ */
 
 
