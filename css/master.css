@@ -552,7 +552,7 @@ footer {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
     height: 30px;
     width: 48.16px;
-    margin-bottom: 1.75em;
+    margin-bottom: 1.33em;
   }
 
   /* controls p in main*/
@@ -566,19 +566,21 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 0em;
+    padding-left: 2em;
     padding-top: 2.67em;
   }
-
-
   .hero h3 {
     font-size: 0.9em;
     padding-top: 0.33em;
+
   }
   .hero h1 {
     font-family: 'bitter', 'georgia', serif;
     font-size: 1.3em;
+    margin-left: 0.67em;
+    margin-right: 0.67em;
   }
   .hero {
     padding-top: 1em;
@@ -589,6 +591,9 @@ footer {
   }
   .hero a:hover {
     border-bottom: 1px solid #DA9218;
+  }
+  .label-container {
+    text-align: left;
   }
   .label-section {
     font-size: 2em;
