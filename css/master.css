@@ -219,49 +219,57 @@ main p {
 
 
 
-.workcover,
-.studiocover,
+
+
+/*------------------ Start of workcover sytling ---------*/
+
+
 .workcoverVideo-iphonex {
   margin-top: 3em;
   width: 100%;
+  box-shadow: rgba(224,224,224,0.2) 0 0 24px;
+}
+.workcoverVideo-iphonex:hover {
+  box-shadow: rgba(224,224,224,0.75) 0 12px 32px;
+}
+
+
+.workcover {
+  display: block;  /* gets rid of div gap under */
+  width: 100%;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+.workcover:hover {
+  transform:scale(1.02);
+}
+
+.workcover-container {
+  position: relative;
+  overflow: hidden;
   box-shadow: rgba(224,224,224,0.2) 0 0 24px;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
 }
 
-.workcover:hover,
-.studiocover:hover,
-.workcoverVideo-iphonex:hover {
-  box-shadow: rgba(224,224,224,0.75) 0 2px 36px;
-  /* position: relative;
-  top: -.2px; */
+.workcover-container:hover {
+  box-shadow: rgba(224,224,224,0.75) 0 8px 32px;
 }
+
+/*------------------ End of workcover sytling ---------*/
+
+
+
+/*------------------ Start of work desc and link sytling ---------*/
 
 .studiodesc {
   width: 66%;
 }
-
-
-.link-work {
-  padding-bottom: 0.45em;
-  text-decoration: none;
-  color: #333333;
-  font-size: 0.67em;
-  font-weight: 500;
-  font-family: 'work sans', sans-serif;
-  text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
-  transition: all .2s cubic-bezier(0,0,.58,1);
-}
-.link-work:hover {
-  border-bottom: 1px solid #DA9218;
-}
-
-
-
 .workdesc {
   margin-top: 2em;
+  margin-bottom: 3em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -285,11 +293,27 @@ main p {
 .caption-label {
   border: 1px solid red;
 }
-/* ------End of Work Styling------ */
+.link-work {
+  padding-bottom: 0.45em;
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.67em;
+  font-weight: 500;
+  font-family: 'work sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FFFFFF;
+  transition: all .2s cubic-bezier(0,0,.58,1);
+}
+.link-work:hover {
+  border-bottom: 1px solid #DA9218;
+}
+
+/*------------------ End of work desc and link sytling ---------*/
 
 
 
 /* ------Start of Footer Styling------ */
+
 .footer-container {
   /* background-color: #F4F4F4; */
 }
@@ -486,12 +510,9 @@ footer {
     margin-bottom: 0em;
     font-size: 2em;
   }
-  .workcover {
-    margin-top: 3em;
-    width: 100%;
-  }
   .workdesc {
     margin-top: 1em;
+    margin-bottom: 2em;
     display: flex;
     flex-direction: column;
   }
@@ -587,6 +608,7 @@ footer {
   }
   .workdesc {
     margin-top: 2em;
+    margin-bottom: 3em;
     display: flex;
     flex-direction: column;
   }
