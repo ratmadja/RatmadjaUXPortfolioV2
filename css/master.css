@@ -569,7 +569,7 @@ footer {
     align-items: flex-start;
     margin-top: 0em;
     padding-left: 1em;
-    padding-top: 2.67em;
+    padding-top: 1em;
   }
   .hero h3 {
     font-size: 0.9em;
@@ -581,7 +581,7 @@ footer {
     font-size: 1.3em;
   }
   .hero {
-    padding-top: 1em;
+    padding-top: 3em;
   }
   .hero a {
     border-bottom: 1px solid #D5DBE5;
