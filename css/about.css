@@ -487,14 +487,14 @@ p > span {
 
   main {
     padding-top: 0em;
-    margin: 1em 1em;
+    margin: 0em 1em;
   }
 
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
     height: 30px;
     width: 48.16px;
-    margin-bottom: 1.75em;
+    margin-bottom: 1.5em;
   }
   .herologo-container {
     margin-top: 2em;
@@ -522,9 +522,10 @@ p > span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 0em;
-    padding-top: 2.67em;
+    padding-left: 1em;
+    padding-top: 3em;
   }
 
   header {
