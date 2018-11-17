@@ -285,10 +285,10 @@ main p {
   color: #444444;
 }
 .work-scope {
+  color: #666666;
   font-size: 0.9em;
-  font-family: 'bitter', serif;
   font-style: italic;
-  color: #333333;
+  font-family: 'bitter', serif
 }
 .caption-label {
   border: 1px solid red;
