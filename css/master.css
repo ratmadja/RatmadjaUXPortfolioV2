@@ -146,11 +146,11 @@ sub {
 }
 .label-section {
   margin-top: 4em;
-  margin-bottom: 0em;
+  margin-bottom: 2em;
   padding-bottom: 0.5em;
   display: inline-block;
-  /* border-bottom: 1px solid #DA9218;
-  border-bottom: 1px solid #DA9218; */
+  border-bottom: 1px solid #DA9218;
+
 }
 /* ------End of Label Styling------ */
 
@@ -441,8 +441,6 @@ footer {
     border-bottom: 1px solid #DA9218;
   }
   .label-section {
-    margin-top: 4em;
-    margin-bottom: 0em;
     font-size: 2.67em;
   }
 }
@@ -505,9 +503,6 @@ footer {
     border-bottom: 1px solid #DA9218;
   }
   .label-section {
-    display: block;
-    margin-top: 4em;
-    margin-bottom: 0em;
     font-size: 2em;
   }
   .workdesc {
@@ -537,12 +532,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .label-section {
-    margin-top: 4em;
-    margin-bottom: 0em;
-    padding-bottom: 0.5em;
-    display: inline-block;
   }
   .site-credit {
     text-align: center;
@@ -602,8 +591,6 @@ footer {
     border-bottom: 1px solid #DA9218;
   }
   .label-section {
-    margin-top: 4em;
-    margin-bottom: 0em;
     font-size: 2em;
   }
   .workdesc {
@@ -632,12 +619,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .label-section {
-    margin-top: 4em;
-    margin-bottom: 0em;
-    padding-bottom: 0.5em;
-    display: inline-block;
   }
   .studiodesc {
     width: 100%;
