@@ -552,7 +552,7 @@ footer {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
     height: 30px;
     width: 48.16px;
-    margin-bottom: 1.33em;
+    margin-bottom: 1.5em;
   }
 
   /* controls p in main*/
@@ -569,7 +569,7 @@ footer {
     align-items: flex-start;
     margin-top: 0em;
     padding-left: 1em;
-    padding-top: 1em;
+    padding-top: 2em;
   }
   .hero h3 {
     font-size: 0.9em;
@@ -581,7 +581,7 @@ footer {
     font-size: 1.3em;
   }
   .hero {
-    padding-top: 3em;
+    padding-top: 4em;
   }
   .hero a {
     border-bottom: 1px solid #D5DBE5;
