@@ -568,7 +568,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 0em;
-    padding-left: 2em;
+    padding-left: 1em;
     padding-top: 2.67em;
   }
   .hero h3 {
@@ -579,8 +579,6 @@ footer {
   .hero h1 {
     font-family: 'bitter', 'georgia', serif;
     font-size: 1.3em;
-    margin-left: 0.67em;
-    margin-right: 0.67em;
   }
   .hero {
     padding-top: 1em;
