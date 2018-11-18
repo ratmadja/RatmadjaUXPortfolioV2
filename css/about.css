@@ -497,11 +497,11 @@ p > span {
     margin-bottom: 1.5em;
   }
   .herologo-container {
-    margin-top: 2em;
-    margin-bottom: 2.1em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
   }
   .herologo {
-    width: 80%;
+    width: 100%;
   }
 
 
@@ -525,7 +525,10 @@ p > span {
     align-items: flex-start;
     margin-top: 0em;
     padding-left: 1em;
-    padding-top: 3em;
+    padding-top: 1em;
+  }
+  .nav-main {
+    margin-top: 4em;
   }
 
   header {
