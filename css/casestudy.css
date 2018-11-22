@@ -20,11 +20,10 @@ html, .root {
 }
 body, .article {
   color: #333333;
-  font-family: 'alegreya','georgia', serif;
+  font-family: 'Gentium Basic','georgia', serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
-  /* max-width: 560px; */
 }
 h1, .h1 {
   font-family: 'work sans', sans-serif;
@@ -35,7 +34,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'bitter','georgia', serif;
+  font-family: 'eczar','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
@@ -44,7 +43,7 @@ h2, .h2 {
 
 }
 h3, .h3 {
-  font-family: 'bitter','georgia', serif;
+  font-family: 'eczar','georgia', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 2.16em;
@@ -52,7 +51,7 @@ h3, .h3 {
   margin-bottom: 0.75em;
 }
 h4, .h4 {
-  font-family: 'alegreya','georgia', serif;
+  font-family: 'Gentium Basic','georgia', serif;
   font-weight: 600;
   line-height: 1.5em;
   font-size: 1.22em;
@@ -98,7 +97,7 @@ sub {
 }
 figcaption {
   font-size: .9em;
-  font-style: 'alegreya sans',sans-serif;
+  font-style: 'Gentium Basic',serif;
   font-style: italic;
   text-align: center;
   margin-top: 1em;
@@ -313,7 +312,7 @@ header {
   background: linear-gradient(#FAFAFA, #E2E2E2);
 }
 .hero-tagline {
-  font-family: 'bitter', serif;
+  font-family: 'eczar', serif;
   font-weight: 400;
   text-align: center;
   padding-top: 2em;
@@ -331,7 +330,7 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #888888;
-  font-family: 'alegreya sans', sans-serif;
+  font-family: 'Gentium Basic', serif;
   font-size: 0.9em;
   font-weight: 400;
   text-align: center;
@@ -372,7 +371,7 @@ header {
   font-weight: 400;
 }
 .cs-info li {
-  font-family: 'alegreya sans', sans-serif;
+  font-family: 'Gentium Basic', serif;
   font-size: 1em;
   line-height: 1.5em;
   color: #333333;
@@ -429,7 +428,7 @@ header {
 
 .note-label {
   color: #666666;
-  font-family: 'bitter', serif;
+  font-family: 'eczar', serif;
   font-style: italic;
   margin-top: 4.75em;
   font-size: 0.9em;
