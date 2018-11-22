@@ -16,7 +16,7 @@ main, .main {
 
 html, .root {
   font-size: 18px;
-  line-height: 27px;
+  line-height: 26px;
 }
 body, .article {
   color: #333333;
@@ -398,12 +398,12 @@ header {
 /* controls font-size and line height of p in .cs-section*/
 .cs-section > p {
   font-size: 1.11em;
-  line-height: 1.67em;
+  line-height: 1.6em;
 }
 .p-italic {
   margin-top: 2em;
   font-size: 1.11em;
-  line-height: 1.67em;
+  line-height: 1.6em;
   font-style: italic;
 }
 /* controls font-size and line height of p*/
@@ -1035,6 +1035,7 @@ header {
   /* controls font-size and line height of p in .cs-section*/
   .cs-section > p {
     font-size: 1em;
+    line-height: 1.5em;
   }
   .p-italic {
     font-size: 1em;
