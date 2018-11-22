@@ -164,7 +164,7 @@ sub {
   padding-top: 8em;
 }
 .hero h1 {
-  font-family: 'bitter', 'georgia', serif;
+  font-family:'bitter', serif;
   font-size: 3.67em;
   line-height: 1.5em;
 }
