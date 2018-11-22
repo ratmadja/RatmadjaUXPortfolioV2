@@ -427,11 +427,10 @@ header {
 
 
 .note-label {
-  color: #666666;
+  color: #333333;
   font-family: 'eczar', serif;
-  font-style: italic;
   margin-top: 4.75em;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .pullquote {
   font-size: 2em;
@@ -1036,7 +1035,6 @@ header {
   /* controls font-size and line height of p in .cs-section*/
   .cs-section > p {
     font-size: 1em;
-    line-height: 1.5em;
   }
   .p-italic {
     font-size: 1em;
@@ -1046,10 +1044,13 @@ header {
   /* controls font-size and line height of p*/
 
   .pullquote {
+    line-height: 1.2em;
     font-size: 1.78em;
     margin-top: 1em;
     margin-bottom: 2em;
   }
+
+
   footer {
     align-items: center;
   }
@@ -1091,6 +1092,7 @@ header {
   .cs-section > p {
     width: 100%;
   }
+
 
 
   /* controls Nimbus Diagram visibility and text width*/
