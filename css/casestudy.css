@@ -37,7 +37,7 @@ h2, .h2 {
   font-family: 'eczar','georgia', serif;
   font-weight: 400;
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.4em;
   margin-top: 1.75em;
   margin-bottom: 1em;
 
@@ -46,14 +46,14 @@ h3, .h3 {
   font-family: 'eczar','georgia', serif;
   font-weight: 400;
   font-size: 1.38888889em;
-  line-height: 2.16em;
+  line-height: 1.4em;
   margin-top: 1.08em;
   margin-bottom: 0.75em;
 }
 h4, .h4 {
   font-family: 'Gentium Basic','georgia', serif;
   font-weight: 600;
-  line-height: 1.5em;
+  line-height: 1.4em;
   font-size: 1.22em;
   margin-top: 1.5em;
   margin-bottom: 0.6em;
@@ -428,8 +428,9 @@ header {
 
 .note-label {
   color: #333333;
-  font-family: 'eczar', serif;
+  font-family: 'gentium basic', serif;
   margin-top: 4.75em;
+  margin-bottom: 0.5em;
   font-size: 1em;
 }
 .pullquote {
@@ -827,8 +828,8 @@ header {
     padding: 0 4em;
   }
   .hero-tagline {
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
   }
   .hero-desc {
     padding-top: 1em;
@@ -1094,6 +1095,21 @@ header {
     width: 100%;
   }
 
+  /* type size reduction for mobile*/
+  .cs-section > h2 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+  .cs-section > h3 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+  .cs-section > h4 {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  /* type size reduction for mobile*/
+
 
 
   /* controls Nimbus Diagram visibility and text width*/
@@ -1183,21 +1199,6 @@ header {
   /*---End of heroImage styling ---*/
 
 
-
-  /* type size reduction for mobile*/
-  .cs-section > h2 {
-    font-size: 1.4em;
-    line-height: 1.8em;
-  }
-  .cs-section > h3 {
-    font-size: 1.2em;
-    line-height: 1.6em;
-  }
-  .cs-section > h4 {
-    font-size: 1em;
-    line-height: 1.4em;
-  }
-  /* type size reduction for mobile*/
 
 
   .casestudy-sectionlabel {
@@ -1323,6 +1324,23 @@ header {
   }
 
 
+  /* type size reduction for mobile*/
+  .cs-section > h2 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+  .cs-section > h3 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+  .cs-section > h4 {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  /* type size reduction for mobile*/
+
+
+
   /* controls Nimbus Diagram visibility and text width*/
   .diagramNarrow > p,
   .diagramNarrow > h3 {
@@ -1349,20 +1367,7 @@ header {
   /* controls font-size and line height of p*/
 
 
-  /* type size reduction for mobile*/
-  .cs-section > h2 {
-    font-size: 1.4em;
-    line-height: 1.8em;
-  }
-  .cs-section > h3 {
-    font-size: 1.2em;
-    line-height: 1.6em;
-  }
-  .cs-section > h4 {
-    font-size: 1em;
-    line-height: 1.4em;
-  }
-  /* type size reduction for mobile*/
+
 
 
   .groupixd-2up-container {

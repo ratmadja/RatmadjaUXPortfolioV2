@@ -44,7 +44,7 @@ h2, .h2 {
   font-family: 'eczar','georgia', serif;
   font-weight: 400;
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.4em;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
@@ -52,7 +52,7 @@ h3, .h3 {
   font-family: 'gentium basic','georgia', serif;
   font-weight: 400;
   font-size: 1.38888889em;
-  line-height: 2.16em;
+  line-height: 1.4em;
   margin-top: 1.08em;
   margin-bottom: 0.44em;
 }
@@ -60,7 +60,7 @@ h4, .h4 {
   font-family: 'gentium basic','georgia', serif;
   font-weight: 600;
   font-size: 1.22em;
-  line-height: 1.5em;
+  line-height: 1.4em;
   margin-top: 1.5em;
   margin-bottom: 0.44em;
 }
