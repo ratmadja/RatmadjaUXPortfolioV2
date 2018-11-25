@@ -392,7 +392,7 @@ header {
 .cs-section > h4,
 .cs-section > h5,
 .cs-section > p {
-  width: 60%;
+  width: 67%;
 }
 
 
@@ -409,22 +409,6 @@ header {
 }
 /* controls font-size and line height of p*/
 
-
-/* controls Nimbus Diagram visibility and text width*/
-.diagramNarrow > p,
-.diagramNarrow > h3 {
-  width: 60%;
-}
-.img-contain4 {
-  padding-left: 1.5%;
-  margin: 4em 0em;
-}
-.img-incontain4 {
-  margin: auto;
-  width: 49%;
-  display: inline;  /*adjust to 'block' for vertical layout*/
-}
-/* controls Nimbus Diagram visibility and text width*/
 
 
 .note-label {
@@ -516,6 +500,40 @@ header {
   font-weight: 500;
   border-top: 1px solid #E2E2E2;
 }
+
+
+
+/* controls Nimbus Diagram visibility and text width*/
+.diagramNarrow > p,
+.diagramNarrow > h3 {
+  width: 60%;
+}
+.img-contain4 {
+  padding-left: 1.5%;
+  margin: 4em 0em;
+}
+.img-incontain4 {
+  margin: auto;
+  width: 49%;
+  display: inline;  /*adjust to 'block' for vertical layout*/
+}
+/* controls Nimbus Diagram visibility and text width*/
+
+
+
+/* controls .hafpersona at 1024px and up*/
+.hafpersona {
+  background-image: url("../assets/csHaf-site/images/persona1x4.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 27vw;
+  max-height: 348px;
+}
+/* controls .hafpersona*/
+
+
+
 
 
 
@@ -734,6 +752,9 @@ header {
 }
 
 
+
+
+
 .img-boxshadow {
     box-shadow: rgba(224,224,224,0.5) 0 2px 24px;
 }
@@ -862,6 +883,14 @@ header {
   .diagramNarrow,
   .diagramMobileNarrow {
     display: none;
+  }
+  .cs-section > h1,
+  .cs-section > h2,
+  .cs-section > h3,
+  .cs-section > h4,
+  .cs-section > h5,
+  .cs-section > p {
+    width: 85%;
   }
 }
 
@@ -1005,6 +1034,18 @@ header {
   /* End of project carousel */
 
 
+  /* controls .hafpersona at 768px to 1023px*/
+  .hafpersona {
+    background-image: url("../assets/csHaf-site/images/persona2x2.png");
+    background-position: left;
+    height: 93vw;
+    max-height: 720px;
+  }
+  /* controls .hafpersona*/
+
+
+
+
   /* Start of large diagram visibility (eg Nimbus) */
   .diagramWide,
   .diagramMobileWide {
@@ -1076,6 +1117,17 @@ header {
   }
 
 
+  /* controls .hafpersona at 480px to 767px*/
+  .hafpersona {
+    background-image: url("../assets/csHaf-site/images/persona2x2.png");
+    background-position: left;
+    height: 150vw;
+    max-height: 720px;
+  }
+  /* controls .hafpersona*/
+
+
+
   footer {
     align-items: center;
   }
@@ -1115,7 +1167,7 @@ header {
   .cs-section > h4,
   .cs-section > h5,
   .cs-section > p {
-    width: 100%;
+    width: 80%;
   }
 
   /* type size reduction for mobile*/
@@ -1222,6 +1274,14 @@ header {
   /*---End of heroImage styling ---*/
 
 
+  .img2upflip-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .img2upflip {
+    width: 100%;
+  }
 
 
   .casestudy-sectionlabel {
@@ -1519,6 +1579,17 @@ header {
     margin-bottom: 4em;
     font-size: .7em;
   }
+
+
+  /* controls .hafpersona at 320px to 479px*/
+  .hafpersona {
+    background-image: url("../assets/csHaf-site/images/persona4x1.png");
+    background-position: center;
+    height: 523vw;
+    max-height: 1464px;
+  }
+  /* controls .hafpersona*/
+
 
   /* Start of large diagram visibility (eg Nimbus) */
   .diagramWide,
