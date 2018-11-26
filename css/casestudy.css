@@ -775,17 +775,17 @@ header {
 
 /* Start of full-bleed color backgrounds */
 .img-fullbleed-ingrain {
-  background: linear-gradient(#62474E,#62474E);
+  background: linear-gradient(#62474E,#594147);
   margin-top: 4em;
   padding-bottom: 4em;
 }
 .img-fullbleed-haf {
-  background: linear-gradient(#476BAC,#476BAC);
+  background: linear-gradient(#D5DBE6,#C3C8D3);
   margin-top: 4em;
   padding-bottom: 4em;
 }
 .img-fullbleed-nimbus {
-  background: linear-gradient(#E2E2E2,#FAFAFA);
+  background: linear-gradient(#DFDDE2,#CFCCD4);
   margin-top: 4em;
   padding-bottom: 4em;
 }
