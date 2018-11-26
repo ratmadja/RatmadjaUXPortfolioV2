@@ -27,7 +27,7 @@
         <li><a href="#section1">Research</a></li>
         <li><a href="#section2">Iterate</a></li>
         <li><a href="#section3">Dashboard design</a></li>
-        <li><a href="#section4">Product page</a></li>
+        <li><a href="#section4">Web design</a></li>
       </ul>
       <div class="nav-project">
         <a class="nav-prevcs" href="casestudy-HafSite.html"><i class="fas fa-caret-left"></i> PREV</a>
@@ -95,7 +95,7 @@
       <!-- Start of overview -->
       <section class="cs-section">
         <h2>Overview</h2>
-        <p>Nimbus is a cloud collaboration platform designed with the creative process in mind. It combines advanced commenting features with flexible file organization capabilities that can handle the non-linear nature of the design process and enhances the feedback loop.</p>
+        <p>Nimbus is a cloud collaboration platform designed with the creative process in mind.  The goal is to combine the best features of a cloud-based document viewer and enhance it with a robust commenting feature that allows for conversation threads, so as to create a more efficient feedback loop for remote teams.</p>
         <a class="link-doc" target="_blank" href="https://projects.invisionapp.com/share/3EGQ7ZY2UQB#/screens">VIEW THE INVISION PROTOTYPE <i class="fas fa-external-link-alt"></i></a>
 
       </section>
@@ -112,6 +112,7 @@
 
         <h2>The competitive landscape</h2>
         <p>The creative process is iterative in nature, it thrives on an efficient feedback system as well as an effective organization method that enhance rather than hinder the creative workflow. Currently, the creative community is hard-pressed to find a cloud collaboration platform that combines robust commenting features with advanced file organization capabilities.</p>
+        <p>Most market offerings fall into these two ends of the spectrum:</p>
 
         <div class="img2upflip-container">
           <div class="img2upflip">
@@ -124,17 +125,17 @@
           </div>
         </div>
 
-        <p>Platforms such as Evernote may have great organization capabilities (i.e. searchable tags) but they are lacking in commenting features that facilitate efficient feedback. Platforms such as Dropbox, InVision, and RedPen have powerful commenting features, but their file organization capabilities lack flexibility, restricting users to organize by nested folders.</p>
+        <p>Platforms such as Evernote may have great organization capabilities (i.e. searchable tags), but they are lacking in commenting features that facilitate efficient feedback. Platforms such as Dropbox, InVision, and RedPen have powerful commenting features, but their file organization capabilities lack flexibility, restricting users to organize by nested folders.</p>
 
         <h2>User Research</h2>
-        <p>A survey was deployed to quantify user's preferences of features for a cloud collaboration platform. I also conducted a competitive analysis between leading cloud storange platforms and identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents.</p>
+        <p>A survey was deployed to quantify user's preferences of features for a cloud collaboration platform. Here are several key findings by the numbers:</p>
+        <p class="p-italic">83% are interested in more collaboration features</p>
+        <p class="p-italic">86% say that better organizational tools will improve their workflow</p>
+        <p class="p-italic">90% want more robust commenting features seen in platforms like slack</p>
         <p>Survey analysis indicate that users are looking for more ways to organize their files to enhance their workflow. They also appear to already collaborate on the cloud and are wanting more advanced collaborative tools. Here are several significant results:</h3>
-          <p class="p-italic">83% are interested in more collaboration features</p>
-          <p class="p-italic">86% say that better organizational tools will improve their workflow</p>
-          <p class="p-italic">90% want more robust commenting features seen in platforms like slack</p>
 
           <h2>Competitive Analysis</h2>
-          <p>I conducted a competitive analysis between four leading platforms such as Dropbox, Mega.nz, MediaFire, and pCloud. I identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents. As I studied the competition, I was fascinated by the use of vertical versus horizontal toolbars. I also identified similarities, such as the tendency to put location-based links along the left-aligned toolbar pane. </p>
+          <p>I conducted a competitive analysis between four leading platforms such as Dropbox, Mega.nz, MediaFire, and pCloud. I identified a growing trend towards more advanced commenting features that allow users to track conversation histories in their shared documents.</p>
           <p>Here is a snapshot of the four competitors I studied:</p>
 
           <div class="img2upflip-container">
@@ -146,6 +147,8 @@
             </div>
           </div>
 
+          <p>As I studied the competition, I was fascinated by the use of vertical versus horizontal toolbars. I also identified similarities, such as the tendency to put location-based links along the left-aligned toolbar pane. </p>
+
           <div class="img2upflip-container">
             <div class="img2upflip">
               <img src="assets/csNimbus/images/competitor3.png"/>
@@ -154,6 +157,8 @@
               <img src="assets/csNimbus/images/competitor4.png"/>
             </div>
           </div>
+
+
 
 
         </section>
@@ -168,27 +173,27 @@
 
           <h3>Synthesizing User Flows</h3>
 
-          <p>After scrutinizing the layout and navigation structure of several cloud platforms, I synthesized my research into a series of user flows and wireframes that begin to inform the layout of modal windows and comment prompts.</p>
+          <p>After scrutinizing the layout and navigation structure of several cloud platforms, I synthesized my research into a series of user flows and wireframes that begin to inform the layout of key elements of the user interface.</p>
 
-          <div class="img2up-container">
-            <div class="img2up">
+          <div class="img2upflip-container">
+            <div class="img2upflip">
               <figcaption>User flow for moving files</figcaption>
               <img src="assets/csNimbus/images/UserflowMove.png"/>
             </div>
-            <div class="img2up">
+            <div class="img2upflip">
               <figcaption>Modal pop-up to select file location</figcaption>
               <img src="assets/csNimbus/images/modalMove.png"/>
             </div>
           </div>
 
 
-          <div class="img2up-container">
-            <div class="img2up">
+          <div class="img2upflip-container">
+            <div class="img2upflip">
               <figcaption>User flow for commenting</figcaption>
               <img src="assets/csNimbus/images/UserflowComment.png"/>
             </div>
-            <div class="img2up">
-              <figcaption>Modal view for leaving comments on mobile</figcaption>
+            <div class="img2upflip">
+              <figcaption>Modal view layout options for commenting</figcaption>
               <img src="assets/csNimbus/images/MobileComment.png"/>
             </div>
           </div>
@@ -215,14 +220,15 @@
               <img src="assets/csNimbus/images/wf2b.png"/>
             </div>
           </div>
-          <figcaption>I also tested horizontal toolbar layouts that platforms such as InVision, Dropbox, and Redpen utilized.</figcaption>
+          <figcaption>I also tested a horizontal toolbar layouts that platforms such as InVision, Dropbox, and Redpen utilized.</figcaption>
 
 
-          <h2>Test</h2>
+          <h2>Usability Testing</h2>
 
-          <h3>First Round of User Testing</h3>
+          <h3>Round 1 of user testing</h3>
           <p>This initial round revealed that users do not look for high-use functions like ‘upload’ along the bottom navigation bar. They expect it at the top bar or somewhere along the top half of the screen.</p>
-          <p>I learned that icons mean different things to different people, and that labeling a button by text clarifies it that much more for the user. I also learned the importance of locating file paths ("breadcrumbing") on the top portion of the screen.</p>
+          <p>I learned that icons mean different things to different people, and that labeling a button by text is necessary for user comprehension. I also learned the importance of locating file paths ("breadcrumbing") on the top portion of the screen.</p>
+
 
           <div class="img2upflip-container">
             <div class="img2upflip">
@@ -233,9 +239,11 @@
             </div>
           </div>
 
+
           <h3>Second Round of User Testing</h3>
-          <p>Most users do not connect clicking a button in one location that affects the changes in another area of the screen. To them, it is as if their action does not generate a response and it becomes a frustrating experience to use the dashboard.</p>
+          <p>On this round, I learned that most users do not connect clicking a button in one location that affects the changes in another area of the screen. To them, it is as if their action does not generate a response and it becomes a frustrating experience to use the dashboard.</p>
           <p>Consistent with the gestalt principle of proximity, it is best to put icons and functions on the same location as the pane or section of the dashboard that it affects.</p>
+
 
           <div class="img2upflip-container">
             <div class="img2upflip">
@@ -245,6 +253,7 @@
               <img src="assets/csNimbus/images/wf4b.png"/>
             </div>
           </div>
+
 
         </section>
         <!-- End of section2 -->
@@ -258,8 +267,8 @@
           </div>
 
           <h2>Dashboard Components</h2>
-          <p>After scrutinizing the layout and navigation structure of several cloud platforms and validating design decisions after several rounds of user-testing, a clean dashboard design with a top horizontal toolbar and a right-aligned support pane prove to be the most effective.</p>
-
+          <p>After scrutinizing the layout and navigation structure of several cloud platforms and validating design decisions through several rounds of user-testing, a clean dashboard design with a top horizontal toolbar and a right-aligned support pane prove to be the most effective.</p>
+          <p>Here is a map diagram that documents the key components of the dashboard:</p>
 
           <!--start of dash desktop diagram-->
           <div class="diagramWide">
@@ -285,9 +294,28 @@
           </div>
           <!--end of dash desktop diagram -->
 
+          <h2>User Interface Preference Test</h2>
+          <p>I came up with dark and light UI versions of the dashboard. Both were equally interesting, so I conducted a preference test to select a UI theme direction.</p>
+          <div class="caption-fullwidth-container">
+            <h5 class="caption-fullwidth">Dashboard Design</h5>
+          </div>
+          <p>“The following are 2 user interface color schemes for a cloud platform's commenting feature. The goal is to make sure that comments on the document as well as the comment thread on the right side is very legible to users. Which design do you prefer?”</p>
+
+          <div class="img2up-container">
+            <div class="img2up">
+              <img src="assets/csNimbusLanding/1x/pref3.png" />
+              <p class="p-italic">60%</p>
+              <figcaption>“Things feel more legible with the white background, like I can see everything.”</figcaption>
+            </div>
+            <div class="img2up">
+              <img src="assets/csNimbusLanding/1x/pref4.png" />
+              <p class="p-italic">40%</p>
+            </div>
+          </div>
+
 
           <h2>Mobile App Components</h2>
-          <p>The Nimbus mobile app is designed to give users the same powerful organization and collaboration features that the Nimbus desktop counterpart offers.</p>
+          <p>As an extension of the desktop counterpart, the Nimbus mobile app is designed to give users the same powerful organization and collaboration features that the Nimbus desktop counterpart offers.</p>
           <p>The concept of the responsive toolbar translates into a responsive set of tab bars. When loading the app, the tab bars display frequently-accessed locations—thereby flattening the app structure.</p>
 
 
@@ -314,10 +342,10 @@
           <!--end of dash mobile diagram-->
 
 
-          <h2>Usability testing takeaways</h2>
+          <h2>Key takeaways</h2>
           <p>I learned the hard way that icons mean different things to different people, that labeling a button by text clarifies it that much more for the user.</p>
-          <p>I learned the hard way that users do not look for high-use functions like ‘upload’ along the bottom navigation bar. They expect it at the top bar or somewhere on the top heading of the screen.</p>
           <p>As I watched people struggle with knowing where to click next when leaving a comment, I learned the importance of visual responsiveness to a user’s action.</p>
+
 
         </section>
         <!-- End of section3 -->
@@ -327,11 +355,13 @@
         <!-- Start of section4 -->
         <section id="section4" class="cs-section">
           <div class="label-container">
-            <h1 class="casestudy-sectionlabel">Product page</h1>
+            <h1 class="casestudy-sectionlabel">Web Design</h1>
           </div>
 
+          <h2>Branding</h2>
           <h3>Logo Design</h3>
-          <p>The cloud platform is named after the cloud formation 'Nimbus,' which is derived from the Latin word for “rain.” Its associations include rain, thunder, and lightning. The Nimbus logo is inspired by the form of a lightning bolt, which is abstracted to form the letter N.</p>
+          <p>The cloud platform is named after the cloud formation Nimbus, which derives its name from the Latin word for rain. Its associations include rain, thunder, and lightning. The Nimbus logo is inspired by the form of a lightning bolt, which is abstracted to form the letter N.</p>
+          <p>Here are a few versions of the logo iterations, ultimately I chose the center one.</p>
           <img class="img-centeredandreduced" src="assets/csNimbusLanding/1x/LogoIterations.png" />
 
           <h3>Typography</h3>
@@ -343,10 +373,33 @@
           <img class="img-centeredandreduced" src="assets/csNimbusLanding/1x/styleguide2.png" />
           <img class="img-centeredandreduced" src="assets/csNimbusLanding/1x/styleguide3.png" />
 
-          <h2>Product page design</h2>
-          <p>Designing effective landing pages is about creating a clear hierarchy of content. I had initially implemented a color-blocked background scheme to add more visual interest to the composition. However, preference test results show users' overwhelming preference for cleaner, simpler solid backgrounds with larger product screen captures.</p>
 
-          <a class="link-doc" target="_blank" href="https://projects.invisionapp.com/share/3EGQ7ZY2UQB#/screens">VIEW THE INVISION PROTOTYPE</a>
+
+          <h2>Product Page Preference Test</h2>
+          <p>Designing effective landing pages is about creating a clear content hierarchy. I had initially implemented a color-blocked background scheme to add more visual interest to the composition. I then conducted some preference tests to validate the design direction.</p>
+
+          <div class="caption-fullwidth-container">
+            <h5 class="caption-fullwidth">Product Feature Section</h5>
+          </div>
+          <p>“The following are two options for showing screen captures of a cloud storage platform. The goal is to highlight the key features of the platform to give users a preview of its organizing and commenting features. Which design do you prefer?”</p>
+
+
+          <div class="img2up-container">
+            <div class="img2up">
+              <img src="assets/csNimbusLanding/1x/pref1.png" />
+              <p class="p-italic">5%</p>
+            </div>
+            <div class="img2up">
+              <img src="assets/csNimbusLanding/1x/pref2.png" />
+              <p class="p-italic">95%</p>
+              <figcaption>“The larger product screen captures lets me see the product feature in more detail.”</figcaption>
+            </div>
+          </div>
+
+
+          <h2>Putting the product page together</h2>
+          <p>The final design is informed by people's overwhelming preference for clean and simple designs featuring neutral backgrounds that highlight product screen captures.</p>
+          <a class="link-doc" target="_blank" href="https://projects.invisionapp.com/share/3EGQ7ZY2UQB#/screens">VIEW THE INVISION PROTOTYPE <i class="fas fa-external-link-alt"></i></a>
 
 
         </section>
