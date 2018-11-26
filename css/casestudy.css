@@ -102,9 +102,6 @@ figcaption {
   text-align: center;
   margin-top: 1em;
   margin-bottom: 2em;
-  margin-left: 10%;
-  width: 80%;
-
 }
 .small-caption {
   font-size: .8em;
@@ -719,18 +716,31 @@ header {
   margin: auto;
   width: 60%;
 }
+.img-leftaligned {
+  display: block;
+  padding-top: 4em;
+  width: 60%;
+}
+
+
+/* Full-width images without box-shadow */
 .img-fullwidth{
   width: 100%;
   margin: auto;
   display: block;
   padding-top: 3em;
+  padding-bottom: 1em;
 }
 
 
-.img-fullbleed {          /* backgrund extends past margin */
-  background: #62474E;
-  margin-top: 4em;
-  padding-bottom: 4em;
+/* Full-width images with box-shadow */
+.img-1up{
+  width: 100%;
+  margin: auto;
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  box-shadow: rgba(0,0,0,0.1) 0 1px 16px;
 }
 
 
@@ -743,7 +753,7 @@ header {
   align-items: flex-start;
 }
 .img2up, .img2upflip {
-  padding-top: 0.5em;
+  margin-top: 2.67em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -752,15 +762,36 @@ header {
 }
 .img2up img, .img2upflip img {
   width: 100%;
+  box-shadow: rgba(0,0,0,0.1) 0 1px 16px;
 }
 
 
 
 
 
-.img-boxshadow {
-    box-shadow: rgba(224,224,224,0.5) 0 2px 24px;
+
+
+
+
+/* Start of full-bleed color backgrounds */
+.img-fullbleed-ingrain {
+  background: linear-gradient(#62474E,#62474E);
+  margin-top: 4em;
+  padding-bottom: 4em;
 }
+.img-fullbleed-haf {
+  background: linear-gradient(#8A9CBB,#8A9CBB);
+  margin-top: 4em;
+  padding-bottom: 4em;
+}
+.img-fullbleed-nimbus {
+  background: linear-gradient(#E2E2E2,#FAFAFA);
+  margin-top: 4em;
+  padding-bottom: 4em;
+}
+/* End of full-bleed color backgrounds */
+
+
 
 .img-dashdiagram {
   width: 100%;
@@ -929,8 +960,16 @@ header {
     font-size: .9em;
   }
   .img-centeredandreduced {
+    padding-top: 3em;
     width: 80%;
   }
+  .img-leftaligned {
+    padding-top: 3em;
+    width: 80%;
+  }
+
+
+
   .cs-section > h1,
   .cs-section > h2,
   .cs-section > h3,
@@ -1143,6 +1182,11 @@ header {
     align-items: center;
   }
   .img-centeredandreduced {
+    padding-top: 2em;
+    width: 80%;
+  }
+  .img-leftaligned {
+    padding-top: 2em;
     width: 80%;
   }
   .nav-cs a {
@@ -1371,6 +1415,11 @@ header {
 
 
   .img-centeredandreduced {
+    padding-top: 1em;
+    width: 100%;
+  }
+  .img-leftaligned {
+    padding-top: 1em;
     width: 100%;
   }
 
