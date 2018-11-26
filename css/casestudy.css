@@ -1067,10 +1067,10 @@ header {
 
   /* Start of project carousel */
   .projectCarousel-left {
-    width: 45%;
+    width: 35%;
   }
   .projectCarousel-right {
-    width: 45%;
+    width: 35%;
     text-align: right;
   }
   /* End of project carousel */
