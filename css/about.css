@@ -131,8 +131,8 @@ figcaption {
 }
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 38px;
-  width: 61px;
+  height: 34px;
+  width: 54.58px;
 }
 
 .nav-main {
@@ -241,7 +241,6 @@ main {
   align-items: center;
 }
 .herologo-container {
-  margin-top: 4em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -369,8 +368,8 @@ p > span {
     margin: auto;
   }
   .herologo-container {
-    margin-top: 3em;
-    margin-bottom: 3.1em;
+    margin-top: 2em;
+    margin-bottom: 0em;
   }
 }
 
@@ -383,8 +382,8 @@ p > span {
     margin: 0em 8em;
   }
   .herologo-container {
-    margin-top: 3em;
-    margin-bottom: 3.1em;
+    margin-top: 2em;
+    margin-bottom: 0em;
   }
   .about-sectionlabel {
     margin-top: 8em;
@@ -410,8 +409,8 @@ p > span {
     width: 54.58px;
   }
   .herologo-container {
-    margin-top: 3em;
-    margin-bottom: 3.1em;
+    margin-top: 2em;
+    margin-bottom: 0em;
   }
   .herologo {
     width: 90%;
@@ -456,8 +455,8 @@ p > span {
     /* margin-bottom: 1.75em; */
   }
   .herologo-container {
-    margin-top: 2em;
-    margin-bottom: 2.1em;
+    margin-top: 1em;
+    margin-bottom: 0em;
   }
   .herologo {
     width: 90%;
@@ -555,8 +554,8 @@ p > span {
     margin-bottom: 1.5em;
   }
   .herologo-container {
-    margin-top: 1.5em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 0em;
   }
   .herologo {
     width: 100%;

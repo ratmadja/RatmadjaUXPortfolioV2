@@ -108,8 +108,8 @@ sub {
 }
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 38px;
-  width: 61px;
+  height: 34px;
+  width: 54.58px;
 }
 
 .nav-main {
@@ -139,6 +139,10 @@ sub {
 /*------- End of logo and nav styling -------*/
 
 
+
+
+
+
 /* ------Start of Label Styling------ */
 .label-container {
   text-align: center;
@@ -146,7 +150,7 @@ sub {
 .label-section {
   display: inline;
   text-transform: uppercase;
-  margin-top: 4em;
+  margin-top: 2em;
   margin-bottom: 2em;
   padding-bottom: 0.33em;
   display: inline-block;
@@ -161,22 +165,25 @@ sub {
 /* ------Start of Hero Styling------ */
 
 .hero {
-  padding-top: 8em;
+  padding-top: 4em;
 }
 .hero h1 {
   font-family:'eczar', serif;
-  font-size: 3.67em;
-  line-height: 1.4em;
+  font-size: 3.4em;
+  line-height: 1.25em;
 }
+
+.hero h1 span {
+  text-decoration: underline;
+}
+
 .hero a {
   color: #333333;
-  text-decoration: none;
-  border-bottom: 1px solid #D5DBE5;
+  text-decoration: underline;
   transition: all .2s cubic-bezier(0,0,.58,1);
-  /* border: 1px solid red; */
 }
 .hero a:hover {
-  border-bottom: 1px solid #DA9218;
+  color: black;
 }
 /* ------End of Hero Styling------ */
 
@@ -191,9 +198,9 @@ main p {
   font-size: 1.11em;
   line-height: 1.67em;
 }
-
-
 /* controls p in main*/
+
+
 
 
 
@@ -261,6 +268,15 @@ main p {
 
 
 /*------------------ Start of work desc and link sytling ---------*/
+
+.work-heading {
+  font-family: 'eczar', serif;
+  font-weight: 500;
+  font-size: 1.38888889em;
+  line-height: 1.4em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
 
 .studiodesc {
   width: 66%;
@@ -393,6 +409,7 @@ footer {
   .hero h3 {
     font-size: 1em;
   }
+
 }
 
 /*redzone*/
@@ -468,7 +485,14 @@ footer {
   }
   /* controls p in main*/
 
-
+  .work-heading {
+    font-family: 'eczar', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
 
 .navmenu {
     /* border: 1px solid #BDBDBD; */
@@ -558,6 +582,15 @@ footer {
     line-height: 1.5em;
   }
   /* controls p in main*/
+
+  .work-heading {
+    font-family: 'eczar', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
 
 
   .navmenu {
