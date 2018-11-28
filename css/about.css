@@ -108,7 +108,16 @@ figcaption {
   text-align: center;
   margin-top: 4em;
 }
+.p-italic {
+  font-size: 1.11em;
+  line-height: 1.6em;
+  font-style: italic;
+}
 /* End of typography sizes */
+
+
+
+
 
 /*------- Start of logo and nav styling -------*/
 .navmenu {
@@ -152,6 +161,10 @@ figcaption {
   border-bottom: 1px solid #DA9218;
 }
 /*------- End of logo and nav styling -------*/
+
+
+
+
 
 
 /* ------Start of Footer Styling------ */
@@ -256,7 +269,7 @@ main {
 /* Centers main text */
 .about-primarycontent {
   margin: auto;
-  max-width: 640px;
+  max-width: 696px;
 }
 /* Centers main text */
 
@@ -277,7 +290,32 @@ p > span {
   padding-bottom: 3.11em;
 }
 
-.pullquote26h {
+
+.img2up-container, .img2upflip-container {
+  padding-top: 0.5em;
+  padding-bottom: 1.33em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.img2up, .img2upflip {
+  margin-top: 1.67em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+
+
+.pullquote {
   font-family: 'eczar','georgia', serif;
   font-weight: 400;
   font-size: 2em;
@@ -287,11 +325,13 @@ p > span {
 }
 
 
-.pullquote26h span {
+.pullquote span {
   font-style: italic;
 }
 
-
+.link-bio {
+  color: #333333;
+}
 
 .link-ref {
   color: #333333;
@@ -350,7 +390,7 @@ p > span {
     margin-top: 8em;
     font-size: 0.9em;
   }
-  .pullquote26h {
+  .pullquote {
     margin-top: 1.33em;
   }
 }
@@ -374,7 +414,7 @@ p > span {
     margin-bottom: 3.1em;
   }
   .herologo {
-    width: 80%;
+    width: 90%;
   }
   header {
     margin-top: 1.34em;
@@ -393,7 +433,7 @@ p > span {
     margin-top: 8em;
     font-size: 0.67em;
   }
-  .pullquote26h {
+  .pullquote {
     margin-top: 1.33em;
   }
 }
@@ -420,13 +460,18 @@ p > span {
     margin-bottom: 2.1em;
   }
   .herologo {
-    width: 75%;
+    width: 90%;
   }
 
   /* controls p in main*/
   main p {
     font-size: 1em;
     line-height: 1.5em;
+  }
+  .p-italic {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-style: italic;
   }
   /* controls p in main*/
 
@@ -459,11 +504,23 @@ p > span {
     justify-content: center;
     align-items: center;
   }
+
+
+  .img2upflip-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .img2upflip {
+    width: 100%;
+  }
+
+
   .img-centered {
     margin: auto;
     width: 80%;
   }
-  .pullquote26h {
+  .pullquote {
     font-size: 1.11em;
   }
   .site-credit {
@@ -473,7 +530,7 @@ p > span {
     margin-top: 8em;
     font-size: 0.67em;
   }
-  .pullquote26h {
+  .pullquote {
     margin-top: 1.33em;
     font-size: 1.11em;
   }
@@ -506,10 +563,25 @@ p > span {
   }
 
 
+  .img2upflip-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .img2upflip {
+    width: 100%;
+  }
+
+
   /* controls p in main*/
   main p {
     font-size: 1em;
     line-height: 1.5em;
+  }
+  .p-italic {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-style: italic;
   }
   /* controls p in main*/
 
@@ -565,7 +637,7 @@ p > span {
     margin-top: 8em;
     font-size: 0.67em;
   }
-  .pullquote26h {
+  .pullquote {
     margin-top: 1.33em;
     font-size: 1.11em;
   }
