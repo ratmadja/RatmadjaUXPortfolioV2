@@ -165,12 +165,16 @@ sub {
 /* ------Start of Hero Styling------ */
 
 .hero {
-  padding-top: 4em;
+  padding-top: 6em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 .hero h1 {
   font-family:'eczar', serif;
-  font-size: 3.4em;
+  font-size: 3.67em;
   line-height: 1.25em;
+  max-width: 996px;
+  margin: auto;
 }
 
 .hero h1 span {
@@ -438,11 +442,16 @@ footer {
     margin-top: 1.34em;
     padding: 1.33em 2.67em;
   }
+  .hero {
+    padding-top: 2.67em;
+    padding-left: 2.67em;
+    padding-right: 2.67em;
+  }
   .hero h3 {
     font-size: 1em;
   }
   .hero h1 {
-    font-size: 3.09em;
+    font-size: 3em;
   }
   .hero {
     padding-top: 8em;
@@ -513,8 +522,8 @@ footer {
   .hero {
     padding-top: 6em;
     /* only instance of added padding-left and padding-right for hero text */
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
   .hero a {
     border-bottom: 1px solid #D5DBE5;
@@ -607,6 +616,8 @@ footer {
   }
   .hero {
     padding-top: 0em;
+    padding-left: 1em;
+    padding-top: 1em;
   }
 
 
