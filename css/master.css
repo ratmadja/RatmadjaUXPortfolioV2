@@ -177,9 +177,9 @@ sub {
   margin: auto;
 }
 
-.hero h1 span {
+/* .hero h1 span {
   text-decoration: underline;
-}
+} */
 
 .hero a {
   color: #333333;
