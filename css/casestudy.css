@@ -770,8 +770,25 @@ header {
 
 
 
-
-
+.imgcolumn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.imgcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 48%;
+}
+.imgcolumn > img {
+  display: block;
+  margin-top: 24px;
+  width: 100%;
+  box-shadow: rgba(0,0,0,0.1) 0 1px 16px;
+}
 
 
 
@@ -929,6 +946,11 @@ header {
   .cs-section > p {
     width: 75%;
   }
+
+  .imgcolumn > img {
+    display: block;
+  }
+
 }
 
 
@@ -1097,10 +1119,11 @@ header {
   .diagramMobileWide {
     display: none;
   }
-
   /* End of large diagram visibility */
 
-
+  .imgcolumn > img {
+    display: block;
+  }
 
 }
 
@@ -1336,6 +1359,39 @@ header {
   }
 
 
+  .imgcolumn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .imgcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 98%;
+  }
+
+
+
+  .imgcolumn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .imgcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 98%;
+  }
+
+
+
+
   .casestudy-sectionlabel {
     font-size: 2em;
     padding-bottom: 0.25em;
@@ -1367,6 +1423,10 @@ header {
     display: none;
   }
   /* End of large diagram visibility */
+
+  .imgcolumn > img {
+    display: block;
+  }
 
 }
 
@@ -1631,6 +1691,23 @@ header {
     width: 100%;
   }
 
+
+  .imgcolumn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .imgcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 98%;
+  }
+
+
+
   .section-sublabel {
     margin-top: 0.5em;
     margin-bottom: 4em;
@@ -1654,5 +1731,9 @@ header {
     display: none;
   }
   /* End of large diagram visibility */
+
+  .imgcolumn > img {
+    display: block;
+  }
 
 }
