@@ -26,7 +26,7 @@ html, .root {
 }
 body, .article {
   color: #333333;
-  font-family: 'gentium basic','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
@@ -41,7 +41,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'eczar','georgia', serif;
+  font-family: 'jaf-lapture','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.4em;
@@ -49,7 +49,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'gentium basic','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -57,7 +57,7 @@ h3, .h3 {
   margin-bottom: 0.44em;
 }
 h4, .h4 {
-  font-family: 'gentium basic','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 600;
   font-size: 1.22em;
   line-height: 1.4em;
@@ -103,7 +103,7 @@ sub {
 }
 figcaption {
   font-size: .9em;
-  font-style: 'gentium basic', serif;
+  font-style: 'calluna', serif;
   font-style: italic;
   text-align: center;
   margin-top: 4em;
@@ -315,7 +315,7 @@ p > span {
 
 
 .pullquote {
-  font-family: 'eczar','georgia', serif;
+  font-family: 'jaf-lapture','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;

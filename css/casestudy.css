@@ -20,7 +20,7 @@ html, .root {
 }
 body, .article {
   color: #333333;
-  font-family: 'Gentium Basic','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
@@ -34,7 +34,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'eczar','georgia', serif;
+  font-family: 'jaf-lapture','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.4em;
@@ -43,7 +43,7 @@ h2, .h2 {
 
 }
 h3, .h3 {
-  font-family: 'eczar','georgia', serif;
+  font-family: 'jaf-lapture','georgia', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -51,7 +51,7 @@ h3, .h3 {
   margin-bottom: 0.75em;
 }
 h4, .h4 {
-  font-family: 'Gentium Basic','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 600;
   line-height: 1.4em;
   font-size: 1.22em;
@@ -97,7 +97,7 @@ sub {
 }
 figcaption {
   font-size: .9em;
-  font-style: 'Gentium Basic',serif;
+  font-style: 'calluna',serif;
   font-style: italic;
   text-align: center;
   margin-top: 1em;
@@ -313,7 +313,7 @@ header {
   background: linear-gradient(#FAFAFA, #E2E2E2);
 }
 .hero-tagline {
-  font-family: 'eczar', serif;
+  font-family: 'jaf-lapture', serif;
   font-weight: 400;
   text-align: center;
   padding-top: 2em;
@@ -331,7 +331,7 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #888888;
-  font-family: 'Gentium Basic', serif;
+  font-family: 'calluna', serif;
   font-size: 0.9em;
   font-weight: 400;
   text-align: center;
@@ -372,7 +372,7 @@ header {
   font-weight: 400;
 }
 .cs-info li {
-  font-family: 'Gentium Basic', serif;
+  font-family: 'calluna', serif;
   font-size: 1em;
   line-height: 1.5em;
   color: #333333;
@@ -413,9 +413,10 @@ header {
 
 .note-label {
   color: #333333;
-  font-family: 'gentium basic', serif;
+  font-family: 'calluna', serif;
+  font-weight: 500;
   margin-top: 4.75em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
   font-size: 1em;
 }
 .pullquote {

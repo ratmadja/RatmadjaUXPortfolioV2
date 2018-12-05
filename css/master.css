@@ -18,7 +18,7 @@ html, .root {
 }
 body, .article {
   color: #333333;
-  font-family: 'Gentium Basic', serif;
+  font-family: 'calluna', serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
@@ -33,7 +33,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'eczar','georgia', serif;
+  font-family: 'jaf-lapture','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.4em;
@@ -41,7 +41,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'Gentium Basic', serif;
+  font-family: 'calluna', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -49,7 +49,7 @@ h3, .h3 {
   margin-bottom: 0.44em;
 }
 h4, .h4 {
-  font-family: 'Gentium Basic', serif;
+  font-family: 'calluna', serif;
   font-weight: 600;
   font-size: 1.22em;
   line-height: 1.4em;
@@ -170,7 +170,7 @@ sub {
   padding-right: 4em;
 }
 .hero h1 {
-  font-family:'eczar', serif;
+  font-family:'jaf-lapture', serif;
   font-size: 3.67em;
   line-height: 1.25em;
   max-width: 996px;
@@ -274,7 +274,7 @@ main p {
 /*------------------ Start of work desc and link sytling ---------*/
 
 .work-heading {
-  font-family: 'eczar', serif;
+  font-family: 'jaf-lapture', serif;
   font-weight: 500;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -305,7 +305,7 @@ main p {
 .work-scope {
   color: #666666;
   font-style: italic;
-  font-family: 'Gentium Basic', serif;
+  font-family: 'calluna', serif;
 }
 .caption-label {
   border: 1px solid red;
@@ -467,7 +467,7 @@ footer {
     font-size: 2.67em;
   }
   .work-heading {
-    font-family: 'eczar', serif;
+    font-family: 'jaf-lapture', serif;
     font-weight: 500;
     font-size: 1.2em;
     line-height: 1.4em;
@@ -503,7 +503,7 @@ footer {
   /* controls p in main*/
 
   .work-heading {
-    font-family: 'eczar', serif;
+    font-family: 'jaf-lapture', serif;
     font-weight: 500;
     font-size: 1.2em;
     line-height: 1.4em;
@@ -601,7 +601,7 @@ footer {
   /* controls p in main*/
 
   .work-heading {
-    font-family: 'eczar', serif;
+    font-family: 'jaf-lapture', serif;
     font-weight: 500;
     font-size: 1.2em;
     line-height: 1.4em;
@@ -634,7 +634,7 @@ footer {
     padding-top: 0.33em;
   }
   .hero h1 {
-    font-family: 'eczar', 'georgia', serif;
+    font-family: 'jaf-lapture', 'georgia', serif;
     font-size: 1.67em;
   }
 
