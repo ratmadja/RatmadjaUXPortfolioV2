@@ -44,7 +44,7 @@ h2, .h2 {
   font-family: 'jaf-lapture','georgia', serif;
   font-weight: 400;
   font-size: 2em;
-  line-height: 1.4em;
+  line-height: 1.35em;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
@@ -316,7 +316,7 @@ p > span {
   font-family: 'jaf-lapture','georgia', serif;
   font-weight: 400;
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.35em;
   margin-top: 0.75em;
   margin-bottom: 1.2em;
 }

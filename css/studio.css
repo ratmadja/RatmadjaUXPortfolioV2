@@ -41,7 +41,7 @@ h2, .h2 {
   font-family: 'jaf-lapture','georgia', serif;
   font-weight: 400;
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.35em;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
@@ -636,7 +636,7 @@ p {
   /* type size reduction for mobile*/
   .cs-section > h2 {
     font-size: 1.4em;
-    line-height: 1.5em;
+    line-height: 1.35em;
   }
   .cs-section > h3 {
     font-size: 1.28em;
@@ -770,7 +770,7 @@ p {
   /* type size reduction for mobile*/
   .cs-section > h2 {
     font-size: 1.4em;
-    line-height: 1.5em;
+    line-height: 1.35em;
   }
   .cs-section > h3 {
     font-size: 1.28em;
