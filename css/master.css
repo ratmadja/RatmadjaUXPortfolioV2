@@ -172,8 +172,9 @@ sub {
   font-family:'jaf-lapture', serif;
   font-size: 3em;
   line-height: 1.27em;
-  max-width: 996px;
+  max-width: 1136px;
   margin: auto;
+  margin-bottom: 3em;
 }
 
 /* .hero h1 span {
@@ -409,7 +410,7 @@ footer {
     border: 1px solid blue;
   } */
   main {
-    margin: 0em 8em;
+    margin: 0em 4em;
   }
   .hero h3 {
     font-size: 1em;
@@ -424,7 +425,7 @@ footer {
   } */
 
   main {
-    margin: 0em 4em;
+    margin: 0em 2.67em;
   }
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
@@ -444,7 +445,7 @@ footer {
     padding: 1.33em 2.67em;
   }
   .hero {
-    padding-top: 2.67em;
+    padding-top: 6em;
     padding-left: 2.67em;
     padding-right: 2.67em;
   }
@@ -454,9 +455,7 @@ footer {
   .hero h1 {
     font-size: 2.8em;
   }
-  .hero {
-    padding-top: 8em;
-  }
+
 
   .label-section {
     font-size: 2.67em;
