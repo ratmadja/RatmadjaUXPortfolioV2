@@ -30,8 +30,8 @@ body, .article {
   /* max-width: 560px; */
 }
 h1, .h1 {
-  font-family: 'work sans', sans-serif;
-  font-weight: 700;
+  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-weight: 400;
   font-size: 4.22222222em;
   line-height: 1.14473684em;
   margin-top: 0.38157895em;
@@ -55,14 +55,14 @@ h3, .h3 {
 }
 h4, .h4 {
   font-family: 'ff-scala','georgia', serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.22em;
   line-height: 1.5em;
   margin-top: 1.5em;
   margin-bottom: 0.44em;
 }
 h5, .h5 {
-  font-family: 'work sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   margin-top: 1.5em;
@@ -112,8 +112,8 @@ figcaption {
 }
 .studioLabel {
   margin-top: 4em;
-  font-size: 0.8em;
-  font-weight: 600;
+  font-size: 0.78em;
+  font-weight: 400;
   text-transform: uppercase;
   border-top: 1px solid #E2E2E2;
   padding-top: 0.5em;
@@ -213,25 +213,30 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
+
+
 .contactlinks {
-  width: 200px;
+  width: 208px;
   display: flex;
   justify-content: space-between;
 }
 .contact-link a {
-  padding-bottom: 0.45em;
+  padding-bottom: 0.25em;
   text-decoration: none;
   color: #333333;
-  font-size: 0.67em;
-  font-weight: 500;
-  font-family: 'work sans', sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #DA9218;
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
-  border-bottom: 1px solid #DA9218;
+  border-bottom: 1px solid #333333;
 }
+
+
 .site-credit {
   font-weight: 300;
   color: #999999;
@@ -239,7 +244,7 @@ footer {
   margin-top: 1em;
 }
 .typography-credit {
-  font-family: 'work sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 0.6em;
   text-transform: uppercase;
   padding-top: 2em;
@@ -322,12 +327,12 @@ nav {
 }
 
 .nav-prevcs, .nav-nextcs {
-  padding-bottom: 0.45em;
+  padding-bottom: 0.2em;
   text-decoration: none;
   color: #828282;
-  font-size: 0.67em;
+  font-size: 0.6em;
   font-weight: 500;
-  font-family: 'work sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -391,7 +396,7 @@ p {
 }
 .link-doc {
   color: #333333;
-  font-family: 'work sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 0.9em;
   text-decoration: none;
   text-transform: uppercase;
@@ -402,12 +407,12 @@ p {
   color: #828282;
 }
 .link-work {
-  padding-bottom: 0.45em;
+  padding-bottom: 0.25em;
   text-decoration: none;
   color: #333333;
   font-size: 0.67em;
-  font-weight: 500;
-  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -441,7 +446,7 @@ p {
   padding-bottom: 4em;
 }
 .cs-sectionCarousel p {
-  font-family: 'work sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   margin-top: 0em;
   margin-bottom: 0.25em;
   font-size: .9em;

@@ -25,7 +25,7 @@ body, .article {
   /* max-width: 560px; */
 }
 h1, .h1 {
-  font-family: 'work sans', serif;
+  font-family: 'ff-scala-sans-pro', serif;
   font-weight: 400;
   font-size: 2.83333333em;
   line-height: 1.05882353em;
@@ -57,7 +57,7 @@ h4, .h4 {
   margin-bottom: 0.44em;
 }
 h5, .h5 {
-  font-family: 'work sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   margin-top: 1.5em;
@@ -124,12 +124,12 @@ sub {
   align-items: center;
 }
 .menu a {
-  padding-bottom: 0.45em;
+  padding-bottom: 0.25em;
   text-decoration: none;
   color: #333333;
   font-size: 0.67em;
-  font-weight: 500;
-  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
@@ -174,7 +174,7 @@ sub {
   line-height: 1.27em;
   max-width: 1136px;
   margin: auto;
-  margin-bottom: 3em;
+  margin-bottom: 3.1em;
 }
 
 /* .hero h1 span {
@@ -313,12 +313,12 @@ main p {
   border: 1px solid red;
 }
 .link-work {
-  padding-bottom: 0.45em;
+  padding-bottom: 0.25em;
   text-decoration: none;
   color: #333333;
   font-size: 0.67em;
-  font-weight: 700;
-  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -354,26 +354,26 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
+
 .contactlinks {
-  width: 200px;
+  width: 208px;
   display: flex;
   justify-content: space-between;
 }
-
-
 .contact-link a {
-  padding-bottom: 0.45em;
+  padding-bottom: 0.25em;
   text-decoration: none;
   color: #333333;
-  font-size: 0.67em;
-  font-weight: 700;
-  font-family: 'work sans', sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #DA9218;
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
-  border-bottom: 1px solid #DA9218;
+  border-bottom: 1px solid #333333;
 }
 
 
@@ -387,7 +387,7 @@ footer {
 }
 
 .typography-credit {
-  font-family: 'work sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 0.6em;
   text-transform: uppercase;
   padding-top: 2em;
@@ -445,7 +445,7 @@ footer {
     padding: 1.33em 2.67em;
   }
   .hero {
-    padding-top: 6em;
+    padding-top: 5em;
     padding-left: 2.67em;
     padding-right: 2.67em;
   }
@@ -522,7 +522,7 @@ footer {
     font-size: 2.19em;
   }
   .hero {
-    padding-top: 6em;
+    padding-top: 5em;
     /* only instance of added padding-left and padding-right for hero text */
     padding-left: 2em;
     padding-right: 2em;
