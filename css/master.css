@@ -171,8 +171,8 @@ sub {
 }
 .hero h1 {
   font-family:'jaf-lapture', serif;
-  font-size: 3.67em;
-  line-height: 1.25em;
+  font-size: 3em;
+  line-height: 1.3em;
   max-width: 996px;
   margin: auto;
 }
@@ -183,11 +183,13 @@ sub {
 
 .hero a {
   color: #333333;
-  text-decoration: underline;
+  border-bottom: 1px solid #DA9218;
+  text-decoration: none;
+  padding-bottom: 0.08em;
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .hero a:hover {
-  color: black;
+  border-bottom: 1px solid #333333;
 }
 /* ------End of Hero Styling------ */
 
@@ -451,18 +453,12 @@ footer {
     font-size: 1em;
   }
   .hero h1 {
-    font-size: 3em;
+    font-size: 2.8em;
   }
   .hero {
     padding-top: 8em;
   }
-  .hero a {
-    border-bottom: 1px solid #D5DBE5;
-    transition: all .2s cubic-bezier(0,0,.58,1);
-  }
-  .hero a:hover {
-    border-bottom: 1px solid #DA9218;
-  }
+
   .label-section {
     font-size: 2.67em;
   }
@@ -533,13 +529,7 @@ footer {
     padding-left: 2em;
     padding-right: 2em;
   }
-  .hero a {
-    border-bottom: 1px solid #D5DBE5;
-    transition: all .2s cubic-bezier(0,0,.58,1);
-  }
-  .hero a:hover {
-    border-bottom: 1px solid #DA9218;
-  }
+
   .label-section {
     font-size: 2em;
   }
@@ -638,13 +628,7 @@ footer {
     font-size: 1.67em;
   }
 
-  .hero a {
-    border-bottom: 1px solid #D5DBE5;
-    transition: all .2s cubic-bezier(0,0,.58,1);
-  }
-  .hero a:hover {
-    border-bottom: 1px solid #DA9218;
-  }
+
   .label-container {
     text-align: left;
   }
