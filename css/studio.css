@@ -280,8 +280,8 @@ nav {
 
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 38px;
-  width: 61px;
+  height: 34px;
+  width: 54.58px;
 }
 
 
@@ -311,6 +311,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* border: 1px solid red; */
 }
 
 
@@ -475,6 +476,11 @@ p {
     margin: auto;
     /* border: 1px solid grey; */
   }
+  nav {
+    padding-left: 4em; /*Match main's margin*/
+    padding-right: 4em; /*Match main's margin*/
+    padding-top: 5em;
+  }
 }
 
 
@@ -492,7 +498,7 @@ p {
   nav {
     padding-left: 4em;
     padding-right: 4em;
-    padding-top: 5.05em;
+    padding-top: 4.95em;
   }
   .sticky {
     padding: 0 4em;
