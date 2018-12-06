@@ -330,8 +330,8 @@ nav {
 .nav-prevcs, .nav-nextcs {
   padding-bottom: 0.2em;
   text-decoration: none;
-  color: #828282;
-  font-size: 0.6em;
+  color: #555555;
+  font-size: 0.67em;
   font-weight: 500;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
@@ -481,6 +481,9 @@ p {
     padding-right: 4em; /*Match main's margin*/
     padding-top: 5em;
   }
+  .sticky {
+    padding: 0 4em;  /*Match 'main' margin*/
+  }
 }
 
 
@@ -578,7 +581,7 @@ p {
 
   main, .main {
     padding-top: 0em;
-    margin: 0em 2.67em;
+    margin: 0em 1.33em;
   }
 
   .ralogo {
