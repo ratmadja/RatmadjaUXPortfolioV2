@@ -794,20 +794,25 @@ header {
 
 
 /* Start of full-bleed color backgrounds */
+.img-fullbleed-ingrainIxD {
+  background: linear-gradient(#F3F3F3,#F8F8F8);
+  padding-top: 2.67em;
+  padding-bottom: 2.67em;
+}
 .img-fullbleed-ingrain {
   background: linear-gradient(#62474E,#594147);
-  margin-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2.67em;
+  padding-bottom: 2.67em;
 }
 .img-fullbleed-haf {
   background: linear-gradient(#D5DBE6,#C3C8D3);
-  margin-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2.67em;
+  padding-bottom: 2.67em;
 }
 .img-fullbleed-nimbus {
   background: linear-gradient(#DFDDE2,#CFCCD4);
-  margin-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2.67em;
+  padding-bottom: 2.67em;
 }
 /* End of full-bleed color backgrounds */
 
@@ -851,6 +856,22 @@ header {
   font-weight: 400;
   line-height: 1.4em;
 }
+
+.closing {
+  padding-top: 2.67em;
+  max-width: 400px;
+  margin: auto;
+}
+.closing h3 {
+  text-align: center;
+  margin-bottom: 0.35em;
+}
+.closing p {
+  text-align: center;
+  font-style: italic;
+}
+
+
 
 /* End of project carousel */
 
