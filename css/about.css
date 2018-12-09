@@ -356,6 +356,21 @@ p > span {
 }
 
 
+.closing {
+  padding-top: 2.67em;
+  max-width: 400px;
+  margin: auto;
+}
+.closing h3 {
+  text-align: center;
+  margin-bottom: 0.35em;
+}
+.closing p {
+  text-align: center;
+  font-style: italic;
+}
+
+
 /* -------------------------------------End of text styling----- */
 
 
