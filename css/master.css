@@ -238,13 +238,13 @@ main p {
   margin-top: 3em;
   width: 100%;
 
-  box-shadow: rgba(137,137,137,0.15) 0 6px 24px;
+  box-shadow: rgba(137,137,137,0.1) 0 2px 16px;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
 }
 .workcoverVideo-iphonex:hover {
-  box-shadow: rgba(137,137,137,0.3) 0 8px 32px;
+  box-shadow: rgba(137,137,137,0.3) 0 4px 24px;
 }
 
 
@@ -264,14 +264,14 @@ main p {
   position: relative;
   overflow: hidden;
 
-  box-shadow: rgba(137,137,137,0.2) 0 4px 24px;
+  box-shadow: rgba(137,137,137,0.1) 0 2px 16px;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
 }
 
 .workcover-container:hover {
-  box-shadow: rgba(137,137,137,0.3) 0 6px 32px;
+  box-shadow: rgba(137,137,137,0.3) 0 4px 24px;
 }
 
 /*------------------ End of workcover sytling ---------*/
