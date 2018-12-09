@@ -169,17 +169,16 @@ sub {
   padding-right: 4em;
 }
 .hero h1 {
-  font-family:'jaf-lapture', serif;
-  font-size: 2.38em;
+  font-family:'jaf-lapture-display', serif;
+  font-style: italic;
+  font-size: 2.67em;
   line-height: 1.3em;
   max-width: 896px;
   margin: auto;
   margin-bottom: 3.25em;
 }
 
-/* .hero h1 span {
-  text-decoration: underline;
-} */
+
 
 .hero a {
   color: #333333;
@@ -468,7 +467,7 @@ footer {
     font-size: 1em;
   }
   .hero h1 {
-    font-size: 1.69em;
+    font-size: 2.4em;
   }
 
 
@@ -534,7 +533,7 @@ footer {
     font-size: 0.9em;
   }
   .hero h1 {
-    font-size: 1.69em;
+    font-size: 2em;
   }
   .hero {
     padding-top: 5em;
@@ -631,6 +630,7 @@ footer {
   .hero {
     padding-top: 0em;
     padding-left: 1em;
+    padding-right: 1em;
     padding-top: 1em;
   }
 
@@ -640,8 +640,7 @@ footer {
     padding-top: 0.33em;
   }
   .hero h1 {
-    font-family: 'jaf-lapture', 'georgia', serif;
-    font-size: 1.38em;
+    font-size: 1.33em;
   }
 
 
