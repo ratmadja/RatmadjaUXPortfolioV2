@@ -289,9 +289,6 @@ main p {
   margin-bottom: 1em;
 }
 
-.studiodesc {
-  width: 66%;
-}
 .workdesc {
   margin-top: 2em;
   margin-bottom: 3em;
@@ -301,10 +298,12 @@ main p {
 }
 .workdesc .desc1 {
   width: 28%;
+  order: 1;
 }
 .workdesc .desc2 {
   width: 66%;
   color: #444444;
+  order: 2;
 }
 .studiodesc {
   color: #444444;
@@ -321,7 +320,7 @@ main p {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #333333;
-  font-size: 0.67em;
+  font-size: 0.72em;
   font-weight: 400;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
@@ -583,9 +582,11 @@ footer {
 
 /*purplezone*/
 @media only screen and (min-width: 280px) and (max-width: 479px) {
+
   /* .container {
     border: 1px solid pink;
   } */
+
   main {
     margin: 0em 1em;
   }
@@ -614,6 +615,7 @@ footer {
   }
 
 
+
   .navmenu {
     display: flex;
     flex-direction: column;
@@ -639,7 +641,7 @@ footer {
   }
   .hero h1 {
     font-family: 'jaf-lapture', 'georgia', serif;
-    font-size: 1.4em;
+    font-size: 1.38em;
   }
 
 
@@ -655,13 +657,15 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .workdesc > p, .studiodesc > p {
+  .workdesc > p {
     font-size: 1em;
   }
   .workdesc .desc1 {
+    /* order: 2; */
     width: 100%;
   }
   .workdesc .desc2 {
+    /* order: 1; */
     margin-top: 0em;
     width: 100%;
   }
