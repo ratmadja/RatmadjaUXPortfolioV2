@@ -229,11 +229,11 @@ footer {
   font-weight: 400;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #DA9218;
+  border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #DA9218;
 }
 
 
