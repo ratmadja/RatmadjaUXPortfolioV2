@@ -38,7 +38,7 @@ h1, .h1 {
   margin-bottom: 0em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture','georgia', serif;
+  font-family: 'jaf-lapture-display','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -46,7 +46,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'jaf-lapture','georgia', serif;
+  font-family: 'jaf-lapture-display','georgia', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 2.16em;
@@ -166,6 +166,8 @@ figcaption {
 
 
 .span1 {
+  font-family: 'jaf-lapture-display', serif;
+  font-style: italic;
   margin-top: 2.67em;
   grid-column: span 1;
   vertical-align: bottom;
@@ -451,7 +453,7 @@ p {
   margin-top: 0em;
   margin-bottom: 0.25em;
   font-size: .9em;
-  font-weight: 600;
+  font-weight: 400;
 }
 /* End of project carousel */
 

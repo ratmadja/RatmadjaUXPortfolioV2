@@ -41,7 +41,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture','georgia', serif;
+  font-family: 'jaf-lapture-display','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -313,7 +313,8 @@ p > span {
 
 
 .pullquote {
-  font-family: 'jaf-lapture','georgia', serif;
+  font-family: 'jaf-lapture-display','georgia', serif;
+  font-style: italic;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -403,7 +404,7 @@ p > span {
     font-size: 0.9em;
   }
   .pullquote {
-    margin-top: 1.33em;
+    margin-top: 1.67em;
   }
 }
 
@@ -446,7 +447,7 @@ p > span {
     font-size: 0.67em;
   }
   .pullquote {
-    margin-top: 1.33em;
+    margin-top: 1.4em;
   }
 }
 
@@ -533,7 +534,8 @@ p > span {
     width: 80%;
   }
   .pullquote {
-    font-size: 1.11em;
+    font-size: 1.4em;
+    margin-top: 1.33em;
   }
   .site-credit {
     text-align: center;
@@ -542,10 +544,7 @@ p > span {
     margin-top: 8em;
     font-size: 0.67em;
   }
-  .pullquote {
-    margin-top: 1.33em;
-    font-size: 1.11em;
-  }
+
 }
 
 /*purplezone*/
@@ -650,7 +649,8 @@ p > span {
     font-size: 0.67em;
   }
   .pullquote {
+    font-size: 1.4em;
     margin-top: 1.33em;
-    font-size: 1.11em;
+
   }
 }

@@ -482,6 +482,7 @@ footer {
     padding-top: 5em;
     padding-left: 2.67em;
     padding-right: 2.67em;
+    padding-bottom: 5em;
   }
   .hero h3 {
     font-size: 1em;
@@ -556,6 +557,7 @@ footer {
     /* only instance of added padding-left and padding-right for hero text */
     padding-left: 2em;
     padding-right: 2em;
+    padding-bottom: 5em;
   }
 
   .label-section {
@@ -642,10 +644,10 @@ footer {
     margin-top: 4em;
   }
   .hero {
-    padding-top: 0em;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
   }
 
 
