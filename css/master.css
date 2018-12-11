@@ -173,7 +173,6 @@ sub {
 .hero h1 {
   color: #000000;
   font-family:'jaf-lapture-display', serif;
-  font-style: italic;
   font-size: 2.67em;
   line-height: 1.3em;
   max-width: 896px;
@@ -183,7 +182,7 @@ sub {
 
 .hero-link {
   color: #333333;
-  font-weight: 600;
+  font-style: italic;
   text-decoration: none;
   padding-bottom: 0.1em;
   transition: background 0.4s ease-out;
