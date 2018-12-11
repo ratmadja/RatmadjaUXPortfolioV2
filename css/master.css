@@ -197,6 +197,7 @@ sub {
 .hero-more {
   padding-bottom: 0.35em;
   text-decoration: none;
+  font-style: normal;
   color: #333333;
   font-size: 13px;
   font-family: 'scala-sans-pro', sans-serif;
