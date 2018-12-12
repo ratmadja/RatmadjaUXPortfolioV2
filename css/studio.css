@@ -231,7 +231,7 @@ footer {
   font-weight: 400;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
@@ -434,7 +434,7 @@ p {
   font-weight: 400;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .link-work:hover {

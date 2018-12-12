@@ -17,6 +17,7 @@ html, .root {
   line-height: 27px;
 }
 body, .article {
+  background-color: #FFFAF0;
   color: #333333;
   font-family: 'ff-scala', serif;
   font-weight: 400;
@@ -130,7 +131,7 @@ sub {
   font-size: 0.72em;
   font-weight: 400;
   font-family: 'ff-scala-sans-pro', sans-serif;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .menu a:hover {
@@ -236,7 +237,7 @@ main p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#F3F3F3,#F7F7F7);
+  background: linear-gradient(#FFFFFF,#FFFFFF);
   /* background-color: #F9F9F9; */
 }
 .iphonex {
@@ -282,6 +283,7 @@ main p {
   position: relative;
   overflow: hidden;
   box-shadow: rgba(178,178,178,0.15) 0 4px 16px;
+  border: 12px solid #FFFFFF;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
@@ -341,7 +343,7 @@ main p {
   font-weight: 400;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .link-work:hover {
@@ -421,7 +423,7 @@ footer {
   font-weight: 400;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
@@ -470,7 +472,7 @@ footer {
 /*bluezone*/
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   /* .container {
-    border: 1px solid blue;
+  border: 1px solid blue;
   } */
   main {
     margin: 0em 4em;
@@ -484,7 +486,7 @@ footer {
 /*redzone*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* .container {
-    border: 1px solid red;
+  border: 1px solid red;
   } */
 
   main {
@@ -530,13 +532,14 @@ footer {
     margin-top: 0em;
     margin-bottom: 1em;
   }
+
 }
 
 /*greenzone*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
   /* .container {
-    border: 1px solid green;
+  border: 1px solid green;
   } */
 
   main {
@@ -565,7 +568,7 @@ footer {
     margin-bottom: 1em;
   }
 
-.navmenu {
+  .navmenu {
     /* border: 1px solid #BDBDBD; */
     display: flex;
     flex-direction: row;
@@ -592,6 +595,11 @@ footer {
   .label-section {
     font-size: 2em;
   }
+
+  .workcover-container {
+    border: 8px solid #FFFFFF;
+  }
+
   .workdesc {
     margin-top: 2em;
     margin-bottom: 3em;
@@ -632,7 +640,7 @@ footer {
 @media only screen and (min-width: 280px) and (max-width: 479px) {
 
   /* .container {
-    border: 1px solid pink;
+  border: 1px solid pink;
   } */
 
   main {
@@ -660,7 +668,9 @@ footer {
     margin-bottom: 1em;
   }
 
-
+  .workcover-container {
+    border: 8px solid #FFFFFF;
+  }
 
   .navmenu {
     display: flex;
