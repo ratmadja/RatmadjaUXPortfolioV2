@@ -19,7 +19,7 @@ html, .root {
   line-height: 26px;
 }
 body, .article {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   color: #333333;
   font-family: 'ff-scala','georgia', serif;
   font-weight: 400;
@@ -212,7 +212,7 @@ nav {
   position: fixed;
   transition-property: background;
   transition-duration: 1s;
-  background-color: rgba(248,248,248,.98);
+  background-color: rgba(255,255,255,.98);
   border-bottom: 1px solid #E2E2E2;
   height: 4em;
   width: 100%;
