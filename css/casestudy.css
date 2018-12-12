@@ -19,6 +19,7 @@ html, .root {
   line-height: 26px;
 }
 body, .article {
+  /* border-top: 7px solid #FAFAFA; */
   color: #333333;
   font-family: 'ff-scala','georgia', serif;
   font-weight: 400;
@@ -481,6 +482,7 @@ header {
 .link-work:hover {
   border-bottom: 1px solid #DA9218;
 }
+
 .caption-label {
   margin-top: 0.5em;
   margin-bottom: 2em;
@@ -766,7 +768,7 @@ header {
 }
 .img2up img, .img2upflip img {
   width: 100%;
-  box-shadow: rgba(0,0,0,0.1) 0 1px 16px;
+  box-shadow: rgba(178,178,178,0.2) 0 4px 16px;
 }
 
 
@@ -797,21 +799,25 @@ header {
 /* Start of full-bleed color backgrounds */
 .img-fullbleed-ingrainIxD {
   background: linear-gradient(#F3F3F3,#F8F8F8);
+  margin-top: 2.67em;
   padding-top: 2.67em;
   padding-bottom: 2.67em;
 }
 .img-fullbleed-ingrain {
   background: linear-gradient(#62474E,#594147);
+  margin-top: 2.67em;
   padding-top: 2.67em;
   padding-bottom: 2.67em;
 }
 .img-fullbleed-haf {
   background: linear-gradient(#D5DBE6,#C3C8D3);
+  margin-top: 2.67em;
   padding-top: 2.67em;
   padding-bottom: 2.67em;
 }
 .img-fullbleed-nimbus {
   background: linear-gradient(#DFDDE2,#CFCCD4);
+  margin-top: 2.67em;
   padding-top: 2.67em;
   padding-bottom: 2.67em;
 }

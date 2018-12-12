@@ -16,7 +16,9 @@ html, .root {
   font-size: 18px;
   line-height: 27px;
 }
+
 body, .article {
+  /* border-top: 7px solid #EFE8DF; */
   color: #333333;
   font-family: 'ff-scala', serif;
   font-weight: 400;
@@ -24,6 +26,7 @@ body, .article {
   line-height: 1.5em;
   /* max-width: 560px; */
 }
+
 h1, .h1 {
   font-family: 'ff-scala-sans-pro', serif;
   font-weight: 400;
@@ -205,6 +208,9 @@ sub {
   box-shadow: inset 0 -1px 0 rgba(218,146,24,1);
   /* transition: all .2s cubic-bezier(0,0,.58,1); */
 }
+.hero-more:hover {
+  box-shadow: inset 0 -1px 0 rgba(51,51,51,1);
+}
 
 
 
@@ -258,7 +264,6 @@ main p {
 .workcoverVideo-iphonex {
   margin-top: 3em;
   width: 100%;
-
   box-shadow: rgba(178,178,178,0.15) 0 4px 16px;
   transition-property: all;
   transition-duration: 0.2s;
@@ -276,18 +281,22 @@ main p {
   transition-duration: 0.2s;
   transition-timing-function: ease-in;
 }
+/* .workcover:hover {
+  transform:scale(1.03);
+} */
 
 
 .workcover-container {
   position: relative;
   overflow: hidden;
-  box-shadow: rgba(178,178,178,0.15) 0 4px 16px;
+  border: 8px solid #ffffff;
+  box-shadow: rgba(178,178,178,0.25) 0 4px 24px;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
 }
 .workcover-container:hover {
-  box-shadow: rgba(178,178,178,0.4) 0 8px 24px;
+  box-shadow: rgba(178,178,178,0.5) 0 4px 30px;
 }
 
 /*------------------ End of workcover sytling ---------*/
@@ -315,11 +324,11 @@ main p {
 }
 .workdesc .desc1 {
   width: 28%;
+  color: #444444;
   order: 1;
 }
 .workdesc .desc2 {
   width: 66%;
-  color: #444444;
   order: 2;
 }
 .studiodesc {
@@ -341,7 +350,7 @@ main p {
   font-weight: 400;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .link-work:hover {
@@ -521,6 +530,7 @@ footer {
   }
 
 
+
   .label-section {
     font-size: 2.67em;
   }
@@ -646,12 +656,17 @@ footer {
     margin-bottom: 1.5em;
   }
 
+  .hero-more {
+    font-size: 12px;
+  }
+
   /* controls p in main*/
   main p {
     font-size: 1em;
     line-height: 1.5em;
   }
   /* controls p in main*/
+
 
   .work-heading {
     font-size: 1.25em;
