@@ -242,7 +242,7 @@ main p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#F3F3F3,#E1E1E1);
+  background: linear-gradient(#EEEEEE,#E3E3E3);
   /* background-color: #F9F9F9; */
 }
 .iphonex {
