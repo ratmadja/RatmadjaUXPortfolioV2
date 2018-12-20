@@ -22,13 +22,11 @@ html, .root {
   line-height: 27px;
 }
 body, .article {
-  /* border-top: 7px solid #FFFFFF; */
-  color: #333333;
+  color: #222222;
   font-family: 'calluna','georgia', serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1em;
   line-height: 1.5em;
-  /* max-width: 560px; */
 }
 h1, .h1 {
   font-family: 'angie-sans', sans-serif;
@@ -227,7 +225,7 @@ footer {
 .contact-link a {
   padding-bottom: 0.25em;
   text-decoration: none;
-  color: #333333;
+  color: #222222;
   font-size: 0.7em;
   font-weight: 400;
   font-family: 'angie-sans', sans-serif;
@@ -371,7 +369,8 @@ nav {
 
 
 .nav-studio {
-  font-family: 'itc-galliard', 'serif';
+  font-family: 'angie-sans', 'sans-serif';
+  text-transform: uppercase;
   margin: 0em 0em;
   width: 56%;
   display: flex;
@@ -435,7 +434,7 @@ p {
 .link-work {
   padding-bottom: 0.25em;
   text-decoration: none;
-  color: #333333;
+  color: #222222;
   font-size: 0.72em;
   font-weight: 400;
   font-family: 'angie-sans', sans-serif;
@@ -561,7 +560,7 @@ p {
   }
 
   .nav-studio {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
 
@@ -631,7 +630,7 @@ p {
   }
   .nav-studio {
     width: 20%
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
 

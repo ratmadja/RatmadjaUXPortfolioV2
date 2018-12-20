@@ -19,9 +19,9 @@ html, .root {
 
 body, .article {
   /* border-top: 7px solid #EFE8DF; */
-  color: #333333;
+  color: #222222;
   font-family: 'calluna', serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1em;
   line-height: 1.5em;
   /* max-width: 560px; */
@@ -341,11 +341,8 @@ main p {
   width: 66%;
   order: 2;
 }
-.studiodesc {
-  color: #444444;
-}
 .work-scope {
-  color: #666666;
+  color: #333333;
   font-style: italic;
   font-family: 'angie-sans', sans-serif;
 }
@@ -355,7 +352,7 @@ main p {
 .link-work {
   padding-bottom: 0.25em;
   text-decoration: none;
-  color: #333333;
+  color: #222222;
   font-size: 0.72em;
   font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
@@ -434,7 +431,7 @@ footer {
 .contact-link a {
   padding-bottom: 0.25em;
   text-decoration: none;
-  color: #333333;
+  color: #222222;
   font-size: 0.72em;
   font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
