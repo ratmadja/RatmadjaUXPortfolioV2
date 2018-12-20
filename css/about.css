@@ -27,14 +27,14 @@ html, .root {
 body, .article {
   /* border-top: 7px solid #EFE8DF; */
   color: #333333;
-  font-family: 'ff-scala','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
   /* max-width: 560px; */
 }
 h1, .h1 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'itc-galliard','georgia', serif;
   font-weight: 400;
   font-size: 2.83333333em;
   line-height: 1.05882353em;
@@ -42,7 +42,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture-display','georgia', serif;
+  font-family: 'itc-galliard','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -50,7 +50,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'ff-scala','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -58,7 +58,7 @@ h3, .h3 {
   margin-bottom: 0.44em;
 }
 h4, .h4 {
-  font-family: 'ff-scala','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 600;
   font-size: 1.22em;
   line-height: 1.4em;
@@ -66,7 +66,7 @@ h4, .h4 {
   margin-bottom: 0.44em;
 }
 h5, .h5 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   margin-top: 1.5em;
@@ -104,7 +104,7 @@ sub {
 }
 figcaption {
   font-size: .9em;
-  font-style: 'ff-scala', serif;
+  font-style: 'calluna', serif;
   font-style: italic;
   text-align: center;
   margin-top: 4em;
@@ -132,13 +132,12 @@ figcaption {
 }
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 34px;
-  width: 54.58px;
+  height: 38px;
+  width: 61px;
 }
 
 .nav-main {
-  /* border: 1px solid red; */
-  width: 180px;
+  width: 192px;
 }
 .menu {
   /* border-bottom: 1px solid #E6E6E6; */
@@ -153,8 +152,7 @@ figcaption {
   text-decoration: none;
   color: #333333;
   font-size: 0.72em;
-  font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
@@ -202,8 +200,7 @@ footer {
   text-decoration: none;
   color: #333333;
   font-size: 0.7em;
-  font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -254,11 +251,11 @@ main {
 
 .about-sectionlabel {
   margin-top: 12em;
+  margin-bottom: 0em;
   color: #4F4F4F;
-  font-size: 0.72em;
+  font-size: 0.74em;
   text-transform: uppercase;
-  font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
 }
 
 
@@ -314,19 +311,15 @@ p > span {
 
 
 .pullquote {
-  font-family: 'jaf-lapture-display','georgia', serif;
-  font-style: italic;
+  font-family: 'itc-galliard','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
-  margin-top: 0.75em;
+  margin-top: 1em;
   margin-bottom: 1.2em;
 }
 
 
-.pullquote span {
-  font-style: italic;
-}
 
 .link-bio {
   color: #333333;
@@ -347,8 +340,7 @@ p > span {
   text-decoration: none;
   color: #333333;
   font-size: 0.72em;
-  font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -406,7 +398,7 @@ p > span {
     margin-top: 8em;
   }
   .pullquote {
-    margin-top: 1.67em;
+    margin-top: 1em;
   }
 }
 
@@ -448,7 +440,7 @@ p > span {
     margin-top: 8em;
   }
   .pullquote {
-    margin-top: 1.4em;
+    margin-top: 1em;
   }
 }
 
@@ -536,7 +528,7 @@ p > span {
   }
   .pullquote {
     font-size: 1.4em;
-    margin-top: 1.33em;
+    margin-top: 1em;
   }
   .site-credit {
     text-align: center;
@@ -649,7 +641,7 @@ p > span {
   }
   .pullquote {
     font-size: 1.4em;
-    margin-top: 1.33em;
+    margin-top: 1em;
 
   }
 }

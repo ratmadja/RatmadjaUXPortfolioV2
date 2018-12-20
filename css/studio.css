@@ -24,14 +24,14 @@ html, .root {
 body, .article {
   /* border-top: 7px solid #FFFFFF; */
   color: #333333;
-  font-family: 'ff-scala','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
   /* max-width: 560px; */
 }
 h1, .h1 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   font-weight: 400;
   font-size: 4.22222222em;
   line-height: 1.14473684em;
@@ -39,7 +39,7 @@ h1, .h1 {
   margin-bottom: 0em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture-display','georgia', serif;
+  font-family: 'itc-galliard','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -47,7 +47,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'itc-galliard', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -55,7 +55,7 @@ h3, .h3 {
   margin-bottom: 0.75em;
 }
 h4, .h4 {
-  font-family: 'ff-scala','georgia', serif;
+  font-family: 'calluna','georgia', serif;
   font-weight: 400;
   font-size: 1.22em;
   line-height: 1.5em;
@@ -63,7 +63,7 @@ h4, .h4 {
   margin-bottom: 0.44em;
 }
 h5, .h5 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   margin-top: 1.5em;
@@ -167,7 +167,7 @@ figcaption {
 
 
 .span1 {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'itc-galliard', serif;
   font-style: italic;
   margin-top: 2.67em;
   grid-column: span 1;
@@ -230,7 +230,7 @@ footer {
   color: #333333;
   font-size: 0.7em;
   font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -264,7 +264,7 @@ footer {
   margin-top: 1em;
 }
 .typography-credit {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   font-size: 0.6em;
   text-transform: uppercase;
   padding-top: 2em;
@@ -300,8 +300,8 @@ nav {
 
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 34px;
-  width: 54.58px;
+  height: 38px;
+  width: 61px;
 }
 
 
@@ -350,14 +350,16 @@ nav {
 .nav-prevcs, .nav-nextcs {
   padding-bottom: 0.2em;
   text-decoration: none;
-  color: #555555;
-  font-size: 0.67em;
-  font-weight: 500;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  color: #999999;
+  font-size: 0.65em;
+  font-weight: 600;
+  font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
+
+
 .nav-prevcs:hover, .nav-nextcs:hover {
   border-bottom: 1px solid #DA9218;
 }
@@ -369,6 +371,7 @@ nav {
 
 
 .nav-studio {
+  font-family: 'itc-galliard', 'serif';
   margin: 0em 0em;
   width: 56%;
   display: flex;
@@ -419,7 +422,7 @@ p {
 
 .link-doc {
   color: #333333;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   font-size: 0.9em;
   text-decoration: none;
   text-transform: uppercase;
@@ -435,7 +438,7 @@ p {
   color: #333333;
   font-size: 0.72em;
   font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -469,7 +472,7 @@ p {
   padding-bottom: 4em;
 }
 .cs-sectionCarousel p {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   margin-top: 0em;
   margin-bottom: 0.25em;
   font-size: .9em;

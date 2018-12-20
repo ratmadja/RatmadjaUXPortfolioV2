@@ -20,7 +20,7 @@ html, .root {
 body, .article {
   /* border-top: 7px solid #EFE8DF; */
   color: #333333;
-  font-family: 'ff-scala', serif;
+  font-family: 'calluna', serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
@@ -28,7 +28,7 @@ body, .article {
 }
 
 h1, .h1 {
-  font-family: 'ff-scala-sans-pro', serif;
+  font-family: 'itc-galliard', serif;
   font-weight: 400;
   font-size: 2.83333333em;
   line-height: 1.05882353em;
@@ -36,7 +36,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture','georgia', serif;
+  font-family: 'itc-galliard', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -44,7 +44,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'ff-scala', serif;
+  font-family: 'calluna', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -52,7 +52,7 @@ h3, .h3 {
   margin-bottom: 0.44em;
 }
 h4, .h4 {
-  font-family: 'ff-scala', serif;
+  font-family: 'calluna', serif;
   font-weight: 600;
   font-size: 1.22em;
   line-height: 1.4em;
@@ -60,7 +60,7 @@ h4, .h4 {
   margin-bottom: 0.44em;
 }
 h5, .h5 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   margin-top: 1.5em;
@@ -111,12 +111,12 @@ sub {
 }
 .ralogo {
   background: url(../assets/homepage/ra-logo32h.svg) center / cover;
-  height: 34px;
-  width: 54.58px;
+  height: 38px;
+  width: 61px;
 }
 
 .nav-main {
-  width: 180px;
+  width: 192px;
 }
 .menu {
   /* border-bottom: 1px solid #E6E6E6; */
@@ -131,8 +131,7 @@ sub {
   text-decoration: none;
   color: #333333;
   font-size: 0.72em;
-  font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
@@ -174,8 +173,8 @@ sub {
   padding-bottom: 6em;
 }
 .hero h1 {
-  color: #000000;
-  font-family:'jaf-lapture-display', serif;
+  color: #222222;
+  font-family:'itc-galliard', serif;
   font-size: 2.22em;
   line-height: 1.27em;
   max-width: 896px;
@@ -188,14 +187,17 @@ sub {
 
 
 .hero-link {
-  color: #000000;
-  font-style: italic;
+  font-family: 'angie-sans', sans-serif;
+  color: #222222;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.72em;
   padding-bottom: 0.1em;
   transition: background 0.4s ease-out;
   /* box-shadow: inset 0 -1px 0 rgba(218,146,24,1); */
 }
 .hero-link:hover {
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -205,9 +207,8 @@ sub {
   text-decoration: none;
   font-style: normal;
   color: #333333;
-  font-size: 12px;
-  font-family: 'scala-sans-pro', sans-serif;
-  font-weight: 400;
+  font-size: 13px;
+  font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   box-shadow: inset 0 -1px 0 rgba(218,146,24,1);
   /* transition: all .2s cubic-bezier(0,0,.58,1); */
@@ -246,7 +247,7 @@ main p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#EEEEEE,#E3E3E3);
+  background: linear-gradient(#EFE8DF,#E4DDD4);
   /* background-color: #F9F9F9; */
 }
 .iphonex {
@@ -312,9 +313,7 @@ main p {
 /*------------------ Start of work desc and link sytling ---------*/
 
 .work-heading {
-  font-family: 'jaf-lapture-display', serif;
-  font-style: italic;
-  font-weight: 400;
+  font-family: 'itc-galliard', serif;
   font-size: 1.6em;
   line-height: 1.4em;
   margin-top: 0em;
@@ -343,7 +342,7 @@ main p {
 .work-scope {
   color: #666666;
   font-style: italic;
-  font-family: 'ff-scala', serif;
+  font-family: 'angie-sans', sans-serif;
 }
 .caption-label {
   border: 1px solid red;
@@ -353,8 +352,7 @@ main p {
   text-decoration: none;
   color: #333333;
   font-size: 0.72em;
-  font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -432,9 +430,8 @@ footer {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #333333;
-  font-size: 0.7em;
-  font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-size: 0.72em;
+  font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -454,7 +451,7 @@ footer {
 }
 
 .typography-credit {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'angie-sans', sans-serif;
   font-size: 0.6em;
   text-transform: uppercase;
   padding-top: 2em;
