@@ -20,7 +20,7 @@ html, .root {
 }
 body, .article {
   color: #222222;
-  font-family: 'calluna','georgia', serif;
+  font-family: 'ff-scala','georgia', serif;
   font-weight: 300;
   font-size: 1em;
   line-height: 1.5em;
@@ -51,7 +51,7 @@ h3, .h3 {
   margin-bottom: 0.75em;
 }
 h4, .h4 {
-  font-family: 'calluna','georgia', serif;
+  font-family: 'ff-scala','georgia', serif;
   font-weight: 600;
   line-height: 1.4em;
   font-size: 1.22em;
@@ -97,7 +97,7 @@ sub {
 }
 figcaption {
   font-size: .9em;
-  font-style: 'calluna',serif;
+  font-style: 'ff-scala',serif;
   font-style: italic;
   text-align: center;
   margin-top: 1em;
@@ -329,7 +329,7 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #666666;
-  font-family: 'calluna', serif;
+  font-family: 'ff-scala', serif;
   font-size: 0.9em;
   font-weight: 400;
   text-align: center;
@@ -370,7 +370,7 @@ header {
   font-weight: 400;
 }
 .cs-info li {
-  font-family: 'calluna', serif;
+  font-family: 'ff-scala', serif;
   font-size: 1em;
   line-height: 1.5em;
   color: #333333;
@@ -411,7 +411,7 @@ header {
 
 .note-label {
   color: #333333;
-  font-family: 'calluna', serif;
+  font-family: 'ff-scala', serif;
   font-weight: 500;
   margin-top: 4.75em;
   margin-bottom: 0.75em;
