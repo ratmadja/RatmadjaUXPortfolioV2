@@ -179,6 +179,7 @@ sub {
   line-height: 1.27em;
   max-width: 896px;
   margin: auto;
+  margin-bottom: 1em;
 }
 
 /* .hero h1 span {
@@ -327,7 +328,7 @@ main p {
 
 .workdesc {
   margin-top: 3em;
-  margin-bottom: 4em;
+  margin-bottom: 8em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -609,7 +610,7 @@ footer {
   }
   .workdesc {
     margin-top: 2em;
-    margin-bottom: 3em;
+    margin-bottom: 7em;
     display: flex;
     flex-direction: column;
   }
@@ -719,7 +720,7 @@ footer {
   }
   .workdesc {
     margin-top: 2em;
-    margin-bottom: 3em;
+    margin-bottom: 7em;
     display: flex;
     flex-direction: column;
   }
