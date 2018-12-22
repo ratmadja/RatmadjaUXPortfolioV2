@@ -137,7 +137,7 @@ figcaption {
 }
 
 .nav-main {
-  width: 192px;
+  width: 196px;
 }
 .menu {
   /* border-bottom: 1px solid #E6E6E6; */
@@ -150,8 +150,8 @@ figcaption {
 .menu a {
   padding-bottom: 0.25em;
   text-decoration: none;
-  color: #333333;
-  font-size: 0.72em;
+  color: #444444;
+  font-size: 0.75em;
   font-family: 'angie-sans', sans-serif;
   border-bottom: 1px solid #FFFFFF;
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -191,15 +191,15 @@ footer {
 
 
 .contactlinks {
-  width: 208px;
+  width: 216px;
   display: flex;
   justify-content: space-between;
 }
 .contact-link a {
   padding-bottom: 0.25em;
   text-decoration: none;
-  color: #222222;
-  font-size: 0.7em;
+  color: #444444;
+  font-size: 0.75em;
   font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FFFFFF;
@@ -336,11 +336,12 @@ p > span {
   border-bottom: 1px solid #333333;
 }
 .link-work {
-  padding-bottom: 0.25em;
+  padding-bottom: 0.15em;
   text-decoration: none;
   color: #222222;
-  font-size: 0.72em;
-  font-family: 'angie-sans', sans-serif;
+  font-size: 0.75em;
+  letter-spacing: 0.08em;
+  font-weight: 600;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
