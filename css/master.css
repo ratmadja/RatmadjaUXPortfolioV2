@@ -250,7 +250,6 @@ main p {
   justify-content: center;
   align-items: center;
   background: linear-gradient(#EFE8DF,#E4DDD4);
-  /* background-color: #F9F9F9; */
 }
 .iphonex {
   background-color: #000000;
@@ -272,13 +271,15 @@ main p {
   margin-top: 3em;
   width: 100%;
   /* border: 8px solid #ffffff; */
-  box-shadow: rgba(178,178,178,0.15) 0 4px 28px;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
+  box-shadow: rgba(228,221,212,0.6) 0 4px 28px;
+  /* box-shadow: rgba(178,178,178,0.25) 0 4px 28px; */
 }
 .workcoverVideo-iphonex:hover {
-  box-shadow: rgba(178,178,178,0.27) 0 6px 32px;
+  box-shadow: rgba(228,221,212,0.95) 0 4px 28px;
+  /* box-shadow: rgba(178,178,178,0.27) 0 6px 32px; */
 }
 
 
@@ -290,22 +291,24 @@ main p {
   transition-timing-function: ease-in;
 }
 
-.workcover:hover {
+/* .workcover:hover {
   transform:scale(1.03);
-}
+} */
 
 
 .workcover-container {
   position: relative;
   overflow: hidden;
-  /* border: 8px solid #fffff0; */
-  box-shadow: rgba(178,178,178,0.1) 0 4px 28px;
+  border: 6px solid #ffffff;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
+  box-shadow: rgba(228,221,212,0.6) 0 4px 28px;
+  /* box-shadow: rgba(178,178,178,0.1) 0 4px 28px; */
 }
 .workcover-container:hover {
-  box-shadow: rgba(178,178,178,0.2) 0 4px 28px;
+  box-shadow: rgba(228,221,212,0.95) 0 4px 28px;
+  /* box-shadow: rgba(178,178,178,0.3) 0 4px 32px; */
 }
 
 /*------------------ End of workcover sytling ---------*/
@@ -676,8 +679,6 @@ footer {
     margin-top: 0em;
     margin-bottom: 1em;
   }
-
-
 
   .navmenu {
     display: flex;

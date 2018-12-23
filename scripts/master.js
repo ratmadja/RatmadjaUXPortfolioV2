@@ -1,6 +1,32 @@
 function onReady() {
 
 
+
+  //Jquery for changing img source for mobile
+
+  let coverSwap = function() {
+    if ($(window).width() < 768) {
+      $('#CoverIngrainUXS').attr('src','assets/homepage/coverIngrainUXStrategy-mobile.png');
+      $('#CoverHafSite').attr('src','assets/homepage/coverHafSite-mobile.png');
+      $('#CoverNimbus').attr('src','assets/homepage/coverNimbus-mobile.png');
+      $('#CoverPolaris').attr('src','assets/homepage/coverPolaris-mobile.png');
+    } else {
+      $('#CoverIngrainUXS').attr('src','assets/homepage/coverIngrainUXStrategy.png');
+      $('#CoverHafSite').attr('src','assets/homepage/coverHafSite.png');
+      $('#CoverNimbus').attr('src','assets/homepage/coverNimbus.png');
+      $('#CoverPolaris').attr('src','assets/homepage/coverPolaris.png');
+    }
+  };
+
+  $(window).on('resize', function(){
+    coverSwap();
+  });
+
+  coverSwap();
+
+
+
+
   //JQuery for Jump-to-element
   //Will only work if href of <a> matches id of element to jump to
 
