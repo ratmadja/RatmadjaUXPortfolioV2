@@ -299,15 +299,15 @@ main p {
 .workcover-container {
   position: relative;
   overflow: hidden;
-  border: 6px solid #ffffff;
+  border: 10px solid #ffffff;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-  box-shadow: rgba(228,221,212,0.7) 0 6px 32px;
+  box-shadow: rgba(169,156,140,0.45) 0 6px 32px;
   /* box-shadow: rgba(178,178,178,0.1) 0 4px 28px; */
 }
 .workcover-container:hover {
-  box-shadow: rgba(228,221,212,0.95) 0 6px 32px;
+  box-shadow: rgba(169,156,140,0.75) 0 6px 32px;
   /* box-shadow: rgba(178,178,178,0.3) 0 4px 32px; */
 }
 
@@ -557,7 +557,9 @@ footer {
   main {
     margin: 0em 1.33em;
   }
-
+  .workcover-container {
+    border: 8px solid #ffffff;
+  }
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
     height: 30px;
@@ -653,7 +655,9 @@ footer {
   main {
     margin: 0em 1em;
   }
-
+  .workcover-container {
+    border: 6px solid #ffffff;
+  }
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
     height: 30px;
