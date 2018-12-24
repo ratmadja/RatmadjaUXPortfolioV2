@@ -20,14 +20,14 @@ html, .root {
 }
 body, .article {
   background-color: #FBFBFB;
-  color: #222222;
-  font-family: 'calluna','georgia', serif;
+  color: #333333;
+  font-family: 'ff-scala','georgia', serif;
   font-weight: 300;
   font-size: 1em;
   line-height: 1.5em;
 }
 h1, .h1 {
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-weight: 400;
   font-size: 2.83333333em;
   line-height: 1.05882353em;
@@ -35,7 +35,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'itc-galliard', serif;
+  font-family: 'jaf-lapture-display', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -44,7 +44,7 @@ h2, .h2 {
 
 }
 h3, .h3 {
-  font-family: 'itc-galliard', serif;
+  font-family: 'jaf-lapture-display', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -52,7 +52,7 @@ h3, .h3 {
   margin-bottom: 0.75em;
 }
 h4, .h4 {
-  font-family: 'calluna','georgia', serif;
+  font-family: 'ff-scala','georgia', serif;
   font-weight: 600;
   line-height: 1.4em;
   font-size: 1.22em;
@@ -60,7 +60,7 @@ h4, .h4 {
   margin-bottom: 0.6em;
 }
 h5, .h5 {
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 1em;
   line-height: 1.75em;
   margin-top: 1.5em;
@@ -98,7 +98,7 @@ sub {
 }
 figcaption {
   font-size: .9em;
-  font-style: 'calluna',serif;
+  font-style: 'ff-scala',serif;
   font-style: italic;
   text-align: center;
   margin-top: 1em;
@@ -155,7 +155,7 @@ footer {
   color: #444444;
   font-size: 0.75em;
   font-weight: 400;
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -258,8 +258,8 @@ border: 1px solid red;
   text-decoration: none;
   color: #888888;
   font-size: 0.65em;
-  font-weight: 600;
-  font-family: 'angie-sans', sans-serif;
+  font-weight: 400;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -286,7 +286,7 @@ border: 1px solid red;
   color: #555555;
   font-size: 0.75em;
   font-weight: 400;
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -312,7 +312,8 @@ header {
   background: linear-gradient(#FAFAFA, #E1E1E1);
 }
 .hero-tagline {
-  font-family: 'itc-galliard', serif;
+  font-family: 'jaf-lapture-display', serif;
+  font-style: italic;
   font-weight: 400;
   text-align: center;
   padding-top: 2em;
@@ -330,8 +331,7 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #555555;
-  font-family: 'calluna', serif;
-  font-style: italic;
+  font-family: 'ff-scala', serif;
   font-size: 0.9em;
   font-weight: 400;
   text-align: center;
@@ -372,7 +372,7 @@ header {
   font-weight: 400;
 }
 .cs-info li {
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 0.9em;
   line-height: 1.5em;
   color: #333333;
@@ -413,13 +413,14 @@ header {
 
 .note-label {
   color: #333333;
-  font-family: 'calluna', serif;
+  font-family: 'ff-scala', serif;
   font-weight: 500;
   margin-top: 4.75em;
   margin-bottom: 0.75em;
   font-size: 1em;
 }
 .pullquote {
+  font-style: italic;
   line-height: 1.35em;
   font-size: 2em;
   margin-top: 0em;
@@ -431,7 +432,7 @@ header {
 .casestudy-sectionlabel {
   display: inline;
   text-transform: uppercase;
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   margin-top: 0.4em;
   margin-bottom: 0.67em;
   display: inline-block;
@@ -458,7 +459,7 @@ header {
 }
 .link-doc {
   color: #333333;
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 0.9em;
   text-decoration: none;
   text-transform: uppercase;
@@ -471,7 +472,7 @@ header {
 .link-work {
   padding-bottom: 0.15em;
   text-decoration: none;
-  color: #222222;
+  color: #333333;
   font-size: 0.75em;
   letter-spacing: 0.08em;
   font-weight: 600;
@@ -856,7 +857,7 @@ header {
   padding-bottom: 4em;
 }
 .cs-sectionCarousel p {
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   margin-top: 0em;
   margin-bottom: 0.25em;
   font-size: .9em;

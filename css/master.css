@@ -19,8 +19,8 @@ html, .root {
 
 body, .article {
   background-color: #FBFBFB;
-  color: #222222;
-  font-family: 'calluna', serif;
+  color: #333333;
+  font-family: 'ff-scala', serif;
   font-weight: 300;
   font-size: 1em;
   line-height: 1.5em;
@@ -28,7 +28,7 @@ body, .article {
 }
 
 h1, .h1 {
-  font-family: 'itc-galliard', serif;
+  font-family: 'jaf-lapture-display', serif;
   font-weight: 400;
   font-size: 2.83333333em;
   line-height: 1.05882353em;
@@ -36,7 +36,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'itc-galliard', serif;
+  font-family: 'jaf-lapture-display', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -44,7 +44,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'calluna', serif;
+  font-family: 'ff-scala', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -52,7 +52,7 @@ h3, .h3 {
   margin-bottom: 0.44em;
 }
 h4, .h4 {
-  font-family: 'calluna', serif;
+  font-family: 'ff-scala', serif;
   font-weight: 600;
   font-size: 1.22em;
   line-height: 1.4em;
@@ -60,7 +60,7 @@ h4, .h4 {
   margin-bottom: 0.44em;
 }
 h5, .h5 {
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   margin-top: 1.5em;
@@ -131,7 +131,7 @@ sub {
   text-decoration: none;
   color: #444444;
   font-size: 0.75em;
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
@@ -147,10 +147,10 @@ sub {
 
 /* ------Start of Label Styling------ */
 .section-divider {
-  font-family: 'itc-galliard', serif;
+  font-family: 'jaf-lapture-display', serif;
   font-weight: 400;
   font-style: italic;
-  color: #222222;
+  color: #333333;
   font-size: 0.75em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -163,9 +163,12 @@ sub {
   text-align: center;
 }
 .label-section {
+  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-size: 2.67em;
+  text-transform: uppercase;
   display: inline;
-  margin-top: 3em;
-  margin-bottom: 2em;
+  margin-top: 0em;
+  margin-bottom: 1.67em;
   padding-bottom: 0.33em;
   display: inline-block;
   /* border-bottom: 1px solid #DA9218; */
@@ -186,8 +189,9 @@ sub {
   padding-bottom: 6em;
 }
 .hero h1 {
-  color: #222222;
-  font-family:'itc-galliard', serif;
+  color: #333333;
+  font-family:'jaf-lapture-display', serif;
+  font-style: italic;
   font-size: 2.22em;
   line-height: 1.3em;
   max-width: 896px;
@@ -197,14 +201,15 @@ sub {
 
 
 .hero-link {
-  font-family: 'itc-galliard', serif;
+  font-family: 'jaf-lapture', serif;
   font-weight: 400;
+  font-style: normal;
   letter-spacing: 0.09em;
-  color: #222222;
+  color: #333333;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.75em;
-  padding-bottom: 0.01em;
+  padding-bottom: 0.1em;
   transition: all .25s cubic-bezier(0,0,.58,1);
   border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
@@ -223,7 +228,7 @@ sub {
   font-style: normal;
   color: #333333;
   font-size: 13px;
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   box-shadow: inset 0 -1px 0 rgba(218,146,24,1);
   /* transition: all .2s cubic-bezier(0,0,.58,1); */
@@ -253,7 +258,11 @@ main p {
 /* controls p in main*/
 
 
-
+.work-cs {
+  border-top: 0.25px solid #E0E0E0;
+  padding-top: 2em;
+  padding-bottom: 6em;
+}
 
 
 /*----Start of hero video styling ---*/
@@ -314,10 +323,10 @@ main p {
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-  box-shadow: rgba(188,174,160,0.15) 0 4px 24px;
+  box-shadow: rgba(188,174,160,0.4) 0 4px 24px;
 }
 .workcover-container:hover {
-  box-shadow: rgba(188,174,160,0.3) 0 2px 24px;
+  box-shadow: rgba(188,174,160,0.7) 0 2px 24px;
 }
 
 /*------------------ End of workcover sytling ---------*/
@@ -326,8 +335,24 @@ main p {
 
 /*------------------ Start of work desc and link sytling ---------*/
 
+.work-title {
+  font-family: 'jaf-lapture-display', serif;
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin-top: 0em;
+  margin-bottom: 2.67em;
+}
+.work-title span {
+  font-family: 'ff-scala-pro', serif;
+  font-weight: 400;
+  font-size: 0.67em;
+  color: #333333;
+}
+
 .work-heading {
-  font-family: 'itc-galliard', serif;
+  font-family: 'jaf-lapture-display', serif;
+  font-style: italic;
   font-size: 1.6em;
   line-height: 1.4em;
   margin-top: 0em;
@@ -335,8 +360,8 @@ main p {
 }
 
 .workdesc {
-  margin-top: 3em;
-  margin-bottom: 6em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -353,7 +378,7 @@ main p {
 .work-scope {
   color: #333333;
   font-style: italic;
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
 }
 .caption-label {
   border: 1px solid red;
@@ -361,9 +386,9 @@ main p {
 .link-work {
   padding-bottom: 0.25em;
   text-decoration: none;
-  color: #222222;
-  font-size: 0.75em;
-  font-family: 'angie-sans', sans-serif;
+  color: #333333;
+  font-size: .9em;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -442,7 +467,7 @@ footer {
   text-decoration: none;
   color: #444444;
   font-size: 0.75em;
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -462,7 +487,7 @@ footer {
 }
 
 .typography-credit {
-  font-family: 'angie-sans', sans-serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 0.6em;
   text-transform: uppercase;
   padding-top: 2em;
@@ -548,6 +573,12 @@ footer {
   .label-section {
     font-size: 2.67em;
   }
+  .work-title {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
   .work-heading {
     font-size: 1.4em;
     line-height: 1.4em;
@@ -584,6 +615,13 @@ footer {
   }
   /* controls p in main*/
 
+
+  .work-title {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
   .work-heading {
     font-size: 1.3em;
     line-height: 1.4em;
@@ -618,9 +656,13 @@ footer {
   .label-section {
     font-size: 2em;
   }
+
+/*Start of work description styling */
+  .work-desc {
+    display: none;
+  }
   .workdesc {
-    margin-top: 2em;
-    margin-bottom: 5em;
+    margin-top: 0.2em;
     display: flex;
     flex-direction: column;
   }
@@ -637,6 +679,8 @@ footer {
     width: 100%;
     max-width: 480px;
   }
+/*End of work description styling */
+
   footer {
     align-items: center;
   }
@@ -686,6 +730,12 @@ footer {
   /* controls p in main*/
 
 
+  .work-title {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
   .work-heading {
     font-size: 1.25em;
     line-height: 1.4em;
@@ -729,9 +779,15 @@ footer {
   .label-section {
     font-size: 2em;
   }
+
+
+/*Start of work description styling */
+  .work-desc {
+    display: none;
+  }
+
   .workdesc {
-    margin-top: 2em;
-    margin-bottom: 5em;
+    margin-top:0.2em;
     display: flex;
     flex-direction: column;
   }
@@ -747,6 +803,8 @@ footer {
     margin-top: 0em;
     width: 100%;
   }
+/*Start of work description styling */
+
   footer {
     align-items: center;
   }
