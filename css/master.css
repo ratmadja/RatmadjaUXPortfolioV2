@@ -18,7 +18,7 @@ html, .root {
 }
 
 body, .article {
-  /* border-top: 7px solid #EFE8DF; */
+  background-color: #FBFBFB;
   color: #222222;
   font-family: 'calluna', serif;
   font-weight: 300;
@@ -132,7 +132,7 @@ sub {
   color: #444444;
   font-size: 0.75em;
   font-family: 'angie-sans', sans-serif;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .menu a:hover {
@@ -206,7 +206,7 @@ sub {
   font-size: 0.75em;
   padding-bottom: 0.01em;
   transition: all .25s cubic-bezier(0,0,.58,1);
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 
@@ -287,12 +287,10 @@ main p {
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-  box-shadow: rgba(228,221,212,0.7) 0 6px 32px;
-  /* box-shadow: rgba(178,178,178,0.25) 0 4px 28px; */
+  box-shadow: rgba(188,174,160,0.3) 0 4px 32px;
 }
 .workcoverVideo-iphonex:hover {
-  box-shadow: rgba(228,221,212,0.95) 0 6px 32px;
-  /* box-shadow: rgba(178,178,178,0.27) 0 6px 32px; */
+  box-shadow: rgba(188,174,160,0.5) 0 4px 32px;
 }
 
 
@@ -316,12 +314,10 @@ main p {
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-  box-shadow: rgba(169,156,140,0.45) 0 6px 32px;
-  /* box-shadow: rgba(178,178,178,0.1) 0 4px 28px; */
+  box-shadow: rgba(188,174,160,0.15) 0 4px 32px;
 }
 .workcover-container:hover {
-  box-shadow: rgba(169,156,140,0.75) 0 6px 32px;
-  /* box-shadow: rgba(178,178,178,0.3) 0 4px 32px; */
+  box-shadow: rgba(188,174,160,0.3) 0 4px 32px;
 }
 
 /*------------------ End of workcover sytling ---------*/
@@ -448,7 +444,7 @@ footer {
   font-size: 0.75em;
   font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {

@@ -26,7 +26,7 @@ html, .root {
   line-height: 27px;
 }
 body, .article {
-  /* border-top: 7px solid #EFE8DF; */
+  background-color: #FBFBFB;
   color: #222222;
   font-family: 'calluna','georgia', serif;
   font-weight: 300;
@@ -154,7 +154,7 @@ figcaption {
   color: #444444;
   font-size: 0.75em;
   font-family: 'angie-sans', sans-serif;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .menu a:hover {
@@ -203,7 +203,7 @@ footer {
   font-size: 0.75em;
   font-family: 'angie-sans', sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
 .contact-link a:hover {
