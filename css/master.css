@@ -269,7 +269,7 @@ main p {
 
 .work-cs {
   border-top: 1px solid #CBC3B9;
-  padding-top: 2em;
+  padding-top: 1.33em;
   padding-bottom: 8em;
 }
 
@@ -352,17 +352,13 @@ main p {
 .work-title {
   font-family: 'jaf-lapture-display', serif;
   font-style: italic;
-  font-size: 1.6em;
+  font-size: 2em;
   line-height: 1.4em;
-  font-weight: 600;
   margin-top: 0em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 .work-title span {
-  font-family: 'ff-scala-sans-pro', sans-serif;
-  font-weight: 400;
-  font-size: 0.67em;
-  color: #333333;
+  font-style: italic;
 }
 
 .work-heading {
@@ -376,7 +372,7 @@ main p {
 
 .workdesc {
   margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.67em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -393,6 +389,10 @@ main p {
 .work-scope {
   color: #333333;
   font-family: 'ff-scala-sans-pro', sans-serif;
+  font-size: 1em;
+  line-height: 1.35em;
+  font-weight: 400;
+  margin-bottom: 1em;
 }
 .caption-label {
   border: 1px solid red;
@@ -573,10 +573,10 @@ footer {
     font-size: 2.67em;
   }
   .work-title {
-    font-size: 1.4em;
+    font-size: 1.8em;
     line-height: 1.4em;
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 1.67em;
   }
   .work-heading {
     font-size: 1.4em;
@@ -619,10 +619,10 @@ footer {
 
 
   .work-title {
-    font-size: 1.3em;
+    font-size: 1.7em;
     line-height: 1.4em;
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
   .work-heading {
     font-size: 1.3em;
@@ -742,10 +742,10 @@ footer {
 
 
   .work-title {
-    font-size: 1.25em;
+    font-size: 1.65em;
     line-height: 1.4em;
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 1.33em;
   }
   .work-heading {
     font-size: 1.25em;
