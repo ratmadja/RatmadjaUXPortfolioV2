@@ -389,6 +389,7 @@ main p {
 .work-scope {
   color: #333333;
   font-family: 'ff-scala-sans-pro', sans-serif;
+  font-style: italic;
   font-size: 1em;
   line-height: 1.35em;
   font-weight: 400;
