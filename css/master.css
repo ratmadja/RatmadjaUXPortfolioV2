@@ -118,6 +118,14 @@ sub {
   height: 38px;
   width: 61px;
 }
+.work-logo {
+  background: url(../assets/homepage/work-logo.svg) center / cover;
+  height: 38px;
+  width: 149px;
+  margin: auto;
+  margin-bottom: 1.67em;
+}
+
 
 .nav-main {
   width: 196px;
@@ -163,7 +171,7 @@ sub {
 }
 
 
-.label-container {
+/* .label-container {
   text-align: center;
 }
 .label-section {
@@ -173,7 +181,7 @@ sub {
   display: inline-block;
   font-size: 2.67em;
   margin-bottom: 1em;
-}
+} */
 
 
 /* ------End of Label Styling------ */
@@ -267,7 +275,8 @@ main p {
 
 
 .work-cs {
-  border-top: 1px solid #CBC3B9;
+  /* border-top: 1px solid #cccccc; */
+  border-top: 0.5px solid #DA9218;
   padding-top: 1.33em;
   padding-bottom: 8em;
 }
@@ -542,6 +551,13 @@ footer {
     height: 34px;
     width: 54.58px;
   }
+  .work-logo {
+    background: url(../assets/homepage/work-logo.svg) center / cover;
+    height: 34px;
+    width: 133.32px;
+    margin: auto;
+    margin-bottom: 1.33em;
+  }
 
   /* controls p in main*/
   main p {
@@ -569,10 +585,14 @@ footer {
   .closing h2 {
     font-size: 1.98em;
   }
-  .label-section {
+
+
+  /* .label-section {
     font-size: 2.67em;
     margin-bottom: 0.67em;
-  }
+  } */
+
+
   .work-title {
     font-size: 1.8em;
     line-height: 1.4em;
@@ -604,13 +624,21 @@ footer {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
     height: 30px;
     width: 48.16px;
-    /* margin-bottom: 1.75em; */
+  }
+  .work-logo {
+    background: url(../assets/homepage/work-logo.svg) center / cover;
+    height: 30px;
+    width: 117.63px;
+    margin: auto;
+    margin-bottom: 1em;
   }
 
-  .label-section {
+
+  /* .label-section {
     font-size: 2em;
     margin-bottom: 0.5em;
-  }
+  } */
+
 
   /* controls p in main*/
   main p {
@@ -727,15 +755,23 @@ footer {
     width: 48.16px;
     margin-bottom: 1.5em;
   }
+  .work-logo {
+    background: url(../assets/homepage/work-logo.svg) center / cover;
+    height: 30px;
+    width: 117.63px;
+    margin-left: 0em;
+    margin-bottom: 1em;
+  }
 
   .hero-more {
     font-size: 12px;
   }
 
-  .label-section {
+  /* .label-section {
     font-size: 2em;
     margin-bottom: 0.4em;
-  }
+  } */
+
   /* controls p in main*/
   main p {
     font-size: 1em;
