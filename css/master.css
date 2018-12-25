@@ -170,10 +170,9 @@ sub {
   display: inline;
   text-transform: uppercase;
   font-family: 'ff-scala-sans-pro', sans-serif;
-  margin-top: 0.4em;
-  margin-bottom: 2.67em;
   display: inline-block;
   font-size: 2.67em;
+  margin-bottom: 1em;
 }
 
 
@@ -572,6 +571,7 @@ footer {
   }
   .label-section {
     font-size: 2.67em;
+    margin-bottom: 0.67em;
   }
   .work-title {
     font-size: 1.8em;
@@ -609,6 +609,7 @@ footer {
 
   .label-section {
     font-size: 2em;
+    margin-bottom: 0.5em;
   }
 
   /* controls p in main*/
@@ -733,6 +734,7 @@ footer {
 
   .label-section {
     font-size: 2em;
+    margin-bottom: 0.4em;
   }
   /* controls p in main*/
   main p {

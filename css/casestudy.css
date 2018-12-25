@@ -293,7 +293,7 @@ border: 1px solid red;
 }
 
 .nav-cs a:hover {
-    border-bottom: 1px solid #DA9218;
+  border-bottom: 1px solid #DA9218;
 }
 
 
@@ -1299,13 +1299,13 @@ header {
   }
   .diagramWide,
   .diagramMobileWide {
-  display: none;
-}
+    display: none;
+  }
   .img-incontain4 {
-  margin: auto;
-  width: 90%;
-  display: block;
-}
+    margin: auto;
+    width: 90%;
+    display: block;
+  }
   /* controls Nimbus Diagram visibility and text width*/
 
 

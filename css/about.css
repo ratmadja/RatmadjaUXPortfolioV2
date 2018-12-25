@@ -387,7 +387,7 @@ p > span {
 /*bluezone*/
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   /* .container {
-    border: 1px solid blue;
+  border: 1px solid blue;
   } */
   main {
     margin: 0em 8em;
@@ -407,7 +407,7 @@ p > span {
 /*redzone*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* .container {
-    border: 1px solid red;
+  border: 1px solid red;
   } */
   main {
     margin: 0em 4em;
@@ -449,7 +449,7 @@ p > span {
 /*greenzone*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   /* .container {
-    border: 1px solid green;
+  border: 1px solid green;
   } */
 
   main {
@@ -484,14 +484,14 @@ p > span {
   /* controls p in main*/
 
   .navmenu {
-      /* border: 1px solid #BDBDBD; */
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 0em;
-      padding: 2em 2em;
-    }
+    /* border: 1px solid #BDBDBD; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0em;
+    padding: 2em 2em;
+  }
 
   header {
     display: flex;
@@ -545,7 +545,7 @@ p > span {
 @media only screen and (min-width: 280px) and (max-width: 479px) {
 
   /* .container {
-    border: 1px solid purple;
+  border: 1px solid purple;
   } */
 
   main {
