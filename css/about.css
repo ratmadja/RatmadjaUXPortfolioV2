@@ -152,7 +152,7 @@ figcaption {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #444444;
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-family: 'ff-scala-sans-pro', sans-serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -200,7 +200,7 @@ footer {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #444444;
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -254,7 +254,7 @@ main {
   margin-top: 12em;
   margin-bottom: 0em;
   color: #4F4F4F;
-  font-size: 0.74em;
+  font-size: 0.8em;
   text-transform: uppercase;
   font-family: 'ff-scala-sans-pro', sans-serif;
 }
@@ -313,6 +313,7 @@ p > span {
 
 .pullquote {
   font-family: 'jaf-lapture-display','georgia', serif;
+  font-style: italic;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35em;
@@ -340,9 +341,8 @@ p > span {
   padding-bottom: 0.15em;
   text-decoration: none;
   color: #333333;
-  font-size: 0.75em;
-  letter-spacing: 0.08em;
-  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);

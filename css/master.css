@@ -99,6 +99,10 @@ sub {
 /* End of typography sizes */
 
 
+
+
+
+
 /*------- Start of logo and nav styling -------*/
 .navmenu {
   /* border: 1px solid #BDBDBD; */
@@ -130,7 +134,7 @@ sub {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #444444;
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-family: 'ff-scala-sans-pro', sans-serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -163,16 +167,16 @@ sub {
   text-align: center;
 }
 .label-section {
-  font-family: 'ff-scala-sans-pro', sans-serif;
-  font-size: 2.67em;
-  text-transform: uppercase;
   display: inline;
-  margin-top: 0em;
-  margin-bottom: 1.67em;
-  padding-bottom: 0.33em;
+  text-transform: uppercase;
+  font-family: 'ff-scala-sans-pro', sans-serif;
+  margin-top: 0.4em;
+  margin-bottom: 2.67em;
   display: inline-block;
-  /* border-bottom: 1px solid #DA9218; */
+  font-size: 2.67em;
 }
+
+
 /* ------End of Label Styling------ */
 
 
@@ -189,41 +193,46 @@ sub {
   padding-bottom: 6em;
 }
 .hero h1 {
-  color: #333333;
+  color: #111111;
   font-family:'jaf-lapture-display', serif;
   font-style: italic;
   font-size: 2.22em;
-  line-height: 1.3em;
+  line-height: 1.4em;
   max-width: 896px;
   margin: auto;
   margin-bottom: 1em;
 }
+.closing h2 {
+  color: #111111;
+  font-family:'jaf-lapture-display', serif;
+  font-style: italic;
+  font-size: 2.22em;
+  line-height: 1.4em;
+  max-width: 1136px;
+  margin: auto;
+  margin-bottom: 1em;
+}
+.closing h2 a {
+  color: #111111;
+}
 
 
 .hero-link {
-  font-family: 'jaf-lapture', serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 0.09em;
-  color: #333333;
+  font-family: 'jaf-lapture-display', serif;
+  color: #111111;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 0.75em;
-  padding-bottom: 0.1em;
   transition: all .25s cubic-bezier(0,0,.58,1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 
 
 .hero-link:hover {
-  color: #000000;
-  border-bottom: 1px solid #DA9218;
+  text-decoration: underline;
 }
 
 
 .hero-more {
-  padding-bottom: 0.35em;
+  padding-bottom: 0.25em;
   text-decoration: none;
   font-style: normal;
   color: #333333;
@@ -234,7 +243,7 @@ sub {
   /* transition: all .2s cubic-bezier(0,0,.58,1); */
 }
 .hero-more:hover {
-  box-shadow: inset 0 -1px 0 rgba(51,51,51,1);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,1);
 }
 
 
@@ -259,11 +268,16 @@ main p {
 
 
 .work-cs {
-  border-top: 0.25px solid #E0E0E0;
+  border-top: 1px solid #CBC3B9;
   padding-top: 2em;
-  padding-bottom: 6em;
+  padding-bottom: 8em;
 }
 
+.number-cs {
+  font-family: 'jaf-lapture-display', serif;
+  font-style: italic;
+  text-align: center;
+}
 
 /*----Start of hero video styling ---*/
 .workcoverVideo-iphonex {
@@ -337,14 +351,15 @@ main p {
 
 .work-title {
   font-family: 'jaf-lapture-display', serif;
+  font-style: italic;
   font-size: 1.6em;
-  font-weight: 600;
   line-height: 1.4em;
+  font-weight: 600;
   margin-top: 0em;
-  margin-bottom: 2.67em;
+  margin-bottom: 1em;
 }
 .work-title span {
-  font-family: 'ff-scala-pro', serif;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-weight: 400;
   font-size: 0.67em;
   color: #333333;
@@ -360,7 +375,7 @@ main p {
 }
 
 .workdesc {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
   display: flex;
   flex-direction: row;
@@ -377,7 +392,6 @@ main p {
 }
 .work-scope {
   color: #333333;
-  font-style: italic;
   font-family: 'ff-scala-sans-pro', sans-serif;
 }
 .caption-label {
@@ -407,21 +421,6 @@ main p {
   border-bottom: 1px solid #333333;
 }
 
-.closing {
-  padding-top: 0em;
-  max-width: 400px;
-  margin: auto;
-}
-.closing h3 {
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 0.35em;
-}
-.closing p {
-  font-style: italic;
-  text-align: center;
-  font-style: italic;
-}
 
 
 /*------------------ End of work desc and link sytling ---------*/
@@ -466,7 +465,7 @@ footer {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #444444;
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -567,9 +566,9 @@ footer {
   .hero h1 {
     font-size: 1.98em;
   }
-
-
-
+  .closing h2 {
+    font-size: 1.98em;
+  }
   .label-section {
     font-size: 2.67em;
   }
@@ -607,6 +606,9 @@ footer {
     /* margin-bottom: 1.75em; */
   }
 
+  .label-section {
+    font-size: 2em;
+  }
 
   /* controls p in main*/
   main p {
@@ -620,7 +622,7 @@ footer {
     font-size: 1.3em;
     line-height: 1.4em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 1em;
   }
   .work-heading {
     font-size: 1.3em;
@@ -645,6 +647,9 @@ footer {
   .hero h1 {
     font-size: 1.6em;
   }
+  .closing h2 {
+    font-size: 1.6em;
+  }
   .hero {
     padding-top: 5em;
     /* only instance of added padding-left and padding-right for hero text */
@@ -653,9 +658,6 @@ footer {
     padding-bottom: 5em;
   }
 
-  .label-section {
-    font-size: 2em;
-  }
 
 /*Start of work description styling */
   .work-desc {
@@ -680,6 +682,12 @@ footer {
     max-width: 480px;
   }
 /*End of work description styling */
+
+.section-sublabel {
+  margin-top: 0.5em;
+  margin-bottom: 4em;
+  font-size: .7em;
+}
 
   footer {
     align-items: center;
@@ -722,6 +730,9 @@ footer {
     font-size: 12px;
   }
 
+  .label-section {
+    font-size: 2em;
+  }
   /* controls p in main*/
   main p {
     font-size: 1em;
@@ -734,7 +745,7 @@ footer {
     font-size: 1.25em;
     line-height: 1.4em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 1em;
   }
   .work-heading {
     font-size: 1.25em;
@@ -771,13 +782,17 @@ footer {
   .hero h1 {
     font-size: 1.3em;
   }
-
+  .closing h2 {
+    font-size: 1.3em;
+  }
 
   .label-container {
     text-align: left;
   }
-  .label-section {
-    font-size: 2em;
+  .section-sublabel {
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+    font-size: .7em;
   }
 
 
