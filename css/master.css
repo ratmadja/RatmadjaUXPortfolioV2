@@ -121,7 +121,7 @@ sub {
 .work-logo {
   background: url(../assets/homepage/work-logo.svg) center / cover;
   height: 38px;
-  width: 149px;
+  width: 152px;
   margin: auto;
   margin-bottom: 1.67em;
 }
@@ -275,7 +275,7 @@ main p {
 
 
 .work-cs {
-  border-top: 1px solid #cccccc;
+  border-top: 2px solid #EFE8DF;
   /* border-top: 1px solid #DA9218; */
   padding-top: 1.33em;
   padding-bottom: 8em;
@@ -554,7 +554,7 @@ footer {
   .work-logo {
     background: url(../assets/homepage/work-logo.svg) center / cover;
     height: 34px;
-    width: 133.32px;
+    width: 136px;
     margin: auto;
     margin-bottom: 1.33em;
   }
@@ -628,7 +628,7 @@ footer {
   .work-logo {
     background: url(../assets/homepage/work-logo.svg) center / cover;
     height: 30px;
-    width: 117.63px;
+    width: 120px;
     margin: auto;
     margin-bottom: 1em;
   }
@@ -758,7 +758,7 @@ footer {
   .work-logo {
     background: url(../assets/homepage/work-logo.svg) center / cover;
     height: 30px;
-    width: 117.63px;
+    width: 120px;
     margin-left: 0em;
     margin-bottom: 1em;
   }
