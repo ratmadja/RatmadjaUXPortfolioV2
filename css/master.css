@@ -275,8 +275,8 @@ main p {
 
 
 .work-cs {
-  /* border-top: 1px solid #cccccc; */
-  border-top: 0.5px solid #DA9218;
+  border-top: 1px solid #cccccc;
+  /* border-top: 1px solid #DA9218; */
   padding-top: 1.33em;
   padding-bottom: 8em;
 }
