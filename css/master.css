@@ -123,7 +123,8 @@ sub {
   height: 38px;
   width: 156px;
   margin: auto;
-  margin-bottom: 1.67em;
+  margin-top: 2em;
+  margin-bottom: 6em;
 }
 
 
@@ -275,10 +276,9 @@ main p {
 
 
 .work-cs {
-  border-top: 0.05em solid rgba(142,137,129,0.7);
-  /* border-top: 1px solid #DA9218; */
+  border-top: 0.05em solid rgba(142,137,129,0.9);
   padding-top: 1.33em;
-  padding-bottom: 8em;
+  padding-bottom: 6em;
 }
 
 .number-cs {
@@ -362,7 +362,7 @@ main p {
   font-style: italic;
   font-size: 2em;
   line-height: 1.4em;
-  margin-top: 0em;
+  margin-top: 0.33em;
   margin-bottom: 2em;
 }
 .work-title span {
@@ -556,7 +556,8 @@ footer {
     height: 34px;
     width: 139.58px;
     margin: auto;
-    margin-bottom: 1.33em;
+    margin-top: 2em;
+    margin-bottom: 6em;
   }
 
   /* controls p in main*/
@@ -596,7 +597,7 @@ footer {
   .work-title {
     font-size: 1.8em;
     line-height: 1.4em;
-    margin-top: 0em;
+    margin-top: 0.33em;
     margin-bottom: 1.67em;
   }
   .work-heading {
@@ -630,8 +631,10 @@ footer {
     height: 30px;
     width: 123.16px;
     margin: auto;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 4em;
   }
+
 
 
   /* .label-section {
@@ -651,7 +654,7 @@ footer {
   .work-title {
     font-size: 1.7em;
     line-height: 1.4em;
-    margin-top: 0em;
+    margin-top: 0.33em;
     margin-bottom: 1.5em;
   }
   .work-heading {
@@ -760,7 +763,8 @@ footer {
     height: 30px;
     width: 123.16px;
     margin-left: 0em;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 4em;
   }
 
   .hero-more {
@@ -783,7 +787,7 @@ footer {
   .work-title {
     font-size: 1.65em;
     line-height: 1.4em;
-    margin-top: 0em;
+    margin-top: 0.33em;
     margin-bottom: 1.33em;
   }
   .work-heading {

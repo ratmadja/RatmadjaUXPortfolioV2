@@ -257,8 +257,7 @@ border: 1px solid red;
   padding-bottom: 0.2em;
   text-decoration: none;
   color: #888888;
-  font-size: 0.65em;
-  font-weight: 400;
+  font-size: 0.67em;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -330,8 +329,8 @@ header {
 }
 .hero-desc-text {
   margin: 0em 1em;
-  color: #555555;
-  font-family: 'ff-scala', serif;
+  color: #777777;
+  font-family: 'ff-scala-sans-pro', sans-serif;
   font-size: 0.9em;
   font-weight: 400;
   text-align: center;

@@ -349,9 +349,8 @@ nav {
 .nav-prevcs, .nav-nextcs {
   padding-bottom: 0.2em;
   text-decoration: none;
-  color: #999999;
-  font-size: 0.65em;
-  font-weight: 600;
+  color: #888888;
+  font-size: 0.67em;
   font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -370,8 +369,7 @@ nav {
 
 
 .nav-studio {
-  font-family: 'ff-scala-sans-pro', 'sans-serif';
-  text-transform: uppercase;
+  font-family: 'ff-scala', serif;
   margin: 0em 0em;
   width: 56%;
   display: flex;
