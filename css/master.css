@@ -217,7 +217,7 @@ sub {
   line-height: 1.4em;
   margin: auto;
   max-width: 1136px;
-  padding-top: 2.8em;
+  padding-top: 2.67em;
 }
 .closing h2 a {
   color: #111111;
@@ -275,8 +275,7 @@ main p {
 
 
 .work-cs {
-  padding-top: 3em;
-  padding-bottom: 1em;
+  padding-top: 8em;
 }
 
 .number-cs {
@@ -337,8 +336,9 @@ main p {
 
 
 .workcover-container {
-  position: relative;
-  overflow: hidden;
+  /* position: relative;
+  overflow: hidden; */
+  display: block;
   border: 10px solid #ffffff;
   transition-property: all;
   transition-duration: 0.2s;
@@ -372,12 +372,10 @@ main p {
   font-size: 1.6em;
   line-height: 1.4em;
   margin-top: 0em;
-  margin-bottom: 1em;
+  margin-bottom: 0.67em;
 }
 
 .workdesc {
-  margin-top: 1em;
-  margin-bottom: 0.67em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -599,7 +597,7 @@ footer {
     font-size: 1.4em;
     line-height: 1.4em;
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 0.67em;
   }
 }
 
@@ -652,7 +650,7 @@ footer {
     font-size: 1.3em;
     line-height: 1.4em;
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 0.67em;
   }
 
 .navmenu {
@@ -688,7 +686,6 @@ footer {
     display: none;
   }
   .workdesc {
-    margin-top: 0.2em;
     display: flex;
     flex-direction: column;
   }
@@ -782,7 +779,7 @@ footer {
     font-size: 1.25em;
     line-height: 1.4em;
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 0.67em;
   }
 
   .navmenu {
@@ -833,7 +830,6 @@ footer {
   }
 
   .workdesc {
-    margin-top:0.2em;
     display: flex;
     flex-direction: column;
   }
