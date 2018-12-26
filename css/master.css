@@ -172,7 +172,7 @@ sub {
 }
 
 
-/* .label-container {
+.label-container {
   text-align: center;
 }
 .label-section {
@@ -182,7 +182,7 @@ sub {
   display: inline-block;
   font-size: 2.67em;
   margin-bottom: 1em;
-} */
+}
 
 
 /* ------End of Label Styling------ */
@@ -276,7 +276,7 @@ main p {
 
 
 .work-cs {
-  border-top: 0.05em solid rgba(142,137,129,0.9);
+  /* border-top: 0.05em solid rgba(142,137,129,0.9); */
   padding-top: 1.33em;
   padding-bottom: 6em;
 }
@@ -588,10 +588,10 @@ footer {
   }
 
 
-  /* .label-section {
+  .label-section {
     font-size: 2.67em;
     margin-bottom: 0.67em;
-  } */
+  }
 
 
   .work-title {
@@ -637,10 +637,10 @@ footer {
 
 
 
-  /* .label-section {
+  .label-section {
     font-size: 2em;
     margin-bottom: 0.5em;
-  } */
+  }
 
 
   /* controls p in main*/
@@ -771,10 +771,10 @@ footer {
     font-size: 12px;
   }
 
-  /* .label-section {
+  .label-section {
     font-size: 2em;
     margin-bottom: 0.4em;
-  } */
+  }
 
   /* controls p in main*/
   main p {
