@@ -405,14 +405,14 @@ main p {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #333333;
-  font-size: .9em;
+  font-size: 1em;
   font-family: 'ff-scala-sans-pro', sans-serif;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
+  border-bottom: 1px solid #DA9218;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0); */
 }
 .link-work:hover {
-  border-bottom: 1px solid #DA9218;
+  border-bottom: 1px solid #333333;
 }
 .link-ref {
   color: #333333;
