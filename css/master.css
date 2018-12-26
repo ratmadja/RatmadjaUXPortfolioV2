@@ -172,16 +172,15 @@ sub {
 }
 
 
-.label-container {
-  text-align: center;
-}
+
 .label-section {
   display: inline;
   text-transform: uppercase;
   font-family: 'ff-scala-sans-pro', sans-serif;
   display: inline-block;
   font-size: 2.67em;
-  margin-bottom: 1em;
+  margin-top: 0.67em;
+  margin-bottom: 0em;
 }
 
 
@@ -206,7 +205,7 @@ sub {
   font-style: italic;
   font-size: 2.22em;
   line-height: 1.4em;
-  max-width: 896px;
+  max-width: 1136px;
   margin: auto;
   margin-bottom: 1em;
 }
@@ -276,9 +275,8 @@ main p {
 
 
 .work-cs {
-  /* border-top: 0.05em solid rgba(142,137,129,0.9); */
-  padding-top: 1.33em;
-  padding-bottom: 6em;
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
 
 .number-cs {
@@ -362,8 +360,7 @@ main p {
   font-style: italic;
   font-size: 2em;
   line-height: 1.4em;
-  margin-top: 0.33em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .work-title span {
   font-style: italic;
@@ -590,15 +587,13 @@ footer {
 
   .label-section {
     font-size: 2.67em;
-    margin-bottom: 0.67em;
   }
 
 
   .work-title {
     font-size: 1.8em;
     line-height: 1.4em;
-    margin-top: 0.33em;
-    margin-bottom: 1.67em;
+    margin-bottom: 1em;
   }
   .work-heading {
     font-size: 1.4em;
@@ -635,11 +630,8 @@ footer {
     margin-bottom: 4em;
   }
 
-
-
   .label-section {
     font-size: 2em;
-    margin-bottom: 0.5em;
   }
 
 
@@ -654,8 +646,7 @@ footer {
   .work-title {
     font-size: 1.7em;
     line-height: 1.4em;
-    margin-top: 0.33em;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.67em;
   }
   .work-heading {
     font-size: 1.3em;
@@ -766,14 +757,12 @@ footer {
     margin-top: 1em;
     margin-bottom: 4em;
   }
-
   .hero-more {
     font-size: 12px;
   }
 
   .label-section {
     font-size: 2em;
-    margin-bottom: 0.4em;
   }
 
   /* controls p in main*/
@@ -787,8 +776,7 @@ footer {
   .work-title {
     font-size: 1.65em;
     line-height: 1.4em;
-    margin-top: 0.33em;
-    margin-bottom: 1.33em;
+    margin-bottom: 0.67em;
   }
   .work-heading {
     font-size: 1.25em;
