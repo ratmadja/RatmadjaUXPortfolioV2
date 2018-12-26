@@ -275,7 +275,7 @@ main p {
 
 
 .work-cs {
-  padding-top: 8em;
+  padding-top: 6em;
 }
 
 .number-cs {
@@ -356,14 +356,14 @@ main p {
 /*------------------ Start of work desc and link sytling ---------*/
 
 .work-title {
-  font-family: 'jaf-lapture-display', serif;
-  font-style: italic;
-  font-size: 2em;
-  line-height: 1.4em;
-  margin-bottom: 1em;
+  font-family: 'ff-scala', serif;
+  text-transform: uppercase;
+  margin-bottom: 0.67em;
+  letter-spacing: 0.05em;
 }
 .work-title span {
-  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: 0em;
 }
 
 .work-heading {
@@ -376,6 +376,7 @@ main p {
 }
 
 .workdesc {
+  margin-top: 1.67em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -391,12 +392,12 @@ main p {
 }
 .work-scope {
   color: #333333;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'ff-scala', serif;
   font-style: italic;
   font-size: 1em;
-  line-height: 1.35em;
+  line-height: 1.4em;
   font-weight: 400;
-  margin-bottom: 1em;
+  margin-bottom: 1.67em;
 }
 .caption-label {
   border: 1px solid red;
@@ -588,11 +589,7 @@ footer {
   }
 
 
-  .work-title {
-    font-size: 1.8em;
-    line-height: 1.4em;
-    margin-bottom: 1em;
-  }
+
   .work-heading {
     font-size: 1.4em;
     line-height: 1.4em;
@@ -628,6 +625,10 @@ footer {
     margin-bottom: 4em;
   }
 
+  .work-scope {
+    margin-bottom: 1.33em;
+  }
+
   .label-section {
     font-size: 2em;
   }
@@ -641,11 +642,7 @@ footer {
   /* controls p in main*/
 
 
-  .work-title {
-    font-size: 1.7em;
-    line-height: 1.4em;
-    margin-bottom: 0.67em;
-  }
+
   .work-heading {
     font-size: 1.3em;
     line-height: 1.4em;
@@ -680,6 +677,10 @@ footer {
     padding-bottom: 5em;
   }
 
+  .work-title {
+    margin-top: 0.35em;
+    margin-bottom: 0.15em;
+  }
 
 /*Start of work description styling */
   .work-desc {
@@ -770,11 +771,7 @@ footer {
   /* controls p in main*/
 
 
-  .work-title {
-    font-size: 1.65em;
-    line-height: 1.4em;
-    margin-bottom: 0.67em;
-  }
+
   .work-heading {
     font-size: 1.25em;
     line-height: 1.4em;
@@ -823,6 +820,10 @@ footer {
     font-size: .7em;
   }
 
+  .work-title {
+    margin-top: 0.35em;
+    margin-bottom: 0.15em;
+  }
 
 /*Start of work description styling */
   .work-desc {
