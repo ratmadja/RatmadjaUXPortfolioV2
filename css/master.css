@@ -363,6 +363,7 @@ main p {
 }
 .work-title span {
   text-transform: lowercase;
+  font-style: italic;
   letter-spacing: 0em;
 }
 
