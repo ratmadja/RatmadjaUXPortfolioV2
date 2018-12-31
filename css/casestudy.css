@@ -101,6 +101,7 @@ sub {
 }
 figcaption {
   font-size: .9em;
+  line-height: 1.4em;
   font-style: 'calluna-sans',sans-serif;
   font-weight: 400;
   font-style: italic;
@@ -443,7 +444,6 @@ header {
   font-weight: 400;
   margin-top: 0.4em;
   margin-bottom: 0.67em;
-  letter-spacing: 0.04em;
   display: inline-block;
   /* border-bottom: 1px solid #DA9218; */
 }
@@ -1731,10 +1731,6 @@ header {
     text-align: center;
   }
 
-  figcaption {
-    font-size: 0.78em;
-    line-height: 1.2em;
-  }
 
   .img2upflip-container {
     flex-direction: column;
