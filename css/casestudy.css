@@ -27,7 +27,7 @@ body, .article {
   line-height: 1.5em;
 }
 h1, .h1 {
-  font-family: 'calluna', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
   font-size: 2.83333333em;
   line-height: 1.05882353em;
@@ -62,7 +62,7 @@ h4, .h4 {
   margin-bottom: 0.6em;
 }
 h5, .h5 {
-  font-family: 'calluna', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.75em;
@@ -159,7 +159,7 @@ footer {
   color: #444444;
   letter-spacing: 0.04em;
   font-size: 0.78em;
-  font-family: 'calluna', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -264,7 +264,7 @@ border: 1px solid red;
   color: #777777;
   letter-spacing: 0.01em;
   font-size: 0.67em;
-  font-family: 'calluna', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -292,7 +292,7 @@ border: 1px solid red;
   color: #555555;
   font-size: 0.78em;
   letter-spacing: 0.03em;
-  font-family: 'calluna', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -338,7 +338,7 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #777777;
-  font-family: 'calluna', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
   font-size: 0.9em;
   text-align: center;
@@ -379,7 +379,7 @@ header {
   font-weight: 400;
 }
 .cs-info li {
-  font-family: 'calluna', sans-serif;
+  font-family: 'calluna', serif;
   font-weight: 400;
   font-size: 0.9em;
   line-height: 1.5em;
@@ -440,7 +440,7 @@ header {
 }
 .casestudy-sectionlabel {
   display: inline;
-  font-family: 'calluna', sans-serif;
+  font-family: 'jaf-lapture-display', serif;
   font-weight: 400;
   margin-top: 0.4em;
   margin-bottom: 0.67em;
@@ -467,7 +467,7 @@ header {
 }
 .link-doc {
   color: #333333;
-  font-family: 'calluna', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
   font-size: 0.9em;
   text-decoration: none;
@@ -499,7 +499,6 @@ header {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #444444;
-  font-weight: 500;
 }
 
 .caption-fullwidth-container {
@@ -509,8 +508,7 @@ header {
 .caption-fullwidth {
   margin-top: 0.5em;
   margin-bottom: 1em;
-  font-family: 'calluna', sans-serif;
-  font-weight: 400;
+  font-family: 'futura-pt', sans-serif;
   letter-spacing: 0.05em;
   font-size: .8em;
   text-transform: uppercase;
@@ -868,7 +866,7 @@ header {
   padding-bottom: 4em;
 }
 .cs-sectionCarousel p {
-  font-family: 'calluna', sans-serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
   margin-top: 0em;
   margin-bottom: 0.25em;
@@ -1301,7 +1299,7 @@ header {
 
   /* type size reduction for mobile*/
   .cs-section > h2 {
-    font-size: 1.4em;
+    font-size: 1.67em;
     line-height: 1.4em;
   }
   .cs-section > h3 {
@@ -1581,7 +1579,7 @@ header {
 
   /* type size reduction for mobile*/
   .cs-section > h2 {
-    font-size: 1.4em;
+    font-size: 1.67em;
     line-height: 1.4em;
   }
   .cs-section > h3 {
