@@ -21,13 +21,13 @@ html, .root {
 body, .article {
   background-color: #FBFBFB;
   color: #333333;
-  font-family: 'ff-scala','georgia', serif;
-  font-weight: 300;
+  font-family: 'cronos-pro',sans-serif;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
 }
 h1, .h1 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
   font-weight: 400;
   font-size: 2.83333333em;
   line-height: 1.05882353em;
@@ -52,7 +52,7 @@ h3, .h3 {
   margin-bottom: 0.75em;
 }
 h4, .h4 {
-  font-family: 'ff-scala','georgia', serif;
+  font-family: 'cronos-pro',sans-serif;
   font-weight: 600;
   line-height: 1.4em;
   font-size: 1.22em;
@@ -60,7 +60,8 @@ h4, .h4 {
   margin-bottom: 0.6em;
 }
 h5, .h5 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1.75em;
   margin-top: 1.5em;
@@ -98,7 +99,8 @@ sub {
 }
 figcaption {
   font-size: .9em;
-  font-style: 'ff-scala',serif;
+  font-style: 'cronos-pro',sans-serif;
+  font-weight: 400;
   font-style: italic;
   text-align: center;
   margin-top: 1em;
@@ -111,7 +113,6 @@ figcaption {
 }
 
 /* ------End of typography sizes------ */
-
 
 
 
@@ -153,9 +154,10 @@ footer {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #444444;
-  font-size: 0.8em;
+  letter-spacing: 0.04em;
+  font-size: 0.78em;
+  font-family: 'jaf-bernina-sans', sans-serif;
   font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -256,9 +258,11 @@ border: 1px solid red;
 .nav-prevcs, .nav-nextcs {
   padding-bottom: 0.2em;
   text-decoration: none;
-  color: #888888;
+  color: #777777;
+  letter-spacing: 0.01em;
   font-size: 0.67em;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -283,9 +287,10 @@ border: 1px solid red;
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #555555;
-  font-size: 0.8em;
+  font-size: 0.78em;
+  letter-spacing: 0.03em;
+  font-family: 'jaf-bernina-sans', sans-serif;
   font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -330,9 +335,9 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #777777;
-  font-family: 'ff-scala-sans-pro', sans-serif;
-  font-size: 0.9em;
+  font-family: 'jaf-bernina-sans', sans-serif;
   font-weight: 400;
+  font-size: 0.9em;
   text-align: center;
 }
 
@@ -363,7 +368,7 @@ header {
 }
 
 .cs-info h5 {
-  font-size: 0.8em;
+  font-size: 0.78em;
   line-height: 2em;
   margin-top: 0.25em;
   margin-bottom: 1em;
@@ -371,7 +376,8 @@ header {
   font-weight: 400;
 }
 .cs-info li {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   font-size: 0.9em;
   line-height: 1.5em;
   color: #333333;
@@ -382,6 +388,7 @@ header {
 
 
 /*------- Start of text and image styling -------*/
+
 
 
 
@@ -397,13 +404,13 @@ header {
 
 /* controls font-size and line height of p in .cs-section*/
 .cs-section > p {
-  font-size: 1.11em;
-  line-height: 1.6em;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 .p-italic {
   margin-top: 2em;
-  font-size: 1.11em;
-  line-height: 1.6em;
+  font-size: 1.1em;
+  line-height: 1.5em;
   font-style: italic;
 }
 /* controls font-size and line height of p*/
@@ -412,8 +419,8 @@ header {
 
 .note-label {
   color: #333333;
-  font-family: 'ff-scala', serif;
-  font-weight: 500;
+  font-family: 'cronos-pro', sans-serif;
+  font-weight: 400;
   margin-top: 4.75em;
   margin-bottom: 0.75em;
   font-size: 1em;
@@ -431,9 +438,11 @@ header {
 .casestudy-sectionlabel {
   display: inline;
   text-transform: uppercase;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   margin-top: 0.4em;
   margin-bottom: 0.67em;
+  letter-spacing: 0.04em;
   display: inline-block;
   /* border-bottom: 1px solid #DA9218; */
 }
@@ -458,7 +467,8 @@ header {
 }
 .link-doc {
   color: #333333;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   font-size: 0.9em;
   text-decoration: none;
   text-transform: uppercase;
@@ -472,7 +482,7 @@ header {
   padding-bottom: 0.15em;
   text-decoration: none;
   color: #333333;
-  font-size: 0.8em;
+  font-size: 0.78em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -485,7 +495,8 @@ header {
 .caption-label {
   margin-top: 0.5em;
   margin-bottom: 2em;
-  font-size: .78em;
+  font-size: .8em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #444444;
   font-weight: 500;
@@ -855,11 +866,11 @@ header {
   padding-bottom: 4em;
 }
 .cs-sectionCarousel p {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   margin-top: 0em;
   margin-bottom: 0.25em;
   font-size: .9em;
-  font-weight: 400;
   line-height: 1.4em;
 }
 
@@ -992,6 +1003,28 @@ header {
   main, .main {
     margin: 0em 4em;
   }
+
+  .cs-section > h1,
+  .cs-section > h2,
+  .cs-section > h3,
+  .cs-section > h4,
+  .cs-section > h5,
+  .cs-section > p {
+    width: 80%;
+  }
+
+  /* controls font-size and line height of p in .cs-section*/
+  .cs-section > p {
+    font-size: 1.05em;
+    line-height: 1.5em;
+  }
+  .p-italic {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    font-style: italic;
+  }
+  /* controls font-size and line height of p*/
+
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
     height: 34px;
@@ -1024,16 +1057,6 @@ header {
     width: 80%;
   }
 
-
-
-  .cs-section > h1,
-  .cs-section > h2,
-  .cs-section > h3,
-  .cs-section > h4,
-  .cs-section > h5,
-  .cs-section > p {
-    width: 80%;
-  }
 
   /* controls Nimbus Diagram visibility and text width*/
   .diagramNarrow > p,
@@ -1198,11 +1221,11 @@ header {
 
   /* controls font-size and line height of p in .cs-section*/
   .cs-section > p {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1.5em;
   }
   .p-italic {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1.5em;
     font-style: italic;
   }
@@ -1586,11 +1609,11 @@ header {
 
   /* controls font-size and line height of p in .cs-section*/
   .cs-section > p {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1.5em;
   }
   .p-italic {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1.5em;
     font-style: italic;
   }
@@ -1707,7 +1730,7 @@ header {
   }
 
   figcaption {
-    font-size: 0.8em;
+    font-size: 0.78em;
     line-height: 1.2em;
   }
 

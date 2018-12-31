@@ -24,13 +24,13 @@ html, .root {
 body, .article {
   background-color: #FBFBFB;
   color: #333333;
-  font-family: 'ff-scala','georgia', serif;
-  font-weight: 300;
+  font-family: 'cronos-pro',sans-serif;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
 }
 h1, .h1 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
   font-weight: 400;
   font-size: 4.22222222em;
   line-height: 1.14473684em;
@@ -54,7 +54,7 @@ h3, .h3 {
   margin-bottom: 0.75em;
 }
 h4, .h4 {
-  font-family: 'ff-scala','georgia', serif;
+  font-family: 'cronos-pro', sans-serif;
   font-weight: 400;
   font-size: 1.22em;
   line-height: 1.5em;
@@ -62,7 +62,8 @@ h4, .h4 {
   margin-bottom: 0.44em;
 }
 h5, .h5 {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
   margin-top: 1.5em;
@@ -227,9 +228,10 @@ footer {
   padding-bottom: 0.25em;
   text-decoration: none;
   color: #444444;
-  font-size: 0.8em;
+  letter-spacing: 0.04em;
+  font-size: 0.78em;
+  font-family: 'jaf-bernina-sans', sans-serif;
   font-weight: 400;
-  font-family: 'ff-scala-sans-pro', sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -263,7 +265,8 @@ footer {
   margin-top: 1em;
 }
 .typography-credit {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   font-size: 0.6em;
   text-transform: uppercase;
   padding-top: 2em;
@@ -349,9 +352,10 @@ nav {
 .nav-prevcs, .nav-nextcs {
   padding-bottom: 0.2em;
   text-decoration: none;
-  color: #888888;
+  color: #777777;
   font-size: 0.67em;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -369,7 +373,9 @@ nav {
 
 
 .nav-studio {
-  font-family: 'ff-scala', serif;
+  font-family: 'jaf-lapture-dispaly', serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
   margin: 0em 0em;
   width: 56%;
   display: flex;
@@ -392,15 +398,15 @@ nav {
 
 
 
-/* controls font-size and line height of p in .cs-section*/
+/* controls font-size and line height of p*/
 p {
-  font-size: 1.11em;
-  line-height: 1.67em;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 .p-italic {
   margin-top: 2.67em;
-  font-size: 1.11em;
-  line-height: 1.67em;
+  font-size: 1.1em;
+  line-height: 1.5em;
   font-style: italic;
 }
 /* controls font-size and line height of p*/
@@ -420,7 +426,8 @@ p {
 
 .link-doc {
   color: #333333;
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   font-size: 0.9em;
   text-decoration: none;
   text-transform: uppercase;
@@ -434,7 +441,7 @@ p {
   padding-bottom: 0.15em;
   text-decoration: none;
   color: #333333;
-  font-size: 0.8em;
+  font-size: 0.78em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -469,7 +476,8 @@ p {
   padding-bottom: 4em;
 }
 .cs-sectionCarousel p {
-  font-family: 'ff-scala-sans-pro', sans-serif;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
   margin-top: 0em;
   margin-bottom: 0.25em;
   font-size: .9em;
@@ -562,6 +570,18 @@ p {
   }
 
 
+  /* controls font-size and line height of p in .cs-section*/
+  p {
+    font-size: 1.05em;
+    line-height: 1.5em;
+  }
+  .p-italic {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    font-style: italic;
+  }
+  /* controls font-size and line height of p*/
+
 
   /* Start of project carousel */
   .projectCarousel-left {
@@ -635,11 +655,11 @@ p {
 
   /* controls font-size and line height of p in .cs-section*/
   p {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1.5em;
   }
   .p-italic {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1.5em;
     font-style: italic;
   }
@@ -781,11 +801,11 @@ p {
 
   /* controls font-size and line height of p in .cs-section*/
   p {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1.5em;
   }
   .p-italic {
-    font-size: 1em;
+    font-size: 1.05em;
     line-height: 1.5em;
     font-style: italic;
   }
