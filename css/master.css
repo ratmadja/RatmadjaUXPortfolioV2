@@ -20,7 +20,7 @@ html, .root {
 body, .article {
   background-color: #FBFBFB;
   color: #333333;
-  font-family: 'cronos-pro', sans-serif;
+  font-family: 'calluna-sans', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
@@ -44,7 +44,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'cronos-pro', sans-serif;
+  font-family: 'calluna-sans', sans-serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.5em;
@@ -52,7 +52,7 @@ h3, .h3 {
   margin-bottom: 0.44em;
 }
 h4, .h4 {
-  font-family: 'cronos-pro', sans-serif;
+  font-family: 'calluna-sans', sans-serif;
   font-weight: 600;
   font-size: 1.22em;
   line-height: 1.5em;
@@ -60,7 +60,7 @@ h4, .h4 {
   margin-bottom: 0.44em;
 }
 h5, .h5 {
-  font-family: 'jaf-bernina-sans', sans-serif;
+  font-family: 'calluna', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.5em;
@@ -130,7 +130,7 @@ sub {
 
 
 .nav-main {
-  width: 196px;
+  width: 200px;
 }
 .menu {
   /* border-bottom: 1px solid #E6E6E6; */
@@ -146,7 +146,7 @@ sub {
   color: #444444;
   font-size: 0.78em;
   letter-spacing: 0.02em;
-  font-family: 'jaf-bernina-sans', sans-serif;
+  font-family: 'calluna', sans-serif;
   font-weight: 400;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -178,8 +178,7 @@ sub {
 
 .label-section {
   display: inline;
-  text-transform: uppercase;
-  font-family: 'jaf-bernina-sans', sans-serif;
+  font-family: 'calluna', sans-serif;
   font-weight: 400;
   display: inline-block;
   font-size: 2.67em;
@@ -248,7 +247,7 @@ sub {
   font-style: normal;
   color: #333333;
   font-size: 14px;
-  font-family: 'jaf-bernina-sans', sans-serif;
+  font-family: 'calluna', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   box-shadow: inset 0 -1px 0 rgba(218,146,24,1);
@@ -361,7 +360,7 @@ main p {
 /*------------------ Start of work desc and link sytling ---------*/
 
 .work-title {
-  font-family: 'cronos-pro', sans-serif;
+  font-family: 'calluna-sans', sans-serif;
   font-weight: 400;
   font-size: 1.15em;
   line-height: 1.5em;
@@ -401,7 +400,7 @@ main p {
 }
 .work-scope {
   color: #333333;
-  font-family: 'cronos-pro', sans-serif;
+  font-family: 'calluna-sans', sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 1.05em;
@@ -417,7 +416,7 @@ main p {
   text-decoration: none;
   color: #333333;
   font-size: 1em;
-  font-family: 'jaf-bernina-sans', sans-serif;
+  font-family: 'calluna', sans-serif;
   font-weight: 400;
   transition: all .2s cubic-bezier(0,0,.58,1);
   border-bottom: 1px solid #DA9218;
@@ -473,7 +472,7 @@ footer {
 
 
 .contactlinks {
-  width: 216px;
+  width: 220px;
   display: flex;
   justify-content: space-between;
 }
@@ -483,7 +482,7 @@ footer {
   color: #444444;
   letter-spacing: 0.02em;
   font-size: 0.78em;
-  font-family: 'jaf-bernina-sans', sans-serif;
+  font-family: 'calluna', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -504,7 +503,7 @@ footer {
 }
 
 .typography-credit {
-  font-family: 'jaf-bernina-sans', sans-serif;
+  font-family: 'calluna', sans-serif;
   font-weight: 400;
   font-size: 0.6em;
   text-transform: uppercase;
