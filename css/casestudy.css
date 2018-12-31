@@ -36,6 +36,7 @@ h1, .h1 {
 }
 h2, .h2 {
   font-family: 'jaf-lapture-display', serif;
+  font-style: italic;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
@@ -45,10 +46,11 @@ h2, .h2 {
 }
 h3, .h3 {
   font-family: 'jaf-lapture-display', serif;
+  font-style: italic;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
-  margin-top: 1.08em;
+  margin-top: 1.5em;
   margin-bottom: 0.75em;
 }
 h4, .h4 {
@@ -423,7 +425,7 @@ header {
   font-weight: 400;
   margin-top: 4.75em;
   margin-bottom: 0.75em;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .pullquote {
   font-style: italic;
@@ -451,7 +453,6 @@ header {
   margin-bottom: 6em;
   font-size: .78em;
   color: #444444;
-  font-weight: 500;
 }
 
 
@@ -509,10 +510,12 @@ header {
 .caption-fullwidth {
   margin-top: 0.5em;
   margin-bottom: 1em;
-  font-size: .78em;
+  font-family: 'jaf-bernina-sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  font-size: .8em;
   text-transform: uppercase;
-  color: #444444;
-  font-weight: 500;
+  color: #333333;
   border-top: 1px solid #E2E2E2;
 }
 
