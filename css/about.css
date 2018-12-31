@@ -52,7 +52,7 @@ h2, .h2 {
   font-family: 'jaf-lapture-display','georgia', serif;
   font-weight: 400;
   font-size: 2em;
-  line-height: 1.35em;
+  line-height: 1.5em;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
@@ -60,7 +60,7 @@ h3, .h3 {
   font-family: 'cronos-pro',sans-serif;
   font-weight: 400;
   font-size: 1.38888889em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin-top: 1.08em;
   margin-bottom: 0.44em;
 }
@@ -68,7 +68,7 @@ h4, .h4 {
   font-family: 'cronos-pro', sans-serif;
   font-weight: 600;
   font-size: 1.22em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin-top: 1.5em;
   margin-bottom: 0.44em;
 }
@@ -113,6 +113,7 @@ sub {
 figcaption {
   font-size: .9em;
   font-style: 'cronos-pro', sans-serif;
+  line-height: 1.5em;
   font-weight: 400;
   font-style: italic;
   text-align: center;
@@ -325,7 +326,7 @@ p > span {
   font-style: italic;
   font-weight: 400;
   font-size: 2em;
-  line-height: 1.35em;
+  line-height: 1.5em;
   margin-top: 1em;
   margin-bottom: 1.2em;
 }
