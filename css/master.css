@@ -124,8 +124,8 @@ sub {
   height: 38px;
   width: 156px;
   margin: auto;
-  margin-top: 2em;
-  margin-bottom: 6em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 
@@ -387,7 +387,7 @@ main p {
 
 .work-title {
   font-family: 'futura-pt', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.15em;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -396,6 +396,7 @@ main p {
 }
 .work-title span {
   text-transform: capitalize;
+  font-weight: 400;
   font-size: 0.9em;
   letter-spacing: 0em;
 }
@@ -413,7 +414,6 @@ main p {
   color: #333333;
   font-size: 1em;
   font-family: 'futura-pt', sans-serif;
-  font-style: italic;
   font-weight: 400;
   transition: all .2s cubic-bezier(0,0,.58,1);
   border-bottom: 1px solid #DA9218;
@@ -561,8 +561,8 @@ footer {
     height: 34px;
     width: 139.58px;
     margin: auto;
-    margin-top: 2em;
-    margin-bottom: 6em;
+    margin-top: 1em;
+    margin-bottom: 2em;
   }
 
   /* controls p in main*/
@@ -630,8 +630,8 @@ footer {
     height: 30px;
     width: 123.16px;
     margin: auto;
-    margin-top: 1em;
-    margin-bottom: 4em;
+    margin-top: 0em;
+    margin-bottom: 1em;
   }
 
   .work-scope {
@@ -761,8 +761,8 @@ footer {
     height: 30px;
     width: 123.16px;
     margin-left: 0em;
-    margin-top: 1em;
-    margin-bottom: 4em;
+    margin-top: 0em;
+    margin-bottom: 0em;
   }
   .hero-more {
     font-size: 12px;
