@@ -340,7 +340,7 @@ header {
   color: #777777;
   font-family: 'futura-pt', sans-serif;
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -371,17 +371,18 @@ header {
 }
 
 .cs-info h5 {
-  font-size: 0.78em;
+  font-size: 0.85em;
   line-height: 2em;
   margin-top: 0.25em;
   margin-bottom: 1em;
-  color: #888888;
+  color: #777777;
   font-weight: 400;
+  letter-spacing: 0.04em;
 }
 .cs-info li {
-  font-family: 'calluna', serif;
+  font-family: 'futura-pt', sans-serif;
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 0.95em;
   line-height: 1.5em;
   color: #333333;
 }
@@ -1045,7 +1046,7 @@ header {
     margin-left: 0%;
   }
   .cs-info li {
-    font-size: .9em;
+    font-size: .95em;
   }
   .img-centeredandreduced {
     padding-top: 3em;
@@ -1280,7 +1281,7 @@ header {
     justify-content: space-between;
   }
   .cs-info li {
-    font-size: .9em;
+    font-size: .95em;
   }
   .cs-info-roles,
   .cs-info-deliverables,
@@ -1552,14 +1553,14 @@ header {
     width: 50%;
   }
   .cs-info {
-    margin-top: 6em;
+    margin-top: 8em;
     width: 80%;
     margin-left: 10%;
     flex-direction: column;
     justify-content: space-between;
   }
   .cs-info li {
-    font-size: .9em;
+    font-size: .95em;
   }
   .cs-info-roles,
   .cs-info-deliverables,
