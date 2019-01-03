@@ -35,8 +35,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture-display', serif;
-  font-style: italic;
+  font-family: 'calluna', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
@@ -45,8 +44,7 @@ h2, .h2 {
 
 }
 h3, .h3 {
-  font-family: 'jaf-lapture-display', serif;
-  font-style: italic;
+  font-family: 'calluna', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -430,6 +428,7 @@ header {
   font-size: 1.1em;
 }
 .pullquote {
+  font-family: 'jaf-lapture-display', serif;
   font-style: italic;
   line-height: 1.5em;
   font-size: 2em;
@@ -442,6 +441,7 @@ header {
 .casestudy-sectionlabel {
   display: inline;
   font-family: 'jaf-lapture-display', serif;
+  font-style: italic;
   font-weight: 400;
   margin-top: 0.4em;
   margin-bottom: 0.67em;
