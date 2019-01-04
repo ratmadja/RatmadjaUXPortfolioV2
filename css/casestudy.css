@@ -158,7 +158,7 @@ footer {
   letter-spacing: 0.04em;
   font-size: 0.78em;
   font-family: 'futura-pt', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
@@ -317,6 +317,7 @@ header {
   background: linear-gradient(#FAFAFA, #E1E1E1);
 }
 .hero-tagline {
+  font-size: 2.22em;
   font-family: 'jaf-lapture-display', serif;
   font-style: italic;
   font-weight: 400;
@@ -1097,14 +1098,13 @@ header {
     width: 270px;
   }
 
-
-
   .hero-tagline {
+    font-size: 1.9em;
     padding-top: 1em;
     width: 70%;
     margin-left: 15%;
-    font-size: 1.67em;
   }
+
   .hero-desc {
     flex-direction: row;
     justify-content: center;
@@ -1369,10 +1369,10 @@ header {
 
 
   .hero-tagline {
+    font-size: 1.8em;
     padding-top: 0em;
     width: 70%;
     margin-left: 15%;
-    font-size: 1.67em;
   }
   .hero-desc {
     padding-top: 1em;
@@ -1670,7 +1670,7 @@ header {
     padding-top: 0em;
     width: 90%;
     margin-left: 5%;
-    font-size: 1.33em;
+    font-size: 1.55em;
   }
   .hero-desc {
     padding-top: 1em;
