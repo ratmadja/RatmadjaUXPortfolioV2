@@ -436,7 +436,7 @@ header {
   margin-top: 0em;
 }
 .label-container {
-  margin-top: 8em;
+  margin-top: 4em;
   text-align: left;
 }
 .casestudy-sectionlabel {
@@ -444,7 +444,7 @@ header {
   font-family: 'jaf-lapture-display', serif;
   font-style: italic;
   font-weight: 400;
-  margin-top: 0.4em;
+  padding-top: 1.33em;
   margin-bottom: 0.67em;
   display: inline-block;
   /* border-bottom: 1px solid #DA9218; */
