@@ -319,10 +319,10 @@ main p {
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-  box-shadow: rgba(188,174,160,0.15) 0 4px 24px;
+  box-shadow: rgba(188,174,160,0.2) 0 4px 24px;
 }
 .workcoverVideo-iphonex:hover {
-  box-shadow: rgba(188,174,160,0.3) 0 2px 24px;
+  box-shadow: rgba(188,174,160,0.4) 0 2px 24px;
 }
 
 
@@ -343,7 +343,7 @@ main p {
   /* position: relative;
   overflow: hidden; */
   display: block;
-  border: 10px solid #ffffff;
+  border: 8px solid #ffffff;
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
@@ -619,7 +619,7 @@ footer {
     margin: 0em 1.33em;
   }
   .workcover-container {
-    border: 8px solid #ffffff;
+    border: 6px solid #ffffff;
   }
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
@@ -749,7 +749,7 @@ footer {
     margin: 0em 1em;
   }
   .workcover-container {
-    border: 8px solid #ffffff;
+    border: 6px solid #ffffff;
   }
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
