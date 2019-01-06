@@ -810,7 +810,7 @@ header {
 
 
 /* Start of full-bleed color backgrounds */
-.img-fullbleed-ingrainIxD {
+.img-fullbleed-ingrainixd{
   background: linear-gradient(#F3F3F3,#F8F8F8);
   margin-top: 2.67em;
   padding-top: 2.67em;
@@ -911,23 +911,6 @@ header {
 
 
 
-/* greyzone */
-@media only screen and (min-width:1281px) {
-
-
-  .container {
-    margin: auto;
-    /* border: 1px solid grey; */
-  }
-
-  .diagramNarrow,
-  .diagramMobileNarrow {
-    display: none;
-  }
-
-}
-
-
 /*greyzone*/
 @media only screen and (min-width:1281px) {
   .container {
@@ -946,6 +929,11 @@ header {
     padding-top: 1em;
     width: 60%;
     margin-left: 20%;
+  }
+
+  .diagramNarrow,
+  .diagramMobileNarrow {
+    display: none;
   }
 }
 
