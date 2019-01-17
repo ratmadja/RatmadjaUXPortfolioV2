@@ -113,6 +113,19 @@ figcaption {
   color: #AFAFAF;
 }
 
+
+.small-caption-ondark,
+.small-caption-ondark > .link-ref {
+  margin-top: 3em;
+  font-size: 16px;
+  font-style: normal;
+  color: #AFAFAF;
+}
+.small-caption-ondark > .link-ref:hover {
+  color: #fafafa;
+  border-bottom: 1px solid #fafafa;
+}
+
 /* ------End of typography sizes------ */
 
 
@@ -816,7 +829,8 @@ header {
   padding-top: 2.67em;
   padding-bottom: 2.67em;
 }
-.img-fullbleed-ingrain {
+.img-fullbleed-ingrain,
+.img-fullbleed-ingrainUIScreens {
   background: linear-gradient(#62474E,#594147);
   margin-top: 2.67em;
   padding-top: 2.67em;
