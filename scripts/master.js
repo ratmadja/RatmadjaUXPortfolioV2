@@ -9,12 +9,12 @@ function onReady() {
       $('#CoverIngrainUXS').attr('src','assets/homepage/coverIngrainUXStrategy-mobile.png');
       $('#CoverHafSite').attr('src','assets/homepage/coverHafSite-mobile.png');
       $('#CoverNimbus').attr('src','assets/homepage/coverNimbus-mobile.png');
-      $('#CoverPolaris').attr('src','assets/homepage/coverPolaris-mobile.png');
+      $('#CoverPandora').attr('src','assets/homepage/coverPandora-mobile.png');
     } else {
       $('#CoverIngrainUXS').attr('src','assets/homepage/coverIngrainUXStrategy.png');
       $('#CoverHafSite').attr('src','assets/homepage/coverHafSite.png');
       $('#CoverNimbus').attr('src','assets/homepage/coverNimbus.png');
-      $('#CoverPolaris').attr('src','assets/homepage/coverPolaris.png');
+      $('#CoverPandora').attr('src','assets/homepage/coverPandora.png');
     }
   };
 
