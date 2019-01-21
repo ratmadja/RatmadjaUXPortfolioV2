@@ -69,6 +69,7 @@ h5, .h5 {
 }
 p, ul, ol, pre, table, blockquote {
   font-size: 1em;
+  font-weight: 300;
   margin-top: 0em;
   margin-bottom: 1.5em;
 }
@@ -405,8 +406,8 @@ main p {
   color: #333333;
   font-family: 'calluna-sans', sans-serif;
   font-style: italic;
-  font-weight: 400;
-  font-size: 1em;
+  font-weight: 300;
+  font-size: 0.95em;
   line-height: 1.5em;
   margin-bottom: 1.67em;
 }
