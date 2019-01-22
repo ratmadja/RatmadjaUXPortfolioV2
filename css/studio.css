@@ -575,11 +575,11 @@ p {
   /* controls font-size and line height of p in .cs-section*/
   p {
     font-size: 1.05em;
-    line-height: 1.5em;
+    line-height: 1.45em;
   }
   .p-italic {
     font-size: 1.05em;
-    line-height: 1.5em;
+    line-height: 1.45em;
     font-style: italic;
   }
   /* controls font-size and line height of p*/
@@ -658,11 +658,11 @@ p {
   /* controls font-size and line height of p in .cs-section*/
   p {
     font-size: 1.05em;
-    line-height: 1.5em;
+    line-height: 1.45em;
   }
   .p-italic {
     font-size: 1.05em;
-    line-height: 1.5em;
+    line-height: 1.45em;
     font-style: italic;
   }
   /* controls font-size and line height of p*/
@@ -804,11 +804,11 @@ p {
   /* controls font-size and line height of p in .cs-section*/
   p {
     font-size: 1.05em;
-    line-height: 1.5em;
+    line-height: 1.45em;
   }
   .p-italic {
-    font-size: 1.05em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 1.45em;
     font-style: italic;
   }
   /* controls font-size and line height of p*/
