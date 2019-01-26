@@ -947,10 +947,13 @@ header {
     margin-left: 20%;
   }
 
+  /* controls Nimbus Diagram visibility and text width*/
   .diagramNarrow,
   .diagramMobileNarrow {
     display: none;
   }
+  /* controls Nimbus Diagram visibility and text width*/
+
 }
 
 
@@ -982,10 +985,7 @@ header {
     width: 60%;
     margin-left: 20%;
   }
-  .diagramNarrow,
-  .diagramMobileNarrow {
-    display: none;
-  }
+
   .cs-section > h1,
   .cs-section > h2,
   .cs-section > h3,
@@ -998,6 +998,14 @@ header {
   .imgcolumn > img {
     display: block;
   }
+
+
+  /* controls Nimbus Diagram visibility and text width*/
+  .diagramNarrow,
+  .diagramMobileNarrow {
+    display: none;
+  }
+  /* controls Nimbus Diagram visibility and text width*/
 
 }
 
