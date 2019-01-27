@@ -838,6 +838,12 @@ header {
   padding-top: 2.67em;
   padding-bottom: 2.67em;
 }
+.img-fullbleed-pandora {
+  background: linear-gradient(#fbfbfb,#EDE3E4);
+  margin-top: 2.67em;
+  padding-top: 2.67em;
+  padding-bottom: 2.67em;
+}
 .img-fullbleed-haf {
   background: linear-gradient(#D5DBE6,#C3C8D3);
   margin-top: 2.67em;
