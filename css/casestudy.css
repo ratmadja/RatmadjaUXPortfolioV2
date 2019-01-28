@@ -118,6 +118,18 @@ figcaption {
   margin-top: 1em;
   margin-bottom: 2em;
 }
+.fig-numdesc {
+  font-size: .9em;
+  line-height: 1.4em;
+  font-style: 'calluna-sans',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  margin-top: 0em;
+  margin-top: 0.25em;
+  margin-bottom: 0.75em;
+}
+
 .small-caption {
   font-size: .8em;
   font-style: normal;
@@ -1754,6 +1766,7 @@ header {
     margin-left: 10%;
   }
   .projectCarousel-right {
+
     margin-top: 2em;
   }
   /* End of project carousel */
