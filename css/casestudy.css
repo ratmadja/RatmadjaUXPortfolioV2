@@ -108,6 +108,16 @@ figcaption {
   margin-top: 1em;
   margin-bottom: 2em;
 }
+.fig-left {
+  font-size: .9em;
+  line-height: 1.4em;
+  font-style: 'calluna-sans',sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
 .small-caption {
   font-size: .8em;
   font-style: normal;
@@ -799,6 +809,9 @@ header {
   box-shadow: rgba(178,178,178,0.2) 0 4px 16px;
 }
 
+.img2upflip > ul {
+  text-decoration: none;
+}
 
 
 .imgcolumn-container {
