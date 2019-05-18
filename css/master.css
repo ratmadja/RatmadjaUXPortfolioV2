@@ -28,15 +28,15 @@ body, .article {
 }
 
 h1, .h1 {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'Rosarivo', serif;
   font-weight: 400;
   font-size: 2.83333333em;
-  line-height: 1.05882353em;
+  line-height: 1.5em;
   margin-top: 0.52941176em;
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'Rosarivo', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
@@ -69,7 +69,7 @@ h5, .h5 {
 }
 p, ul, ol, pre, table, blockquote {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0em;
   margin-bottom: 1.5em;
 }
@@ -164,11 +164,12 @@ sub {
 
 /* ------Start of Label Styling------ */
 .section-divider {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'Rosarivo', serif;
   font-weight: 400;
   font-style: italic;
   color: #333333;
   font-size: 0.75em;
+  line-height: 1.5em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
@@ -205,20 +206,20 @@ sub {
 }
 .hero h1 {
   color: #111111;
-  font-family:'jaf-lapture-display', serif;
+  font-family:'Rosarivo', serif;
   font-style: italic;
-  font-size: 2.22em;
-  line-height: 1.3em;
+  font-size: 2em;
+  line-height: 1.5em;
   max-width: 1136px;
   margin: auto;
   margin-bottom: 1em;
 }
 .closing h2 {
   color: #111111;
-  font-family:'jaf-lapture-display', serif;
+  font-family:'Rosarivo', serif;
   font-style: italic;
   font-size: 2.22em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin: auto;
   max-width: 1136px;
   padding-bottom: 0.2em;
@@ -229,7 +230,7 @@ sub {
 
 
 .hero-link {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'Rosarivo', serif;
   color: #111111;
   text-decoration: none;
   transition: all .25s cubic-bezier(0,0,.58,1);
@@ -285,7 +286,7 @@ main p {
 }
 
 .number-cs {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'Rosarivo', serif;
   font-style: italic;
   text-align: center;
 }
@@ -406,7 +407,7 @@ main p {
   color: #333333;
   font-family: 'Alegreya Sans', sans-serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.95em;
   line-height: 1.5em;
   margin-bottom: 1.67em;
@@ -590,7 +591,7 @@ footer {
     font-size: 1em;
   }
   .hero h1 {
-    font-size: 1.98em;
+    font-size: 1.75em;
   }
   .closing h2 {
     font-size: 1.98em;
@@ -677,7 +678,7 @@ footer {
     font-size: 0.9em;
   }
   .hero h1 {
-    font-size: 1.8em;
+    font-size: 1.65em;
   }
   .closing h2 {
     font-size: 1.6em;
@@ -818,7 +819,7 @@ footer {
     padding-top: 0.33em;
   }
   .hero h1 {
-    font-size: 1.55em;
+    font-size: 1.4em;
   }
   .closing h2 {
     font-size: 1.3em;

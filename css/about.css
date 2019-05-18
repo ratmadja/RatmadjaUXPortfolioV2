@@ -41,15 +41,15 @@ body, .article {
   /* max-width: 560px; */
 }
 h1, .h1 {
-  font-family: 'jaf-lapture-display','georgia', serif;
+  font-family: 'Rosarivo','georgia', serif;
   font-weight: 400;
   font-size: 2.83333333em;
-  line-height: 1.05882353em;
+  line-height: 1.5em;
   margin-top: 0.52941176em;
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture-display','georgia', serif;
+  font-family: 'Rosarivo','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
@@ -82,7 +82,7 @@ h5, .h5 {
 }
 p, ul, ol, pre, table, blockquote {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0em;
   margin-bottom: 1.5em;
 }
@@ -324,11 +324,11 @@ p > span {
 
 
 .pullquote {
-  font-family: 'jaf-lapture-display','georgia', serif;
+  font-family: 'Rosarivo','georgia', serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 2em;
-  line-height: 1.3em;
+  font-size: 1.75em;
+  line-height: 1.5em;
   margin-top: 1em;
   margin-bottom: 1.2em;
 }
@@ -349,6 +349,7 @@ p > span {
   color: #333333;
   border-bottom: 1px solid #333333;
 }
+
 .link-work {
   padding-bottom: 0.15em;
   text-decoration: none;

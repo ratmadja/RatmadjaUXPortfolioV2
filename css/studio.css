@@ -38,7 +38,7 @@ h1, .h1 {
   margin-bottom: 0em;
 }
 h2, .h2 {
-  font-family: 'jaf-lapture-display','georgia', serif;
+  font-family: 'Rosarivo','georgia', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
@@ -46,7 +46,7 @@ h2, .h2 {
   margin-bottom: 0.75em;
 }
 h3, .h3 {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'Rosarivo', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -71,7 +71,7 @@ h5, .h5 {
 }
 p, ul, ol, pre, table, blockquote {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0em;
   margin-bottom: 1.5em;
 }
@@ -168,7 +168,7 @@ figcaption {
 
 
 .span1 {
-  font-family: 'Alegreya ', serif;
+  font-family: 'Alegreya', serif;
   font-style: italic;
   margin-top: 2.67em;
   grid-column: span 1;
@@ -375,7 +375,7 @@ nav {
 
 
 .nav-studio {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'Rosarivo', serif;
   font-weight: 400;
   letter-spacing: 0.04em;
   margin: 0em 0em;

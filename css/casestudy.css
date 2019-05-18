@@ -69,7 +69,7 @@ h5, .h5 {
 }
 p, ul, ol, pre, table, blockquote {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0em;
   margin-bottom: 1.5em;
 }
@@ -353,9 +353,9 @@ header {
   background: linear-gradient(#FAFAFA, #E1E1E1);
 }
 .hero-tagline {
-  font-size: 2.22em;
-  line-height: 1.3em;
-  font-family: 'jaf-lapture-display', serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  font-family: 'Rosarivo', serif;
   font-style: italic;
   font-weight: 400;
   text-align: center;
@@ -466,10 +466,10 @@ header {
   font-size: 1.1em;
 }
 .pullquote {
-  font-family: 'jaf-lapture-display', serif;
+  font-family: 'Rosarivo', serif;
   font-style: italic;
-  line-height: 1.3em;
-  font-size: 2em;
+  line-height: 1.5em;
+  font-size: 1.75em;
   margin-top: 0em;
 }
 .label-container {
@@ -478,7 +478,9 @@ header {
 }
 .casestudy-sectionlabel {
   display: inline;
-  font-family: 'jaf-lapture-display', serif;
+  font-size: 2.2em;
+  font-family: 'Rosarivo', serif;
+  line-height: 1.5em;
   font-style: italic;
   font-weight: 400;
   padding-top: 1.33em;
