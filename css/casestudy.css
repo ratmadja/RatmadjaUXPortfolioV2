@@ -21,13 +21,13 @@ html, .root {
 body, .article {
   background-color: #FBFBFB;
   color: #333333;
-  font-family: 'calluna-sans',sans-serif;
-  font-weight: 400;
+  font-family: 'Alegreya Sans',sans-serif;
+  font-weight: 300;
   font-size: 1em;
   line-height: 1.5em;
 }
 h1, .h1 {
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 2.83333333em;
   line-height: 1.05882353em;
@@ -35,7 +35,7 @@ h1, .h1 {
   margin-bottom: 1.05882352em;
 }
 h2, .h2 {
-  font-family: 'calluna', serif;
+  font-family: 'Alegreya', serif;
   font-weight: 400;
   font-size: 2em;
   line-height: 1.3em;
@@ -44,7 +44,7 @@ h2, .h2 {
 
 }
 h3, .h3 {
-  font-family: 'calluna', serif;
+  font-family: 'Alegreya', serif;
   font-weight: 400;
   font-size: 1.38888889em;
   line-height: 1.4em;
@@ -52,7 +52,7 @@ h3, .h3 {
   margin-bottom: 0.75em;
 }
 h4, .h4 {
-  font-family: 'calluna-sans',sans-serif;
+  font-family: 'Alegreya Sans',sans-serif;
   font-weight: 600;
   line-height: 1.4em;
   font-size: 1.2em;
@@ -60,7 +60,7 @@ h4, .h4 {
   margin-bottom: 1em;
 }
 h5, .h5 {
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.75em;
@@ -101,8 +101,8 @@ sub {
 figcaption {
   font-size: .9em;
   line-height: 1.4em;
-  font-style: 'calluna-sans',sans-serif;
-  font-weight: 400;
+  font-style: 'Alegreya Sans',sans-serif;
+  font-weight: 300;
   font-style: italic;
   text-align: center;
   margin-top: 1em;
@@ -111,8 +111,8 @@ figcaption {
 .fig-left {
   font-size: .9em;
   line-height: 1.4em;
-  font-style: 'calluna-sans',sans-serif;
-  font-weight: 400;
+  font-style: 'Alegreya Sans',sans-serif;
+  font-weight: 300;
   font-style: italic;
   text-align: left;
   margin-top: 1em;
@@ -121,8 +121,8 @@ figcaption {
 .fig-numdesc {
   font-size: .9em;
   line-height: 1.4em;
-  font-style: 'calluna-sans',sans-serif;
-  font-weight: 400;
+  font-style: 'Alegreya Sans',sans-serif;
+  font-weight: 300;
   font-style: normal;
   text-align: left;
   margin-top: 0em;
@@ -193,7 +193,7 @@ footer {
   color: #444444;
   letter-spacing: 0.04em;
   font-size: 0.78em;
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -205,7 +205,7 @@ footer {
 
 
 .site-credit {
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   color: #777777;
   font-size: 0.9em;
@@ -298,7 +298,7 @@ border: 1px solid red;
   color: #777777;
   letter-spacing: 0.01em;
   font-size: 0.67em;
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -326,7 +326,7 @@ border: 1px solid red;
   color: #555555;
   font-size: 0.78em;
   letter-spacing: 0.03em;
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -374,9 +374,9 @@ header {
 .hero-desc-text {
   margin: 0em 1em;
   color: #777777;
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: center;
 }
 
@@ -416,9 +416,9 @@ header {
   letter-spacing: 0.04em;
 }
 .cs-info li {
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
-  font-size: 0.95em;
+  font-size: 0.9em;
   line-height: 1.5em;
   color: #333333;
 }
@@ -459,8 +459,8 @@ header {
 
 .note-label {
   color: #333333;
-  font-family: 'calluna-sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
   margin-top: 4.75em;
   margin-bottom: 0.75em;
   font-size: 1.1em;
@@ -506,7 +506,7 @@ header {
 }
 .link-doc {
   color: #333333;
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 0.9em;
   text-decoration: none;
@@ -548,7 +548,7 @@ header {
 .caption-fullwidth {
   margin-top: 0.5em;
   margin-bottom: 1em;
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   letter-spacing: 0.05em;
   font-size: .8em;
   text-transform: uppercase;
@@ -916,7 +916,7 @@ header {
   padding-bottom: 4em;
 }
 .cs-sectionCarousel p {
-  font-family: 'futura-pt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   margin-top: 0em;
   margin-bottom: 0.25em;
@@ -1089,9 +1089,6 @@ header {
     margin-top: 10em;
     width: 100%;
     margin-left: 0%;
-  }
-  .cs-info li {
-    font-size: .95em;
   }
   .img-centeredandreduced {
     padding-top: 3em;
@@ -1323,9 +1320,6 @@ header {
     margin-left: 20%;
     flex-direction: column;
     justify-content: space-between;
-  }
-  .cs-info li {
-    font-size: .95em;
   }
   .cs-info-roles,
   .cs-info-deliverables,
@@ -1602,9 +1596,6 @@ header {
     margin-left: 10%;
     flex-direction: column;
     justify-content: space-between;
-  }
-  .cs-info li {
-    font-size: .95em;
   }
   .cs-info-roles,
   .cs-info-deliverables,
