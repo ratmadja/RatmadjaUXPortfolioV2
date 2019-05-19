@@ -218,7 +218,7 @@ sub {
   color: #111111;
   font-family:'Rosarivo', serif;
   font-style: italic;
-  font-size: 2.22em;
+  font-size: 2em;
   line-height: 1.5em;
   margin: auto;
   max-width: 1136px;
@@ -594,7 +594,7 @@ footer {
     font-size: 1.75em;
   }
   .closing h2 {
-    font-size: 1.98em;
+    font-size: 1.75em;
   }
 
 
@@ -681,7 +681,7 @@ footer {
     font-size: 1.65em;
   }
   .closing h2 {
-    font-size: 1.6em;
+    font-size: 1.65em;
   }
   .hero {
     padding-top: 5em;
@@ -822,7 +822,7 @@ footer {
     font-size: 1.4em;
   }
   .closing h2 {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 
   .label-container {
