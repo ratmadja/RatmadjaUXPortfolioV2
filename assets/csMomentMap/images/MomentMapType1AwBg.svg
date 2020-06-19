@@ -1,14 +1,14 @@
 <svg width="1078" height="412" viewBox="0 0 1078 412" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="1" y="1" width="1076" height="410" fill="#FAFAFA" stroke="#BDBDBD" stroke-width="2"/>
-<path d="M43 371.496V148.991H270.14V371.496" stroke="#828282" stroke-width="4"/>
-<path d="M552.906 371.496V148.991H780.046V371.496" stroke="#828282" stroke-width="4"/>
-<path d="M297.953 371.496V148.991H525.093V371.496" stroke="#828282" stroke-width="4"/>
-<path d="M807.859 371.496V148.991H1035V371.496" stroke="#828282" stroke-width="4"/>
-<rect x="52.2695" y="160.578" width="45.1963" height="173.832" fill="#DFDDE2"/>
+<path d="M43 371.495V148.99H270.14V371.495" stroke="#828282" stroke-width="4"/>
+<path d="M552.906 371.495V148.99H780.046V371.495" stroke="#828282" stroke-width="4"/>
+<path d="M297.953 371.495V148.99H525.093V371.495" stroke="#828282" stroke-width="4"/>
+<path d="M807.859 371.495V148.99H1035V371.495" stroke="#828282" stroke-width="4"/>
+<rect x="52.2695" y="160.579" width="45.1963" height="173.832" fill="#DFDDE2"/>
 <rect x="562" y="161" width="45" height="142" fill="#EDE3E4"/>
 <rect x="307" y="161" width="45" height="173" fill="#EFE8DF"/>
 <rect x="817" y="161" width="45" height="173" fill="#D9DFE9"/>
-<rect x="106.738" y="160.578" width="45.1963" height="202.804" fill="#DFDDE2"/>
+<rect x="106.738" y="160.579" width="45.1963" height="202.804" fill="#DFDDE2"/>
 <rect x="617" y="161" width="45" height="173" fill="#EDE3E4"/>
 <rect x="362" y="161" width="45" height="142" fill="#EFE8DF"/>
 <rect x="872" y="161" width="45" height="142" fill="#D9DFE9"/>
@@ -16,7 +16,7 @@
 <rect x="726" y="161" width="45" height="142" fill="#EDE3E4"/>
 <rect x="471" y="161" width="45" height="155" fill="#EFE8DF"/>
 <rect x="981" y="161" width="45" height="173" fill="#D9DFE9"/>
-<rect x="161.207" y="160.578" width="45.1963" height="180.785" fill="#DFDDE2"/>
+<rect x="161.207" y="160.579" width="45.1963" height="180.785" fill="#DFDDE2"/>
 <rect x="671" y="161" width="45" height="173" fill="#EDE3E4"/>
 <rect x="416" y="161" width="45" height="173" fill="#EFE8DF"/>
 <rect x="926" y="161" width="45" height="142" fill="#D9DFE9"/>
