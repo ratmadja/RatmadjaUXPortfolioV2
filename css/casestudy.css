@@ -801,6 +801,15 @@ header {
   box-shadow: rgba(0,0,0,0.1) 0 1px 16px;
 }
 
+.img-1up-MarginBot{
+  width: 100%;
+  margin: auto;
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 4em;
+  box-shadow: rgba(0,0,0,0.1) 0 1px 16px;
+}
+
 
 .img2up-container, .img2upflip-container {
   padding-top: 0.5em;
