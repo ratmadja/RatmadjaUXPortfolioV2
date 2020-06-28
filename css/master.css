@@ -18,7 +18,7 @@ html, .root {
 }
 
 body, .article {
-  background-color: #ECE6DE;
+  background-color: #E0E0E0;
   /* border: 16px solid #ffffff; */
   color: #333333;
   font-family: 'Alegreya Sans', sans-serif;
@@ -303,7 +303,7 @@ main p {
   justify-content: center;
   align-items: center;
   /* background-color: linear-gradient(#E0C5C8, #E1D4D6) */
-  background: linear-gradient(#E2E0DF,#E2E0DF);
+  background: linear-gradient(#EDE6DD,#EDE6DD);
   border: 9px solid #FFFFFF;
 }
 .iphonex {
