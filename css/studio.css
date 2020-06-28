@@ -354,7 +354,7 @@ nav {
 .nav-prevcs, .nav-nextcs {
   padding-bottom: 0.2em;
   text-decoration: none;
-  color: #777777;
+  color: #333333;
   font-size: 0.67em;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
@@ -376,6 +376,7 @@ nav {
 
 .nav-studio {
   font-family: 'Rosarivo', serif;
+  color: #333333;
   font-weight: 400;
   letter-spacing: 0.04em;
   margin: 0em 0em;
