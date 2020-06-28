@@ -32,7 +32,8 @@ html, .root {
   line-height: 27px;
 }
 body, .article {
-  background-color: #DCD7D4;
+  background-color: #ECE6DE;
+  /* border: 16px solid #ffffff; */
   color: #333333;
   font-family: 'Alegreya Sans',sans-serif;
   font-weight: 400;
