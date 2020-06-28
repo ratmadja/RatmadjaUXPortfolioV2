@@ -350,7 +350,7 @@ border: 1px solid red;
 /*------- Start of header styling -------*/
 
 header {
-  background: linear-gradient(#E0E0E0, #DEDEDE);
+  background: linear-gradient(#FBFBFB, #DEDEDE);
 }
 .hero-tagline {
   font-size: 2em;
