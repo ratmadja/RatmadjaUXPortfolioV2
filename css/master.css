@@ -18,7 +18,7 @@ html, .root {
 }
 
 body, .article {
-  background-color: #FBFBFB;
+  background-color: #E5E0DB;
   color: #333333;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
@@ -297,7 +297,9 @@ main p {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: linear-gradient(#E0C5C8, #E1D4D6) */
   background: linear-gradient(#D8D2CA,#D8D2CA);
+  border: 9px solid #FFFFFF;
 }
 .iphonex {
   background-color: #000000;
@@ -696,6 +698,10 @@ footer {
     margin-bottom: 0.15em;
   }
 
+  .workcoverVideo-iphonex {
+    border: 6px solid #FFFFFF;
+  }
+
 /*Start of work description styling */
   .work-desc {
     display: none;
@@ -784,7 +790,9 @@ footer {
   }
   /* controls p in main*/
 
-
+  .workcoverVideo-iphonex {
+    border: 6px solid #FFFFFF;
+  }
 
   .work-heading {
     font-size: 1.26em;
