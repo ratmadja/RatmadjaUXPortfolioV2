@@ -193,8 +193,8 @@ footer {
   color: #444444;
   letter-spacing: 0.04em;
   font-size: 0.78em;
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
