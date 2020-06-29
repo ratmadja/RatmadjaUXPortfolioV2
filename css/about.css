@@ -168,6 +168,9 @@ figcaption {
 .menu a:hover {
   border-bottom: 1px solid #DA9218;
 }
+.menu .navSelected {
+  border-bottom: 1px solid #DA9218;
+}
 /*------- End of logo and nav styling -------*/
 
 
