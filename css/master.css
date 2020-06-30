@@ -308,8 +308,8 @@ main p {
   justify-content: center;
   align-items: center;
   /* background-color: linear-gradient(#E0C5C8, #E1D4D6) */
-  background: linear-gradient(#EDE6DD,#EDE6DD);
-  border: 9px solid #FFFFFF;
+  background: linear-gradient(#D8D1C8,#D8D1C8);
+  /* border: 9px solid #FFFFFF; */
 }
 .iphonex {
   background-color: #000000;
@@ -358,7 +358,7 @@ main p {
   /* position: relative;
   overflow: hidden; */
   display: block;
-  border: 8px solid #ffffff;
+  /* border: 8px solid #ffffff; */
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
@@ -635,7 +635,7 @@ footer {
     margin: 0em 1.33em;
   }
   .workcover-container {
-    border: 6px solid #ffffff;
+    /* border: 6px solid #ffffff; */
   }
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
@@ -709,7 +709,7 @@ footer {
   }
 
   .workcoverVideo-iphonex {
-    border: 6px solid #FFFFFF;
+    /* border: 6px solid #FFFFFF; */
   }
 
 /*Start of work description styling */
@@ -769,7 +769,7 @@ footer {
     margin: 0em 1em;
   }
   .workcover-container {
-    border: 6px solid #ffffff;
+    /* border: 6px solid #ffffff; */
   }
   .ralogo {
     background: url(../assets/homepage/ra-logo32h.svg) center / cover;
@@ -801,7 +801,7 @@ footer {
   /* controls p in main*/
 
   .workcoverVideo-iphonex {
-    border: 6px solid #FFFFFF;
+    /* border: 6px solid #FFFFFF; */
   }
 
   .work-heading {
