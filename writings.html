@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
-  <title>Rachel's UX Portfolio: About</title>
+  <title>Rachel Atmadja</title>
+  <meta name="author" content="Rachel N Atmadja">
+  <meta name="keywords" content="Atmadja, Rachel, portfolio, UX, UI, design, research, job, designer, researcher, interaction designer, experience designer">
+  <meta name="description" content="Rachel Atmadja is an Interaction Designer with roots in Architectural Design. Originally from California, she is currently based in the Dallas-Fort Worth Area.">
+  <!-- viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/homepage/ra-favicon.png">
   <!-- Reset.css -->
   <link rel="stylesheet" href="css/reset.css">
   <!-- master.css -->
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/master.css">
 
   <!-- googlefonts -->
   <link href="https://fonts.googleapis.com/css?family=Rosarivo:400,400i|Alegreya:400,400i,500,500i,700,700i|Alegreya+Sans:300,300i,400,400i,500,500i,700,700i|PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -21,56 +26,69 @@
 <body>
 
 
-
-
-  <!-- Start of header-->
+  <!-- Start of header -->
   <header class="navmenu">
     <a href="index.html"><div class="ralogo"></div></a>
     <nav class="nav-main">
       <ul class="menu">
         <!-- <li><a href="index.html">HOME</a></li> -->
-        <li><a href="index.html">Work</a></li>
-        <li><a href="writings.html">Writings</a></li>
+        <li><a href="index.html#sectionWork">Work</a></li>
+        <li><a class="navSelected" href="writings.html">Writings</a></li>
         <li><a href="about.html">About</a></li>
         <!-- <li><a href="index.html#sectionStudio">STUDIO</a></li> -->
-        <li><a class="navSelected" href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
   <!-- End of header -->
 
 
+  <!-- Start of hero -->
+  <div id="sectionAbout" class="hero">
+    <h1>Writings on exercising courage, cultivating resiliency in life, giving generously, & more. These words are my own.
+      <a class="hero-more" target="_blank" href=""> All Rights Reserved</a></h1>
+  </div>
+  <!-- End of hero -->
 
 
   <!-- Start of container -->
   <div class="container">
     <main>
 
-      <div class="hero-content">
-        <div class="herologo-container">
-          <img class="herologo" src="assets/about/images/Rachel2.png" />
+
+      <!-- Start of section work -->
+
+      <h2>Coming Soon: "On Courage and Vulnerability"</h2>
+
+      <section class="section-work">
+
+
+        <article class="work-cs">
+
+          <div class="workdesc">
+            <div class="desc1">
+              <p class="work-title">Nickname</p>
+              <p class="work-scope">Category Tags</p>
+              <p><a class="link-work" href="casestudy-MomentMap.html">Read Article</a></p>
+            </div>
+            <div class="desc2">
+              <h3 class="work-heading">On Courage and Vulnerability</h3>
+              <p class="work-desc">How vulnerability became a form of bravery for me.</p>
+            </div>
+          </div>
+        </article>
+
+
+        <div class="closing">
+          <h2>Learn more <a class="link-ref" href="about.html">about</a> me, or <a class="link-ref" href="contact.html">contact</a> me.</h2>
         </div>
-      </div>
 
 
-      <div class="about-primarycontent">
-
-        <h5 class="about-sectionlabel">CONTACT</h5>
-        <h3 class="pullquote">Connect with me on <a class="link-ref" target="_blank" href="https://www.linkedin.com/in/ratmadja/">LinkedIn</a></h3>
-        <h3 class="pullquote">Write to me at <a class="link-ref" target="_blank" href="mailto:ratmadja@gmail.com">ratmadja@gmail.com</a></h3>
-        <h3 class="pullquote">View my <a target="_blank" class="link-ref" href="https://drive.google.com/file/d/1egCKxUkegy9kmJTRH2IKrUJin2B7hOiA/view?usp=sharing">Résumé</a></h3>
-
-        <!-- <h5 class="about-sectionlabel">HISTORY</h5>
-        <h3 class="pullquote">Download my <a class="link-ref" target="_blank" href="https://drive.google.com/file/d/1mk0gLA5bJ0CPDUMrxYyDUbDGoT_FXlZZ/view?usp=sharing">Résumé</a></h3> -->
-
-        <!-- <h5 class="about-sectionlabel">ADDITIONAL</h5> -->
-        <!-- <h3 class="pullquote">See more of my <a class="link-ref" href="index.html">work</a></h3>
-        <h3 class="pullquote">Learn more <a class="link-ref" href="about.html">about</a> me</h3> -->
-
-      </div>
+      </section>
+      <!-- End of section work -->
 
 
-      <!-- Start of footer code -->
+      <!-- Start of footer -->
       <footer id="sectionContact">
         <div class="contact">
           <p>ratmadja@gmail.com</p>
@@ -82,18 +100,20 @@
         </div>
         <p class="site-credit">©2018–2020 Designed and Hand-Coded by Rachel N. Atmadja</p>
       </footer>
-      <!-- End of footer code -->
+      <!-- End of footer -->
 
 
     </main>
-  </div>  <!-- .container -->
+  </div><!-- .container  -->
 
 
-
-  <!-- Scripts  -->
+  <!-- Start of Scripts  -->
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js"></script>
   <script src="scripts/master.js"></script>
+  <!-- End of Scripts  -->
+
+
   <!-- Start of Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122645745-1"></script>
   <script>
@@ -104,5 +124,8 @@
   gtag('config', 'UA-122645745-1');
   </script>
   <!-- End of Global site tag (gtag.js) - Google Analytics -->
+
+
+
 </body>
 </html>

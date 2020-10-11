@@ -144,7 +144,7 @@ figcaption {
 }
 
 .nav-main {
-  width: 200px;
+  width: 256px;
 }
 .menu {
   /* border-bottom: 1px solid #E6E6E6; */
@@ -159,6 +159,7 @@ figcaption {
   text-decoration: none;
   color: #444444;
   font-size: 0.78em;
+  text-transform: uppercase;
   letter-spacing: 0.02em;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;

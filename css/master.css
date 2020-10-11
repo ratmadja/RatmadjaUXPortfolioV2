@@ -132,7 +132,7 @@ sub {
 
 
 .nav-main {
-  width: 200px;
+  width: 256px;
 }
 
 .menu {
@@ -151,6 +151,7 @@ sub {
   letter-spacing: 0.02em;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 400;
+  text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
   transition: all .2s cubic-bezier(0,0,.58,1);
 }
