@@ -131,9 +131,9 @@ figcaption {
 }
 
 .small-caption {
-  font-size: .8em;
+  font-size: 0.9em;
   font-style: normal;
-  color: #707070;
+  color: #333333;
 }
 
 
@@ -310,7 +310,7 @@ border: 1px solid red;
 
 
 .nav-home, .nav-project {
-  width: 22%;
+  width: 60%;
 }
 
 .nav-cs {
@@ -359,10 +359,23 @@ header {
   font-style: italic;
   font-weight: 400;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 0em;
+  margin-bottom: 0em;
   margin-left: 6em;
   margin-right: 6em;
 }
+.hero-subline {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1em;
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
 .hero-desc {
   display: flex;
   flex-direction: row;
@@ -390,8 +403,7 @@ header {
 /*------- Start of casestudy specs styling -------*/
 .cs-info {
   margin-top: 12em;
-  width: 80%;
-  margin-left: 10%;
+  width: 67%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -406,13 +418,7 @@ header {
   font-weight: 400;
   letter-spacing: 0.04em;
 }
-.cs-info li {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-weight: 400;
-  font-size: 0.9em;
-  line-height: 1.5em;
-  color: #333333;
-}
+
 /*------- End of casestudy specs styling -------*/
 
 
@@ -723,7 +729,7 @@ header {
 
 /*----Start of heroImage styling ---*/
 .heroImageContainer {
-  margin-top: 2em;
+  margin-top: .5em;
   text-align: center;
 }
 .heroImage {
@@ -764,7 +770,7 @@ header {
   padding-top: 4em;
   padding-bottom: 4em;
   margin: auto;
-  width: 60%;
+  width: 100%;
 }
 .img-leftaligned {
   display: block;
@@ -1060,7 +1066,6 @@ header {
   .img-centeredandreduced {
     padding-top: 3em;
     padding-bottom: 3em;
-    width: 80%;
   }
   .img-leftaligned {
     padding-top: 3em;
@@ -1129,7 +1134,7 @@ header {
 
   /*----Start of heroImage styling ---*/
   .heroImageContainer {
-    margin-top: 2em;
+    margin-top: 1em;
   }
   .heroImage {
     width: 80%;
@@ -1272,7 +1277,6 @@ header {
   .img-centeredandreduced {
     padding-top: 2em;
     padding-bottom: 2em;
-    width: 80%;
   }
   .img-leftaligned {
     padding-top: 2em;
@@ -1283,17 +1287,10 @@ header {
   }
   .cs-info {
     margin-top: 6em;
-    width: 60%;
-    margin-left: 20%;
     flex-direction: column;
     justify-content: space-between;
   }
-  .cs-info-roles,
-  .cs-info-deliverables,
-  .cs-info-specs {
-    width: 100%;
-    margin-bottom: 1em;
-  }
+
   .cs-section > h1,
   .cs-section > h2,
   .cs-section > h3,
@@ -1396,7 +1393,7 @@ header {
 
   /*----Start of heroImage styling ---*/
   .heroImageContainer {
-    margin-top: 2em;
+    margin-top: 1em;
   }
   .heroImage {
     width: 90%;
@@ -1540,7 +1537,6 @@ header {
   .img-centeredandreduced {
     padding-top: 1em;
     padding-bottom: 1em;
-    width: 100%;
   }
   .img-leftaligned {
     padding-top: 1em;
@@ -1559,17 +1555,10 @@ header {
   }
   .cs-info {
     margin-top: 8em;
-    width: 80%;
-    margin-left: 10%;
     flex-direction: column;
     justify-content: space-between;
   }
-  .cs-info-roles,
-  .cs-info-deliverables,
-  .cs-info-specs {
-    width: 100%;
-    margin-bottom: 1em;
-  }
+
   .cs-section > h1,
   .cs-section > h2,
   .cs-section > h3,
@@ -1693,7 +1682,7 @@ header {
 
   /*----Start of heroImage styling ---*/
   .heroImageContainer {
-    margin-top: 2em;
+    margin-top: 1em;
   }
   .heroImage {
     width: 90%;
