@@ -108,6 +108,18 @@ figcaption {
   margin-top: 0em;
   margin-bottom: 3em;
 }
+.full-bleed-caption {
+  font-size: .9em;
+  line-height: 1.4em;
+  font-style: 'Alegreya Sans',sans-serif;
+  width: 80%;
+  margin-left: 10%;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 3em;
+}
 .fig-left {
   font-size: .9em;
   line-height: 1.4em;
