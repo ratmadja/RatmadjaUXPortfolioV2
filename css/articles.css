@@ -984,6 +984,7 @@ header {
     width: 70%;
     margin-left: 15%;
   }
+
   .hero-desc {
     padding-top: 1em;
     width: 60%;
@@ -1287,6 +1288,7 @@ header {
   }
   .cs-info {
     margin-top: 6em;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -1514,7 +1516,9 @@ header {
   .sticky {
     padding: 0 1em;  /*Match 'main' margin*/
   }
-
+  .hero-subline {
+    display: none;
+  }
 
   footer {
     align-items: center;
@@ -1555,6 +1559,7 @@ header {
   }
   .cs-info {
     margin-top: 8em;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
   }
