@@ -105,8 +105,8 @@ figcaption {
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 2em;
+  margin-top: 0em;
+  margin-bottom: 3em;
 }
 .fig-left {
   font-size: .9em;
@@ -768,7 +768,7 @@ header {
 .img-centeredandreduced {
   display: block;
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 1em;
   margin: auto;
   width: 100%;
 }
@@ -804,7 +804,7 @@ header {
   margin: auto;
   display: block;
   margin-top: 3em;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   box-shadow: rgba(0,0,0,0.1) 0 1px 16px;
 }
 
