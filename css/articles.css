@@ -1570,7 +1570,7 @@ header {
     width: 50%;
   }
   .cs-info {
-    margin-top: 8em;
+    margin-top: 4em;
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
