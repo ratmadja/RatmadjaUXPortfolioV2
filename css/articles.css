@@ -1017,7 +1017,7 @@ header {
   .cs-section > h5,
   .cs-section > p {
     width: 80%;
-    margin: 10%;
+    margin-left: 10%;
   }
 
   .imgcolumn > img {
