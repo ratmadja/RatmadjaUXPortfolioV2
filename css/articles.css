@@ -416,7 +416,8 @@ header {
 /*------- Start of casestudy specs styling -------*/
 .cs-info {
   margin-top: 12em;
-  width: 67%;
+  width: 70%;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -439,16 +440,14 @@ header {
 
 /*------- Start of text and image styling -------*/
 
-
-
-
 .cs-section > h1,
 .cs-section > h2,
 .cs-section > h3,
 .cs-section > h4,
 .cs-section > h5,
 .cs-section > p {
-  width: 67%;
+  width: 70%;
+  margin-left: 15%;
 }
 
 
@@ -480,7 +479,7 @@ header {
   font-style: italic;
   line-height: 1.5em;
   font-size: 1.75em;
-  margin-top: 1em;
+  margin-top: 1.1em;
 }
 .label-container {
   margin-top: 4em;
@@ -746,7 +745,7 @@ header {
   text-align: center;
 }
 .heroImage {
-  width: 70%;
+  width: 80%;
   position: relative;    /* moves element relative to its orginal location*/
   bottom: -8em;    /* controls distance that element goes past parent*/
   margin-top: -8em;   /* controls spacing above element */
@@ -1003,14 +1002,22 @@ header {
     width: 60%;
     margin-left: 20%;
   }
-
+  .cs-info {
+    margin-top: 12em;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .cs-section > h1,
   .cs-section > h2,
   .cs-section > h3,
   .cs-section > h4,
   .cs-section > h5,
   .cs-section > p {
-    width: 75%;
+    width: 80%;
+    margin: 10%;
   }
 
   .imgcolumn > img {
@@ -1044,6 +1051,7 @@ header {
   .cs-section > h5,
   .cs-section > p {
     width: 80%;
+    margin-left: 10%;
   }
 
   /* controls font-size and line height of p in .cs-section*/
@@ -1074,8 +1082,8 @@ header {
 
   .cs-info {
     margin-top: 10em;
-    width: 100%;
-    margin-left: 0%;
+    width: 80%;
+    margin-left: 10%;
   }
   .img-centeredandreduced {
     padding-top: 3em;
@@ -1162,7 +1170,7 @@ header {
 
   .pullquote {
     font-size: 1.75em;
-    margin-top: 1em;
+    margin-top: 1.1em;
     margin-bottom: 2em;
   }
 
@@ -1261,7 +1269,7 @@ header {
 
   .pullquote {
     font-size: 1.75em;
-    margin-top: 1em;
+    margin-top: 1.1em;
     margin-bottom: 2em;
   }
 
@@ -1301,7 +1309,8 @@ header {
   }
   .cs-info {
     margin-top: 6em;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -1313,6 +1322,7 @@ header {
   .cs-section > h5,
   .cs-section > p {
     width: 80%;
+    margin-left: 10%;
   }
 
   /* type size reduction for mobile*/
@@ -1566,7 +1576,7 @@ header {
 
 
   .pullquote {
-    margin-top: 1em;
+    margin-top: 1.1em;
     font-size: 1.11em;
   }
   .nav-cs a {
@@ -1578,6 +1588,7 @@ header {
   .cs-info {
     margin-top: 4em;
     width: 100%;
+    margin-left: 0%;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -1589,6 +1600,7 @@ header {
   .cs-section > h5,
   .cs-section > p {
     width: 100%;
+    margin-left: 0%;
   }
 
 
