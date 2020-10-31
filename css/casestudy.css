@@ -388,6 +388,9 @@ header {
 
 
 /*------- Start of casestudy specs styling -------*/
+
+
+/* Start of un-bulleted format */
 .cs-info {
   margin-top: 12em;
   width: 80%;
@@ -397,20 +400,33 @@ header {
   justify-content: space-between;
 }
 
+.cs-infolistformat {
+  margin-top: 10em;
+  width: 80%;
+  margin-left: 10%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cs-infolistformat ul {
+  padding-left: 1em;
+}
+
 .cs-info-roles,
 .cs-info-deliverables,
 .cs-info-specs {
-  width: 30%;
-  padding-left: 0.5em;
   border-top: 1px solid #E2E2E2;
-  /* border-right: 1px solid #C5C5C5;; */
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 1em;
 }
 
-.cs-info h5 {
+
+.cs-info h5, .cs-infolistformat h5 {
   font-size: 0.85em;
   line-height: 2em;
   margin-top: 0.25em;
   margin-bottom: 1em;
+
   color: #777777;
   font-weight: 400;
   letter-spacing: 0.04em;
@@ -422,6 +438,30 @@ header {
   line-height: 1.5em;
   color: #333333;
 }
+.cs-infolistformat li {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  color: #333333;
+  list-style: disc;
+  padding-left: 0em;
+}
+.cs-infolistformat li span {
+  font-weight: 600;
+}
+
+
+/* Start of bulleted format */
+.cs-infolistformat li {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  color: #333333;
+  list-style: disc;
+}
+
 /*------- End of casestudy specs styling -------*/
 
 
@@ -1102,11 +1142,21 @@ header {
     padding: 0em 2.67em;
   }
 
-  .cs-info {
+  .cs-info, .cs-infolistformat {
     margin-top: 10em;
-    width: 100%;
-    margin-left: 0%;
+    width: 80%;
+    margin-left: 10%;
+    flex-direction: column;
+    justify-content: space-between;
   }
+  .cs-info-roles,
+  .cs-info-deliverables,
+  .cs-info-specs {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1em;
+  }
+
   .img-centeredandreduced {
     padding-top: 3em;
     padding-bottom: 3em;
@@ -1331,17 +1381,24 @@ header {
   .nav-cs a {
     display: none;
   }
-  .cs-info {
+  .cs-info, .cs-infolistformat {
     margin-top: 6em;
     width: 60%;
     margin-left: 20%;
     flex-direction: column;
     justify-content: space-between;
   }
+  .cs-infolistformat {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+
   .cs-info-roles,
   .cs-info-deliverables,
   .cs-info-specs {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     margin-bottom: 1em;
   }
   .cs-section > h1,
@@ -1607,12 +1664,16 @@ header {
   .nav-project {
     width: 50%;
   }
-  .cs-info {
+  .cs-info, {
     margin-top: 8em;
     width: 80%;
     margin-left: 10%;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .cs-infolistformat {
+    width: 100%;
+    margin-left: 0%;
   }
   .cs-info-roles,
   .cs-info-deliverables,
