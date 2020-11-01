@@ -869,6 +869,12 @@ header {
 
 
 /* Start of full-bleed color backgrounds */
+.img-fullbleed{
+  background: linear-gradient(#fbfbfb,#c1c1c1);
+  margin-top: 2.67em;
+  padding-top: 2.67em;
+  padding-bottom: 2.67em;
+}
 .img-fullbleed-momentmap {
   background: linear-gradient(#fbfbfb,#DFDDE2);
   margin-top: 2.67em;
