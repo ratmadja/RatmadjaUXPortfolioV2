@@ -258,7 +258,7 @@ main {
   align-items: center;
 }
 .herologo {
-  width: 80%;
+  width: 60%;
 
 }
 
@@ -448,7 +448,7 @@ p > span {
     margin-bottom: 0em;
   }
   .herologo {
-    width: 80%;
+    width: 60%;
   }
   header {
     margin-top: 1.34em;
@@ -493,7 +493,7 @@ p > span {
     margin-bottom: 0em;
   }
   .herologo {
-    width: 100%;
+    width: 70%;
   }
 
   /* controls p in main*/
