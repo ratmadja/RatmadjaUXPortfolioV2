@@ -184,8 +184,10 @@ footer {
 
 .contactlinks {
   width: 220px;
+  list-style: none;
   display: flex;
   justify-content: space-between;
+
 }
 .contact-link a {
   padding-bottom: 0.25em;
@@ -319,6 +321,7 @@ border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style: none;
 }
 .nav-cs a {
   padding-bottom: 0.25em;
@@ -415,7 +418,6 @@ header {
   line-height: 2em;
   margin-top: 0.25em;
   margin-bottom: 1em;
-
   color: #777777;
   font-weight: 400;
   letter-spacing: 0.04em;
@@ -426,6 +428,7 @@ header {
   font-size: 0.9em;
   line-height: 1.5em;
   color: #333333;
+  list-style: none;
 }
 
 

@@ -6,19 +6,26 @@ function onReady() {
 
   let coverSwap = function() {
     if ($(window).width() < 768) {
+
       $('#CoverCapitalOne').attr('src','assets/homepage/coverCapitalOne-mobile.svg');
-      $('#CoverMomentMap').attr('src','assets/homepage/coverMomentMap-mobile.svg');
       $('#CoverIngrainUXS').attr('src','assets/homepage/coverIngrainUXStrategy-mobile.png');
       $('#CoverHafSite').attr('src','assets/homepage/coverHafSite-mobile.png');
       $('#CoverNimbus').attr('src','assets/homepage/coverNimbus-mobile.png');
       $('#CoverPandora').attr('src','assets/homepage/coverPandora-mobile.png');
+
+      $('#CoverMomentMap').attr('src','assets/homepage/coverMomentMap-mobile.svg');
+      $('#CoverArticle001').attr('src','assets/writings/coverArticle001-mobile.png');
+
     } else {
+
       $('#CoverCapitalOne').attr('src','assets/homepage/coverCapitalOne.svg');
-      $('#CoverMomentMap').attr('src','assets/homepage/coverMomentMap.svg');
       $('#CoverIngrainUXS').attr('src','assets/homepage/coverIngrainUXStrategy.png');
       $('#CoverHafSite').attr('src','assets/homepage/coverHafSite.png');
       $('#CoverNimbus').attr('src','assets/homepage/coverNimbus.png');
       $('#CoverPandora').attr('src','assets/homepage/coverPandora.svg');
+
+      $('#CoverMomentMap').attr('src','assets/homepage/coverMomentMap.svg');
+      $('#CoverArticle001').attr('src','assets/writings/coverArticle001.png');
     }
   };
 
