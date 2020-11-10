@@ -184,9 +184,10 @@ footer {
 
 .contactlinks {
   width: 220px;
-  list-style: none;
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  padding-left: 0px;
 
 }
 .contact-link a {
