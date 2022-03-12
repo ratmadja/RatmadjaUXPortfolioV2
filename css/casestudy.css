@@ -752,6 +752,12 @@ header {
   bottom: -8em;    /* controls distance that element goes past parent*/
   margin-top: -8em;   /* controls spacing above element */
 }
+.heroSlide {
+  width: 80%;
+  height: 620px;
+  position: relative;
+  bottom: -6em;
+  margin-top: -6em;
 /*---End of heroImage styling ---*/
 
 
@@ -1209,6 +1215,13 @@ header {
     bottom: -6em;
     margin-top: -6em;
   }
+  .heroSlide {
+    width: 80%;
+    height: 520px;
+    position: relative;
+    bottom: -6em;
+    margin-top: -6em;
+  }
   /*---End of heroImage styling ---*/
 
 
@@ -1474,6 +1487,12 @@ header {
     bottom: -3em;
     margin-top: -3em;
   }
+  .heroSlide {
+    width: 80%;
+    height: 372px;
+    position: relative;
+    bottom: -6em;
+    margin-top: -6em;
   /*---End of heroImage styling ---*/
 
 
@@ -1734,13 +1753,13 @@ header {
     border: 2px solid #000000;
   }
 
-
   .hero-tagline {
-    padding-top: 0em;
-    width: 90%;
-    margin-left: 5%;
     font-size: 1.55em;
+    padding-top: 0em;
+    width: 70%;
+    margin-left: 15%;
   }
+
   .hero-desc {
     padding-top: 1em;
     width: 80%;
@@ -1768,6 +1787,12 @@ header {
     bottom: -3em;
     margin-top: -3em;
   }
+  .heroSlide {
+    width: 80%;
+    height: 232px;
+    position: relative;
+    bottom: -6em;
+    margin-top: -6em;
   /*---End of heroImage styling ---*/
 
 
