@@ -7,6 +7,7 @@ function onReady() {
   let coverSwap = function() {
     if ($(window).width() < 768) {
 
+      $('#coverDesigningResponsibleAI').attr('src','assets/homepage/coverDesigningResponsibleAI-mobile.svg');
       $('#CoverCapitalOne').attr('src','assets/homepage/coverCapitalOne-mobile.svg');
       $('#CoverIngrainUXS').attr('src','assets/homepage/coverIngrainUXStrategy-mobile.png');
       $('#CoverHafSite').attr('src','assets/homepage/coverHafSite-mobile.png');
@@ -18,6 +19,7 @@ function onReady() {
 
     } else {
 
+      $('#coverDesigningResponsibleAI').attr('src','assets/homepage/coverDesigningResponsibleAI.svg');
       $('#CoverCapitalOne').attr('src','assets/homepage/coverCapitalOne.svg');
       $('#CoverIngrainUXS').attr('src','assets/homepage/coverIngrainUXStrategy.png');
       $('#CoverHafSite').attr('src','assets/homepage/coverHafSite.png');
