@@ -620,8 +620,6 @@ footer {
     font-size: 2.67em;
   }
 
-
-
   .work-heading {
     font-size: 1.26em;
     line-height: 1.4em;
@@ -629,6 +627,8 @@ footer {
     margin-bottom: 0.67em;
   }
 }
+
+
 
 /*greenzone*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -720,7 +720,7 @@ footer {
 
 /*Start of work description styling */
   .work-desc {
-    display: none;
+    /* display: none; */
   }
   .workdesc {
     display: flex;
