@@ -864,7 +864,7 @@ footer {
 
 /*Start of work description styling */
   .work-desc {
-    display: none;
+    /* display: none; */
   }
 
   .workdesc {

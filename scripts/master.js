@@ -5,7 +5,7 @@ function onReady() {
   //Jquery for changing img source for mobile
 
   let coverSwap = function() {
-    if ($(window).width() < 768) {
+    if ($(window).width() < 480) {
 
       $('#CoverBuildingTrustInAI').attr('src','assets/homepage/coverBuildingTrustInAI-mobile.svg');
       $('#CoverReimagineServiceDelivery').attr('src','assets/homepage/coverReimagineServiceDelivery-mobile.svg');
