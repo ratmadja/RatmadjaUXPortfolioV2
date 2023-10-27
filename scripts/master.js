@@ -7,6 +7,7 @@ function onReady() {
   let coverSwap = function() {
     if ($(window).width() < 768) {
 
+      $('#CoverBuildingTrustInAI').attr('src','assets/homepage/coverBuildingTrustInAI-mobile.svg');
       $('#CoverReimagineServiceDelivery').attr('src','assets/homepage/coverReimagineServiceDelivery-mobile.svg');
       $('#coverDesigningResponsibleAI').attr('src','assets/homepage/coverDesigningResponsibleAI-mobile.svg');
       $('#CoverCapitalOne').attr('src','assets/homepage/coverCapitalOne-mobile.svg');
@@ -20,6 +21,7 @@ function onReady() {
 
     } else {
 
+      $('#CoverBuildingTrustInAI').attr('src','assets/homepage/coverBuildingTrustInAI.svg');
       $('#CoverReimagineServiceDelivery').attr('src','assets/homepage/coverReimagineServiceDelivery.svg');
       $('#coverDesigningResponsibleAI').attr('src','assets/homepage/coverDesigningResponsibleAI.svg');
       $('#CoverCapitalOne').attr('src','assets/homepage/coverCapitalOne.svg');
